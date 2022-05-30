@@ -1,0 +1,3572 @@
+[
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-0",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Creeping_buttercup",
+                "Common_centaury",
+                "Non_flowering_spp",
+                "Scarlet_pimpernel",
+                "Chick_weed"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasSite": "SiteA",
+            "pollinator:hasSpeciesCount": 5,
+            "pollinator:hasSpeciesList": [
+                "Creeping_buttercup",
+                "Common_centaury",
+                "Non_flowering_spp",
+                "Scarlet_pimpernel",
+                "Chick_weed"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteA",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-1",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "White_clover",
+                "Red_clover"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasSite": "SiteC",
+            "pollinator:hasSpeciesCount": 3,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "White_clover",
+                "Red_clover"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteC",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-2",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Red_clover",
+                "Non_flowering_spp",
+                "White_clover",
+                "Hawkbit_spp",
+                "Creeping_buttercup"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasSite": "SiteB",
+            "pollinator:hasSpeciesCount": 5,
+            "pollinator:hasSpeciesList": [
+                "Red_clover",
+                "Non_flowering_spp",
+                "White_clover",
+                "Hawkbit_spp",
+                "Creeping_buttercup"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteB",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-3",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "16/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "White_clover",
+                "Common_knapweed",
+                "Non_flowering_spp",
+                "Yarrow",
+                "Musk_mallow",
+                "Self_heal",
+                "Field_scabious",
+                "Creeping_buttercup",
+                "Common_ragwort",
+                "Hawkbit_spp"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasSite": "SiteD",
+            "pollinator:hasSpeciesCount": 10,
+            "pollinator:hasSpeciesList": [
+                "White_clover",
+                "Common_knapweed",
+                "Non_flowering_spp",
+                "Yarrow",
+                "Musk_mallow",
+                "Self_heal",
+                "Field_scabious",
+                "Creeping_buttercup",
+                "Common_ragwort",
+                "Hawkbit_spp"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteD",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-4",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "16/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasSite": "SiteE",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteE",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-5",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "19/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasSite": "SiteG",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteG",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-6",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "19/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Red_clover",
+                "Ladys_bedstraw",
+                "Birds_foot_trefoil",
+                "Non_flowering_spp",
+                "White_clover",
+                "Yellow_rattle",
+                "Hawkbit_spp",
+                "Dandelion",
+                "Common_ragwort",
+                "Thistle_spp",
+                "Self_heal",
+                "Musk_mallow"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasSite": "SiteF",
+            "pollinator:hasSpeciesCount": 12,
+            "pollinator:hasSpeciesList": [
+                "Red_clover",
+                "Ladys_bedstraw",
+                "Birds_foot_trefoil",
+                "Non_flowering_spp",
+                "White_clover",
+                "Yellow_rattle",
+                "Hawkbit_spp",
+                "Dandelion",
+                "Common_ragwort",
+                "Thistle_spp",
+                "Self_heal",
+                "Musk_mallow"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteF",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-7",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "21/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Meadow_buttercup",
+                "Red_clover"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasSite": "SiteI",
+            "pollinator:hasSpeciesCount": 3,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Meadow_buttercup",
+                "Red_clover"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteI",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-8",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "21/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Cow_parsley",
+                "White_clover",
+                "Non_flowering_spp",
+                "Tormentil",
+                "Bramble",
+                "Common_ragwort",
+                "Rosebay_willowherb",
+                "Field_scabious"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasSite": "SiteH",
+            "pollinator:hasSpeciesCount": 8,
+            "pollinator:hasSpeciesList": [
+                "Cow_parsley",
+                "White_clover",
+                "Non_flowering_spp",
+                "Tormentil",
+                "Bramble",
+                "Common_ragwort",
+                "Rosebay_willowherb",
+                "Field_scabious"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteH",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-9",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "22/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasSite": "SiteJ",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteJ",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-10",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "23/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Musk_mallow"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasSite": "SiteK",
+            "pollinator:hasSpeciesCount": 2,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Musk_mallow"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteK",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-11",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "26/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Hawkbit_spp",
+                "Cut_leaved_cranes_bill",
+                "White_clover",
+                "Yarrow",
+                "Common_knapweed",
+                "Ox_eye_daisy",
+                "Birds_foot_trefoil",
+                "Field_bindweed"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasSite": "SiteL",
+            "pollinator:hasSpeciesCount": 9,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Hawkbit_spp",
+                "Cut_leaved_cranes_bill",
+                "White_clover",
+                "Yarrow",
+                "Common_knapweed",
+                "Ox_eye_daisy",
+                "Birds_foot_trefoil",
+                "Field_bindweed"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteL",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-12",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "27/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Self_heal",
+                "Creeping_buttercup",
+                "Birds_foot_trefoil"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasSite": "SiteM",
+            "pollinator:hasSpeciesCount": 4,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Self_heal",
+                "Creeping_buttercup",
+                "Birds_foot_trefoil"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteM",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-13",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "27/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "White_clover",
+                "Hawkbit_spp",
+                "Black_medick"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasSite": "SiteN",
+            "pollinator:hasSpeciesCount": 4,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "White_clover",
+                "Hawkbit_spp",
+                "Black_medick"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteN",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-14",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "17/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Common_daisy",
+                "Non_flowering_spp",
+                "Thyme_leaved_speedwell",
+                "Birds_foot_trefoil",
+                "Scarlet_pimpernel",
+                "Dandelion"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasSite": "SiteA",
+            "pollinator:hasSpeciesCount": 6,
+            "pollinator:hasSpeciesList": [
+                "Common_daisy",
+                "Non_flowering_spp",
+                "Thyme_leaved_speedwell",
+                "Birds_foot_trefoil",
+                "Scarlet_pimpernel",
+                "Dandelion"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteA",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-15",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "17/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Dandelion",
+                "Red_clover",
+                "Non_flowering_spp",
+                "Birds_foot_trefoil",
+                "White_clover",
+                "Creeping_buttercup",
+                "Hawkbit_spp"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasSite": "SiteB",
+            "pollinator:hasSpeciesCount": 7,
+            "pollinator:hasSpeciesList": [
+                "Dandelion",
+                "Red_clover",
+                "Non_flowering_spp",
+                "Birds_foot_trefoil",
+                "White_clover",
+                "Creeping_buttercup",
+                "Hawkbit_spp"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteB",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-16",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "18/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "White_clover",
+                "Common_ragwort",
+                "Red_bartsia",
+                "Rosebay_willowherb",
+                "Field_scabious",
+                "Hawkbit_spp",
+                "Cow_parsley",
+                "Self_heal"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasSite": "SiteD",
+            "pollinator:hasSpeciesCount": 9,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "White_clover",
+                "Common_ragwort",
+                "Red_bartsia",
+                "Rosebay_willowherb",
+                "Field_scabious",
+                "Hawkbit_spp",
+                "Cow_parsley",
+                "Self_heal"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteD",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-17",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "18/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Common_daisy",
+                "Non_flowering_spp"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasSite": "SiteE",
+            "pollinator:hasSpeciesCount": 2,
+            "pollinator:hasSpeciesList": [
+                "Common_daisy",
+                "Non_flowering_spp"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteE",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-18",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "19/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "19/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "19/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "19/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Red_clover",
+                "Black_medick",
+                "White_clover"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "19/08/2021",
+            "pollinator:hasSite": "SiteC",
+            "pollinator:hasSpeciesCount": 4,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Red_clover",
+                "Black_medick",
+                "White_clover"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "19/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteC",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-19",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "20/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "20/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "20/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "20/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Dandelion",
+                "Non_flowering_spp",
+                "Chick_weed",
+                "White_clover"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "20/08/2021",
+            "pollinator:hasSite": "SiteG",
+            "pollinator:hasSpeciesCount": 4,
+            "pollinator:hasSpeciesList": [
+                "Dandelion",
+                "Non_flowering_spp",
+                "Chick_weed",
+                "White_clover"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "20/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteG",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-20",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "23/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasSite": "SiteO",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteO",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-21",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "23/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:hasSite": "SiteJ",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "23/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteJ",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-22",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "24/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Common_knapweed",
+                "Cut_leaved_cranes_bill"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasSite": "SiteI",
+            "pollinator:hasSpeciesCount": 3,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Common_knapweed",
+                "Cut_leaved_cranes_bill"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteI",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-23",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "24/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Teasel",
+                "Non_flowering_spp",
+                "Black_medick",
+                "Cut_leaved_cranes_bill",
+                "Agrimony",
+                "Birds_foot_trefoil",
+                "Hawkbit_spp",
+                "Red_bartsia",
+                "Common_toadflax",
+                "Common_ragwort",
+                "Self_heal"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:hasSite": "SiteH",
+            "pollinator:hasSpeciesCount": 11,
+            "pollinator:hasSpeciesList": [
+                "Teasel",
+                "Non_flowering_spp",
+                "Black_medick",
+                "Cut_leaved_cranes_bill",
+                "Agrimony",
+                "Birds_foot_trefoil",
+                "Hawkbit_spp",
+                "Red_bartsia",
+                "Common_toadflax",
+                "Common_ragwort",
+                "Self_heal"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "24/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteH",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-24",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "25/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "25/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "25/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "25/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Cut_leaved_cranes_bill",
+                "Hawkbit_spp",
+                "White_clover",
+                "Birds_foot_trefoil",
+                "Common_knapweed",
+                "Ladys_bedstraw"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "25/08/2021",
+            "pollinator:hasSite": "SiteL",
+            "pollinator:hasSpeciesCount": 7,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Cut_leaved_cranes_bill",
+                "Hawkbit_spp",
+                "White_clover",
+                "Birds_foot_trefoil",
+                "Common_knapweed",
+                "Ladys_bedstraw"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "25/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteL",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-25",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "26/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "26/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "26/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "26/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Self_heal",
+                "Rosebay_willowherb"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "26/08/2021",
+            "pollinator:hasSite": "SiteK",
+            "pollinator:hasSpeciesCount": 3,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Self_heal",
+                "Rosebay_willowherb"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "26/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteK",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-26",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "27/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Birds_foot_trefoil",
+                "Non_flowering_spp",
+                "Common_knapweed",
+                "Self_heal",
+                "White_clover"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasSite": "SiteM",
+            "pollinator:hasSpeciesCount": 5,
+            "pollinator:hasSpeciesList": [
+                "Birds_foot_trefoil",
+                "Non_flowering_spp",
+                "Common_knapweed",
+                "Self_heal",
+                "White_clover"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteM",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-27",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "27/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Common_ragwort",
+                "Hawkbit_spp",
+                "Hop_trefoil"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:hasSite": "SiteN",
+            "pollinator:hasSpeciesCount": 4,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Common_ragwort",
+                "Hawkbit_spp",
+                "Hop_trefoil"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "27/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteN",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-28",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "16/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Thyme_leaved_speedwell",
+                "Non_flowering_spp",
+                "Chick_weed",
+                "Creeping_buttercup"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasSite": "SiteA",
+            "pollinator:hasSpeciesCount": 4,
+            "pollinator:hasSpeciesList": [
+                "Thyme_leaved_speedwell",
+                "Non_flowering_spp",
+                "Chick_weed",
+                "Creeping_buttercup"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteA",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-29",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "16/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Red_clover",
+                "White_clover"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:hasSite": "SiteC",
+            "pollinator:hasSpeciesCount": 3,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Red_clover",
+                "White_clover"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "16/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteC",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-30",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "17/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Hawkbit_spp",
+                "Ling_heather",
+                "Bell_heather",
+                "Common_ragwort",
+                "Dandelion"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasSite": "SiteP",
+            "pollinator:hasSpeciesCount": 6,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Hawkbit_spp",
+                "Ling_heather",
+                "Bell_heather",
+                "Common_ragwort",
+                "Dandelion"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteP",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-31",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "17/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:hasSite": "SiteB",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "17/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteB",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-32",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "20/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasSite": "SiteD",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteD",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-33",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "20/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Ox_eye_daisy",
+                "Non_flowering_spp",
+                "Thistle_spp"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:hasSite": "SiteE",
+            "pollinator:hasSpeciesCount": 3,
+            "pollinator:hasSpeciesList": [
+                "Ox_eye_daisy",
+                "Non_flowering_spp",
+                "Thistle_spp"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "20/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteE",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-34",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "21/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "21/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "21/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "21/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Ox_eye_daisy",
+                "Non_flowering_spp",
+                "Creeping_buttercup"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "21/09/2021",
+            "pollinator:hasSite": "SiteG",
+            "pollinator:hasSpeciesCount": 3,
+            "pollinator:hasSpeciesList": [
+                "Ox_eye_daisy",
+                "Non_flowering_spp",
+                "Creeping_buttercup"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "21/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteG",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-35",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "22/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasSite": "SiteO",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteO",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-36",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "22/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:hasSite": "SiteJ",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "22/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteJ",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-37",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "23/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasSite": "SiteI",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteI",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-38",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "23/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Agrimony",
+                "Common_ragwort",
+                "Common_toadflax",
+                "Hawkbit_spp",
+                "Cow_parsley"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:hasSite": "SiteH",
+            "pollinator:hasSpeciesCount": 6,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Agrimony",
+                "Common_ragwort",
+                "Common_toadflax",
+                "Hawkbit_spp",
+                "Cow_parsley"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "23/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteH",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-39",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "24/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "24/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "24/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "24/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Cut_leaved_cranes_bill",
+                "Hawkbit_spp",
+                "Red_clover",
+                "White_clover",
+                "Common_knapweed"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "24/09/2021",
+            "pollinator:hasSite": "SiteL",
+            "pollinator:hasSpeciesCount": 6,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Cut_leaved_cranes_bill",
+                "Hawkbit_spp",
+                "Red_clover",
+                "White_clover",
+                "Common_knapweed"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "24/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteL",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-40",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "27/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "27/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "27/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "27/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "27/09/2021",
+            "pollinator:hasSite": "SiteK",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "27/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteK",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-41",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "28/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": "Non_flowering_spp",
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasSite": "SiteM",
+            "pollinator:hasSpeciesCount": 1,
+            "pollinator:hasSpeciesList": "Non_flowering_spp",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteM",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies1-42",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasDate": "28/09/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:DropDisc",
+            "@type": "pollinator:DropDisc",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Weight",
+                "pollinator:hasUnit": "kg",
+                "pollinator:hasValue": 12.0
+            },
+            "pollinator:hasValue": "DropDisc",
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSpecies": {
+            "rdf:Bag": [
+                "Non_flowering_spp",
+                "Dandelion"
+            ],
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:hasSite": "SiteN",
+            "pollinator:hasSpeciesCount": 2,
+            "pollinator:hasSpeciesList": [
+                "Non_flowering_spp",
+                "Dandelion"
+            ],
+            "pollinator:isAttachedTo": "Quadrat"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "28/09/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "SiteN",
+        "pollinator:isAttachedTo": "Quadrat"
+    }
+]

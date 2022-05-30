@@ -1,0 +1,1556 @@
+[
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-0",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "0",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "0",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9333793767",
+                "pollinator:isAttached": "0",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.6,
+                "pollinator:isAttached": "0",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 3.0,
+                "pollinator:isAttached": "0",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Marbled_white",
+                "pollinator:isAttached": "0",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-1",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 2,
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9336393815",
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.6,
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.7,
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-2",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 3,
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9340693840",
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 27.0,
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 2.4,
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-3",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 3,
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9340693840",
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 27.0,
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 2.4,
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Cannot_ID_hoverfly",
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-4",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "4",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 4,
+                "pollinator:isAttached": "4",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9342593864",
+                "pollinator:isAttached": "4",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 26.6,
+                "pollinator:isAttached": "4",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.8,
+                "pollinator:isAttached": "4",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "4",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-5",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "5",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 5,
+                "pollinator:isAttached": "5",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9341593887",
+                "pollinator:isAttached": "5",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 26.8,
+                "pollinator:isAttached": "5",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 2.1,
+                "pollinator:isAttached": "5",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "No_pollinators_recorded",
+                "pollinator:isAttached": "5",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-6",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "6",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 6,
+                "pollinator:isAttached": "6",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9319793898",
+                "pollinator:isAttached": "6",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 26.9,
+                "pollinator:isAttached": "6",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.1,
+                "pollinator:isAttached": "6",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Cannot_ID_moth",
+                "pollinator:isAttached": "6",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-7",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "7",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 7,
+                "pollinator:isAttached": "7",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9318893893",
+                "pollinator:isAttached": "7",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 30.3,
+                "pollinator:isAttached": "7",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.0,
+                "pollinator:isAttached": "7",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "No_pollinators_recorded",
+                "pollinator:isAttached": "7",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-8",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "8",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 8,
+                "pollinator:isAttached": "8",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9318193881",
+                "pollinator:isAttached": "8",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 29.6,
+                "pollinator:isAttached": "8",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.7,
+                "pollinator:isAttached": "8",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "No_pollinators_recorded",
+                "pollinator:isAttached": "8",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-9",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "9",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 9,
+                "pollinator:isAttached": "9",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9315293840",
+                "pollinator:isAttached": "9",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 29.9,
+                "pollinator:isAttached": "9",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.0,
+                "pollinator:isAttached": "9",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Large_white",
+                "pollinator:isAttached": "9",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-10",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "10",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 9,
+                "pollinator:isAttached": "10",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9315293840",
+                "pollinator:isAttached": "10",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 29.9,
+                "pollinator:isAttached": "10",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.0,
+                "pollinator:isAttached": "10",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "10",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-11",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "11",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 9,
+                "pollinator:isAttached": "11",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9315293840",
+                "pollinator:isAttached": "11",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 29.9,
+                "pollinator:isAttached": "11",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.0,
+                "pollinator:isAttached": "11",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Cannot_ID_moth",
+                "pollinator:isAttached": "11",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-12",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "12",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 9,
+                "pollinator:isAttached": "12",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9315293840",
+                "pollinator:isAttached": "12",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 29.9,
+                "pollinator:isAttached": "12",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.0,
+                "pollinator:isAttached": "12",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "12",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-13",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "PM",
+                "pollinator:isAttached": "13",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 10,
+                "pollinator:isAttached": "13",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY9312893808",
+                "pollinator:isAttached": "13",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 26.6,
+                "pollinator:isAttached": "13",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 0.0,
+                "pollinator:isAttached": "13",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "No_pollinators_recorded",
+                "pollinator:isAttached": "13",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-14",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "AM",
+                "pollinator:isAttached": "14",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "14",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "14",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.4,
+                "pollinator:isAttached": "14",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.9,
+                "pollinator:isAttached": "14",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "14",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-15",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "AM",
+                "pollinator:isAttached": "15",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "15",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "15",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.4,
+                "pollinator:isAttached": "15",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.9,
+                "pollinator:isAttached": "15",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "15",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-16",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "AM",
+                "pollinator:isAttached": "16",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "16",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "16",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.4,
+                "pollinator:isAttached": "16",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.9,
+                "pollinator:isAttached": "16",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "16",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-17",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "AM",
+                "pollinator:isAttached": "17",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "17",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "17",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.4,
+                "pollinator:isAttached": "17",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.9,
+                "pollinator:isAttached": "17",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Gatekeeper",
+                "pollinator:isAttached": "17",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-18",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "AM",
+                "pollinator:isAttached": "18",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "18",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "18",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.4,
+                "pollinator:isAttached": "18",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.9,
+                "pollinator:isAttached": "18",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Meadow_brown",
+                "pollinator:isAttached": "18",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-19",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "AM",
+                "pollinator:isAttached": "19",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "19",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "19",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.4,
+                "pollinator:isAttached": "19",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.9,
+                "pollinator:isAttached": "19",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Garden_bumblebee",
+                "pollinator:isAttached": "19",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies2-20",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Time"
+                },
+                "pollinator:hasValue": "AM",
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Transect"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:TransectGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:AirTemperature"
+                },
+                "pollinator:hasUnit": "degrees celcius",
+                "pollinator:hasValue": 25.4,
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:WindSpeed"
+                },
+                "pollinator:hasUnit": "mph",
+                "pollinator:hasValue": 1.9,
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Transect"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "test",
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Transect"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    }
+]

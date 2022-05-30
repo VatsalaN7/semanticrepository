@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus"
+     xml:base="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:biodiversitycorpus="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus">
+    <owl:Ontology rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#">
+        <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <owl:imports rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#canBe -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#canBe"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasAbundance -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasAbundance"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasSpatialRelation -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasSpatialRelation"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasTopographicAttribute -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasTopographicAttribute"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#isFoundAt -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#isFoundAt"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#isObservedBy -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#isObservedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentAuthor -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentAuthor">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentName -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentPublicationTitle -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentPublicationTitle">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentSection -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentSection">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentType -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentYearofPublication -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentYearofPublication">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Document_Provenance -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Document_Provenance">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentPublicationTitle"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentSection"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentType"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasDocumentYearofPublication"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#abundance -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#abundance"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#location -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#location">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasAbundance"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#abundance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasSpatialRelation"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#spatialRelation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasTopographicAttribute"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#topographicAttribute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#observer -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#observer">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#plantname -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#plantname">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasAbundance"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#abundance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#isFoundAt"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#isObservedBy"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#observer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#spatialRelation -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#spatialRelation"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#topographicAttribute -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#topographicAttribute"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Acaena_anserinifolia_(Piripiri) -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Acaena_anserinifolia_(Piripiri)">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#plantname"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

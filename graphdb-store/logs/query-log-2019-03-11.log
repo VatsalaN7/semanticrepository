@@ -1,0 +1,12 @@
+[INFO ] 2019-03-11 14:29:21,478 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#PlantSynonyms>
+[INFO ] 2019-03-11 14:30:02,994 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-11 14:57:55,869 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-11 14:58:26,628 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-11 15:06:40,909 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity>
+[INFO ] 2019-03-11 15:07:09,118 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-11 15:26:33,328 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity>
+[INFO ] 2019-03-11 15:27:18,964 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

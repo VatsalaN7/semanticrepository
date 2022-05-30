@@ -1,0 +1,242 @@
+[
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "GaugeName:Addingham Peak stage:2.463 Time:07:30 Date:26 Dec RankInRecord:5 RecordLength:43 CurrentorPreviousHighest:2.541 Jan 1982", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_1-River Levels", 
+                "rdf:subject": "Wharfe"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "GaugeName:Collingham stage:5.246 Time:18:30 Date:26 Dec RankInRecord:1 RecordLength:26 Dec CurrentorPreviousHighest:4.704 Autumn 2000", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_2-River Levels", 
+                "rdf:subject": "Wharfe"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "GaugeName:Tadcaster stage:4.51 Time:01:00 Date:27 Dec RankInRecord:1 RecordLength:27 CurrentorPreviousHighest:3.79 Autumn 2000", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_3-River Levels", 
+                "rdf:subject": "Wharfe"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "to the previous major event in autumn 2000 is demonstrated at the Tadcaster (Wharfe) flow gauge as shown in Figure 2.5.", 
+                "rdf:predicate": "compared", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_4-River Levels", 
+                "rdf:subject": "The severity of the December 2015 levels"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "at the Tadcaster (Wharfe) flow gauge as shown in Figure 2.5.", 
+                "rdf:predicate": "demonstrated", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_5-River Levels", 
+                "rdf:subject": "The severity of the December 2015 levels compared to the previous major event in autumn 2000 is"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "and the A659 Tadcaster Bridge was severely damaged.", 
+                "rdf:predicate": "recorded", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_6-River Levels", 
+                "rdf:subject": "Water levels 0.7m higher than in autumn 2000 were"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "severely damaged.", 
+                "rdf:predicate": "was", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_7-River Levels", 
+                "rdf:subject": "Water levels 0.7m higher than in autumn 2000 were recorded and the A659 Tadcaster Bridge"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "much faster at Tadcaster than in 2000.", 
+                "rdf:predicate": "rose", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_8-River Levels", 
+                "rdf:subject": "In addition the River Wharfe"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "Peak stage comparison for Tadcaster (Source: EA)", 
+                "rdf:predicate": "shows", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_9-River Levels", 
+                "rdf:subject": "Figure 2.5"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "proportionately more significant than that over the Pennines.", 
+                "rdf:predicate": "was", 
+                "localkn:isAbout": "localkn:River Levels", 
+                "@id": "localkn:obs_10-River Levels", 
+                "rdf:subject": "The mid catchment rainfall on Boxing Day in the Wharfe catchment"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }
+]

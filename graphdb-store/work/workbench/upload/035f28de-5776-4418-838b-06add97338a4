@@ -1,0 +1,506 @@
+[
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies2-1",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Quadrat"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:QuadratGPS"
+                },
+                "pollinator:hasValue": "SY9333793767",
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:VegetationHeight"
+                },
+                "pollinator:hasValue": 3,
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:DropDisc"
+                },
+                "pollinator:hasValue": 4,
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Creeping_buttercup",
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:PercentageCover"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "1",
+                "pollinator:isAttachedTo": "Quadrat"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies2-2",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Quadrat"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:QuadratGPS"
+                },
+                "pollinator:hasValue": "SY9333793767",
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:VegetationHeight"
+                },
+                "pollinator:hasValue": 3,
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:DropDisc"
+                },
+                "pollinator:hasValue": 4,
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Common_centaury",
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:PercentageCover"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "2",
+                "pollinator:isAttachedTo": "Quadrat"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies2-3",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Quadrat"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:QuadratGPS"
+                },
+                "pollinator:hasValue": "SY9333793767",
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:VegetationHeight"
+                },
+                "pollinator:hasValue": 3,
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:DropDisc"
+                },
+                "pollinator:hasValue": 4,
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Non_flowering_spp",
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:PercentageCover"
+                },
+                "pollinator:hasValue": 98,
+                "pollinator:isAttached": "3",
+                "pollinator:isAttachedTo": "Quadrat"
+            }
+        ],
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies2-20",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Quadrat"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:QuadratGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:VegetationHeight"
+                },
+                "pollinator:hasValue": 100,
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:DropDisc"
+                },
+                "pollinator:hasValue": 44,
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Red_clover",
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:PercentageCover"
+                },
+                "pollinator:hasValue": 20,
+                "pollinator:isAttached": "20",
+                "pollinator:isAttachedTo": "Quadrat"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies2-21",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Quadrat"
+                },
+                "pollinator:hasValue": 1,
+                "pollinator:isAttached": "21",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:QuadratGPS"
+                },
+                "pollinator:hasValue": "SY4248311292",
+                "pollinator:isAttached": "21",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:VegetationHeight"
+                },
+                "pollinator:hasValue": 100,
+                "pollinator:isAttached": "21",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:DropDisc"
+                },
+                "pollinator:hasValue": 44,
+                "pollinator:isAttached": "21",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Non_flowering_spp",
+                "pollinator:isAttached": "21",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:PercentageCover"
+                },
+                "pollinator:hasValue": 80,
+                "pollinator:isAttached": "21",
+                "pollinator:isAttachedTo": "Quadrat"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies2-22",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Quadrat"
+                },
+                "pollinator:hasValue": 2,
+                "pollinator:isAttached": "22",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:QuadratGPS"
+                },
+                "pollinator:hasValue": "SY8443187646",
+                "pollinator:isAttached": "22",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:VegetationHeight"
+                },
+                "pollinator:hasValue": 80,
+                "pollinator:isAttached": "22",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:DropDisc"
+                },
+                "pollinator:hasValue": 47,
+                "pollinator:isAttached": "22",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "Red_clover",
+                "pollinator:isAttached": "22",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:PercentageCover"
+                },
+                "pollinator:hasValue": 30,
+                "pollinator:isAttached": "22",
+                "pollinator:isAttachedTo": "Quadrat"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Quadrat"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-quadratSpecies2-23",
+        "rdfs:member": {
+            "@id": "pollinator:PollinatorData"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Quadrat",
+            "@type": "pollinator:Quadrat",
+            "pollinator:hasValue": "Quadrat"
+        },
+        "pollinator:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Quadrat"
+                },
+                "pollinator:hasValue": 2,
+                "pollinator:isAttached": "23",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:QuadratGPS"
+                },
+                "pollinator:hasValue": "SY8443187646",
+                "pollinator:isAttached": "23",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:VegetationHeight"
+                },
+                "pollinator:hasValue": 80,
+                "pollinator:isAttached": "23",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:DropDisc"
+                },
+                "pollinator:hasValue": 47,
+                "pollinator:isAttached": "23",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:Species"
+                },
+                "pollinator:hasValue": "White_clover",
+                "pollinator:isAttached": "23",
+                "pollinator:isAttachedTo": "Quadrat"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "pollinator:PercentageCover"
+                },
+                "pollinator:hasValue": 5,
+                "pollinator:isAttached": "23",
+                "pollinator:isAttachedTo": "Quadrat"
+            }
+        ],
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Quadrat"
+    }
+]

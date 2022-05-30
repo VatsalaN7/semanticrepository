@@ -1,0 +1,441 @@
+[
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_1",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasValue": ""
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_2",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasValue": ""
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_3",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasValue": ""
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_4",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_5",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_6",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_7",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_8",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_9",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_10",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_11",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_12",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_13",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_14",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_15",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_16",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On,Military"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_17",
+                    "localkn:hasIndicator": "included",
+                    "localkn:hasSubject": "",
+                    "localkn:hasValue": "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On,Military"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:Emergency Response",
+        "rdf:type": "damage:data"
+    }
+]

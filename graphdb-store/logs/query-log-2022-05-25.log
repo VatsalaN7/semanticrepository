@@ -1,0 +1,2323 @@
+[INFO ] 2022-05-25 10:13:30,944 [import-task-Biodiversity_anonym_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-05-25 10:13:52,075 [import-task-Biodiversity_anonym_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-05-25 10:14:03,668 [import-task-Biodiversity_anonym_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[ERROR] 2022-05-25 13:15:10,610 [repositories/Biodiversity_anonym_repo | c.o.t.q.LoggingClosableIteration] Error while executing query: 697043ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX solar: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SolarParkStudy#&gt;
+PREFIX soil: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#&gt;
+PREFIX pollinator: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#&gt;
+
+select * where {
+    
+{
+select ?sitename ?comp1value ?comp2value ?comp3value ?comp4value ?comp5value ?comp6value ?comp7value ?comp8value ?comp9value ?comp10value ?comp11value ?comp12value ?comp13value ?comp14value ?comp15value ?comp16value ?comp17value ?comp18value ?comp19value 
+?comp20value ?comp21value ?comp22value ?comp23value ?comp24value ?comp25value ?comp26value ?comp27value ?comp28value ?comp29value 
+?comp30value ?comp31value ?comp32value ?comp33value ?comp34value ?comp35value ?comp36value ?comp37value ?comp38value ?comp39value 
+?comp40value ?comp41value ?comp42value ?comp43value ?comp44value ?comp45value ?comp46value ?comp47value ?comp48value ?comp49value 
+?comp50value ?comp51value ?comp52value ?comp53value ?comp54value ?comp55value ?comp56value ?comp57value ?comp58value ?comp59value 
+?comp60value ?comp61value ?comp62value ?comp63value ?comp64value where { 
+            
+	?data rdfs:member solar:Site.
+    ?data solar:hasValue ?sitename.
+    ?data solar:hasData ?solarparkdata.
+    ?solarparkdata solar:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6, ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, 
+    ?comp12, ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18, ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24, ?comp25,
+    ?comp26, ?comp27, ?comp28, ?comp29, ?comp30, ?comp31, ?comp32, ?comp33, ?comp34, ?comp35, ?comp36, ?comp37, ?comp38, ?comp39,
+    ?comp40, ?comp41, ?comp42, ?comp43, ?comp44, ?comp45, ?comp46, ?comp47, ?comp48, ?comp49, ?comp50, ?comp51, ?comp52, ?comp53,
+    ?comp54, ?comp55, ?comp56, ?comp57, ?comp58, ?comp59, ?comp60, ?comp61, ?comp62, ?comp63, ?comp64.
+    
+    ?comp1 rdfs:member solar:Google_Image_Date.
+    ?comp1 solar:hasValue ?comp1value.
+    
+    ?comp2 rdfs:member solar:Previous_Land_Use.
+    ?comp2 solar:hasValue ?comp2value.
+    
+    ?comp3 rdfs:member solar:Pollen.
+    ?comp3 solar:hasValue ?comp3value.
+    
+    ?comp4 rdfs:member solar:BirdFood.
+    ?comp4 solar:hasValue ?comp4value.
+    
+    ?comp5 rdfs:member solar:IW.
+    ?comp5 solar:hasValue ?comp5value.
+    
+    ?comp6 rdfs:member solar:Fg2.
+    ?comp6 solar:hasValue ?comp6value.
+    
+    ?comp7 rdfs:member solar:Fg1.
+    ?comp7 solar:hasValue ?comp7value.
+    
+    ?comp8 rdfs:member solar:Sphag_Species.
+    ?comp8 solar:hasValue ?comp8value.
+    
+    ?comp9 rdfs:member solar:N_fix.
+    ?comp9 solar:hasValue ?comp9value.
+    
+    ?comp10 rdfs:member solar:B_leaf.
+    ?comp10 solar:hasValue ?comp10value.
+    
+    ?comp11 rdfs:member solar:KgSughacovyr.
+    ?comp11 solar:hasValue ?comp11value.
+    
+    ?comp12 rdfs:member solar:Cwr.
+    ?comp12 solar:hasValue ?comp12value.
+    
+    ?comp13 rdfs:member solar:CSM_pos.
+    ?comp13 solar:hasValue ?comp13value.
+    
+    ?comp14 rdfs:member solar:ButtlarVFood.
+    ?comp14 solar:hasValue ?comp14value.
+    
+    ?comp15 rdfs:member solar:MX_STK_150.
+    ?comp15 solar:hasValue ?comp15value.
+    
+    ?comp16 rdfs:member solar:MN_STK_150.
+    ?comp16 solar:hasValue ?comp16value.
+    
+    ?comp17 rdfs:member solar:AV_STK_150.
+    ?comp17 solar:hasValue ?comp17value.
+    
+    ?comp18 rdfs:member solar:MX_STK_100.
+    ?comp18 solar:hasValue ?comp18value.
+    
+    ?comp19 rdfs:member solar:MN_STK_100.
+    ?comp19 solar:hasValue ?comp19value.
+    
+    ?comp20 rdfs:member solar:AV_STK_100.
+    ?comp20 solar:hasValue ?comp20value.
+    
+    ?comp21 rdfs:member solar:MX_STK_30.
+    ?comp21 solar:hasValue ?comp21value.
+    
+    ?comp22 rdfs:member solar:MN_STK_30.
+    ?comp22 solar:hasValue ?comp22value.
+    
+    ?comp23 rdfs:member solar:AV_STK_30.
+    ?comp23 solar:hasValue ?comp23value.
+    
+    ?comp24 rdfs:member solar:MX_OC_150.
+    ?comp24 solar:hasValue ?comp24value.
+    
+    ?comp25 rdfs:member solar:MN_OC_150.
+    ?comp25 solar:hasValue ?comp25value.
+    
+    ?comp26 rdfs:member solar:AV_OC_150.
+    ?comp26 solar:hasValue ?comp26value.
+    
+    ?comp27 rdfs:member solar:MX_OC_100.
+    ?comp27 solar:hasValue ?comp27value.
+    
+    ?comp28 rdfs:member solar:MN_OC_100.
+    ?comp28 solar:hasValue ?comp28value.
+    
+    ?comp29 rdfs:member solar:AV_OC_100.
+    ?comp29 solar:hasValue ?comp29value.
+    
+    ?comp30 rdfs:member solar:MX_OC_30.
+    ?comp30 solar:hasValue ?comp30value.
+    
+    ?comp31 rdfs:member solar:MN_OC_30.
+    ?comp31 solar:hasValue ?comp31value.
+    
+    ?comp32 rdfs:member solar:AV_OC_30.
+    ?comp32 solar:hasValue ?comp32value.
+    
+    ?comp33 rdfs:member solar:URL.
+    ?comp33 solar:hasValue ?comp33value.
+    
+    ?comp34 rdfs:member solar:Habitat.
+    ?comp34 solar:hasValue ?comp34value.
+    
+    ?comp35 rdfs:member solar:LandCover.
+    ?comp35 solar:hasValue ?comp35value.
+    
+    ?comp36 rdfs:member solar:Fertility.
+    ?comp36 solar:hasValue ?comp36value.
+    
+    ?comp37 rdfs:member solar:Drainage.
+    ?comp37 solar:hasValue ?comp37value.
+    
+    ?comp38 rdfs:member solar:Soilscape.
+    ?comp38 solar:hasValue ?comp38value.
+    
+    ?comp39 rdfs:member solar:SS_ID.
+    ?comp39 solar:hasValue ?comp39value.
+    
+    ?comp40 rdfs:member solar:Subsoil.
+    ?comp40 solar:hasValue ?comp40value.
+    
+    ?comp41 rdfs:member solar:topsoil_texture.
+    ?comp41 solar:hasValue ?comp41value.
+    
+    ?comp42 rdfs:member solar:Map_unit.
+    ?comp42 solar:hasValue ?comp42value.
+    
+    ?comp43 rdfs:member solar:Name.
+    ?comp43 solar:hasValue ?comp43value.
+    
+    ?comp44 rdfs:member solar:Precip_1.
+    ?comp44 solar:hasValue ?comp44value.
+    
+    ?comp45 rdfs:member solar:avgTemp_1.
+    ?comp45 solar:hasValue ?comp45value.
+    
+    ?comp46 rdfs:member solar:elev_1.
+    ?comp46 solar:hasValue ?comp46value.
+    
+    ?comp47 rdfs:member solar:Euclidean_distance.
+    ?comp47 solar:hasValue ?comp47value.
+    
+    ?comp48 rdfs:member solar:Solar_North.
+    ?comp48 solar:hasValue ?comp48value.
+
+    ?comp49 rdfs:member solar:Solar_East.
+    ?comp49 solar:hasValue ?comp49value.
+    
+    ?comp50 rdfs:member solar:Y.
+    ?comp50 solar:hasValue ?comp50value.
+    
+    ?comp51 rdfs:member solar:X.
+    ?comp51 solar:hasValue ?comp51value.
+ 
+    ?comp52 rdfs:member solar:CS_square.
+    ?comp52 solar:hasValue ?comp52value.
+    
+    ?comp53 rdfs:member solar:Data_Source.
+    ?comp53 solar:hasValue ?comp53value.
+    
+    ?comp54 rdfs:member solar:Site_Number.
+    ?comp54 solar:hasValue ?comp54value.
+    
+    ?comp55 rdfs:member solar:Treatment.
+    ?comp55 solar:hasValue ?comp55value.
+    
+    ?comp56 rdfs:member solar:Quadrat_ID.
+    ?comp56 solar:hasValue ?comp56value.
+    
+    ?comp57 rdfs:member solar:Domin_Conversion.
+    ?comp57 solar:hasValue ?comp57value.
+    
+    ?comp58 rdfs:member solar:Percent_Cover.
+    ?comp58 solar:hasValue ?comp58value.
+    
+    ?comp59 rdfs:member solar:Survey_Year.
+    ?comp59 solar:hasValue ?comp59value.
+    
+    ?comp60 rdfs:member solar:Veg_Species_Final.
+    ?comp60 solar:hasValue ?comp60value.
+    
+    ?comp61 rdfs:member solar:Notes.
+    ?comp61 solar:hasValue ?comp61value.
+    
+    ?comp62 rdfs:member solar:Included.
+    ?comp62 solar:hasValue ?comp62value.
+    
+    ?comp63 rdfs:member solar:Veg_Species_Original.
+    ?comp63 solar:hasValue ?comp63value.
+
+    FILTER(REGEX(?site, "SiteA"))
+} limit 100 
+}
+# pollinator quadrat 
+UNION
+{
+  select ?sitename ?date ?quadrat ?quadratGPS ?vegetationHeight ?species ?percentCover where { 
+
+    ?site rdfs:member pollinator:PollinatorData.
+    ?site pollinator:hasDate ?date.
+    ?site pollinator:hasValue ?sitename.
+    ?site pollinator:isAttachedTo ?method.
+    
+    ?site pollinator:hasComponent ?comp1 , ?comp2, ?comp3, ?comp4, ?comp5, ?comp6.
+    ?comp1 rdfs:member pollinator:Quadrat.
+    ?comp1 pollinator:isAttachedTo ?method.
+    ?comp1 pollinator:hasValue ?quadrat.
+    
+        ?comp2 rdfs:member pollinator:QuadratGPS.
+    ?comp2 pollinator:isAttachedTo ?method.
+    ?comp2 pollinator:hasValue ?quadratGPS.
+    
+    ?comp3 rdfs:member pollinator:VegetationHeight.
+    ?comp3 pollinator:isAttachedTo ?method.
+    ?comp3 pollinator:hasValue ?vegetationHeight.
+    
+    ?comp4 rdfs:member pollinator:DropDisc.
+    ?comp4 pollinator:isAttachedTo ?method.
+    ?comp4 pollinator:hasValue ?dropdisc.
+    
+    ?comp5 rdfs:member pollinator:Species.
+    ?comp5 pollinator:isAttachedTo ?method.
+    ?comp5 pollinator:hasValue ?species.
+    
+    ?comp6 rdfs:member pollinator:PercentageCover.
+    ?comp6 pollinator:isAttachedTo ?method.
+    ?comp6 pollinator:hasValue ?percentCover.
+
+    
+    FILTER (REGEX(?sitename, "SiteA"))
+    FILTER (?method = "Quadrat")     
+}
+}
+# soil
+UNION
+{
+      select ?sitename ?plotid ?treatment ?lat ?long ?soiltemp ?soil_fresh_mass ?soil_dry_mass ?soil_moisture ?soil_sample_volume ?soil_bulk_density ?soil_ph ?soil_ammonium ?soil_nitrate ?agb_grasses ?total_agb ?agb_forbs ?agb_rushes ?sample_id ?accuracy ?plant_cover ?grasses ?rushes ?forbs ?ferns where  { 
+  
+	?s rdfs:member soil:SoilData.
+    ?s soil:hasValue ?sitename.
+    
+    ?s soil:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6,
+            			 ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, ?comp12,
+    				     ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18,
+       					 ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24.
+            
+    ?comp1 rdfs:member soil:Plot_ID.
+    ?comp1 soil:hasValue ?plotid.
+        
+    ?comp2 rdfs:member soil:Treatment.
+    ?comp2 soil:hasValue ?treatment.
+    
+    ?comp3 rdfs:member soil:Lat.
+    ?comp3 soil:hasValue ?lat.
+    
+    ?comp4 rdfs:member soil:Long.
+    ?comp4 soil:hasValue ?long.
+
+    ?comp5 rdfs:member soil:Soil_Temperature.
+    ?comp5 soil:hasValue ?soiltemp.
+    
+    ?comp6 rdfs:member soil:Soil_Fresh_Mass.
+    ?comp6 soil:hasValue ?soil_fresh_mass.
+    
+    ?comp7 rdfs:member soil:Soil_Dry_Mass.
+    ?comp7 soil:hasValue ?soil_dry_mass.
+       
+    ?comp8 rdfs:member soil:Soil_Moisture.
+    ?comp8 soil:hasValue ?soil_moisture.
+    
+    ?comp9 rdfs:member soil:Soil_Sample_Volume.
+    ?comp9 soil:hasValue ?soil_sample_volume.
+    
+    ?comp10 rdfs:member soil:Soil_Bulk_Density.
+    ?comp10 soil:hasValue ?soil_bulk_density.
+    
+    ?comp11 rdfs:member soil:Soil_PH.
+    ?comp11 soil:hasValue ?soil_ph.
+    
+    ?comp12 rdfs:member soil:Soil_Ammonium.
+    ?comp12 soil:hasValue ?soil_ammonium.
+    
+    ?comp13 rdfs:member soil:Soil_Nitrate.
+    ?comp13 soil:hasValue ?soil_nitrate.
+
+    ?comp14 rdfs:member soil:AGB_Grasses.
+    ?comp14 soil:hasValue ?agb_grasses.
+    
+    ?comp15 rdfs:member soil:Total_AGB.
+    ?comp15 soil:hasValue ?total_agb.
+    
+    ?comp16 rdfs:member soil:AGB_Forbs.
+    ?comp16 soil:hasValue ?agb_forbs.
+    
+    ?comp17 rdfs:member soil:AGB_Rushes.
+    ?comp17 soil:hasValue ?agb_rushes.
+    
+    ?comp18 rdfs:member soil:Sample_ID.
+    ?comp18 soil:hasValue ?sample_id.
+         
+    ?comp19 rdfs:member soil:Accuracy.
+    ?comp19 soil:hasValue ?accuracy.
+    
+    ?comp20 rdfs:member soil:Plant_Cover.
+    ?comp20 soil:hasValue ?plant_cover.
+    
+    ?comp21 rdfs:member soil:Grasses.
+    ?comp21 soil:hasValue ?grasses.
+    
+    ?comp22 rdfs:member soil:Rushes.
+    ?comp22 soil:hasValue ?rushes.
+    
+    ?comp23 rdfs:member soil:Forbs.
+    ?comp23 soil:hasValue ?forbs.
+    
+    ?comp24 rdfs:member soil:Ferns.
+    ?comp24 soil:hasValue ?ferns.
+    
+    FILTER (REGEX(?sitename, "SiteA"))              
+}
+        
+}
+}
+limit 1000</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 2022-05-25 13:15:15,440 [repositories/Biodiversity_anonym_repo | c.o.t.q.LoggingClosableIteration] Error while executing query: 602841ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX solar: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SolarParkStudy#&gt;
+PREFIX soil: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#&gt;
+PREFIX pollinator: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#&gt;
+
+select * where {
+    
+{
+select ?sitename ?comp1value ?comp2value ?comp3value ?comp4value ?comp5value ?comp6value ?comp7value ?comp8value ?comp9value ?comp10value ?comp11value ?comp12value ?comp13value ?comp14value ?comp15value ?comp16value ?comp17value ?comp18value ?comp19value 
+?comp20value ?comp21value ?comp22value ?comp23value ?comp24value ?comp25value ?comp26value ?comp27value ?comp28value ?comp29value 
+?comp30value ?comp31value ?comp32value ?comp33value ?comp34value ?comp35value ?comp36value ?comp37value ?comp38value ?comp39value 
+?comp40value ?comp41value ?comp42value ?comp43value ?comp44value ?comp45value ?comp46value ?comp47value ?comp48value ?comp49value 
+?comp50value ?comp51value ?comp52value ?comp53value ?comp54value ?comp55value ?comp56value ?comp57value ?comp58value ?comp59value 
+?comp60value ?comp61value ?comp62value ?comp63value ?comp64value where { 
+            
+	?data rdfs:member solar:Site.
+    ?data solar:hasValue ?sitename.
+    ?data solar:hasData ?solarparkdata.
+    ?solarparkdata solar:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6, ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, 
+    ?comp12, ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18, ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24, ?comp25,
+    ?comp26, ?comp27, ?comp28, ?comp29, ?comp30, ?comp31, ?comp32, ?comp33, ?comp34, ?comp35, ?comp36, ?comp37, ?comp38, ?comp39,
+    ?comp40, ?comp41, ?comp42, ?comp43, ?comp44, ?comp45, ?comp46, ?comp47, ?comp48, ?comp49, ?comp50, ?comp51, ?comp52, ?comp53,
+    ?comp54, ?comp55, ?comp56, ?comp57, ?comp58, ?comp59, ?comp60, ?comp61, ?comp62, ?comp63, ?comp64.
+    
+    ?comp1 rdfs:member solar:Google_Image_Date.
+    ?comp1 solar:hasValue ?comp1value.
+    
+    ?comp2 rdfs:member solar:Previous_Land_Use.
+    ?comp2 solar:hasValue ?comp2value.
+    
+    ?comp3 rdfs:member solar:Pollen.
+    ?comp3 solar:hasValue ?comp3value.
+    
+    ?comp4 rdfs:member solar:BirdFood.
+    ?comp4 solar:hasValue ?comp4value.
+    
+    ?comp5 rdfs:member solar:IW.
+    ?comp5 solar:hasValue ?comp5value.
+    
+    ?comp6 rdfs:member solar:Fg2.
+    ?comp6 solar:hasValue ?comp6value.
+    
+    ?comp7 rdfs:member solar:Fg1.
+    ?comp7 solar:hasValue ?comp7value.
+    
+    ?comp8 rdfs:member solar:Sphag_Species.
+    ?comp8 solar:hasValue ?comp8value.
+    
+    ?comp9 rdfs:member solar:N_fix.
+    ?comp9 solar:hasValue ?comp9value.
+    
+    ?comp10 rdfs:member solar:B_leaf.
+    ?comp10 solar:hasValue ?comp10value.
+    
+    ?comp11 rdfs:member solar:KgSughacovyr.
+    ?comp11 solar:hasValue ?comp11value.
+    
+    ?comp12 rdfs:member solar:Cwr.
+    ?comp12 solar:hasValue ?comp12value.
+    
+    ?comp13 rdfs:member solar:CSM_pos.
+    ?comp13 solar:hasValue ?comp13value.
+    
+    ?comp14 rdfs:member solar:ButtlarVFood.
+    ?comp14 solar:hasValue ?comp14value.
+    
+    ?comp15 rdfs:member solar:MX_STK_150.
+    ?comp15 solar:hasValue ?comp15value.
+    
+    ?comp16 rdfs:member solar:MN_STK_150.
+    ?comp16 solar:hasValue ?comp16value.
+    
+    ?comp17 rdfs:member solar:AV_STK_150.
+    ?comp17 solar:hasValue ?comp17value.
+    
+    ?comp18 rdfs:member solar:MX_STK_100.
+    ?comp18 solar:hasValue ?comp18value.
+    
+    ?comp19 rdfs:member solar:MN_STK_100.
+    ?comp19 solar:hasValue ?comp19value.
+    
+    ?comp20 rdfs:member solar:AV_STK_100.
+    ?comp20 solar:hasValue ?comp20value.
+    
+    ?comp21 rdfs:member solar:MX_STK_30.
+    ?comp21 solar:hasValue ?comp21value.
+    
+    ?comp22 rdfs:member solar:MN_STK_30.
+    ?comp22 solar:hasValue ?comp22value.
+    
+    ?comp23 rdfs:member solar:AV_STK_30.
+    ?comp23 solar:hasValue ?comp23value.
+    
+    ?comp24 rdfs:member solar:MX_OC_150.
+    ?comp24 solar:hasValue ?comp24value.
+    
+    ?comp25 rdfs:member solar:MN_OC_150.
+    ?comp25 solar:hasValue ?comp25value.
+    
+    ?comp26 rdfs:member solar:AV_OC_150.
+    ?comp26 solar:hasValue ?comp26value.
+    
+    ?comp27 rdfs:member solar:MX_OC_100.
+    ?comp27 solar:hasValue ?comp27value.
+    
+    ?comp28 rdfs:member solar:MN_OC_100.
+    ?comp28 solar:hasValue ?comp28value.
+    
+    ?comp29 rdfs:member solar:AV_OC_100.
+    ?comp29 solar:hasValue ?comp29value.
+    
+    ?comp30 rdfs:member solar:MX_OC_30.
+    ?comp30 solar:hasValue ?comp30value.
+    
+    ?comp31 rdfs:member solar:MN_OC_30.
+    ?comp31 solar:hasValue ?comp31value.
+    
+    ?comp32 rdfs:member solar:AV_OC_30.
+    ?comp32 solar:hasValue ?comp32value.
+    
+    ?comp33 rdfs:member solar:URL.
+    ?comp33 solar:hasValue ?comp33value.
+    
+    ?comp34 rdfs:member solar:Habitat.
+    ?comp34 solar:hasValue ?comp34value.
+    
+    ?comp35 rdfs:member solar:LandCover.
+    ?comp35 solar:hasValue ?comp35value.
+    
+    ?comp36 rdfs:member solar:Fertility.
+    ?comp36 solar:hasValue ?comp36value.
+    
+    ?comp37 rdfs:member solar:Drainage.
+    ?comp37 solar:hasValue ?comp37value.
+    
+    ?comp38 rdfs:member solar:Soilscape.
+    ?comp38 solar:hasValue ?comp38value.
+    
+    ?comp39 rdfs:member solar:SS_ID.
+    ?comp39 solar:hasValue ?comp39value.
+    
+    ?comp40 rdfs:member solar:Subsoil.
+    ?comp40 solar:hasValue ?comp40value.
+    
+    ?comp41 rdfs:member solar:topsoil_texture.
+    ?comp41 solar:hasValue ?comp41value.
+    
+    ?comp42 rdfs:member solar:Map_unit.
+    ?comp42 solar:hasValue ?comp42value.
+    
+    ?comp43 rdfs:member solar:Name.
+    ?comp43 solar:hasValue ?comp43value.
+    
+    ?comp44 rdfs:member solar:Precip_1.
+    ?comp44 solar:hasValue ?comp44value.
+    
+    ?comp45 rdfs:member solar:avgTemp_1.
+    ?comp45 solar:hasValue ?comp45value.
+    
+    ?comp46 rdfs:member solar:elev_1.
+    ?comp46 solar:hasValue ?comp46value.
+    
+    ?comp47 rdfs:member solar:Euclidean_distance.
+    ?comp47 solar:hasValue ?comp47value.
+    
+    ?comp48 rdfs:member solar:Solar_North.
+    ?comp48 solar:hasValue ?comp48value.
+
+    ?comp49 rdfs:member solar:Solar_East.
+    ?comp49 solar:hasValue ?comp49value.
+    
+    ?comp50 rdfs:member solar:Y.
+    ?comp50 solar:hasValue ?comp50value.
+    
+    ?comp51 rdfs:member solar:X.
+    ?comp51 solar:hasValue ?comp51value.
+ 
+    ?comp52 rdfs:member solar:CS_square.
+    ?comp52 solar:hasValue ?comp52value.
+    
+    ?comp53 rdfs:member solar:Data_Source.
+    ?comp53 solar:hasValue ?comp53value.
+    
+    ?comp54 rdfs:member solar:Site_Number.
+    ?comp54 solar:hasValue ?comp54value.
+    
+    ?comp55 rdfs:member solar:Treatment.
+    ?comp55 solar:hasValue ?comp55value.
+    
+    ?comp56 rdfs:member solar:Quadrat_ID.
+    ?comp56 solar:hasValue ?comp56value.
+    
+    ?comp57 rdfs:member solar:Domin_Conversion.
+    ?comp57 solar:hasValue ?comp57value.
+    
+    ?comp58 rdfs:member solar:Percent_Cover.
+    ?comp58 solar:hasValue ?comp58value.
+    
+    ?comp59 rdfs:member solar:Survey_Year.
+    ?comp59 solar:hasValue ?comp59value.
+    
+    ?comp60 rdfs:member solar:Veg_Species_Final.
+    ?comp60 solar:hasValue ?comp60value.
+    
+    ?comp61 rdfs:member solar:Notes.
+    ?comp61 solar:hasValue ?comp61value.
+    
+    ?comp62 rdfs:member solar:Included.
+    ?comp62 solar:hasValue ?comp62value.
+    
+    ?comp63 rdfs:member solar:Veg_Species_Original.
+    ?comp63 solar:hasValue ?comp63value.
+
+    FILTER(REGEX(?site, "SiteA"))
+} limit 100 
+}
+# pollinator quadrat 
+UNION
+{
+  select ?sitename ?date ?quadrat ?quadratGPS ?vegetationHeight ?species ?percentCover where { 
+
+    ?site rdfs:member pollinator:PollinatorData.
+    ?site pollinator:hasDate ?date.
+    ?site pollinator:hasValue ?sitename.
+    ?site pollinator:isAttachedTo ?method.
+    
+    ?site pollinator:hasComponent ?comp1 , ?comp2, ?comp3, ?comp4, ?comp5, ?comp6.
+    ?comp1 rdfs:member pollinator:Quadrat.
+    ?comp1 pollinator:isAttachedTo ?method.
+    ?comp1 pollinator:hasValue ?quadrat.
+    
+        ?comp2 rdfs:member pollinator:QuadratGPS.
+    ?comp2 pollinator:isAttachedTo ?method.
+    ?comp2 pollinator:hasValue ?quadratGPS.
+    
+    ?comp3 rdfs:member pollinator:VegetationHeight.
+    ?comp3 pollinator:isAttachedTo ?method.
+    ?comp3 pollinator:hasValue ?vegetationHeight.
+    
+    ?comp4 rdfs:member pollinator:DropDisc.
+    ?comp4 pollinator:isAttachedTo ?method.
+    ?comp4 pollinator:hasValue ?dropdisc.
+    
+    ?comp5 rdfs:member pollinator:Species.
+    ?comp5 pollinator:isAttachedTo ?method.
+    ?comp5 pollinator:hasValue ?species.
+    
+    ?comp6 rdfs:member pollinator:PercentageCover.
+    ?comp6 pollinator:isAttachedTo ?method.
+    ?comp6 pollinator:hasValue ?percentCover.
+
+    
+    FILTER (REGEX(?sitename, "SiteA"))
+    FILTER (?method = "Quadrat")     
+}
+}
+# soil
+UNION
+{
+      select ?sitename ?plotid ?treatment ?lat ?long ?soiltemp ?soil_fresh_mass ?soil_dry_mass ?soil_moisture ?soil_sample_volume ?soil_bulk_density ?soil_ph ?soil_ammonium ?soil_nitrate ?agb_grasses ?total_agb ?agb_forbs ?agb_rushes ?sample_id ?accuracy ?plant_cover ?grasses ?rushes ?forbs ?ferns where  { 
+  
+	?s rdfs:member soil:SoilData.
+    ?s soil:hasValue ?sitename.
+    
+    ?s soil:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6,
+            			 ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, ?comp12,
+    				     ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18,
+       					 ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24.
+            
+    ?comp1 rdfs:member soil:Plot_ID.
+    ?comp1 soil:hasValue ?plotid.
+        
+    ?comp2 rdfs:member soil:Treatment.
+    ?comp2 soil:hasValue ?treatment.
+    
+    ?comp3 rdfs:member soil:Lat.
+    ?comp3 soil:hasValue ?lat.
+    
+    ?comp4 rdfs:member soil:Long.
+    ?comp4 soil:hasValue ?long.
+
+    ?comp5 rdfs:member soil:Soil_Temperature.
+    ?comp5 soil:hasValue ?soiltemp.
+    
+    ?comp6 rdfs:member soil:Soil_Fresh_Mass.
+    ?comp6 soil:hasValue ?soil_fresh_mass.
+    
+    ?comp7 rdfs:member soil:Soil_Dry_Mass.
+    ?comp7 soil:hasValue ?soil_dry_mass.
+       
+    ?comp8 rdfs:member soil:Soil_Moisture.
+    ?comp8 soil:hasValue ?soil_moisture.
+    
+    ?comp9 rdfs:member soil:Soil_Sample_Volume.
+    ?comp9 soil:hasValue ?soil_sample_volume.
+    
+    ?comp10 rdfs:member soil:Soil_Bulk_Density.
+    ?comp10 soil:hasValue ?soil_bulk_density.
+    
+    ?comp11 rdfs:member soil:Soil_PH.
+    ?comp11 soil:hasValue ?soil_ph.
+    
+    ?comp12 rdfs:member soil:Soil_Ammonium.
+    ?comp12 soil:hasValue ?soil_ammonium.
+    
+    ?comp13 rdfs:member soil:Soil_Nitrate.
+    ?comp13 soil:hasValue ?soil_nitrate.
+
+    ?comp14 rdfs:member soil:AGB_Grasses.
+    ?comp14 soil:hasValue ?agb_grasses.
+    
+    ?comp15 rdfs:member soil:Total_AGB.
+    ?comp15 soil:hasValue ?total_agb.
+    
+    ?comp16 rdfs:member soil:AGB_Forbs.
+    ?comp16 soil:hasValue ?agb_forbs.
+    
+    ?comp17 rdfs:member soil:AGB_Rushes.
+    ?comp17 soil:hasValue ?agb_rushes.
+    
+    ?comp18 rdfs:member soil:Sample_ID.
+    ?comp18 soil:hasValue ?sample_id.
+         
+    ?comp19 rdfs:member soil:Accuracy.
+    ?comp19 soil:hasValue ?accuracy.
+    
+    ?comp20 rdfs:member soil:Plant_Cover.
+    ?comp20 soil:hasValue ?plant_cover.
+    
+    ?comp21 rdfs:member soil:Grasses.
+    ?comp21 soil:hasValue ?grasses.
+    
+    ?comp22 rdfs:member soil:Rushes.
+    ?comp22 soil:hasValue ?rushes.
+    
+    ?comp23 rdfs:member soil:Forbs.
+    ?comp23 soil:hasValue ?forbs.
+    
+    ?comp24 rdfs:member soil:Ferns.
+    ?comp24 soil:hasValue ?ferns.
+    
+    FILTER (REGEX(?sitename, "SiteA"))              
+}
+        
+}
+}
+limit 1000</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 2022-05-25 13:15:19,539 [repositories/Biodiversity_anonym_repo | c.o.t.q.LoggingClosableIteration] Error while executing query: 679748ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX solar: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SolarParkStudy#&gt;
+PREFIX soil: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#&gt;
+PREFIX pollinator: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#&gt;
+
+select * where {
+    
+{
+select ?sitename ?comp1value ?comp2value ?comp3value ?comp4value ?comp5value ?comp6value ?comp7value ?comp8value ?comp9value ?comp10value ?comp11value ?comp12value ?comp13value ?comp14value ?comp15value ?comp16value ?comp17value ?comp18value ?comp19value 
+?comp20value ?comp21value ?comp22value ?comp23value ?comp24value ?comp25value ?comp26value ?comp27value ?comp28value ?comp29value 
+?comp30value ?comp31value ?comp32value ?comp33value ?comp34value ?comp35value ?comp36value ?comp37value ?comp38value ?comp39value 
+?comp40value ?comp41value ?comp42value ?comp43value ?comp44value ?comp45value ?comp46value ?comp47value ?comp48value ?comp49value 
+?comp50value ?comp51value ?comp52value ?comp53value ?comp54value ?comp55value ?comp56value ?comp57value ?comp58value ?comp59value 
+?comp60value ?comp61value ?comp62value ?comp63value ?comp64value where { 
+	?data rdfs:member solar:Site.
+    ?data solar:hasValue ?sitename.
+    ?data solar:hasData ?solarparkdata.
+    ?solarparkdata solar:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6, ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, 
+    ?comp12, ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18, ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24, ?comp25,
+    ?comp26, ?comp27, ?comp28, ?comp29, ?comp30, ?comp31, ?comp32, ?comp33, ?comp34, ?comp35, ?comp36, ?comp37, ?comp38, ?comp39,
+    ?comp40, ?comp41, ?comp42, ?comp43, ?comp44, ?comp45, ?comp46, ?comp47, ?comp48, ?comp49, ?comp50, ?comp51, ?comp52, ?comp53,
+    ?comp54, ?comp55, ?comp56, ?comp57, ?comp58, ?comp59, ?comp60, ?comp61, ?comp62, ?comp63, ?comp64.
+    
+    ?comp1 rdfs:member solar:Google_Image_Date.
+    ?comp1 solar:hasValue ?comp1value.
+    
+    ?comp2 rdfs:member solar:Previous_Land_Use.
+    ?comp2 solar:hasValue ?comp2value.
+    
+    ?comp3 rdfs:member solar:Pollen.
+    ?comp3 solar:hasValue ?comp3value.
+    
+    ?comp4 rdfs:member solar:BirdFood.
+    ?comp4 solar:hasValue ?comp4value.
+    
+    ?comp5 rdfs:member solar:IW.
+    ?comp5 solar:hasValue ?comp5value.
+    
+    ?comp6 rdfs:member solar:Fg2.
+    ?comp6 solar:hasValue ?comp6value.
+    
+    ?comp7 rdfs:member solar:Fg1.
+    ?comp7 solar:hasValue ?comp7value.
+    
+    ?comp8 rdfs:member solar:Sphag_Species.
+    ?comp8 solar:hasValue ?comp8value.
+    
+    ?comp9 rdfs:member solar:N_fix.
+    ?comp9 solar:hasValue ?comp9value.
+    
+    ?comp10 rdfs:member solar:B_leaf.
+    ?comp10 solar:hasValue ?comp10value.
+    
+    ?comp11 rdfs:member solar:KgSughacovyr.
+    ?comp11 solar:hasValue ?comp11value.
+    
+    ?comp12 rdfs:member solar:Cwr.
+    ?comp12 solar:hasValue ?comp12value.
+    
+    ?comp13 rdfs:member solar:CSM_pos.
+    ?comp13 solar:hasValue ?comp13value.
+    
+    ?comp14 rdfs:member solar:ButtlarVFood.
+    ?comp14 solar:hasValue ?comp14value.
+    
+    ?comp15 rdfs:member solar:MX_STK_150.
+    ?comp15 solar:hasValue ?comp15value.
+    
+    ?comp16 rdfs:member solar:MN_STK_150.
+    ?comp16 solar:hasValue ?comp16value.
+    
+    ?comp17 rdfs:member solar:AV_STK_150.
+    ?comp17 solar:hasValue ?comp17value.
+    
+    ?comp18 rdfs:member solar:MX_STK_100.
+    ?comp18 solar:hasValue ?comp18value.
+    
+    ?comp19 rdfs:member solar:MN_STK_100.
+    ?comp19 solar:hasValue ?comp19value.
+    
+    ?comp20 rdfs:member solar:AV_STK_100.
+    ?comp20 solar:hasValue ?comp20value.
+    
+    ?comp21 rdfs:member solar:MX_STK_30.
+    ?comp21 solar:hasValue ?comp21value.
+    
+    ?comp22 rdfs:member solar:MN_STK_30.
+    ?comp22 solar:hasValue ?comp22value.
+    
+    ?comp23 rdfs:member solar:AV_STK_30.
+    ?comp23 solar:hasValue ?comp23value.
+    
+    ?comp24 rdfs:member solar:MX_OC_150.
+    ?comp24 solar:hasValue ?comp24value.
+    
+    ?comp25 rdfs:member solar:MN_OC_150.
+    ?comp25 solar:hasValue ?comp25value.
+    
+    ?comp26 rdfs:member solar:AV_OC_150.
+    ?comp26 solar:hasValue ?comp26value.
+    
+    ?comp27 rdfs:member solar:MX_OC_100.
+    ?comp27 solar:hasValue ?comp27value.
+    
+    ?comp28 rdfs:member solar:MN_OC_100.
+    ?comp28 solar:hasValue ?comp28value.
+    
+    ?comp29 rdfs:member solar:AV_OC_100.
+    ?comp29 solar:hasValue ?comp29value.
+    
+    ?comp30 rdfs:member solar:MX_OC_30.
+    ?comp30 solar:hasValue ?comp30value.
+    
+    ?comp31 rdfs:member solar:MN_OC_30.
+    ?comp31 solar:hasValue ?comp31value.
+    
+    ?comp32 rdfs:member solar:AV_OC_30.
+    ?comp32 solar:hasValue ?comp32value.
+    
+    ?comp33 rdfs:member solar:URL.
+    ?comp33 solar:hasValue ?comp33value.
+    
+    ?comp34 rdfs:member solar:Habitat.
+    ?comp34 solar:hasValue ?comp34value.
+    
+    ?comp35 rdfs:member solar:LandCover.
+    ?comp35 solar:hasValue ?comp35value.
+    
+    ?comp36 rdfs:member solar:Fertility.
+    ?comp36 solar:hasValue ?comp36value.
+    
+    ?comp37 rdfs:member solar:Drainage.
+    ?comp37 solar:hasValue ?comp37value.
+    
+    ?comp38 rdfs:member solar:Soilscape.
+    ?comp38 solar:hasValue ?comp38value.
+    
+    ?comp39 rdfs:member solar:SS_ID.
+    ?comp39 solar:hasValue ?comp39value.
+    
+    ?comp40 rdfs:member solar:Subsoil.
+    ?comp40 solar:hasValue ?comp40value.
+    
+    ?comp41 rdfs:member solar:topsoil_texture.
+    ?comp41 solar:hasValue ?comp41value.
+    
+    ?comp42 rdfs:member solar:Map_unit.
+    ?comp42 solar:hasValue ?comp42value.
+    
+    ?comp43 rdfs:member solar:Name.
+    ?comp43 solar:hasValue ?comp43value.
+    
+    ?comp44 rdfs:member solar:Precip_1.
+    ?comp44 solar:hasValue ?comp44value.
+    
+    ?comp45 rdfs:member solar:avgTemp_1.
+    ?comp45 solar:hasValue ?comp45value.
+    
+    ?comp46 rdfs:member solar:elev_1.
+    ?comp46 solar:hasValue ?comp46value.
+    
+    ?comp47 rdfs:member solar:Euclidean_distance.
+    ?comp47 solar:hasValue ?comp47value.
+    
+    ?comp48 rdfs:member solar:Solar_North.
+    ?comp48 solar:hasValue ?comp48value.
+
+    ?comp49 rdfs:member solar:Solar_East.
+    ?comp49 solar:hasValue ?comp49value.
+    
+    ?comp50 rdfs:member solar:Y.
+    ?comp50 solar:hasValue ?comp50value.
+    
+    ?comp51 rdfs:member solar:X.
+    ?comp51 solar:hasValue ?comp51value.
+ 
+    ?comp52 rdfs:member solar:CS_square.
+    ?comp52 solar:hasValue ?comp52value.
+    
+    ?comp53 rdfs:member solar:Data_Source.
+    ?comp53 solar:hasValue ?comp53value.
+    
+    ?comp54 rdfs:member solar:Site_Number.
+    ?comp54 solar:hasValue ?comp54value.
+    
+    ?comp55 rdfs:member solar:Treatment.
+    ?comp55 solar:hasValue ?comp55value.
+    
+    ?comp56 rdfs:member solar:Quadrat_ID.
+    ?comp56 solar:hasValue ?comp56value.
+    
+    ?comp57 rdfs:member solar:Domin_Conversion.
+    ?comp57 solar:hasValue ?comp57value.
+    
+    ?comp58 rdfs:member solar:Percent_Cover.
+    ?comp58 solar:hasValue ?comp58value.
+    
+    ?comp59 rdfs:member solar:Survey_Year.
+    ?comp59 solar:hasValue ?comp59value.
+    
+    ?comp60 rdfs:member solar:Veg_Species_Final.
+    ?comp60 solar:hasValue ?comp60value.
+    
+    ?comp61 rdfs:member solar:Notes.
+    ?comp61 solar:hasValue ?comp61value.
+    
+    ?comp62 rdfs:member solar:Included.
+    ?comp62 solar:hasValue ?comp62value.
+    
+    ?comp63 rdfs:member solar:Veg_Species_Original.
+    ?comp63 solar:hasValue ?comp63value.
+
+    FILTER(REGEX(?site, "SiteA"))
+} limit 100 
+}
+# pollinator transect 
+UNION
+{
+  select ?sitename ?date ?time ?transect ?transectGPS ?airtemperature ?windspeed ?species where    { 
+
+    ?site rdfs:member pollinator:PollinatorData.
+    ?site pollinator:hasDate ?date.
+    ?site pollinator:hasValue ?sitename.
+    ?site pollinator:isAttachedTo ?method.
+    
+    ?site pollinator:hasComponent ?comp1 , ?comp2, ?comp3, ?comp4, ?comp5, ?comp6.
+    
+    ?comp1 rdfs:member pollinator:Time.
+    ?comp1 pollinator:isAttachedTo ?method.
+    ?comp1 pollinator:hasValue ?time.
+       
+    ?comp2 rdfs:member pollinator:Transect.
+    ?comp2 pollinator:isAttachedTo ?method.
+    ?comp2 pollinator:hasValue ?transect.
+    
+    ?comp3 rdfs:member pollinator:TransectGPS.
+    ?comp3 pollinator:isAttachedTo ?method.
+    ?comp3 pollinator:hasValue ?transectGPS.
+    
+    ?comp4 rdfs:member pollinator:AirTemperature.
+    ?comp4 pollinator:isAttachedTo ?method.
+    ?comp4 pollinator:hasValue ?airtemperature.
+    
+    ?comp5 rdfs:member pollinator:WindSpeed.
+    ?comp5 pollinator:isAttachedTo ?method.
+    ?comp5 pollinator:hasValue ?windspeed.
+    
+    ?comp6 rdfs:member pollinator:Species.
+    ?comp6 pollinator:isAttachedTo ?method.
+    ?comp6 pollinator:hasValue ?species.
+        
+    FILTER (REGEX(?sitename, "SiteA"))
+    FILTER (?method = "Transect")              
+}
+}
+# soil
+UNION
+{
+      select ?sitename ?plotid ?treatment ?lat ?long ?soiltemp ?soil_fresh_mass ?soil_dry_mass ?soil_moisture ?soil_sample_volume ?soil_bulk_density ?soil_ph ?soil_ammonium ?soil_nitrate ?agb_grasses ?total_agb ?agb_forbs ?agb_rushes ?sample_id ?accuracy ?plant_cover ?grasses ?rushes ?forbs ?ferns where  { 
+  
+	?s rdfs:member soil:SoilData.
+    ?s soil:hasValue ?sitename.
+    
+    ?s soil:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6,
+            			 ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, ?comp12,
+    				     ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18,
+       					 ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24.
+            
+    ?comp1 rdfs:member soil:Plot_ID.
+    ?comp1 soil:hasValue ?plotid.
+        
+    ?comp2 rdfs:member soil:Treatment.
+    ?comp2 soil:hasValue ?treatment.
+    
+    ?comp3 rdfs:member soil:Lat.
+    ?comp3 soil:hasValue ?lat.
+    
+    ?comp4 rdfs:member soil:Long.
+    ?comp4 soil:hasValue ?long.
+
+    ?comp5 rdfs:member soil:Soil_Temperature.
+    ?comp5 soil:hasValue ?soiltemp.
+    
+    ?comp6 rdfs:member soil:Soil_Fresh_Mass.
+    ?comp6 soil:hasValue ?soil_fresh_mass.
+    
+    ?comp7 rdfs:member soil:Soil_Dry_Mass.
+    ?comp7 soil:hasValue ?soil_dry_mass.
+       
+    ?comp8 rdfs:member soil:Soil_Moisture.
+    ?comp8 soil:hasValue ?soil_moisture.
+    
+    ?comp9 rdfs:member soil:Soil_Sample_Volume.
+    ?comp9 soil:hasValue ?soil_sample_volume.
+    
+    ?comp10 rdfs:member soil:Soil_Bulk_Density.
+    ?comp10 soil:hasValue ?soil_bulk_density.
+    
+    ?comp11 rdfs:member soil:Soil_PH.
+    ?comp11 soil:hasValue ?soil_ph.
+    
+    ?comp12 rdfs:member soil:Soil_Ammonium.
+    ?comp12 soil:hasValue ?soil_ammonium.
+    
+    ?comp13 rdfs:member soil:Soil_Nitrate.
+    ?comp13 soil:hasValue ?soil_nitrate.
+
+    ?comp14 rdfs:member soil:AGB_Grasses.
+    ?comp14 soil:hasValue ?agb_grasses.
+    
+    ?comp15 rdfs:member soil:Total_AGB.
+    ?comp15 soil:hasValue ?total_agb.
+    
+    ?comp16 rdfs:member soil:AGB_Forbs.
+    ?comp16 soil:hasValue ?agb_forbs.
+    
+    ?comp17 rdfs:member soil:AGB_Rushes.
+    ?comp17 soil:hasValue ?agb_rushes.
+    
+    ?comp18 rdfs:member soil:Sample_ID.
+    ?comp18 soil:hasValue ?sample_id.
+         
+    ?comp19 rdfs:member soil:Accuracy.
+    ?comp19 soil:hasValue ?accuracy.
+    
+    ?comp20 rdfs:member soil:Plant_Cover.
+    ?comp20 soil:hasValue ?plant_cover.
+    
+    ?comp21 rdfs:member soil:Grasses.
+    ?comp21 soil:hasValue ?grasses.
+    
+    ?comp22 rdfs:member soil:Rushes.
+    ?comp22 soil:hasValue ?rushes.
+    
+    ?comp23 rdfs:member soil:Forbs.
+    ?comp23 soil:hasValue ?forbs.
+    
+    ?comp24 rdfs:member soil:Ferns.
+    ?comp24 soil:hasValue ?ferns.
+    
+    FILTER (REGEX(?sitename, "SiteA"))              
+}
+        
+}
+}
+limit 1000</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 2022-05-25 13:15:21,979 [repositories/Biodiversity_anonym_repo | c.o.t.q.LoggingClosableIteration] Error while executing query: 438905ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX solar: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SolarParkStudy#&gt;
+PREFIX soil: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#&gt;
+PREFIX pollinator: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#&gt;
+
+select * where {
+    
+{
+select ?sitename ?comp1value ?comp2value ?comp3value ?comp4value ?comp5value ?comp6value ?comp7value ?comp8value ?comp9value ?comp10value ?comp11value ?comp12value ?comp13value ?comp14value ?comp15value ?comp16value ?comp17value ?comp18value ?comp19value 
+?comp20value ?comp21value ?comp22value ?comp23value ?comp24value ?comp25value ?comp26value ?comp27value ?comp28value ?comp29value 
+?comp30value ?comp31value ?comp32value ?comp33value ?comp34value ?comp35value ?comp36value ?comp37value ?comp38value ?comp39value 
+?comp40value ?comp41value ?comp42value ?comp43value ?comp44value ?comp45value ?comp46value ?comp47value ?comp48value ?comp49value 
+?comp50value ?comp51value ?comp52value ?comp53value ?comp54value ?comp55value ?comp56value ?comp57value ?comp58value ?comp59value 
+?comp60value ?comp61value ?comp62value ?comp63value ?comp64value where { 
+	?data rdfs:member solar:Site.
+    ?data solar:hasValue ?sitename.
+    ?data solar:hasData ?solarparkdata.
+    ?solarparkdata solar:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6, ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, 
+    ?comp12, ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18, ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24, ?comp25,
+    ?comp26, ?comp27, ?comp28, ?comp29, ?comp30, ?comp31, ?comp32, ?comp33, ?comp34, ?comp35, ?comp36, ?comp37, ?comp38, ?comp39,
+    ?comp40, ?comp41, ?comp42, ?comp43, ?comp44, ?comp45, ?comp46, ?comp47, ?comp48, ?comp49, ?comp50, ?comp51, ?comp52, ?comp53,
+    ?comp54, ?comp55, ?comp56, ?comp57, ?comp58, ?comp59, ?comp60, ?comp61, ?comp62, ?comp63, ?comp64.
+    
+    ?comp1 rdfs:member solar:Google_Image_Date.
+    ?comp1 solar:hasValue ?comp1value.
+    
+    ?comp2 rdfs:member solar:Previous_Land_Use.
+    ?comp2 solar:hasValue ?comp2value.
+    
+    ?comp3 rdfs:member solar:Pollen.
+    ?comp3 solar:hasValue ?comp3value.
+    
+    ?comp4 rdfs:member solar:BirdFood.
+    ?comp4 solar:hasValue ?comp4value.
+    
+    ?comp5 rdfs:member solar:IW.
+    ?comp5 solar:hasValue ?comp5value.
+    
+    ?comp6 rdfs:member solar:Fg2.
+    ?comp6 solar:hasValue ?comp6value.
+    
+    ?comp7 rdfs:member solar:Fg1.
+    ?comp7 solar:hasValue ?comp7value.
+    
+    ?comp8 rdfs:member solar:Sphag_Species.
+    ?comp8 solar:hasValue ?comp8value.
+    
+    ?comp9 rdfs:member solar:N_fix.
+    ?comp9 solar:hasValue ?comp9value.
+    
+    ?comp10 rdfs:member solar:B_leaf.
+    ?comp10 solar:hasValue ?comp10value.
+    
+    ?comp11 rdfs:member solar:KgSughacovyr.
+    ?comp11 solar:hasValue ?comp11value.
+    
+    ?comp12 rdfs:member solar:Cwr.
+    ?comp12 solar:hasValue ?comp12value.
+    
+    ?comp13 rdfs:member solar:CSM_pos.
+    ?comp13 solar:hasValue ?comp13value.
+    
+    ?comp14 rdfs:member solar:ButtlarVFood.
+    ?comp14 solar:hasValue ?comp14value.
+    
+    ?comp15 rdfs:member solar:MX_STK_150.
+    ?comp15 solar:hasValue ?comp15value.
+    
+    ?comp16 rdfs:member solar:MN_STK_150.
+    ?comp16 solar:hasValue ?comp16value.
+    
+    ?comp17 rdfs:member solar:AV_STK_150.
+    ?comp17 solar:hasValue ?comp17value.
+    
+    ?comp18 rdfs:member solar:MX_STK_100.
+    ?comp18 solar:hasValue ?comp18value.
+    
+    ?comp19 rdfs:member solar:MN_STK_100.
+    ?comp19 solar:hasValue ?comp19value.
+    
+    ?comp20 rdfs:member solar:AV_STK_100.
+    ?comp20 solar:hasValue ?comp20value.
+    
+    ?comp21 rdfs:member solar:MX_STK_30.
+    ?comp21 solar:hasValue ?comp21value.
+    
+    ?comp22 rdfs:member solar:MN_STK_30.
+    ?comp22 solar:hasValue ?comp22value.
+    
+    ?comp23 rdfs:member solar:AV_STK_30.
+    ?comp23 solar:hasValue ?comp23value.
+    
+    ?comp24 rdfs:member solar:MX_OC_150.
+    ?comp24 solar:hasValue ?comp24value.
+    
+    ?comp25 rdfs:member solar:MN_OC_150.
+    ?comp25 solar:hasValue ?comp25value.
+    
+    ?comp26 rdfs:member solar:AV_OC_150.
+    ?comp26 solar:hasValue ?comp26value.
+    
+    ?comp27 rdfs:member solar:MX_OC_100.
+    ?comp27 solar:hasValue ?comp27value.
+    
+    ?comp28 rdfs:member solar:MN_OC_100.
+    ?comp28 solar:hasValue ?comp28value.
+    
+    ?comp29 rdfs:member solar:AV_OC_100.
+    ?comp29 solar:hasValue ?comp29value.
+    
+    ?comp30 rdfs:member solar:MX_OC_30.
+    ?comp30 solar:hasValue ?comp30value.
+    
+    ?comp31 rdfs:member solar:MN_OC_30.
+    ?comp31 solar:hasValue ?comp31value.
+    
+    ?comp32 rdfs:member solar:AV_OC_30.
+    ?comp32 solar:hasValue ?comp32value.
+    
+    ?comp33 rdfs:member solar:URL.
+    ?comp33 solar:hasValue ?comp33value.
+    
+    ?comp34 rdfs:member solar:Habitat.
+    ?comp34 solar:hasValue ?comp34value.
+    
+    ?comp35 rdfs:member solar:LandCover.
+    ?comp35 solar:hasValue ?comp35value.
+    
+    ?comp36 rdfs:member solar:Fertility.
+    ?comp36 solar:hasValue ?comp36value.
+    
+    ?comp37 rdfs:member solar:Drainage.
+    ?comp37 solar:hasValue ?comp37value.
+    
+    ?comp38 rdfs:member solar:Soilscape.
+    ?comp38 solar:hasValue ?comp38value.
+    
+    ?comp39 rdfs:member solar:SS_ID.
+    ?comp39 solar:hasValue ?comp39value.
+    
+    ?comp40 rdfs:member solar:Subsoil.
+    ?comp40 solar:hasValue ?comp40value.
+    
+    ?comp41 rdfs:member solar:topsoil_texture.
+    ?comp41 solar:hasValue ?comp41value.
+    
+    ?comp42 rdfs:member solar:Map_unit.
+    ?comp42 solar:hasValue ?comp42value.
+    
+    ?comp43 rdfs:member solar:Name.
+    ?comp43 solar:hasValue ?comp43value.
+    
+    ?comp44 rdfs:member solar:Precip_1.
+    ?comp44 solar:hasValue ?comp44value.
+    
+    ?comp45 rdfs:member solar:avgTemp_1.
+    ?comp45 solar:hasValue ?comp45value.
+    
+    ?comp46 rdfs:member solar:elev_1.
+    ?comp46 solar:hasValue ?comp46value.
+    
+    ?comp47 rdfs:member solar:Euclidean_distance.
+    ?comp47 solar:hasValue ?comp47value.
+    
+    ?comp48 rdfs:member solar:Solar_North.
+    ?comp48 solar:hasValue ?comp48value.
+
+    ?comp49 rdfs:member solar:Solar_East.
+    ?comp49 solar:hasValue ?comp49value.
+    
+    ?comp50 rdfs:member solar:Y.
+    ?comp50 solar:hasValue ?comp50value.
+    
+    ?comp51 rdfs:member solar:X.
+    ?comp51 solar:hasValue ?comp51value.
+ 
+    ?comp52 rdfs:member solar:CS_square.
+    ?comp52 solar:hasValue ?comp52value.
+    
+    ?comp53 rdfs:member solar:Data_Source.
+    ?comp53 solar:hasValue ?comp53value.
+    
+    ?comp54 rdfs:member solar:Site_Number.
+    ?comp54 solar:hasValue ?comp54value.
+    
+    ?comp55 rdfs:member solar:Treatment.
+    ?comp55 solar:hasValue ?comp55value.
+    
+    ?comp56 rdfs:member solar:Quadrat_ID.
+    ?comp56 solar:hasValue ?comp56value.
+    
+    ?comp57 rdfs:member solar:Domin_Conversion.
+    ?comp57 solar:hasValue ?comp57value.
+    
+    ?comp58 rdfs:member solar:Percent_Cover.
+    ?comp58 solar:hasValue ?comp58value.
+    
+    ?comp59 rdfs:member solar:Survey_Year.
+    ?comp59 solar:hasValue ?comp59value.
+    
+    ?comp60 rdfs:member solar:Veg_Species_Final.
+    ?comp60 solar:hasValue ?comp60value.
+    
+    ?comp61 rdfs:member solar:Notes.
+    ?comp61 solar:hasValue ?comp61value.
+    
+    ?comp62 rdfs:member solar:Included.
+    ?comp62 solar:hasValue ?comp62value.
+    
+    ?comp63 rdfs:member solar:Veg_Species_Original.
+    ?comp63 solar:hasValue ?comp63value.
+
+    FILTER(REGEX(?site, "SiteA"))
+} limit 100 
+}
+# pollinator transect 
+UNION
+{
+  select ?sitename ?date ?time ?transect ?transectGPS ?airtemperature ?windspeed ?species where    { 
+
+    ?site rdfs:member pollinator:PollinatorData.
+    ?site pollinator:hasDate ?date.
+    ?site pollinator:hasValue ?sitename.
+    ?site pollinator:isAttachedTo ?method.
+    
+    ?site pollinator:hasComponent ?comp1 , ?comp2, ?comp3, ?comp4, ?comp5, ?comp6.
+    
+    ?comp1 rdfs:member pollinator:Time.
+    ?comp1 pollinator:isAttachedTo ?method.
+    ?comp1 pollinator:hasValue ?time.
+       
+    ?comp2 rdfs:member pollinator:Transect.
+    ?comp2 pollinator:isAttachedTo ?method.
+    ?comp2 pollinator:hasValue ?transect.
+    
+    ?comp3 rdfs:member pollinator:TransectGPS.
+    ?comp3 pollinator:isAttachedTo ?method.
+    ?comp3 pollinator:hasValue ?transectGPS.
+    
+    ?comp4 rdfs:member pollinator:AirTemperature.
+    ?comp4 pollinator:isAttachedTo ?method.
+    ?comp4 pollinator:hasValue ?airtemperature.
+    
+    ?comp5 rdfs:member pollinator:WindSpeed.
+    ?comp5 pollinator:isAttachedTo ?method.
+    ?comp5 pollinator:hasValue ?windspeed.
+    
+    ?comp6 rdfs:member pollinator:Species.
+    ?comp6 pollinator:isAttachedTo ?method.
+    ?comp6 pollinator:hasValue ?species.
+        
+    FILTER (REGEX(?sitename, "SiteA"))
+    FILTER (?method = "Transect")              
+}
+}
+# soil
+UNION
+{
+      select ?sitename ?plotid ?treatment ?lat ?long ?soiltemp ?soil_fresh_mass ?soil_dry_mass ?soil_moisture ?soil_sample_volume ?soil_bulk_density ?soil_ph ?soil_ammonium ?soil_nitrate ?agb_grasses ?total_agb ?agb_forbs ?agb_rushes ?sample_id ?accuracy ?plant_cover ?grasses ?rushes ?forbs ?ferns where  { 
+  
+	?s rdfs:member soil:SoilData.
+    ?s soil:hasValue ?sitename.
+    
+    ?s soil:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6,
+            			 ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, ?comp12,
+    				     ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18,
+       					 ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24.
+            
+    ?comp1 rdfs:member soil:Plot_ID.
+    ?comp1 soil:hasValue ?plotid.
+        
+    ?comp2 rdfs:member soil:Treatment.
+    ?comp2 soil:hasValue ?treatment.
+    
+    ?comp3 rdfs:member soil:Lat.
+    ?comp3 soil:hasValue ?lat.
+    
+    ?comp4 rdfs:member soil:Long.
+    ?comp4 soil:hasValue ?long.
+
+    ?comp5 rdfs:member soil:Soil_Temperature.
+    ?comp5 soil:hasValue ?soiltemp.
+    
+    ?comp6 rdfs:member soil:Soil_Fresh_Mass.
+    ?comp6 soil:hasValue ?soil_fresh_mass.
+    
+    ?comp7 rdfs:member soil:Soil_Dry_Mass.
+    ?comp7 soil:hasValue ?soil_dry_mass.
+       
+    ?comp8 rdfs:member soil:Soil_Moisture.
+    ?comp8 soil:hasValue ?soil_moisture.
+    
+    ?comp9 rdfs:member soil:Soil_Sample_Volume.
+    ?comp9 soil:hasValue ?soil_sample_volume.
+    
+    ?comp10 rdfs:member soil:Soil_Bulk_Density.
+    ?comp10 soil:hasValue ?soil_bulk_density.
+    
+    ?comp11 rdfs:member soil:Soil_PH.
+    ?comp11 soil:hasValue ?soil_ph.
+    
+    ?comp12 rdfs:member soil:Soil_Ammonium.
+    ?comp12 soil:hasValue ?soil_ammonium.
+    
+    ?comp13 rdfs:member soil:Soil_Nitrate.
+    ?comp13 soil:hasValue ?soil_nitrate.
+
+    ?comp14 rdfs:member soil:AGB_Grasses.
+    ?comp14 soil:hasValue ?agb_grasses.
+    
+    ?comp15 rdfs:member soil:Total_AGB.
+    ?comp15 soil:hasValue ?total_agb.
+    
+    ?comp16 rdfs:member soil:AGB_Forbs.
+    ?comp16 soil:hasValue ?agb_forbs.
+    
+    ?comp17 rdfs:member soil:AGB_Rushes.
+    ?comp17 soil:hasValue ?agb_rushes.
+    
+    ?comp18 rdfs:member soil:Sample_ID.
+    ?comp18 soil:hasValue ?sample_id.
+         
+    ?comp19 rdfs:member soil:Accuracy.
+    ?comp19 soil:hasValue ?accuracy.
+    
+    ?comp20 rdfs:member soil:Plant_Cover.
+    ?comp20 soil:hasValue ?plant_cover.
+    
+    ?comp21 rdfs:member soil:Grasses.
+    ?comp21 soil:hasValue ?grasses.
+    
+    ?comp22 rdfs:member soil:Rushes.
+    ?comp22 soil:hasValue ?rushes.
+    
+    ?comp23 rdfs:member soil:Forbs.
+    ?comp23 soil:hasValue ?forbs.
+    
+    ?comp24 rdfs:member soil:Ferns.
+    ?comp24 soil:hasValue ?ferns.
+    
+    FILTER (REGEX(?sitename, "SiteA"))              
+}
+        
+}
+}
+limit 1000</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 2022-05-25 13:27:44,382 [repositories/Biodiversity_anonym_repo | c.o.t.q.LoggingClosableIteration] Error while executing query: 337102ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX solar: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SolarParkStudy#&gt;
+PREFIX soil: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#&gt;
+PREFIX pollinator: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#&gt;
+
+select * where {
+    
+{
+select ?sitename ?comp1value ?comp2value ?comp3value ?comp4value ?comp5value ?comp6value ?comp7value ?comp8value ?comp9value ?comp10value ?comp11value ?comp12value ?comp13value ?comp14value ?comp15value ?comp16value ?comp17value ?comp18value ?comp19value 
+?comp20value ?comp21value ?comp22value ?comp23value ?comp24value ?comp25value ?comp26value ?comp27value ?comp28value ?comp29value 
+?comp30value ?comp31value ?comp32value ?comp33value ?comp34value ?comp35value ?comp36value ?comp37value ?comp38value ?comp39value 
+?comp40value ?comp41value ?comp42value ?comp43value ?comp44value ?comp45value ?comp46value ?comp47value ?comp48value ?comp49value 
+?comp50value ?comp51value ?comp52value ?comp53value ?comp54value ?comp55value ?comp56value ?comp57value ?comp58value ?comp59value 
+?comp60value ?comp61value ?comp62value ?comp63value ?comp64value where { 
+            
+	?data rdfs:member solar:Site.
+    ?data solar:hasValue ?sitename.
+    ?data solar:hasData ?solarparkdata.
+    ?solarparkdata solar:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6, ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, 
+    ?comp12, ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18, ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24, ?comp25,
+    ?comp26, ?comp27, ?comp28, ?comp29, ?comp30, ?comp31, ?comp32, ?comp33, ?comp34, ?comp35, ?comp36, ?comp37, ?comp38, ?comp39,
+    ?comp40, ?comp41, ?comp42, ?comp43, ?comp44, ?comp45, ?comp46, ?comp47, ?comp48, ?comp49, ?comp50, ?comp51, ?comp52, ?comp53,
+    ?comp54, ?comp55, ?comp56, ?comp57, ?comp58, ?comp59, ?comp60, ?comp61, ?comp62, ?comp63, ?comp64.
+    
+    ?comp1 rdfs:member solar:Google_Image_Date.
+    ?comp1 solar:hasValue ?comp1value.
+    
+    ?comp2 rdfs:member solar:Previous_Land_Use.
+    ?comp2 solar:hasValue ?comp2value.
+    
+    ?comp3 rdfs:member solar:Pollen.
+    ?comp3 solar:hasValue ?comp3value.
+    
+    ?comp4 rdfs:member solar:BirdFood.
+    ?comp4 solar:hasValue ?comp4value.
+    
+    ?comp5 rdfs:member solar:IW.
+    ?comp5 solar:hasValue ?comp5value.
+    
+    ?comp6 rdfs:member solar:Fg2.
+    ?comp6 solar:hasValue ?comp6value.
+    
+    ?comp7 rdfs:member solar:Fg1.
+    ?comp7 solar:hasValue ?comp7value.
+    
+    ?comp8 rdfs:member solar:Sphag_Species.
+    ?comp8 solar:hasValue ?comp8value.
+    
+    ?comp9 rdfs:member solar:N_fix.
+    ?comp9 solar:hasValue ?comp9value.
+    
+    ?comp10 rdfs:member solar:B_leaf.
+    ?comp10 solar:hasValue ?comp10value.
+    
+    ?comp11 rdfs:member solar:KgSughacovyr.
+    ?comp11 solar:hasValue ?comp11value.
+    
+    ?comp12 rdfs:member solar:Cwr.
+    ?comp12 solar:hasValue ?comp12value.
+    
+    ?comp13 rdfs:member solar:CSM_pos.
+    ?comp13 solar:hasValue ?comp13value.
+    
+    ?comp14 rdfs:member solar:ButtlarVFood.
+    ?comp14 solar:hasValue ?comp14value.
+    
+    ?comp15 rdfs:member solar:MX_STK_150.
+    ?comp15 solar:hasValue ?comp15value.
+    
+    ?comp16 rdfs:member solar:MN_STK_150.
+    ?comp16 solar:hasValue ?comp16value.
+    
+    ?comp17 rdfs:member solar:AV_STK_150.
+    ?comp17 solar:hasValue ?comp17value.
+    
+    ?comp18 rdfs:member solar:MX_STK_100.
+    ?comp18 solar:hasValue ?comp18value.
+    
+    ?comp19 rdfs:member solar:MN_STK_100.
+    ?comp19 solar:hasValue ?comp19value.
+    
+    ?comp20 rdfs:member solar:AV_STK_100.
+    ?comp20 solar:hasValue ?comp20value.
+    
+    ?comp21 rdfs:member solar:MX_STK_30.
+    ?comp21 solar:hasValue ?comp21value.
+    
+    ?comp22 rdfs:member solar:MN_STK_30.
+    ?comp22 solar:hasValue ?comp22value.
+    
+    ?comp23 rdfs:member solar:AV_STK_30.
+    ?comp23 solar:hasValue ?comp23value.
+    
+    ?comp24 rdfs:member solar:MX_OC_150.
+    ?comp24 solar:hasValue ?comp24value.
+    
+    ?comp25 rdfs:member solar:MN_OC_150.
+    ?comp25 solar:hasValue ?comp25value.
+    
+    ?comp26 rdfs:member solar:AV_OC_150.
+    ?comp26 solar:hasValue ?comp26value.
+    
+    ?comp27 rdfs:member solar:MX_OC_100.
+    ?comp27 solar:hasValue ?comp27value.
+    
+    ?comp28 rdfs:member solar:MN_OC_100.
+    ?comp28 solar:hasValue ?comp28value.
+    
+    ?comp29 rdfs:member solar:AV_OC_100.
+    ?comp29 solar:hasValue ?comp29value.
+    
+    ?comp30 rdfs:member solar:MX_OC_30.
+    ?comp30 solar:hasValue ?comp30value.
+    
+    ?comp31 rdfs:member solar:MN_OC_30.
+    ?comp31 solar:hasValue ?comp31value.
+    
+    ?comp32 rdfs:member solar:AV_OC_30.
+    ?comp32 solar:hasValue ?comp32value.
+    
+    ?comp33 rdfs:member solar:URL.
+    ?comp33 solar:hasValue ?comp33value.
+    
+    ?comp34 rdfs:member solar:Habitat.
+    ?comp34 solar:hasValue ?comp34value.
+    
+    ?comp35 rdfs:member solar:LandCover.
+    ?comp35 solar:hasValue ?comp35value.
+    
+    ?comp36 rdfs:member solar:Fertility.
+    ?comp36 solar:hasValue ?comp36value.
+    
+    ?comp37 rdfs:member solar:Drainage.
+    ?comp37 solar:hasValue ?comp37value.
+    
+    ?comp38 rdfs:member solar:Soilscape.
+    ?comp38 solar:hasValue ?comp38value.
+    
+    ?comp39 rdfs:member solar:SS_ID.
+    ?comp39 solar:hasValue ?comp39value.
+    
+    ?comp40 rdfs:member solar:Subsoil.
+    ?comp40 solar:hasValue ?comp40value.
+    
+    ?comp41 rdfs:member solar:topsoil_texture.
+    ?comp41 solar:hasValue ?comp41value.
+    
+    ?comp42 rdfs:member solar:Map_unit.
+    ?comp42 solar:hasValue ?comp42value.
+    
+    ?comp43 rdfs:member solar:Name.
+    ?comp43 solar:hasValue ?comp43value.
+    
+    ?comp44 rdfs:member solar:Precip_1.
+    ?comp44 solar:hasValue ?comp44value.
+    
+    ?comp45 rdfs:member solar:avgTemp_1.
+    ?comp45 solar:hasValue ?comp45value.
+    
+    ?comp46 rdfs:member solar:elev_1.
+    ?comp46 solar:hasValue ?comp46value.
+    
+    ?comp47 rdfs:member solar:Euclidean_distance.
+    ?comp47 solar:hasValue ?comp47value.
+    
+    ?comp48 rdfs:member solar:Solar_North.
+    ?comp48 solar:hasValue ?comp48value.
+
+    ?comp49 rdfs:member solar:Solar_East.
+    ?comp49 solar:hasValue ?comp49value.
+    
+    ?comp50 rdfs:member solar:Y.
+    ?comp50 solar:hasValue ?comp50value.
+    
+    ?comp51 rdfs:member solar:X.
+    ?comp51 solar:hasValue ?comp51value.
+ 
+    ?comp52 rdfs:member solar:CS_square.
+    ?comp52 solar:hasValue ?comp52value.
+    
+    ?comp53 rdfs:member solar:Data_Source.
+    ?comp53 solar:hasValue ?comp53value.
+    
+    ?comp54 rdfs:member solar:Site_Number.
+    ?comp54 solar:hasValue ?comp54value.
+    
+    ?comp55 rdfs:member solar:Treatment.
+    ?comp55 solar:hasValue ?comp55value.
+    
+    ?comp56 rdfs:member solar:Quadrat_ID.
+    ?comp56 solar:hasValue ?comp56value.
+    
+    ?comp57 rdfs:member solar:Domin_Conversion.
+    ?comp57 solar:hasValue ?comp57value.
+    
+    ?comp58 rdfs:member solar:Percent_Cover.
+    ?comp58 solar:hasValue ?comp58value.
+    
+    ?comp59 rdfs:member solar:Survey_Year.
+    ?comp59 solar:hasValue ?comp59value.
+    
+    ?comp60 rdfs:member solar:Veg_Species_Final.
+    ?comp60 solar:hasValue ?comp60value.
+    
+    ?comp61 rdfs:member solar:Notes.
+    ?comp61 solar:hasValue ?comp61value.
+    
+    ?comp62 rdfs:member solar:Included.
+    ?comp62 solar:hasValue ?comp62value.
+    
+    ?comp63 rdfs:member solar:Veg_Species_Original.
+    ?comp63 solar:hasValue ?comp63value.
+
+    FILTER(REGEX(?site, "SiteA"))
+} limit 100 
+    }
+# pollinator quadrat 
+UNION
+{
+  select ?sitename ?date ?quadrat ?quadratGPS ?vegetationHeight ?species ?percentCover where { 
+
+    ?site rdfs:member pollinator:PollinatorData.
+    ?site pollinator:hasDate ?date.
+    ?site pollinator:hasValue ?sitename.
+    ?site pollinator:isAttachedTo ?method.
+    
+    ?site pollinator:hasComponent ?comp1 , ?comp2, ?comp3, ?comp4, ?comp5, ?comp6.
+    ?comp1 rdfs:member pollinator:Quadrat.
+    ?comp1 pollinator:isAttachedTo ?method.
+    ?comp1 pollinator:hasValue ?quadrat.
+    
+    ?comp2 rdfs:member pollinator:QuadratGPS.
+    ?comp2 pollinator:isAttachedTo ?method.
+    ?comp2 pollinator:hasValue ?quadratGPS.
+    
+    ?comp3 rdfs:member pollinator:VegetationHeight.
+    ?comp3 pollinator:isAttachedTo ?method.
+    ?comp3 pollinator:hasValue ?vegetationHeight.
+    
+    ?comp4 rdfs:member pollinator:DropDisc.
+    ?comp4 pollinator:isAttachedTo ?method.
+    ?comp4 pollinator:hasValue ?dropdisc.
+    
+    ?comp5 rdfs:member pollinator:Species.
+    ?comp5 pollinator:isAttachedTo ?method.
+    ?comp5 pollinator:hasValue ?species.
+    
+    ?comp6 rdfs:member pollinator:PercentageCover.
+    ?comp6 pollinator:isAttachedTo ?method.
+    ?comp6 pollinator:hasValue ?percentCover.
+
+    
+    FILTER (REGEX(?sitename, "SiteA"))
+    FILTER (?method = "Quadrat")     
+}
+}
+# soil
+UNION
+{
+      select ?sitename ?plotid ?treatment ?lat ?long ?soiltemp ?soil_fresh_mass ?soil_dry_mass ?soil_moisture ?soil_sample_volume ?soil_bulk_density ?soil_ph ?soil_ammonium ?soil_nitrate ?agb_grasses ?total_agb ?agb_forbs ?agb_rushes ?sample_id ?accuracy ?plant_cover ?grasses ?rushes ?forbs ?ferns where  { 
+  
+	?s rdfs:member soil:SoilData.
+    ?s soil:hasValue ?sitename.
+    
+    ?s soil:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6,
+            			 ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, ?comp12,
+    				     ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18,
+       					 ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24.
+            
+    ?comp1 rdfs:member soil:Plot_ID.
+    ?comp1 soil:hasValue ?plotid.
+        
+    ?comp2 rdfs:member soil:Treatment.
+    ?comp2 soil:hasValue ?treatment.
+    
+    ?comp3 rdfs:member soil:Lat.
+    ?comp3 soil:hasValue ?lat.
+    
+    ?comp4 rdfs:member soil:Long.
+    ?comp4 soil:hasValue ?long.
+
+    ?comp5 rdfs:member soil:Soil_Temperature.
+    ?comp5 soil:hasValue ?soiltemp.
+    
+    ?comp6 rdfs:member soil:Soil_Fresh_Mass.
+    ?comp6 soil:hasValue ?soil_fresh_mass.
+    
+    ?comp7 rdfs:member soil:Soil_Dry_Mass.
+    ?comp7 soil:hasValue ?soil_dry_mass.
+       
+    ?comp8 rdfs:member soil:Soil_Moisture.
+    ?comp8 soil:hasValue ?soil_moisture.
+    
+    ?comp9 rdfs:member soil:Soil_Sample_Volume.
+    ?comp9 soil:hasValue ?soil_sample_volume.
+    
+    ?comp10 rdfs:member soil:Soil_Bulk_Density.
+    ?comp10 soil:hasValue ?soil_bulk_density.
+    
+    ?comp11 rdfs:member soil:Soil_PH.
+    ?comp11 soil:hasValue ?soil_ph.
+    
+    ?comp12 rdfs:member soil:Soil_Ammonium.
+    ?comp12 soil:hasValue ?soil_ammonium.
+    
+    ?comp13 rdfs:member soil:Soil_Nitrate.
+    ?comp13 soil:hasValue ?soil_nitrate.
+
+    ?comp14 rdfs:member soil:AGB_Grasses.
+    ?comp14 soil:hasValue ?agb_grasses.
+    
+    ?comp15 rdfs:member soil:Total_AGB.
+    ?comp15 soil:hasValue ?total_agb.
+    
+    ?comp16 rdfs:member soil:AGB_Forbs.
+    ?comp16 soil:hasValue ?agb_forbs.
+    
+    ?comp17 rdfs:member soil:AGB_Rushes.
+    ?comp17 soil:hasValue ?agb_rushes.
+    
+    ?comp18 rdfs:member soil:Sample_ID.
+    ?comp18 soil:hasValue ?sample_id.
+         
+    ?comp19 rdfs:member soil:Accuracy.
+    ?comp19 soil:hasValue ?accuracy.
+    
+    ?comp20 rdfs:member soil:Plant_Cover.
+    ?comp20 soil:hasValue ?plant_cover.
+    
+    ?comp21 rdfs:member soil:Grasses.
+    ?comp21 soil:hasValue ?grasses.
+    
+    ?comp22 rdfs:member soil:Rushes.
+    ?comp22 soil:hasValue ?rushes.
+    
+    ?comp23 rdfs:member soil:Forbs.
+    ?comp23 soil:hasValue ?forbs.
+    
+    ?comp24 rdfs:member soil:Ferns.
+    ?comp24 soil:hasValue ?ferns.
+    
+    FILTER (REGEX(?sitename, "SiteA"))              
+}
+        
+    }
+}
+limit 1000</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 2022-05-25 13:36:48,476 [repositories/Biodiversity_anonym_repo | c.o.t.q.LoggingClosableIteration] Error while executing query: 33977ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX pollinator: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#&gt;
+
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX solar: &lt;https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SolarParkStudy#&gt;
+select * where {    
+{
+select ?sitename ?date ?obsValue ?polarity ?subjectivity ?honeyhives ?sheep where { 
+	?site a pollinator:Site.
+    ?site pollinator:hasValue ?sitename.
+    ?site pollinator:hasObservationDate ?date.
+    
+    ?site pollinator:has ?obs.
+    ?obs a pollinator:SiteObservation.
+    
+    ?obs pollinator:hasObservation ?obsValue.
+    ?obs pollinator:hasPolarity ?polarity.
+    ?obs pollinator:hasSubjectivity ?subjectivity.
+    
+    ?obs pollinator:hasHoneyHives ?honeyhives.
+    ?obs pollinator:hasSheep ?sheep.
+    
+    FILTER(REGEX(?sitename, "SiteA"))
+    
+} limit 100 
+}
+UNION
+{
+ select ?sitename ?comp1value ?comp2value ?comp3value ?comp4value ?comp5value ?comp6value ?comp7value ?comp8value ?comp9value ?comp10value ?comp11value ?comp12value ?comp13value ?comp14value ?comp15value ?comp16value ?comp17value ?comp18value ?comp19value 
+?comp20value ?comp21value ?comp22value ?comp23value ?comp24value ?comp25value ?comp26value ?comp27value ?comp28value ?comp29value 
+?comp30value ?comp31value ?comp32value ?comp33value ?comp34value ?comp35value ?comp36value ?comp37value ?comp38value ?comp39value 
+?comp40value ?comp41value ?comp42value ?comp43value ?comp44value ?comp45value ?comp46value ?comp47value ?comp48value ?comp49value 
+?comp50value ?comp51value ?comp52value ?comp53value ?comp54value ?comp55value ?comp56value ?comp57value ?comp58value ?comp59value 
+?comp60value ?comp61value ?comp62value ?comp63value ?comp64value where { 
+	?data rdfs:member solar:Site.
+    ?data solar:hasValue ?site.
+    ?data solar:hasData ?solarparkdata.
+    ?solarparkdata solar:hasComponent ?comp1, ?comp2, ?comp3, ?comp4, ?comp5, ?comp6, ?comp7, ?comp8, ?comp9, ?comp10, ?comp11, 
+    ?comp12, ?comp13, ?comp14, ?comp15, ?comp16, ?comp17, ?comp18, ?comp19, ?comp20, ?comp21, ?comp22, ?comp23, ?comp24, ?comp25,
+    ?comp26, ?comp27, ?comp28, ?comp29, ?comp30, ?comp31, ?comp32, ?comp33, ?comp34, ?comp35, ?comp36, ?comp37, ?comp38, ?comp39,
+    ?comp40, ?comp41, ?comp42, ?comp43, ?comp44, ?comp45, ?comp46, ?comp47, ?comp48, ?comp49, ?comp50, ?comp51, ?comp52, ?comp53,
+    ?comp54, ?comp55, ?comp56, ?comp57, ?comp58, ?comp59, ?comp60, ?comp61, ?comp62, ?comp63, ?comp64.
+    
+    ?comp1 rdfs:member solar:Google_Image_Date.
+    ?comp1 solar:hasValue ?comp1value.
+    
+    ?comp2 rdfs:member solar:Previous_Land_Use.
+    ?comp2 solar:hasValue ?comp2value.
+    
+    ?comp3 rdfs:member solar:Pollen.
+    ?comp3 solar:hasValue ?comp3value.
+    
+    ?comp4 rdfs:member solar:BirdFood.
+    ?comp4 solar:hasValue ?comp4value.
+    
+    ?comp5 rdfs:member solar:IW.
+    ?comp5 solar:hasValue ?comp5value.
+    
+    ?comp6 rdfs:member solar:Fg2.
+    ?comp6 solar:hasValue ?comp6value.
+    
+    ?comp7 rdfs:member solar:Fg1.
+    ?comp7 solar:hasValue ?comp7value.
+    
+    ?comp8 rdfs:member solar:Sphag_Species.
+    ?comp8 solar:hasValue ?comp8value.
+    
+    ?comp9 rdfs:member solar:N_fix.
+    ?comp9 solar:hasValue ?comp9value.
+    
+    ?comp10 rdfs:member solar:B_leaf.
+    ?comp10 solar:hasValue ?comp10value.
+    
+    ?comp11 rdfs:member solar:KgSughacovyr.
+    ?comp11 solar:hasValue ?comp11value.
+    
+    ?comp12 rdfs:member solar:Cwr.
+    ?comp12 solar:hasValue ?comp12value.
+    
+    ?comp13 rdfs:member solar:CSM_pos.
+    ?comp13 solar:hasValue ?comp13value.
+    
+    ?comp14 rdfs:member solar:ButtlarVFood.
+    ?comp14 solar:hasValue ?comp14value.
+    
+    ?comp15 rdfs:member solar:MX_STK_150.
+    ?comp15 solar:hasValue ?comp15value.
+    
+    ?comp16 rdfs:member solar:MN_STK_150.
+    ?comp16 solar:hasValue ?comp16value.
+    
+    ?comp17 rdfs:member solar:AV_STK_150.
+    ?comp17 solar:hasValue ?comp17value.
+    
+    ?comp18 rdfs:member solar:MX_STK_100.
+    ?comp18 solar:hasValue ?comp18value.
+    
+    ?comp19 rdfs:member solar:MN_STK_100.
+    ?comp19 solar:hasValue ?comp19value.
+    
+    ?comp20 rdfs:member solar:AV_STK_100.
+    ?comp20 solar:hasValue ?comp20value.
+    
+    ?comp21 rdfs:member solar:MX_STK_30.
+    ?comp21 solar:hasValue ?comp21value.
+    
+    ?comp22 rdfs:member solar:MN_STK_30.
+    ?comp22 solar:hasValue ?comp22value.
+    
+    ?comp23 rdfs:member solar:AV_STK_30.
+    ?comp23 solar:hasValue ?comp23value.
+    
+    ?comp24 rdfs:member solar:MX_OC_150.
+    ?comp24 solar:hasValue ?comp24value.
+    
+    ?comp25 rdfs:member solar:MN_OC_150.
+    ?comp25 solar:hasValue ?comp25value.
+    
+    ?comp26 rdfs:member solar:AV_OC_150.
+    ?comp26 solar:hasValue ?comp26value.
+    
+    ?comp27 rdfs:member solar:MX_OC_100.
+    ?comp27 solar:hasValue ?comp27value.
+    
+    ?comp28 rdfs:member solar:MN_OC_100.
+    ?comp28 solar:hasValue ?comp28value.
+    
+    ?comp29 rdfs:member solar:AV_OC_100.
+    ?comp29 solar:hasValue ?comp29value.
+    
+    ?comp30 rdfs:member solar:MX_OC_30.
+    ?comp30 solar:hasValue ?comp30value.
+    
+    ?comp31 rdfs:member solar:MN_OC_30.
+    ?comp31 solar:hasValue ?comp31value.
+    
+    ?comp32 rdfs:member solar:AV_OC_30.
+    ?comp32 solar:hasValue ?comp32value.
+    
+    ?comp33 rdfs:member solar:URL.
+    ?comp33 solar:hasValue ?comp33value.
+    
+    ?comp34 rdfs:member solar:Habitat.
+    ?comp34 solar:hasValue ?comp34value.
+    
+    ?comp35 rdfs:member solar:LandCover.
+    ?comp35 solar:hasValue ?comp35value.
+    
+    ?comp36 rdfs:member solar:Fertility.
+    ?comp36 solar:hasValue ?comp36value.
+    
+    ?comp37 rdfs:member solar:Drainage.
+    ?comp37 solar:hasValue ?comp37value.
+    
+    ?comp38 rdfs:member solar:Soilscape.
+    ?comp38 solar:hasValue ?comp38value.
+    
+    ?comp39 rdfs:member solar:SS_ID.
+    ?comp39 solar:hasValue ?comp39value.
+    
+    ?comp40 rdfs:member solar:Subsoil.
+    ?comp40 solar:hasValue ?comp40value.
+    
+    ?comp41 rdfs:member solar:topsoil_texture.
+    ?comp41 solar:hasValue ?comp41value.
+    
+    ?comp42 rdfs:member solar:Map_unit.
+    ?comp42 solar:hasValue ?comp42value.
+    
+    ?comp43 rdfs:member solar:Name.
+    ?comp43 solar:hasValue ?comp43value.
+    
+    ?comp44 rdfs:member solar:Precip_1.
+    ?comp44 solar:hasValue ?comp44value.
+    
+    ?comp45 rdfs:member solar:avgTemp_1.
+    ?comp45 solar:hasValue ?comp45value.
+    
+    ?comp46 rdfs:member solar:elev_1.
+    ?comp46 solar:hasValue ?comp46value.
+    
+    ?comp47 rdfs:member solar:Euclidean_distance.
+    ?comp47 solar:hasValue ?comp47value.
+    
+    ?comp48 rdfs:member solar:Solar_North.
+    ?comp48 solar:hasValue ?comp48value.
+
+    ?comp49 rdfs:member solar:Solar_East.
+    ?comp49 solar:hasValue ?comp49value.
+    
+    ?comp50 rdfs:member solar:Y.
+    ?comp50 solar:hasValue ?comp50value.
+    
+    ?comp51 rdfs:member solar:X.
+    ?comp51 solar:hasValue ?comp51value.
+ 
+    ?comp52 rdfs:member solar:CS_square.
+    ?comp52 solar:hasValue ?comp52value.
+    
+    ?comp53 rdfs:member solar:Data_Source.
+    ?comp53 solar:hasValue ?comp53value.
+    
+    ?comp54 rdfs:member solar:Site_Number.
+    ?comp54 solar:hasValue ?comp54value.
+    
+    ?comp55 rdfs:member solar:Treatment.
+    ?comp55 solar:hasValue ?comp55value.
+    
+    ?comp56 rdfs:member solar:Quadrat_ID.
+    ?comp56 solar:hasValue ?comp56value.
+    
+    ?comp57 rdfs:member solar:Domin_Conversion.
+    ?comp57 solar:hasValue ?comp57value.
+    
+    ?comp58 rdfs:member solar:Percent_Cover.
+    ?comp58 solar:hasValue ?comp58value.
+    
+    ?comp59 rdfs:member solar:Survey_Year.
+    ?comp59 solar:hasValue ?comp59value.
+    
+    ?comp60 rdfs:member solar:Veg_Species_Final.
+    ?comp60 solar:hasValue ?comp60value.
+    
+    ?comp61 rdfs:member solar:Notes.
+    ?comp61 solar:hasValue ?comp61value.
+    
+    ?comp62 rdfs:member solar:Included.
+    ?comp62 solar:hasValue ?comp62value.
+    
+    ?comp63 rdfs:member solar:Veg_Species_Original.
+    ?comp63 solar:hasValue ?comp63value.
+
+    FILTER(REGEX(?sitename, "SiteA"))
+} limit 100        
+        
+}
+}
+        
+ 
+limit 1000</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)

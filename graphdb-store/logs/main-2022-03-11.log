@@ -1,0 +1,35 @@
+[INFO ] 2022-03-11 09:59:20,287 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -87889258
+[INFO ] 2022-03-11 09:59:20,399 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -87889258 is finished
+[INFO ] 2022-03-11 09:59:24,200 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1353694154
+[INFO ] 2022-03-11 09:59:24,257 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1353694154 is finished
+[INFO ] 2022-03-11 09:59:34,499 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1545469252
+[INFO ] 2022-03-11 09:59:34,580 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1545469252 is finished
+[INFO ] 2022-03-11 09:59:38,989 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1063092992
+[INFO ] 2022-03-11 09:59:39,002 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1711625874 is finished
+[INFO ] 2022-03-11 09:59:42,430 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1035418951
+[INFO ] 2022-03-11 09:59:42,518 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'default.min.distinct.threshold' to default value '250.0M'
+[INFO ] 2022-03-11 09:59:42,561 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1769040505 is finished
+[INFO ] 2022-03-11 09:59:47,677 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 249778202
+[INFO ] 2022-03-11 09:59:47,699 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 249778202 is finished
+[INFO ] 2022-03-11 09:59:51,427 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1609258517
+[INFO ] 2022-03-11 09:59:51,486 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2047622577 is finished
+[INFO ] 2022-03-11 09:59:56,652 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -453698408
+[INFO ] 2022-03-11 09:59:56,677 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -453698408 is finished
+[INFO ] 2022-03-11 09:59:59,880 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1830133219
+[INFO ] 2022-03-11 09:59:59,891 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1830133219 is finished
+[INFO ] 2022-03-11 10:00:03,202 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-03-11 10:00:03,284 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-03-11 10:00:06,398 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1066403936
+[INFO ] 2022-03-11 10:00:06,422 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1474484430 is finished
+[INFO ] 2022-03-11 10:00:10,821 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1923979551
+[INFO ] 2022-03-11 10:00:10,857 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1459933009 is finished
+[INFO ] 2022-03-11 10:00:15,182 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -620311183
+[INFO ] 2022-03-11 10:00:15,206 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2014804893 is finished
+[INFO ] 2022-03-11 10:00:24,922 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2086287346
+[INFO ] 2022-03-11 10:00:25,107 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1877647410 is finished
+[INFO ] 2022-03-11 10:00:37,012 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 187257104
+[INFO ] 2022-03-11 10:00:37,023 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 187257104 is finished
+[INFO ] 2022-03-11 10:00:40,444 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -630708709
+[INFO ] 2022-03-11 10:00:40,498 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -630708709 is finished
+[INFO ] 2022-03-11 10:00:43,773 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -378780354
+[INFO ] 2022-03-11 10:00:43,811 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1913478170 is finished

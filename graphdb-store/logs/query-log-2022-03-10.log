@@ -1,0 +1,44 @@
+[INFO ] 2022-03-10 12:02:52,661 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 12:25:08,143 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_sitedata#>
+[INFO ] 2022-03-10 12:25:44,518 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 12:27:57,181 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_Sitedata#>
+[INFO ] 2022-03-10 12:28:37,962 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 12:33:25,528 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_Sitedata#>
+[INFO ] 2022-03-10 12:33:53,403 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 12:38:13,745 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData#>
+[INFO ] 2022-03-10 12:38:47,354 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 12:42:06,437 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData#>
+[INFO ] 2022-03-10 12:42:31,057 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 12:57:12,373 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 12:57:41,126 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 13:05:19,477 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData12#>
+[INFO ] 2022-03-10 13:05:51,237 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 13:10:02,230 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData12#>
+[INFO ] 2022-03-10 13:10:34,725 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 13:42:52,058 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData12#>
+[INFO ] 2022-03-10 13:43:27,328 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 13:48:16,208 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData12#>
+[INFO ] 2022-03-10 13:48:42,221 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 13:51:49,803 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData12#>
+[INFO ] 2022-03-10 13:52:58,915 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData#>
+[INFO ] 2022-03-10 13:55:15,322 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 13:55:59,645 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 14:05:53,555 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_SiteData12#>
+[INFO ] 2022-03-10 14:06:15,383 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 14:17:13,249 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 14:22:33,827 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-03-10 14:39:10,518 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_Site3456#>
+[INFO ] 2022-03-10 14:39:42,325 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

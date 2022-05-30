@@ -1,0 +1,994 @@
+[
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Bumblebee",
+        "@type": "group:Bumblebee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Garden_bumblebee",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Bumblebee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Bumblebee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Bumblebee",
+        "@type": "group:Bumblebee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Common_carder_bee",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Bumblebee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Bumblebee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Bumblebee",
+        "@type": "group:Bumblebee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Red_tailed_bumblebee\n",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Bumblebee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Bumblebee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Bumblebee",
+        "@type": "group:Bumblebee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Buff_tailed_bumblebee",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Bumblebee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Bumblebee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Bumblebee",
+        "@type": "group:Bumblebee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Buff_or_white_tailed_bumblebee\n",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Bumblebee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Bumblebee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Bumblebee",
+        "@type": "group:Bumblebee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Heath_bumblebee",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Bumblebee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Bumblebee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Bumblebee",
+        "@type": "group:Bumblebee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Tree_bumblebee",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Bumblebee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Bumblebee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Marbled_white",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Meadow_brown",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Large_white",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Gatekeeper",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Large_skipper\n",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Ringlet",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Peacock",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Buff_or_white_tailed_bumblebee",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Red_admiral\n",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Small_skipper",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Common_blue",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Small_heath",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Painted_lady",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Small_white\n",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Small_tortoiseshell",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Green_veined_white",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Speckled_wood",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Brimstone\n",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Butterfly",
+        "@type": "group:Butterfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Comma",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Butterfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Butterfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Honeybee",
+        "@type": "group:Honeybee",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Honeybee",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Honeybee",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Honeybee"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Hoverfly",
+        "@type": "group:Hoverfly",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Cannot_ID_hoverfly",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Hoverfly",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Hoverfly"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Moth",
+        "@type": "group:Moth",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Cannot_ID_moth",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Moth",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Moth"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Moth",
+        "@type": "group:Moth",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "Six_spot_burnet",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:Moth",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "Moth"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "group": "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "None",
+        "@type": "group:None",
+        "pollinator:hasSpecies": {
+            "rdf:type": {
+                "@id": "pollinator:Species"
+            },
+            "rdfs:member": "No_pollinators_recorded",
+            "owl:equivalentClass": {
+                "@id": "group:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "group:None",
+                "rdfs:subClassOf": {
+                    "@id": "pollinator:Family",
+                    "owl:equivalentClass": {
+                        "@id": "group:Family"
+                    }
+                }
+            }
+        },
+        "pollinator:hasValue": "None"
+    }
+]

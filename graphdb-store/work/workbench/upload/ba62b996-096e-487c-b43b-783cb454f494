@@ -1,0 +1,158 @@
+[
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata0",
+        "rdfs:member": {
+            "@id": "soil:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "soil:collectedBy": {
+            "@id": "soil:Author",
+            "@type": "soil:Author",
+            "soil:hasValue": "Fabio Carvalho G Da Silva"
+        },
+        "soil:hasSiteDesc": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Company"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['CORE']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:County"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['Devon']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Location"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['Newton_Ferrers']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Post_Code"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['PL8_1JA']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Size_ha"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['Nil']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Size_mw"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "[5.]"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Year"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "[2017]"
+            }
+        ],
+        "soil:hasValue": "Newton_Downs"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata1",
+        "rdfs:member": {
+            "@id": "soil:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "soil:collectedBy": {
+            "@id": "soil:Author",
+            "@type": "soil:Author",
+            "soil:hasValue": "Fabio Carvalho G Da Silva"
+        },
+        "soil:hasSiteDesc": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Company"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['Belltower/Eden']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:County"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['Dorset']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Location"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['Verwood']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Post_Code"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['BH31_6JA']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Size_ha"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['45.2']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Size_mw"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "[14.6]"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Year"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "[2015]"
+            }
+        ],
+        "soil:hasValue": "Verwood"
+    }
+]

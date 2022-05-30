@@ -1,0 +1,302 @@
+[
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_1",
+                    "localkn:hasIndicator": "estimates",
+                    "localkn:hasValue": "have been made for sites where the flow estimates are considered significantly robust to determine using the Flood Estimation Handbook (FEH) methods."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_2",
+                    "localkn:hasIndicator": "has",
+                    "localkn:hasValue": "GaugeName:Flint Mill Peak Stage(m):3.743 Highest check gauging(m):2.47 Rating equation status:Acceptable at high flows,with caution Peak flow (m3/s):582 Comment:Treat with caution. Large"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_3",
+                    "localkn:hasIndicator": "has",
+                    "localkn:hasValue": "GaugeName:Tadcaster Peak Stage(m):4.51 Highest check gauging(m):3.74 Rating equation status:Ultrasonic,acceptable at high flows, with caution Peak Flow (m3/s):480 Comment:Ultrasonic bypassed-"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_4",
+                    "localkn:hasIndicator": "saturated",
+                    "localkn:hasValue": "ground and into rivers that were already high."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_5",
+                    "localkn:hasIndicator": "illustrate",
+                    "localkn:hasValue": "the significant role of antecedent conditions in this event."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_6",
+                    "localkn:hasIndicator": "estimates",
+                    "localkn:hasValue": "GaugeName:Addingham Peak Flow(m3/s):386 Time:07:30 Date:26 Dec Rank in Record:4 Return Period(years):10-15"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_7",
+                    "localkn:hasIndicator": "estimates",
+                    "localkn:hasValue": "GaugeName:Flint Mill Peak Flow(m3/s):582 Time:20:00 Date:26 Dec Rank in Record:1 Return Period(years):100+"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_8",
+                    "localkn:hasIndicator": "estimates",
+                    "localkn:hasValue": "GaugeName:Tadcaster Peak Flow(m3/s):480 Time:16:30 Date:26 Dec Rank in Record:1 Return Period(years):100"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_9",
+                    "localkn:hasIndicator": "commissioned",
+                    "localkn:hasValue": "an assessment of the hydrology and hydraulics of the River Wharfe in order to assess the flow regime as part of the bridge reconstruction."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_10",
+                    "localkn:hasIndicator": "commissioned",
+                    "localkn:hasValue": "an assessment of the hydrology and hydraulics of the River Wharfe in order to assess the flow regime as part of the bridge reconstruction."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_11",
+                    "localkn:hasIndicator": "commissioned",
+                    "localkn:hasValue": "an assessment of the hydrology and hydraulics of the River Wharfe in order to assess the flow regime as part of the bridge reconstruction."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_12",
+                    "localkn:hasIndicator": "run",
+                    "localkn:hasValue": "by the Centre for Ecology & Hydrology and the British Hydrological Society. Their estimate, based on flows at Flint Mill upstream from Tadcaster, gives a return period in excess of 200 years."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Flows & Return periods",
+        "rdf:type": "damage:data"
+    }
+]

@@ -1,0 +1,2 @@
+[INFO ] 2019-03-19 13:29:14,155 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1863813290
+[INFO ] 2019-03-19 13:29:14,192 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1863813290 is finished

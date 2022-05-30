@@ -1,0 +1,106 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://archive.org/services/purl/domain/TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:River Response Wharfe catchments"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance",
+    "https://archive.org/services/purl/domain/localknowledge#records" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations",
+    "https://archive.org/services/purl/domain/localknowledge#observes" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "were"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "exceptional with the AWharfe catchments seeing some of their highest recorded levels."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "are"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "likely to be as a result of peak flows from upstream coinciding with still intense rainfall and the capacity of the catchment to move water being exceeded."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "recorded"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "particularly intense rainfall."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "recorded"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "in one 36 hour period."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "shows"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "river flows at Tadcaster, rainfall response at the mid catchment rain gauge at Otley and the upper catchment rain gauge at Beckermonds during December."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "increased"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "more quickly than, and exceeded, past events."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "shows"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "a comparison of the flood events of 2000, 2012 and 2015 in Tadcaster."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "rose"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "faster, and to a higher level, than in previous flood events, due to a combination of intense rainfall, high flows arriving from upstream and the catchment being saturated."
+    } ]
+  } ],
+  "@id" : "https://archive.org/services/purl/domain/localknowledge#Page25"
+} ]

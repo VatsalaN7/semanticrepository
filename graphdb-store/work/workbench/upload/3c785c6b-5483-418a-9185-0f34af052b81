@@ -1,0 +1,53 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance",
+    "https://archive.org/services/purl/domain/localknowledge#records" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:EA Risk Management functions"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "-Ensuring that flood risk management plans (FRMPs) are in place and are monitored to assess progress.  The  plans  will  set  out  high-level  current  and  future  risk  management  measures across the catchment.,-Publishing  and  regularly  updating  its  programme  for  implementing  new  risk  management schemes and maintaining existing assets.,-Supporting Risk Management Authorities understanding of local flood risk by commissioning studies and sharing information and data.,-Supporting the development of local plans and ensuring their consistency with strategic plans.,-Managing and supporting Regional Flood and Coastal Committees and allocating funding."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "outlines the EAs strategic functions as"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "This national strategy"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "-Ensuring that flood risk management plans (FRMPs) are in place and are monitored to assess progress.  The  plans  will  set  out  high-level  current  and  future  risk  management  measures across the catchment.,-Publishing  and  regularly  updating  its  programme  for  implementing  new  risk  management schemes and maintaining existing assets.,-Supporting Risk Management Authorities understanding of local flood risk by commissioning studies and sharing information and data.,-Supporting the development of local plans and ensuring their consistency with strategic plans.,-Managing and supporting Regional Flood and Coastal Committees and allocating funding.,-Risk-based management of flooding from main rivers including permissive powers to do works including building flood defences.,-Regulation of works in main rivers through the consenting process.,-Regulation of reservoirs with a capacity exceeding 10,000m3.,-Working  with  the  Met  Office  to  provided  severe  weather  warnings    available  to  Risk Management Authorities.,-Provide warning of flooding on main rivers.,-The maintenance and operational management of main river assets including flood defences.,-Statutory consul-tee to the development planning process.,-The power to serve notice on any person or body requiring them to carry out necessary works to maintain the flow in main rivers."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "are/include"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The EAs operational functions"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  } ],
+  "@id" : "https://archive.org/services/purl/domain/localknowledge#Page43"
+} ]

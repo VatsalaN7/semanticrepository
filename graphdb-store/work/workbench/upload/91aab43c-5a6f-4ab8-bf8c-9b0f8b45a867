@@ -1,0 +1,213 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance",
+    "https://archive.org/services/purl/domain/localknowledge#records" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_9"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_10"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_11"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_12"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:The River Wharfe"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "a river in Lancaster."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_10",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "to both river flows and tidal influence."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "related"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "Hence flood risk from the Wharfe is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_11",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "as a main river the Environment Agency manages flood risk, maintaining and managing flood defences along the river as well as having the power to serve notice to any person or body requiring them to carry out necessary works to maintain flow."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "classified"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_12",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "flood risk, maintaining and managing flood defences along the river as well as having the power to serve notice to any person or body requiring them to carry out necessary works to maintain flow."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "manages"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe is classified as a main river the Environment Agency"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "a catchment area of xkm2 draining to Lancaster."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "has"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "It"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "to Lancaster."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "draining"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "It has a catchment area of xkm2"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "gauged by the Environment Agency at Tadcaster (station ID: 8202), where the normal range is between 0.18m and 2.90m."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "are"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "River levels"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "by the Environment Agency at Tadcaster (station ID: 8202), where the normal range is between 0.18m and 2.90m."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "gauged"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "River levels are"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "between 0.18m and 2.90m."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "River levels are gauged by the Environment Agency at Tadcaster (station ID: 8202), where the normal range"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "approximately 1.5km upstream of the A659 Tadcaster road bridge."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "sited"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "This station is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "from the river can be expected."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "flooding"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "According to the Environment Agency when the Wharfe at Tadcaster rises above 2.9m"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_9",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "from where it joins the river Ouse back up to the weir located approximately 350m upstream of Tadcaster A659 Road Bridge."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "tidal"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  } ],
+  "@id" : "https://archive.org/services/purl/domain/localknowledge#Page9"
+} ]

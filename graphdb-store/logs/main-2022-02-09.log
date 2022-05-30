@@ -1,0 +1,481 @@
+[INFO ] 2022-02-09 10:02:01,291 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:02:05,823 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 10:02:05,948 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:02:06,628 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 10:02:06,632 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:02:33,434 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 10:02:33,439 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:02:35,500 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 10:02:35,502 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:02:57,194 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1443336969
+[INFO ] 2022-02-09 10:02:57,203 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1443336969 is finished
+[INFO ] 2022-02-09 10:03:22,133 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1822168912
+[INFO ] 2022-02-09 10:03:22,140 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1822168912 is finished
+[INFO ] 2022-02-09 10:07:39,157 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 859543051
+[INFO ] 2022-02-09 10:07:39,169 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 859543051 is finished
+[INFO ] 2022-02-09 10:11:52,034 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 10:11:52,036 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:11:53,655 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:11:58,464 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 10:11:58,551 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:12:31,315 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 859543051
+[INFO ] 2022-02-09 10:12:31,341 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 859543051 is finished
+[INFO ] 2022-02-09 10:15:51,812 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1755906279
+[INFO ] 2022-02-09 10:15:51,820 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1755906279 is finished
+[INFO ] 2022-02-09 10:16:52,235 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 579684600
+[INFO ] 2022-02-09 10:16:52,243 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 579684600 is finished
+[INFO ] 2022-02-09 10:17:19,280 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1822168912
+[INFO ] 2022-02-09 10:17:19,290 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1822168912 is finished
+[INFO ] 2022-02-09 10:17:49,287 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:17:52,612 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 10:17:52,616 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 10:23:19,207 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1924779394
+[INFO ] 2022-02-09 10:23:19,215 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1924779394 is finished
+[INFO ] 2022-02-09 11:28:46,760 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:28:51,877 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 11:28:52,033 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:29:24,082 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:29:24,084 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:31:13,496 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1251932162
+[INFO ] 2022-02-09 11:31:13,505 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1251932162 is finished
+[INFO ] 2022-02-09 11:31:31,851 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1927174295
+[INFO ] 2022-02-09 11:31:31,869 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1927174295 is finished
+[INFO ] 2022-02-09 11:32:14,445 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 629150026
+[INFO ] 2022-02-09 11:32:14,451 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 629150026 is finished
+[INFO ] 2022-02-09 11:34:54,189 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:34:55,850 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:34:55,855 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:35:12,473 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:35:12,476 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:35:33,999 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:35:34,001 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:36:17,895 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:36:22,510 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 11:36:22,628 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:37:24,909 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:37:24,912 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:38:39,709 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 370162941
+[INFO ] 2022-02-09 11:38:39,724 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 370162941 is finished
+[INFO ] 2022-02-09 11:43:50,879 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:43:55,195 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 11:43:55,291 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:44:27,041 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:44:27,045 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:46:08,033 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -75803860
+[INFO ] 2022-02-09 11:46:08,040 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -75803860 is finished
+[INFO ] 2022-02-09 11:46:31,035 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:46:32,867 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:46:32,870 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:47:22,978 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:47:26,980 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 11:47:27,143 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 11:47:27,685 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 11:47:27,688 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 12:07:23,445 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 12:07:23,449 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 12:07:46,201 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 12:07:46,205 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 12:10:12,288 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -86444304
+[INFO ] 2022-02-09 12:10:12,325 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -86444304 is finished
+[INFO ] 2022-02-09 12:10:51,518 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -366690133
+[INFO ] 2022-02-09 12:10:51,523 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -366690133 is finished
+[INFO ] 2022-02-09 12:13:49,236 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 12:13:54,520 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 12:13:54,720 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 12:14:25,338 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -366690133
+[INFO ] 2022-02-09 12:14:25,357 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -366690133 is finished
+[INFO ] 2022-02-09 13:19:14,760 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1443336969
+[INFO ] 2022-02-09 13:19:14,837 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1443336969 is finished
+[INFO ] 2022-02-09 13:20:26,037 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -77298794
+[INFO ] 2022-02-09 13:20:26,045 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -77298794 is finished
+[INFO ] 2022-02-09 13:20:32,537 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -466753012
+[INFO ] 2022-02-09 13:20:32,633 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -466753012 is finished
+[INFO ] 2022-02-09 13:26:09,408 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:26:11,592 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:26:11,608 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:26:26,964 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:26:26,965 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:26:30,520 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:26:30,525 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:28:27,085 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2097833801
+[INFO ] 2022-02-09 13:28:27,091 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2097833801 is finished
+[INFO ] 2022-02-09 13:28:53,839 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 933933613
+[INFO ] 2022-02-09 13:28:53,867 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 933933613 is finished
+[INFO ] 2022-02-09 13:29:09,833 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -964861058
+[INFO ] 2022-02-09 13:29:09,838 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -964861058 is finished
+[INFO ] 2022-02-09 13:29:35,011 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:29:35,016 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:30:29,686 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:30:35,255 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 13:30:35,550 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:30:43,788 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:30:43,801 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:31:34,525 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:31:37,584 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:31:37,665 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:31:50,989 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:31:53,290 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:31:53,295 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:32:18,232 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:32:18,240 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:32:23,453 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:32:25,651 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:32:25,654 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:32:32,463 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:32:32,465 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:32:42,683 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:32:42,687 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:32:48,146 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -964861058
+[INFO ] 2022-02-09 13:32:48,164 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -964861058 is finished
+[INFO ] 2022-02-09 13:32:55,428 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 933933613
+[INFO ] 2022-02-09 13:32:55,431 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 933933613 is finished
+[INFO ] 2022-02-09 13:35:53,176 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 698174273
+[INFO ] 2022-02-09 13:35:53,181 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 698174273 is finished
+[INFO ] 2022-02-09 13:36:02,929 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1781301732
+[INFO ] 2022-02-09 13:36:02,933 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1781301732 is finished
+[INFO ] 2022-02-09 13:36:13,786 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1238997139
+[INFO ] 2022-02-09 13:36:13,790 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1238997139 is finished
+[INFO ] 2022-02-09 13:36:20,119 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -84460320
+[INFO ] 2022-02-09 13:36:20,133 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -84460320 is finished
+[INFO ] 2022-02-09 13:36:36,215 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:36:37,904 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:36:37,909 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:36:41,155 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:36:41,157 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:37:17,741 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:37:20,302 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:37:20,306 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:37:26,469 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:37:26,471 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:38:55,544 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:39:00,811 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 13:39:01,217 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:39:20,448 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -84460320
+[INFO ] 2022-02-09 13:39:20,466 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -84460320 is finished
+[INFO ] 2022-02-09 13:39:32,196 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1214778637
+[INFO ] 2022-02-09 13:39:32,203 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1214778637 is finished
+[INFO ] 2022-02-09 13:39:39,276 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:39:40,796 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:39:40,799 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:40:11,014 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:40:11,016 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:40:32,361 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:40:32,363 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:40:52,962 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2088924957
+[INFO ] 2022-02-09 13:40:52,971 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2088924957 is finished
+[INFO ] 2022-02-09 13:41:01,209 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2083465392
+[INFO ] 2022-02-09 13:41:01,248 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2083465392 is finished
+[INFO ] 2022-02-09 13:41:28,938 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2133978702
+[INFO ] 2022-02-09 13:41:28,975 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2133978702 is finished
+[INFO ] 2022-02-09 13:41:35,019 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:41:36,561 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:41:36,564 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:42:31,056 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 74447075
+[INFO ] 2022-02-09 13:42:31,059 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 74447075 is finished
+[INFO ] 2022-02-09 13:42:39,998 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -3076127
+[INFO ] 2022-02-09 13:42:40,001 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -3076127 is finished
+[INFO ] 2022-02-09 13:43:00,377 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:43:00,381 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:43:08,764 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:43:08,766 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:43:10,956 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:43:10,958 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:43:13,937 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -3076127
+[INFO ] 2022-02-09 13:43:13,940 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -3076127 is finished
+[INFO ] 2022-02-09 13:43:26,099 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2090180032
+[INFO ] 2022-02-09 13:43:26,101 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2090180032 is finished
+[INFO ] 2022-02-09 13:43:32,860 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1809638907
+[INFO ] 2022-02-09 13:43:32,864 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1809638907 is finished
+[INFO ] 2022-02-09 13:43:40,472 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:43:42,115 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:43:42,118 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:44:06,429 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1304879137
+[INFO ] 2022-02-09 13:44:06,433 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1304879137 is finished
+[INFO ] 2022-02-09 13:44:31,590 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 918216846
+[INFO ] 2022-02-09 13:44:31,605 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 918216846 is finished
+[INFO ] 2022-02-09 13:44:40,709 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:44:40,731 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:44:43,514 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 918216846
+[INFO ] 2022-02-09 13:44:43,519 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 918216846 is finished
+[INFO ] 2022-02-09 13:44:49,280 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2083465392
+[INFO ] 2022-02-09 13:44:49,311 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2083465392 is finished
+[INFO ] 2022-02-09 13:45:03,920 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:45:09,189 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 13:45:09,391 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:45:10,699 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:45:10,702 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:45:13,772 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:45:15,001 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:45:15,004 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:45:18,862 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:45:23,485 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 13:45:23,600 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:49:02,439 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:49:02,442 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:49:05,602 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2083465392
+[INFO ] 2022-02-09 13:49:05,605 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2083465392 is finished
+[INFO ] 2022-02-09 13:49:18,921 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2133978702
+[INFO ] 2022-02-09 13:49:18,924 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2133978702 is finished
+[INFO ] 2022-02-09 13:49:28,500 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1852543023
+[INFO ] 2022-02-09 13:49:28,508 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1852543023 is finished
+[INFO ] 2022-02-09 13:49:35,328 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:49:35,329 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:51:23,392 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:51:28,268 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 13:51:28,961 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:51:34,286 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:53:14,138 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:53:14,141 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:53:17,614 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:53:17,616 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:53:21,176 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1852543023
+[INFO ] 2022-02-09 13:53:21,190 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1852543023 is finished
+[INFO ] 2022-02-09 13:54:07,680 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1182844312
+[INFO ] 2022-02-09 13:54:07,702 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182844312 is finished
+[INFO ] 2022-02-09 13:56:51,200 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:57:36,671 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2108252167
+[INFO ] 2022-02-09 13:57:36,718 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2108252167 is finished
+[INFO ] 2022-02-09 13:57:48,230 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1638944371
+[INFO ] 2022-02-09 13:57:48,236 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1638944371 is finished
+[INFO ] 2022-02-09 13:58:02,520 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 13:58:02,756 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:58:15,892 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 13:58:15,894 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 13:58:17,197 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1638944371
+[INFO ] 2022-02-09 13:58:17,203 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1638944371 is finished
+[INFO ] 2022-02-09 14:05:48,102 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:05:48,105 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:05:52,386 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:05:52,389 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:05:53,916 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:05:53,918 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:08:22,969 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -797881065
+[INFO ] 2022-02-09 14:08:22,978 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -797881065 is finished
+[INFO ] 2022-02-09 14:08:44,908 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1265695433
+[INFO ] 2022-02-09 14:08:44,912 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1265695433 is finished
+[INFO ] 2022-02-09 14:08:49,007 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:08:49,012 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:08:51,302 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:08:51,305 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:09:17,305 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -637548778
+[INFO ] 2022-02-09 14:09:17,311 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -637548778 is finished
+[INFO ] 2022-02-09 14:37:42,257 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:37:47,174 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 14:37:47,388 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:37:50,932 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:38:16,111 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:38:16,121 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:40:48,293 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1513497413
+[INFO ] 2022-02-09 14:40:48,305 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1513497413 is finished
+[INFO ] 2022-02-09 14:41:04,777 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -845909280
+[INFO ] 2022-02-09 14:41:04,781 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -845909280 is finished
+[INFO ] 2022-02-09 14:41:39,358 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -992077084
+[INFO ] 2022-02-09 14:41:39,361 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -992077084 is finished
+[INFO ] 2022-02-09 14:41:56,144 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1608500117
+[INFO ] 2022-02-09 14:41:56,146 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1608500117 is finished
+[INFO ] 2022-02-09 14:42:07,725 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1443431300
+[INFO ] 2022-02-09 14:42:07,729 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1443431300 is finished
+[INFO ] 2022-02-09 14:42:54,595 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -371234524
+[INFO ] 2022-02-09 14:42:54,600 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -371234524 is finished
+[INFO ] 2022-02-09 14:43:01,928 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -841644053
+[INFO ] 2022-02-09 14:43:01,931 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -841644053 is finished
+[INFO ] 2022-02-09 14:43:07,937 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -677423280
+[INFO ] 2022-02-09 14:43:07,940 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -677423280 is finished
+[INFO ] 2022-02-09 14:43:14,621 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1766321525
+[INFO ] 2022-02-09 14:43:14,624 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1766321525 is finished
+[INFO ] 2022-02-09 14:43:20,481 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:43:22,553 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:43:22,556 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:43:34,791 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:43:34,794 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:43:37,293 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:43:37,296 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:43:39,361 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:43:39,364 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:43:47,361 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:43:47,368 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:44:10,081 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:44:10,083 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:44:13,738 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:44:13,742 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:44:50,644 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2093177027
+[INFO ] 2022-02-09 14:44:50,651 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2093177027 is finished
+[INFO ] 2022-02-09 14:44:59,534 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1938396648
+[INFO ] 2022-02-09 14:44:59,541 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1938396648 is finished
+[INFO ] 2022-02-09 14:46:16,403 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 883562509
+[INFO ] 2022-02-09 14:46:16,410 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 883562509 is finished
+[INFO ] 2022-02-09 14:46:50,478 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:46:50,480 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:47:25,945 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 883562509
+[INFO ] 2022-02-09 14:47:25,949 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 883562509 is finished
+[INFO ] 2022-02-09 14:47:36,370 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 988256159
+[INFO ] 2022-02-09 14:47:36,387 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 988256159 is finished
+[INFO ] 2022-02-09 14:47:41,612 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:47:41,614 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:47:57,181 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:47:57,187 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:48:06,112 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 14:48:06,114 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:48:23,210 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2074618662
+[INFO ] 2022-02-09 14:48:23,214 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2074618662 is finished
+[INFO ] 2022-02-09 14:48:29,611 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1542660255
+[INFO ] 2022-02-09 14:48:29,621 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1542660255 is finished
+[INFO ] 2022-02-09 14:48:54,961 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2126257318
+[INFO ] 2022-02-09 14:48:54,969 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2126257318 is finished
+[INFO ] 2022-02-09 14:50:09,939 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:50:16,411 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 14:50:16,573 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 14:50:47,458 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2126257318
+[INFO ] 2022-02-09 14:50:47,467 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2126257318 is finished
+[INFO ] 2022-02-09 14:54:29,311 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2126257318
+[INFO ] 2022-02-09 14:54:29,335 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2126257318 is finished
+[INFO ] 2022-02-09 14:56:52,789 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2126257318
+[INFO ] 2022-02-09 14:56:52,833 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2126257318 is finished
+[INFO ] 2022-02-09 14:57:06,152 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1521957518
+[INFO ] 2022-02-09 14:57:06,172 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1521957518 is finished
+[INFO ] 2022-02-09 14:57:22,218 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1801604081
+[INFO ] 2022-02-09 14:57:22,249 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1801604081 is finished
+[INFO ] 2022-02-09 16:48:21,767 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1801604081
+[INFO ] 2022-02-09 16:48:21,811 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1801604081 is finished
+[INFO ] 2022-02-09 16:48:42,402 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:48:42,406 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:48:42,477 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:48:42,480 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:48:45,624 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:48:45,624 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:48:48,285 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:48:57,256 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1801604081
+[INFO ] 2022-02-09 16:48:57,292 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1801604081 is finished
+[INFO ] 2022-02-09 16:49:04,724 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:49:04,727 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:49:15,449 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:49:15,452 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:49:18,201 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:49:18,204 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:49:35,508 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:49:35,529 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:49:37,420 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:49:37,426 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:50:24,720 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:50:24,725 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:52:01,185 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:52:01,187 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:52:01,515 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:52:02,986 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:52:02,989 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:52:27,327 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:52:27,330 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:53:04,614 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:53:04,617 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:53:08,652 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:53:08,656 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:53:20,059 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:53:20,060 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:53:35,573 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:53:35,575 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:53:58,477 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:53:58,522 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:54:24,482 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:54:24,497 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:54:29,662 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:54:29,665 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:55:03,572 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:55:03,576 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:55:06,000 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:55:09,396 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 16:55:09,431 [repositories/Biodiversity_repo | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-02-09 16:55:09,540 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:55:11,278 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:55:11,280 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:55:39,751 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:55:41,081 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:55:41,085 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:56:12,797 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:56:16,903 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 16:56:17,064 [repositories/Biodiversity_repo | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-02-09 16:56:17,163 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:57:31,555 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:57:32,990 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:57:32,993 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:58:00,526 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:58:00,528 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:58:08,455 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:58:08,457 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:58:11,863 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:58:11,866 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:59:15,428 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:59:15,431 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:59:18,024 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:59:18,027 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:59:19,873 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:59:19,877 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:59:23,049 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:59:23,051 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:59:24,865 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:59:24,867 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 16:59:26,186 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 16:59:26,188 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:07:18,057 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:07:22,548 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 17:07:22,603 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:07:44,491 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:07:45,718 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:07:45,723 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:07:49,899 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:07:49,901 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:07:51,915 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:07:51,919 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:07:53,936 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:07:53,939 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:08:13,642 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:08:13,646 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:08:18,386 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:08:18,389 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:08:50,543 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:08:50,546 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:09:03,039 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:09:03,042 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:09:07,721 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:09:07,724 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:09:11,809 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:09:11,809 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:09:14,316 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:09:14,318 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:09:16,186 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:09:16,187 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:09:32,511 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:09:32,515 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:09:36,715 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:09:36,719 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:10:08,546 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:10:08,549 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:12:49,267 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:12:52,236 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 17:12:52,353 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:17:01,034 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:17:02,182 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:17:02,185 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:17:06,754 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:17:06,756 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:17:22,755 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1801604081
+[INFO ] 2022-02-09 17:17:22,758 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1801604081 is finished
+[INFO ] 2022-02-09 17:18:29,274 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 722379860
+[INFO ] 2022-02-09 17:18:29,276 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 722379860 is finished
+[INFO ] 2022-02-09 17:18:44,714 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1870139622
+[INFO ] 2022-02-09 17:18:44,718 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1870139622 is finished
+[INFO ] 2022-02-09 17:20:33,102 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:20:36,830 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-09 17:20:36,980 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:21:50,602 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:21:51,550 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:21:51,552 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:23:10,934 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:23:10,938 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:23:15,295 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-09 17:23:15,298 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-09 17:23:17,026 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1870139622
+[INFO ] 2022-02-09 17:23:17,030 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1870139622 is finished
+[INFO ] 2022-02-09 17:23:35,426 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -335422651
+[INFO ] 2022-02-09 17:23:35,428 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -335422651 is finished
+[INFO ] 2022-02-09 17:23:52,796 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2138840008
+[INFO ] 2022-02-09 17:23:52,798 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2138840008 is finished

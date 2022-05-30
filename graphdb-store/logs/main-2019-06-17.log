@@ -1,0 +1,28 @@
+[INFO ] 2019-06-17 13:03:51,016 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-17 13:03:51,065 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2019-06-17 13:03:51,084 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:03:51,095 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2019-06-17 13:03:51,112 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2019-06-17 13:03:51,112 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2019-06-17 13:03:51,136 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2019-06-17 13:03:51,137 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2019-06-17 13:03:51,137 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2019-06-17 13:29:20,340 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:22,070 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-17 13:29:22,072 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:22,211 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2019-06-17 13:29:22,244 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2019-06-17 13:29:28,728 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:30,666 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-17 13:29:30,667 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:36,107 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:46,303 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-17 13:29:46,305 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:49,657 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:51,266 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-17 13:29:51,268 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:29:56,927 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:43:38,031 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-17 13:43:38,033 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-17 13:43:43,577 [repositories/flood-repo | c.o.f.s.RepositoryController] POST query -1806219060
+[INFO ] 2019-06-17 13:43:43,658 [repositories/flood-repo | c.o.g.s.TupleQueryResultView] Request for query -1838229208 is finished

@@ -1,0 +1,2882 @@
+[
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "411",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "411"
+            }
+        },
+        "damage:hasDescription": 411,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node1",
+                    "damage:hasValue": "Station_Node1",
+                    "damage:isAttachedto": "411"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level1",
+                        "damage:hasValue": "Gauge_Level1",
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "1222",
+                        "damage:hasValue": 1222,
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "2",
+                        "damage:hasValue": 2,
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "411"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station1",
+                "damage:hasValue": "Station1",
+                "damage:isAttachedto": "411"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test1",
+                        "damage:hasValue": "Test1",
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Mar2020",
+                        "damage:hasValue": "Mar2020",
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type1",
+                        "damage:hasValue": "Model_Type1",
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "411"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "412",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "412"
+            }
+        },
+        "damage:hasDescription": 412,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node2",
+                    "damage:hasValue": "Station_Node2",
+                    "damage:isAttachedto": "412"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level2",
+                        "damage:hasValue": "Gauge_Level2",
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "134",
+                        "damage:hasValue": 134,
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "2",
+                        "damage:hasValue": 2,
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "412"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station2",
+                "damage:hasValue": "Station2",
+                "damage:isAttachedto": "412"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test2",
+                        "damage:hasValue": "Test2",
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Mar2020",
+                        "damage:hasValue": "Mar2020",
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type2",
+                        "damage:hasValue": "Model_Type2",
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "412"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "413",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "413"
+            }
+        },
+        "damage:hasDescription": 413,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node3",
+                    "damage:hasValue": "Station_Node3",
+                    "damage:isAttachedto": "413"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level3",
+                        "damage:hasValue": "Gauge_Level3",
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "4",
+                        "damage:hasValue": 4,
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "1",
+                        "damage:hasValue": 1,
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "413"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station3",
+                "damage:hasValue": "Station3",
+                "damage:isAttachedto": "413"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test3",
+                        "damage:hasValue": "Test3",
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Jan2008",
+                        "damage:hasValue": "Jan2008",
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type3",
+                        "damage:hasValue": "Model_Type3",
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "413"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "414",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "414"
+            }
+        },
+        "damage:hasDescription": 414,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node4",
+                    "damage:hasValue": "Station_Node4",
+                    "damage:isAttachedto": "414"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level4",
+                        "damage:hasValue": "Gauge_Level4",
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "134",
+                        "damage:hasValue": 134,
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "1",
+                        "damage:hasValue": 1,
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "414"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station4",
+                "damage:hasValue": "Station4",
+                "damage:isAttachedto": "414"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test4",
+                        "damage:hasValue": "Test4",
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Apr2008",
+                        "damage:hasValue": "Apr2008",
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type4",
+                        "damage:hasValue": "Model_Type4",
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "414"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "415",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "415"
+            }
+        },
+        "damage:hasDescription": 415,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node5",
+                    "damage:hasValue": "Station_Node5",
+                    "damage:isAttachedto": "415"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level5",
+                        "damage:hasValue": "Gauge_Level5",
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "34",
+                        "damage:hasValue": 34,
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "2",
+                        "damage:hasValue": 2,
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "415"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station5",
+                "damage:hasValue": "Station5",
+                "damage:isAttachedto": "415"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test5",
+                        "damage:hasValue": "Test5",
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Aug2019",
+                        "damage:hasValue": "Aug2019",
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type5",
+                        "damage:hasValue": "Model_Type5",
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "415"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "416",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "416"
+            }
+        },
+        "damage:hasDescription": 416,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node6",
+                    "damage:hasValue": "Station_Node6",
+                    "damage:isAttachedto": "416"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level6",
+                        "damage:hasValue": "Gauge_Level6",
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "543",
+                        "damage:hasValue": 543,
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "3",
+                        "damage:hasValue": 3,
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "416"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station6",
+                "damage:hasValue": "Station6",
+                "damage:isAttachedto": "416"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test6",
+                        "damage:hasValue": "Test6",
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Sep2019",
+                        "damage:hasValue": "Sep2019",
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type6",
+                        "damage:hasValue": "Model_Type6",
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "416"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "417",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "417"
+            }
+        },
+        "damage:hasDescription": 417,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node7",
+                    "damage:hasValue": "Station_Node7",
+                    "damage:isAttachedto": "417"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level7",
+                        "damage:hasValue": "Gauge_Level7",
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "4334",
+                        "damage:hasValue": 4334,
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "1",
+                        "damage:hasValue": 1,
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "417"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station7",
+                "damage:hasValue": "Station7",
+                "damage:isAttachedto": "417"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test7",
+                        "damage:hasValue": "Test7",
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Oct2018",
+                        "damage:hasValue": "Oct2018",
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type7",
+                        "damage:hasValue": "Model_Type7",
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "417"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "418",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "418"
+            }
+        },
+        "damage:hasDescription": 418,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node8",
+                    "damage:hasValue": "Station_Node8",
+                    "damage:isAttachedto": "418"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level8",
+                        "damage:hasValue": "Gauge_Level8",
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "344",
+                        "damage:hasValue": 344,
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "3",
+                        "damage:hasValue": 3,
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "418"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station8",
+                "damage:hasValue": "Station8",
+                "damage:isAttachedto": "418"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test8",
+                        "damage:hasValue": "Test8",
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Oct2018",
+                        "damage:hasValue": "Oct2018",
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type8",
+                        "damage:hasValue": "Model_Type8",
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "418"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "419",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "419"
+            }
+        },
+        "damage:hasDescription": 419,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node9",
+                    "damage:hasValue": "Station_Node9",
+                    "damage:isAttachedto": "419"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level9",
+                        "damage:hasValue": "Gauge_Level9",
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "342",
+                        "damage:hasValue": 342,
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "4",
+                        "damage:hasValue": 4,
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "419"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station9",
+                "damage:hasValue": "Station9",
+                "damage:isAttachedto": "419"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test9",
+                        "damage:hasValue": "Test9",
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "Jul2017",
+                        "damage:hasValue": "Jul2017",
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type9",
+                        "damage:hasValue": "Model_Type9",
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "419"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    },
+    {
+        "@context": {
+            "damage": "https://archive.org/services/purl/domain/damageassessment#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "421",
+        "damage:hasComponent": {
+            "@id": "damage:AreaCode",
+            "damage:hasDescription": {
+                "@id": "TEST",
+                "damage:isAttachedto": "421"
+            }
+        },
+        "damage:hasDescription": 421,
+        "damage:hasGauge": {
+            "@id": "damage:Gauge",
+            "damage:hasComponent": [
+                {
+                    "@id": "Station_Node10",
+                    "damage:hasValue": "Station_Node10",
+                    "damage:isAttachedto": "421"
+                },
+                {
+                    "@id": "damage:Gauge_Area",
+                    "damage:hasDescription": {
+                        "@id": "TEST",
+                        "damage:hasValue": "TEST",
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Type",
+                    "damage:hasDescription": {
+                        "@id": "Gauge_Level10",
+                        "damage:hasValue": "Gauge_Level10",
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Datum",
+                    "damage:hasValue": {
+                        "@id": "1234",
+                        "damage:hasValue": 1234,
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Min",
+                    "damage:hasValue": {
+                        "@id": "2",
+                        "damage:hasValue": 2,
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdfs:subclass": "damage:GaugeParameters"
+                },
+                {
+                    "@id": "damage:Gauge_Levels",
+                    "damage:hasComponent": [
+                        {
+                            "@id": "damage:Q2g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "0",
+                                "damage:hasValue": 0,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q5g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.1",
+                                "damage:hasValue": 1.1,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q10g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.12",
+                                "damage:hasValue": 1.12,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q20g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.13",
+                                "damage:hasValue": 2.13,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q50g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.14",
+                                "damage:hasValue": 2.14,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q75g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.15",
+                                "damage:hasValue": 2.15,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q100g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.16",
+                                "damage:hasValue": 2.16,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q200g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "1.7",
+                                "damage:hasValue": 1.7,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        },
+                        {
+                            "@id": "damage:Q1000g",
+                            "damage:About": "Gauge Levels",
+                            "damage:hasValue": {
+                                "@id": "2.5",
+                                "damage:hasValue": 2.5,
+                                "damage:isAttachedto": "421"
+                            },
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }
+                        }
+                    ],
+                    "rdfs:subclass": "damage:ReturnPeriod"
+                }
+            ],
+            "damage:hasDescription": {
+                "@id": "Station10",
+                "damage:hasValue": "Station10",
+                "damage:isAttachedto": "421"
+            },
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges",
+                "floodmodel:isMeasuring": [
+                    "floodmodel:FloodDepth",
+                    "floodmodel:RiverParameter"
+                ]
+            }
+        },
+        "damage:hasModel": {
+            "@id": "damage:Model",
+            "damage:hasComponent": [
+                {
+                    "@id": "damage:Model_Dimension",
+                    "damage:hasDescription": {
+                        "@id": "TestD",
+                        "damage:hasValue": "TestD",
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:Model_Dimension",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Name",
+                    "damage:hasDescription": {
+                        "@id": "Station_Model",
+                        "damage:hasValue": "Station_Model",
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:Model_Name",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Contributor",
+                    "damage:hasDescription": {
+                        "@id": "Test10",
+                        "damage:hasValue": "Test10",
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:Model_Contributor",
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }
+                },
+                {
+                    "@id": "damage:TimeCreated",
+                    "damage:hasDescription": {
+                        "@id": "July2017",
+                        "damage:hasValue": "July2017",
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:TimeCreated",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Model_Type",
+                    "damage:hasDescription": {
+                        "@id": "Model_Type10",
+                        "damage:hasValue": "Model_Type10",
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:Model_Type",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Min",
+                    "damage:hasValue": {
+                        "@id": "1.3",
+                        "damage:hasValue": 1.3,
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:Modelled_Min",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:Modelled_Max",
+                    "damage:hasValue": {
+                        "@id": "1.45",
+                        "damage:hasValue": 1.45,
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:Modelled_Max",
+                    "rdfs:subclass": "damage:ModelParameters"
+                },
+                {
+                    "@id": "damage:MapInterval",
+                    "damage:hasValue": {
+                        "@id": "0.02",
+                        "damage:hasValue": 0.02,
+                        "damage:isAttachedto": "421"
+                    },
+                    "rdf:type": "damage:MapInterval",
+                    "rdfs:subclass": "damage:ModelParameters"
+                }
+            ],
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model",
+                "floodmodel:assesses": "floodmodel:flood",
+                "floodmodel:produceOutput": "floodmodel:OutputParameter",
+                "floodmodel:useAndNeed": "floodmodel:InputParameter"
+            }
+        },
+        "rdf:type": {
+            "@id": "damage:Code"
+        }
+    }
+]

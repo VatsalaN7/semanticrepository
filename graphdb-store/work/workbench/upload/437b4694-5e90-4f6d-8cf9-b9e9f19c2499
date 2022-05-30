@@ -1,0 +1,116 @@
+[
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata0",
+        "rdfs:member": {
+            "@id": "soil:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "soil:collectedBy": {
+            "@id": "soil:Author",
+            "@type": "soil:Author",
+            "soil:hasValue": "Fabio Carvalho G Da Silva"
+        },
+        "soil:hasSiteDesc": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Company"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['CompanyA']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:County"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['CountyA']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Location"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['LocationA']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Post_Code"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['PostcodeA']"
+            }
+        ],
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata1",
+        "rdfs:member": {
+            "@id": "soil:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "soil:collectedBy": {
+            "@id": "soil:Author",
+            "@type": "soil:Author",
+            "soil:hasValue": "Fabio Carvalho G Da Silva"
+        },
+        "soil:hasSiteDesc": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Company"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['CompanyB']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:County"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['CountyB']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Location"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['LocationB']"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Post_Code"
+                },
+                "rdfs:subClassOf": "soil:SiteDesc",
+                "soil:hasValue": "['PostcodeB']"
+            }
+        ],
+        "soil:hasValue": "SiteC"
+    }
+]

@@ -1,0 +1,444 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://archive.org/services/purl/domain/TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:Emergency Response"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance",
+    "https://archive.org/services/purl/domain/localknowledge#records" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_9"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_10"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_11"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_12"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations",
+    "https://archive.org/services/purl/domain/localknowledge#observes" : [ {
+      "@id" : "https://archive.org/services/purl/domain/obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_2"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_3"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_4"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_5"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_6"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_7"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_8"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_9"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_10"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_11"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_12"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_13"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_14"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_15"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_16"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_17"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:Verb:"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "at the confluence of Oughtershaw Beck and Green Field Beck near Beckermonds, Langstrothdale, high in the Yorkshire Dales National Park."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : ""
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_10",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "a number of flood defences in and around Tadcaster which the Environment Agency manage to mitigate flood risk"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "are"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "There"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_11",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "flood risk"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "mitigate"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "There are a number of flood defences in and around Tadcaster which the Environment Agency manage to"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_12",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "flood defences on both sides of the River Wharfe through Tadcaster"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "are"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "There"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "into the River Ouse near Cawood nearly 100km downstream."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "flows"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "a catchment area of 815km2 draining to Tadcaster."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "has"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "gauged by the Environment Agency at Tadcaster (station ID: 8202), where the normal range is between 0.18m and 2.90m."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "are"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "River levels"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "sited approximately 1.5km upstream of the A659 Tadcaster road bridge"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The station"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "from the river can be expected."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "flooding"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "According to the Environment Agency when the Wharfe at Tadcaster rises above 2.9m"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "tidal from where it joins the river Ouse back up to the weir located approximately 350m upstream of Tadcaster A659 Road Bridge."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "to both river flows and tidal influence."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "related"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "Flood risk from the Wharfe is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_9",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "classified as a main river the Environment Agency manages flood risk, maintaining and managing flood defences along the river as well as having the power to serve notice to any person or body requiring them to carry out necessary works to maintain flow."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "is"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The River Wharfe"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_1",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : ""
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_10",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_11",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_12",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_13",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_14",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_15",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_16",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On,Military"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_17",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC,North Yorkshire Police,The Environment Agency,Serve On,Military"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_2",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : ""
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_3",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : ""
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_4",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_5",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_6",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_7",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_8",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_9",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "included"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasSubject" : [ {
+      "@value" : ""
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "Tadcaster Town Council,NYCC,NYCC"
+    } ]
+  } ],
+  "@id" : "https://archive.org/services/purl/domain/localknowledge#Page38"
+} ]

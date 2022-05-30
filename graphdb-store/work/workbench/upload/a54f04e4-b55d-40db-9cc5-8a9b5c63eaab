@@ -1,0 +1,146 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://archive.org/services/purl/domain/TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:River Flows & Return periods"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance",
+    "https://archive.org/services/purl/domain/localknowledge#records" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations",
+    "https://archive.org/services/purl/domain/localknowledge#observes" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_9"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_10"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_11"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_12"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "estimates"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "have been made for sites where the flow estimates are considered significantly robust to determine using the Flood Estimation Handbook (FEH) methods."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_10",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "commissioned"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "an assessment of the hydrology and hydraulics of the River Wharfe in order to assess the flow regime as part of the bridge reconstruction."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_11",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "commissioned"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "an assessment of the hydrology and hydraulics of the River Wharfe in order to assess the flow regime as part of the bridge reconstruction."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_12",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "run"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "by the Centre for Ecology & Hydrology and the British Hydrological Society. Their estimate, based on flows at Flint Mill upstream from Tadcaster, gives a return period in excess of 200 years."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "has"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "GaugeName:Flint Mill Peak Stage(m):3.743 Highest check gauging(m):2.47 Rating equation status:Acceptable at high flows,with caution Peak flow (m3/s):582 Comment:Treat with caution. Large"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "has"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "GaugeName:Tadcaster Peak Stage(m):4.51 Highest check gauging(m):3.74 Rating equation status:Ultrasonic,acceptable at high flows, with caution Peak Flow (m3/s):480 Comment:Ultrasonic bypassed-"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "saturated"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "ground and into rivers that were already high."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "illustrate"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "the significant role of antecedent conditions in this event."
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "estimates"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "GaugeName:Addingham Peak Flow(m3/s):386 Time:07:30 Date:26 Dec Rank in Record:4 Return Period(years):10-15"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_7",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "estimates"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "GaugeName:Flint Mill Peak Flow(m3/s):582 Time:20:00 Date:26 Dec Rank in Record:1 Return Period(years):100+"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_8",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "estimates"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "GaugeName:Tadcaster Peak Flow(m3/s):480 Time:16:30 Date:26 Dec Rank in Record:1 Return Period(years):100"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_9",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "commissioned"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "an assessment of the hydrology and hydraulics of the River Wharfe in order to assess the flow regime as part of the bridge reconstruction."
+    } ]
+  } ],
+  "@id" : "https://archive.org/services/purl/domain/localknowledge#Page27"
+} ]

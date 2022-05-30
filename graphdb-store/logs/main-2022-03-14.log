@@ -1,0 +1,6 @@
+[INFO ] 2022-03-14 11:21:54,786 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-14 11:21:54,803 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-14 12:56:10,926 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-14 12:56:10,934 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-14 12:56:11,109 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-14 12:56:11,111 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished

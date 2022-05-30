@@ -1,0 +1,1393 @@
+[
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-0",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "14/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:hasSite": "Newton",
+            "pollinator:hasSpeciesCount": 6,
+            "pollinator:hasSpeciesList": [
+                "Marbled_white",
+                "Meadow_brown",
+                "Cannot_ID_hoverfly",
+                "No_pollinators_recorded",
+                "Cannot_ID_moth",
+                "Large_white"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "14/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-1",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasSite": "Verwood",
+            "pollinator:hasSpeciesCount": 9,
+            "pollinator:hasSpeciesList": [
+                "Cannot_ID_hoverfly",
+                "Meadow_brown",
+                "Buff_tailed_bumblebee",
+                "Gatekeeper",
+                "Cannot_ID_moth",
+                "Ringlet",
+                "Large_skipper",
+                "Honeybee",
+                "Marbled_white"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Verwood",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-2",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "15/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:hasSite": "Woolbridge",
+            "pollinator:hasSpeciesCount": 12,
+            "pollinator:hasSpeciesList": [
+                "Meadow_brown",
+                "Gatekeeper",
+                "Garden_bumblebee",
+                "Marbled_white",
+                "Large_skipper",
+                "Cannot_ID_hoverfly",
+                "Common_carder_bee",
+                "Cannot_ID_moth",
+                "Red_tailed_bumblebee",
+                "Buff_tailed_bumblebee",
+                "Ringlet",
+                "Peacock"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "15/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-3",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "16/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasSite": "Cowdown",
+            "pollinator:hasSpeciesCount": 11,
+            "pollinator:hasSpeciesList": [
+                "Marbled_white",
+                "Meadow_brown",
+                "Buff_or_white_tailed_bumblebee",
+                "Gatekeeper",
+                "Cannot_ID_hoverfly",
+                "Cannot_ID_moth",
+                "Red_tailed_bumblebee",
+                "Honeybee",
+                "Buff_tailed_bumblebee",
+                "Large_skipper",
+                "Ringlet"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Cowdown",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-4",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "16/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:hasSite": "Sheepbridge",
+            "pollinator:hasSpeciesCount": 4,
+            "pollinator:hasSpeciesList": [
+                "Meadow_brown",
+                "Cannot_ID_moth",
+                "Red_admiral",
+                "Marbled_white"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "16/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Sheepbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-5",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "19/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasSite": "Lower_End",
+            "pollinator:hasSpeciesCount": 7,
+            "pollinator:hasSpeciesList": [
+                "No_pollinators_recorded",
+                "Small_skipper",
+                "Meadow_brown",
+                "Cannot_ID_moth",
+                "Small_white",
+                "Small_tortoiseshell",
+                "Large_white"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Lower_End",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-6",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "19/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:hasSite": "Saxley",
+            "pollinator:hasSpeciesCount": 13,
+            "pollinator:hasSpeciesList": [
+                "Cannot_ID_hoverfly",
+                "Small_skipper",
+                "Meadow_brown",
+                "Marbled_white",
+                "Large_white",
+                "Gatekeeper",
+                "Peacock",
+                "Common_blue",
+                "Buff_or_white_tailed_bumblebee",
+                "Common_carder_bee",
+                "Small_heath",
+                "Painted_lady",
+                "Ringlet"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "19/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Saxley",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-7",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "21/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasSite": "Braydon_Manor",
+            "pollinator:hasSpeciesCount": 7,
+            "pollinator:hasSpeciesList": [
+                "Marbled_white",
+                "Small_skipper",
+                "Meadow_brown",
+                "Gatekeeper",
+                "Ringlet",
+                "Large_skipper",
+                "Cannot_ID_moth"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Braydon_Manor",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-8",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "21/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:hasSite": "Kencot_Hill",
+            "pollinator:hasSpeciesCount": 14,
+            "pollinator:hasSpeciesList": [
+                "Small_skipper",
+                "Marbled_white",
+                "Meadow_brown",
+                "Ringlet",
+                "Green_veined_white",
+                "Small_heath",
+                "Large_white",
+                "Cannot_ID_hoverfly",
+                "Gatekeeper",
+                "Six_spot_burnet",
+                "Cannot_ID_moth",
+                "Common_carder_bee",
+                "Peacock",
+                "Small_tortoiseshell"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "21/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Kencot_Hill",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-9",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "22/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:hasSite": "Yardwall",
+            "pollinator:hasSpeciesCount": 7,
+            "pollinator:hasSpeciesList": [
+                "Cannot_ID_hoverfly",
+                "Meadow_brown",
+                "Gatekeeper",
+                "No_pollinators_recorded",
+                "Large_white",
+                "Buff_tailed_bumblebee",
+                "Cannot_ID_moth"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "22/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Yardwall",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-10",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "23/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:hasSite": "Aston_House",
+            "pollinator:hasSpeciesCount": 13,
+            "pollinator:hasSpeciesList": [
+                "Cannot_ID_moth",
+                "Meadow_brown",
+                "Ringlet",
+                "Small_skipper",
+                "Large_white",
+                "Buff_or_white_tailed_bumblebee",
+                "Cannot_ID_hoverfly",
+                "Red_tailed_bumblebee",
+                "Large_skipper",
+                "Gatekeeper",
+                "Heath_bumblebee",
+                "Common_carder_bee",
+                "Buff_tailed_bumblebee"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "23/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Aston_House",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-11",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "26/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:hasSite": "Emberton",
+            "pollinator:hasSpeciesCount": 12,
+            "pollinator:hasSpeciesList": [
+                "Meadow_brown",
+                "Gatekeeper",
+                "Large_white",
+                "Ringlet",
+                "Cannot_ID_hoverfly",
+                "Red_tailed_bumblebee",
+                "Cannot_ID_moth",
+                "Small_skipper",
+                "Marbled_white",
+                "Buff_or_white_tailed_bumblebee",
+                "Common_carder_bee",
+                "Large_skipper"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "26/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Emberton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-12",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "27/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasSite": "Hunciecroft",
+            "pollinator:hasSpeciesCount": 10,
+            "pollinator:hasSpeciesList": [
+                "Meadow_brown",
+                "Ringlet",
+                "Common_blue",
+                "Cannot_ID_hoverfly",
+                "Cannot_ID_moth",
+                "Red_tailed_bumblebee",
+                "Buff_or_white_tailed_bumblebee",
+                "Tree_bumblebee",
+                "Common_carder_bee",
+                "Gatekeeper"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Hunciecroft",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-13",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "27/07/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:hasSite": "Morton",
+            "pollinator:hasSpeciesCount": 7,
+            "pollinator:hasSpeciesList": [
+                "Cannot_ID_moth",
+                "Cannot_ID_hoverfly",
+                "Red_tailed_bumblebee",
+                "Meadow_brown",
+                "Gatekeeper",
+                "Small_skipper",
+                "Small_heath"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "27/07/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Morton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-14",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "17/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasSite": "Newton",
+            "pollinator:hasSpeciesCount": 2,
+            "pollinator:hasSpeciesList": [
+                "No_pollinators_recorded",
+                "Gatekeeper"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Newton",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-15",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "17/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:hasSite": "Woolbridge",
+            "pollinator:hasSpeciesCount": 5,
+            "pollinator:hasSpeciesList": [
+                "Cannot_ID_hoverfly",
+                "Common_carder_bee",
+                "Meadow_brown",
+                "Common_blue",
+                "Cannot_ID_moth"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "17/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Woolbridge",
+        "pollinator:isAttachedTo": "Transect"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Field_data_2021-transectSpecies1-17",
+        "rdfs:member": {
+            "@id": "pollinator:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "pollinator:collectedBy": {
+            "@id": "pollinator:Author",
+            "@type": "pollinator:Author",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasValue": "Hollie Blaydes",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:collectedUsing": {
+            "@id": "pollinator:Transect",
+            "@type": "pollinator:Transect",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasValue": "Transect"
+        },
+        "pollinator:hasDate": "18/08/2021",
+        "pollinator:hasInstrumentation": {
+            "@id": "pollinator:WeatherMeter",
+            "@type": "pollinator:WeatherMeter",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasDetails": {
+                "@id": "pollinator:Model",
+                "pollinator:hasValue": "WeatherMeter"
+            },
+            "pollinator:hasValue": "WeatherMeter",
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSpecies": {
+            "rdfs:member": {
+                "@id": "pollinator:Species"
+            },
+            "pollinator:belongTo": {
+                "@id": "pollinator:Family"
+            },
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:hasSite": "Cowdown",
+            "pollinator:hasSpeciesCount": 11,
+            "pollinator:hasSpeciesList": [
+                "Meadow_brown",
+                "Red_tailed_bumblebee",
+                "No_pollinators_recorded",
+                "Cannot_ID_moth",
+                "Common_carder_bee",
+                "Cannot_ID_hoverfly",
+                "Buff_or_white_tailed_bumblebee",
+                "Honeybee",
+                "Buff_tailed_bumblebee",
+                "Gatekeeper",
+                "Speckled_wood"
+            ],
+            "pollinator:isAttachedTo": "Transect"
+        },
+        "pollinator:hasSurvey": {
+            "@id": "pollinator:PollinatorData",
+            "rdfs:member": "pollinator:PollinatorData",
+            "pollinator:hasDate": "18/08/2021",
+            "pollinator:typeOf": {
+                "@id": "pollinator:Pollination",
+                "owl:equivalentClass": {
+                    "@id": "ecosystem:Pollination"
+                }
+            }
+        },
+        "pollinator:hasValue": "Cowdown",
+        "pollinator:isAttachedTo": "Transect"
+    }
+]

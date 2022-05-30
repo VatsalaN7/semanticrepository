@@ -1,0 +1,4466 @@
+[
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34560",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND121U",
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.330283,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.034083,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.0,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 256.65,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 202.84,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.265282982,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.0330532209999999,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 5.67,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 1.23,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 60.49,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 7.89,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 7.89,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 121,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 75,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "0"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "0"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34561",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND122U",
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.329333,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.033583,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.3,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 256.86,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 202.62,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.267693219,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.031932773,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 5.81,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 1.28,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 80.39,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 9.45,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 9.72,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['0.27']",
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 122,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 10,
+                "soil:isAttached": "1"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "1"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34562",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND123U",
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.3286,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.0316,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.3,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 338.26,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 271.38,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.24644410100000003,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.382123759,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.06,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 1.11,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 57.01,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 9.76,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 9.76,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 123,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 50,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "2"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "2"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34563",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND124U",
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.327983,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.034033,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.6,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 277.89,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 240.95,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.153309815,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.227145404,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.55,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 1.85,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 66.79,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 14.92,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 16.22,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['1.3']",
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 124,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 95,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 5,
+                "soil:isAttached": "3"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 5,
+                "soil:isAttached": "3"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34564",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND125B",
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.3301,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.03305,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 17.4,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 256.06,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 201.55,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.270453982,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.026483321,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 5.67,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.22,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 130.52,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 10.76,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 10.76,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 125,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 50,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "4"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "4"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34565",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND126B",
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.3296,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.034,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.9,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 274.12,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 215.2,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.273791822,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.096002037,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 5.4,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.44,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 106.49,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 12.57,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 12.57,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 126,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "5"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "5"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34566",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND127B",
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.3289,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.03145,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.9,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 286.53,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 217.21,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.31913816100000003,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.106238859,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.62,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.07,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 88.7,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 49.33,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 49.33,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 127,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 80,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "6"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "6"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34567",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND128B",
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.32775,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.033483,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 18.6,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 206.78,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 157.52,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.312722194,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.8022408959999999,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.27,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.29,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 45.47,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 15.79,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 21.82,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['6.03']",
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 128,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 30,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 70,
+                "soil:isAttached": "7"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "7"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34568",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND129C",
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.33095,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.034,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 18.1,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 211.73,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 173.44,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.220767989,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.883320601,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 5.35,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 9.23,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 139.47,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 17.12,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 17.82,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['0.7']",
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 129,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 10,
+                "soil:isAttached": "8"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "8"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata34569",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND130C",
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.328583,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.031016999999999,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 17.6,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 235.25,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 185.52,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.26805735199999997,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.944843392,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.24,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 4.02,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 22.3,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 26.14,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 40.08,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['13.94']",
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 130,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 70,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 30,
+                "soil:isAttached": "9"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "9"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345610",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND131C",
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.327233,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.033233,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 19.6,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 222.96,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 178.16,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.251459362,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.907359307,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.16,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 9.62,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 111.87,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 16.96,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 24.06,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['7.1']",
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 131,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 30,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 70,
+                "soil:isAttached": "10"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "10"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345611",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "ND132C",
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.327483,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -4.032533,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 19.5,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 272.17,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 229.26,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.187167408,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.167608862,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.1,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.92,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 126.42,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 18.66,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 32.7,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['13.85']",
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['0.19']",
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 132,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 30,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 70,
+                "soil:isAttached": "11"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "11"
+            }
+        ],
+        "soil:hasDate": "29/07/2021",
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345612",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW241U",
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.866966999999995,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.890883,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 15.2,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 239.48,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 204.22,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.17265693899999998,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.0400814870000001,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.8,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 13.89,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 44.5,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 12.83,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 12.83,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 241,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "12"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "12"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345613",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW242U",
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.867067,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8835330000000001,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 15.2,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 238.94,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 212.55,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.124159021,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.08250573,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.41,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 8.48,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 45.78,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 7.51,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 7.51,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 242,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 50,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "13"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "13"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345614",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW243U",
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.865283000000005,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.887517,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 15.4,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 226.43,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 181.62,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.24672392899999998,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.924980901,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.46,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 14.58,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 55.47,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 5.38,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 5.38,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 243,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "14"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "14"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345615",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW244U",
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Under']",
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.863233,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.881217,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 15.3,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 278.83,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 211.89,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.315918637,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.079144385,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.59,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 10.41,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 55.33,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 11.68,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 11.68,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 244,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "15"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "15"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345616",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW245B",
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.865567,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.889317,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.3,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 279.59,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 197.95,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.41242738100000004,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.008148714,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.85,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 16.48,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 48.09,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 7.75,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 10.11,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['2.36']",
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 245,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 70,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 30,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 70,
+                "soil:isAttached": "16"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "16"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345617",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW246B",
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.866983000000005,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8858669999999997,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.1,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 239.13,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 205.61,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.16302709,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.0471606820000001,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.45,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 3.86,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 17.6,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 27.33,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 27.33,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 246,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "17"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "17"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345618",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW247B",
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.864233,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8838830000000002,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.8,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 210.6,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 142.73,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.47551320700000005,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.726916221,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.23,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 3.59,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 117.85,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 4.8,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 8.67,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['3.87']",
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 247,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 5,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 95,
+                "soil:isAttached": "18"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "18"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345619",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW248B",
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Between']",
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.86365,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8788169999999997,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 16.1,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 217.51,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 177.33,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.226583206,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.903132162,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.87,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.47,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 34.0,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 15.07,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 17.14,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['2.07']",
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 248,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 90,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 40,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 60,
+                "soil:isAttached": "19"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "19"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345620",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW249C",
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.866367,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8791330000000002,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 19.3,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 174.51,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 153.56,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.13642875699999998,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.7820728290000001,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.83,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.08,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 15.57,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 13.82,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 23.95,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['10.13']",
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 249,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 80,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 20,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 80,
+                "soil:isAttached": "20"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "20"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345621",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW250C",
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.865066999999996,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8788,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 18.7,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 174.44,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 154.46,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.129353878,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 0.786656481,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.45,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 11.71,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 66.63,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 14.2,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 14.2,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 250,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 50,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 50,
+                "soil:isAttached": "21"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "21"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345622",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW251C",
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.86235,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8748669999999998,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 19.3,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 238.54,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 201.1,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.186176032,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.024191495,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 7.25,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 7.2,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 7.01,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 11.67,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 13.76,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['2.09']",
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 251,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 70,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 30,
+                "soil:isAttached": "22"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "22"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata345623",
+        "rdfs:member": {
+            "@id": "soil:SoilData"
+        },
+        "soil:hasComponent": [
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plot_ID"
+                },
+                "soil:hasValue": "VW252C",
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Treatment"
+                },
+                "soil:hasValue": "['Control']",
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Lat"
+                },
+                "soil:hasValue": 50.8634,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Long"
+                },
+                "soil:hasValue": -1.8752669999999998,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Temperature"
+                },
+                "soil:hasValue": 20.7,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Fresh_Mass"
+                },
+                "soil:hasValue": 231.76,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Dry_Mass"
+                },
+                "soil:hasValue": 215.02,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Moisture"
+                },
+                "soil:hasValue": 0.077853223,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Sample_Volume"
+                },
+                "soil:hasValue": 196.35,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Bulk_Density"
+                },
+                "soil:hasValue": 1.095085307,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_PH"
+                },
+                "soil:hasValue": 6.92,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Ammonium"
+                },
+                "soil:hasValue": 2.85,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Soil_Nitrate"
+                },
+                "soil:hasValue": 11.27,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Grasses"
+                },
+                "soil:hasValue": 20.16,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Total_AGB"
+                },
+                "soil:hasValue": 20.26,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Forbs"
+                },
+                "soil:hasValue": "['0.1']",
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:AGB_Rushes"
+                },
+                "soil:hasValue": "['Nil']",
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Sample_ID"
+                },
+                "soil:hasValue": 252,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Accuracy"
+                },
+                "soil:hasValue": 3,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Plant_Cover"
+                },
+                "soil:hasValue": 60,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Grasses"
+                },
+                "soil:hasValue": 100,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Rushes"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Forbs"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "23"
+            },
+            {
+                "rdfs:member": {
+                    "@id": "soil:Ferns"
+                },
+                "soil:hasValue": 0,
+                "soil:isAttached": "23"
+            }
+        ],
+        "soil:hasDate": "25/08/2021",
+        "soil:hasValue": "SiteC"
+    }
+]

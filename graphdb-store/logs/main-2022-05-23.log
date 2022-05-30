@@ -1,0 +1,171 @@
+[INFO ] 2022-05-23 14:45:13,680 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-05-23 14:45:16,129 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-05-23 14:45:28,037 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-05-23 14:45:28,037 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-05-23 14:45:28,037 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-05-23 14:45:28,038 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-05-23 14:45:28,038 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-05-23 14:45:36,351 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-05-23 14:45:42,203 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-05-23 14:45:42,203 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-05-23 14:45:42,243 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-05-23 14:45:42,245 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-05-23 14:45:42,246 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-05-23 14:45:42,246 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-05-23 14:45:42,249 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-05-23 14:45:42,250 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-05-23 14:45:42,251 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-05-23 14:45:42,257 [repositories/Biodiversity_anonym_repo | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-05-23 14:45:42,257 [repositories/Biodiversity_anonym_repo | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-05-23 14:45:42,258 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-23 14:45:42,299 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-23 14:45:42,302 [repositories/Biodiversity_anonym_repo | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-05-23 14:45:42,305 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-05-23 14:45:42,399 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-23 14:45:42,475 [repositories/Biodiversity_anonym_repo | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-05-23 14:45:42,543 [repositories/Biodiversity_anonym_repo | c.o.t.e.i.m.PersistedHashMap] Restored 21697 entities allocating 12.0 MB
+[INFO ] 2022-05-23 14:45:42,543 [repositories/Biodiversity_anonym_repo | c.o.t.e.i.m.PersistedHashMap] Done in 67 ms.
+[INFO ] 2022-05-23 14:45:42,772 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-05-23 14:45:42,778 [repositories/Biodiversity_anonym_repo | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-05-23 14:45:42,785 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-05-23 14:45:42,800 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-05-23 14:45:42,822 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-23 14:45:42,825 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-05-23 14:45:44,135 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-05-23 14:45:44,137 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-05-23 14:45:44,242 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-05-23 14:45:44,335 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-05-23 14:45:44,343 [repositories/Biodiversity_anonym_repo | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-05-23 14:45:44,391 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-05-23 14:45:44,494 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-05-23 14:45:44,601 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-05-23 14:45:44,602 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-05-23 14:45:44,602 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-05-23 14:45:44,602 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-05-23 14:45:44,756 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-05-23 14:45:44,757 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-05-23 14:45:44,757 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-05-23 14:45:44,757 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-05-23 14:45:44,757 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-05-23 14:45:44,757 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-05-23 14:45:44,758 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-05-23 14:45:44,758 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-05-23 14:45:44,758 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-05-23 14:45:44,758 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-05-23 14:45:44,759 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-05-23 14:45:44,768 [repositories/Biodiversity_anonym_repo | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-05-23 14:45:44,772 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-05-23 14:45:44,773 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-05-23 14:45:44,787 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-05-23 14:45:44,808 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-05-23 14:45:44,808 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-05-23 14:45:44,891 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-05-23 14:45:44,891 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-05-23 14:45:44,988 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-05-23 14:45:44,988 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-05-23 14:45:45,005 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-05-23 14:45:45,006 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-05-23 14:45:45,050 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-05-23 14:45:45,051 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-05-23 14:45:45,168 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-05-23 14:45:45,169 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-05-23 14:45:45,187 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-05-23 14:45:45,188 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-05-23 14:45:45,188 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-05-23 14:45:45,302 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-05-23 14:45:45,306 [repositories/Biodiversity_anonym_repo | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-05-23 14:45:45,311 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-05-23 14:45:45,312 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-05-23 14:45:45,317 [repositories/Biodiversity_anonym_repo | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-05-23 14:45:45,318 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-05-23 14:45:45,319 [repositories/Biodiversity_anonym_repo | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-05-23 14:45:45,319 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-05-23 14:45:45,319 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-05-23 14:45:45,320 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-05-23 14:45:45,320 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-05-23 14:45:45,321 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-05-23 14:45:45,321 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-05-23 14:45:45,321 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-05-23 14:45:45,321 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-05-23 14:45:45,321 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-05-23 14:45:45,321 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-05-23 14:45:45,321 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-05-23 14:45:45,360 [repositories/Biodiversity_anonym_repo | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-05-23 14:45:45,360 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-05-23 14:45:45,362 [repositories/Biodiversity_anonym_repo | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-05-23 14:45:45,362 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-05-23 14:45:45,431 [repositories/Biodiversity_anonym_repo | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-05-23 14:45:45,432 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-05-23 14:45:45,433 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-05-23 14:45:45,437 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-05-23 14:45:52,684 [repositories/Biodiversity_anonym_repo | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-05-23 14:45:52,684 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-05-23 14:45:52,742 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-05-23 14:45:52,756 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-05-23 14:45:52,756 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-05-23 14:45:52,774 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-05-23 14:45:52,775 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-05-23 14:45:52,870 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-05-23 14:45:52,870 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-05-23 14:45:52,870 [repositories/Biodiversity_anonym_repo | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-05-23 14:45:53,090 [repositories/Biodiversity_anonym_repo | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-05-23 14:45:53,398 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-23 14:45:53,408 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-05-23 14:45:53,422 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-05-23 14:45:53,676 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-23 14:45:53,679 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-05-23 14:45:53,692 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-05-23 14:45:53,878 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-05-23 14:45:53,878 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-05-23 14:45:53,907 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-05-23 14:45:53,910 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-05-23 14:45:53,910 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[ERROR] 2022-05-23 14:46:43,220 [import-task-Biodiversity_anonym_repo-1 | c.o.f.i.FileImportRunnableTask] Could not import file
+com.fasterxml.jackson.databind.JsonMappingException: Non-standard token 'NaN': enable JsonParser.Feature.ALLOW_NON_NUMERIC_NUMBERS to allow
+ at [Source: (BufferedReader); line: 29, column: 42]
+ at [Source: (BufferedReader); line: 29, column: 21] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:391)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:363)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:306)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3972)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2264)
+	at com.fasterxml.jackson.core.JsonParser.readValueAs(JsonParser.java:1723)
+	at com.github.jsonldjava.utils.JsonUtils.fromJsonParser(JsonUtils.java:194)
+	at com.github.jsonldjava.utils.JsonUtils.fromReader(JsonUtils.java:173)
+	at com.github.jsonldjava.utils.JsonUtils.fromInputStream(JsonUtils.java:154)
+	at com.github.jsonldjava.utils.JsonUtils.fromInputStream(JsonUtils.java:111)
+	at org.eclipse.rdf4j.rio.jsonld.JSONLDParser.parse(JSONLDParser.java:71)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Non-standard token 'NaN': enable JsonParser.Feature.ALLOW_NON_NUMERIC_NUMBERS to allow
+ at [Source: (BufferedReader); line: 29, column: 42]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1798)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:663)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1870)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:958)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:873)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapArray(UntypedObjectDeserializer.java:811)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:668)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:880)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:895)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:285)
+	... 26 common frames omitted

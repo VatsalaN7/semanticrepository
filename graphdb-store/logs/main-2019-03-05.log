@@ -1,0 +1,259 @@
+[INFO ] 2019-03-05 13:43:58,831 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2019-03-05 13:43:59,906 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2019-03-05 13:44:06,166 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2019-03-05 13:44:06,167 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2019-03-05 13:44:06,167 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2019-03-05 13:44:06,167 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2019-03-05 13:44:06,167 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2019-03-05 13:44:11,296 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2019-03-05 13:48:43,258 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2019-03-05 13:48:54,530 [JavaFX Application Thread | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2019-03-05 13:48:54,613 [JavaFX Application Thread | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[WARN ] 2019-03-05 13:48:54,643 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [Import cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.ontotext.forest.impex.ExecutorProvider.lambda$initCleanupPools$1(ExecutorProvider.java:26)
+ com.ontotext.forest.impex.ExecutorProvider$$Lambda$299/1522025963.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+[WARN ] 2019-03-05 13:48:54,643 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+[WARN ] 2019-03-05 13:48:54,644 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+[INFO ] 2019-03-05 13:48:59,199 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2019-03-05 13:49:00,126 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2019-03-05 13:49:06,966 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2019-03-05 13:49:06,966 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2019-03-05 13:49:06,966 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2019-03-05 13:49:06,966 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2019-03-05 13:49:06,966 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2019-03-05 13:49:12,230 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2019-03-05 14:13:04,112 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2019-03-05 14:13:04,113 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2019-03-05 14:13:04,130 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository corpus_repo in READ/WRITE mode.
+[INFO ] 2019-03-05 14:13:04,131 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,133 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2019-03-05 14:13:04,133 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,133 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2019-03-05 14:13:04,134 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2019-03-05 14:13:04,134 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2019-03-05 14:13:04,137 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2019-03-05 14:13:04,137 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2019-03-05 14:13:04,138 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2019-03-05 14:13:04,139 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Storage folder do not exists and is created: /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo/storage
+[INFO ] 2019-03-05 14:13:04,149 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,149 [http-nio-7200-exec-8 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2019-03-05 14:13:04,182 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2019-03-05 14:13:04,206 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,299 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,302 [http-nio-7200-exec-8 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2019-03-05 14:13:04,304 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2019-03-05 14:13:04,317 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2019-03-05 14:13:04,330 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2019-03-05 14:13:04,332 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2019-03-05 14:13:04,545 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,549 [http-nio-7200-exec-8 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2019-03-05 14:13:04,550 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,557 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2019-03-05 14:13:04,576 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2019-03-05 14:13:04,604 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,684 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2019-03-05 14:13:04,684 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2019-03-05 14:13:04,685 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2019-03-05 14:13:04,685 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2019-03-05 14:13:04,717 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2019-03-05 14:13:04,718 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2019-03-05 14:13:04,719 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2019-03-05 14:13:04,720 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2019-03-05 14:13:04,722 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2019-03-05 14:13:04,723 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2019-03-05 14:13:04,723 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2019-03-05 14:13:04,724 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2019-03-05 14:13:04,736 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2019-03-05 14:13:04,736 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2019-03-05 14:13:04,758 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2019-03-05 14:13:04,759 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2019-03-05 14:13:04,810 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2019-03-05 14:13:04,810 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2019-03-05 14:13:04,822 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2019-03-05 14:13:04,823 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2019-03-05 14:13:04,840 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2019-03-05 14:13:04,840 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2019-03-05 14:13:04,891 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2019-03-05 14:13:04,892 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2019-03-05 14:13:04,900 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2019-03-05 14:13:04,901 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2019-03-05 14:13:04,902 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2019-03-05 14:13:04,967 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2019-03-05 14:13:04,969 [http-nio-7200-exec-8 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2019-03-05 14:13:04,973 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2019-03-05 14:13:04,974 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2019-03-05 14:13:04,976 [http-nio-7200-exec-8 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2019-03-05 14:13:04,976 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2019-03-05 14:13:04,976 [http-nio-7200-exec-8 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2019-03-05 14:13:04,977 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2019-03-05 14:13:04,978 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2019-03-05 14:13:04,978 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2019-03-05 14:13:04,978 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2019-03-05 14:13:04,978 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2019-03-05 14:13:04,978 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2019-03-05 14:13:04,979 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2019-03-05 14:13:04,979 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2019-03-05 14:13:04,979 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2019-03-05 14:13:04,979 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2019-03-05 14:13:04,979 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[WARN ] 2019-03-05 14:13:04,985 [http-nio-7200-exec-8 | c.o.p.literals-index] Rebuilding literals indexes. Starting from id:1
+[WARN ] 2019-03-05 14:13:04,995 [http-nio-7200-exec-8 | c.o.p.literals-index] Complete in 0.01, num entries indexed:0
+[INFO ] 2019-03-05 14:13:04,995 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2019-03-05 14:13:04,996 [http-nio-7200-exec-8 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2019-03-05 14:13:04,996 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2019-03-05 14:13:05,033 [http-nio-7200-exec-8 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2019-03-05 14:13:05,034 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2019-03-05 14:13:05,036 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2019-03-05 14:13:05,041 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2019-03-05 14:13:07,472 [http-nio-7200-exec-8 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2019-03-05 14:13:07,473 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2019-03-05 14:13:07,482 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2019-03-05 14:13:07,487 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2019-03-05 14:13:07,490 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2019-03-05 14:13:07,496 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2019-03-05 14:13:07,498 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2019-03-05 14:13:07,572 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2019-03-05 14:13:07,572 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2019-03-05 14:13:07,572 [http-nio-7200-exec-8 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2019-03-05 14:13:07,598 [http-nio-7200-exec-8 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2019-03-05 14:14:38,359 [import-task-corpus_repo-1 | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2019-03-05 14:14:38,375 [import-task-corpus_repo-1 | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[ERROR] 2019-03-05 14:14:38,548 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] Could not import file
+java.lang.IllegalArgumentException: Illegal character in path at index 2: W.
+
+	at java.net.URI.create(URI.java:852)
+	at java.net.URI.resolve(URI.java:1036)
+	at com.github.jsonldjava.utils.JsonLdUrl.resolve(JsonLdUrl.java:274)
+	at com.github.jsonldjava.core.Context.expandIri(Context.java:539)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:584)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:522)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:847)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:522)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:1025)
+	at com.github.jsonldjava.core.JsonLdProcessor.expand(JsonLdProcessor.java:149)
+	at com.github.jsonldjava.core.JsonLdProcessor.toRDF(JsonLdProcessor.java:528)
+	at org.eclipse.rdf4j.rio.jsonld.JSONLDParser.parse(JSONLDParser.java:71)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 2: W.
+
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3063)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 27 common frames omitted
+[ERROR] 2019-03-05 14:16:27,560 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] Could not import file
+java.lang.IllegalArgumentException: Illegal character in path at index 8: Aconitum napellus
+	at java.net.URI.create(URI.java:852)
+	at java.net.URI.resolve(URI.java:1036)
+	at com.github.jsonldjava.utils.JsonLdUrl.resolve(JsonLdUrl.java:274)
+	at com.github.jsonldjava.core.Context.expandIri(Context.java:539)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:584)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:522)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:1025)
+	at com.github.jsonldjava.core.JsonLdProcessor.expand(JsonLdProcessor.java:149)
+	at com.github.jsonldjava.core.JsonLdProcessor.toRDF(JsonLdProcessor.java:528)
+	at org.eclipse.rdf4j.rio.jsonld.JSONLDParser.parse(JSONLDParser.java:71)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 8: Aconitum napellus
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3063)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 25 common frames omitted
+[ERROR] 2019-03-05 14:20:18,076 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] Could not import file
+java.lang.IllegalArgumentException: Illegal character in path at index 5: Great Langdale
+	at java.net.URI.create(URI.java:852)
+	at java.net.URI.resolve(URI.java:1036)
+	at com.github.jsonldjava.utils.JsonLdUrl.resolve(JsonLdUrl.java:274)
+	at com.github.jsonldjava.core.Context.expandIri(Context.java:539)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:584)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:522)
+	at com.github.jsonldjava.core.JsonLdApi.expand(JsonLdApi.java:1025)
+	at com.github.jsonldjava.core.JsonLdProcessor.expand(JsonLdProcessor.java:149)
+	at com.github.jsonldjava.core.JsonLdProcessor.toRDF(JsonLdProcessor.java:528)
+	at org.eclipse.rdf4j.rio.jsonld.JSONLDParser.parse(JSONLDParser.java:71)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 5: Great Langdale
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3063)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 25 common frames omitted

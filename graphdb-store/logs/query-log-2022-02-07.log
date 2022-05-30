@@ -1,0 +1,29 @@
+[INFO ] 2022-02-07 11:13:57,501 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 11:29:14,200 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Pollinator>
+[INFO ] 2022-02-07 11:29:42,042 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 11:35:36,925 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR DEFAULT
+[INFO ] 2022-02-07 11:36:09,506 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 11:46:09,875 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR DEFAULT
+[INFO ] 2022-02-07 11:46:50,589 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 12:11:35,670 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#>
+[INFO ] 2022-02-07 12:12:15,475 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 12:19:25,661 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 12:29:03,350 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 12:35:12,630 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#>
+[INFO ] 2022-02-07 12:36:02,486 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 14:01:29,531 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#>
+[INFO ] 2022-02-07 14:02:11,468 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 14:31:49,961 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <http://www.ensembleprojects/biodiversity#>
+[INFO ] 2022-02-07 14:32:18,720 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#>
+[INFO ] 2022-02-07 14:32:46,978 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-02-07 14:36:13,592 [repositories/Biodiversity_repo | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#>
+[INFO ] 2022-02-07 14:36:52,316 [import-task-Biodiversity_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

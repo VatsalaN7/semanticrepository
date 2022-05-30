@@ -1,0 +1,6 @@
+[INFO ] 2019-03-17 15:39:39,333 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1863813290
+[INFO ] 2019-03-17 15:39:39,365 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1863813290 is finished
+[INFO ] 2019-03-17 16:26:41,225 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1863813290
+[INFO ] 2019-03-17 16:26:41,230 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1863813290 is finished
+[INFO ] 2019-03-17 21:56:50,155 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1863813290
+[INFO ] 2019-03-17 21:56:50,163 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1863813290 is finished

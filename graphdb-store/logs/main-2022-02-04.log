@@ -1,0 +1,486 @@
+[INFO ] 2022-02-04 14:32:19,896 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-02-04 14:32:22,712 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-02-04 14:32:42,186 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-02-04 14:32:42,187 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-02-04 14:32:42,188 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-02-04 14:32:42,191 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-02-04 14:32:42,196 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-02-04 14:33:12,706 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-02-04 14:34:07,047 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-02-04 14:34:07,048 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-02-04 14:34:07,060 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository FloodDemo_FakeData in READ/WRITE mode.
+[INFO ] 2022-02-04 14:34:07,061 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-02-04 14:34:07,062 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-02-04 14:34:07,062 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-02-04 14:34:07,062 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-02-04 14:34:07,062 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-02-04 14:34:07,062 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-02-04 14:34:07,064 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-02-04 14:34:07,065 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-02-04 14:34:07,066 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-04 14:34:07,091 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-04 14:34:07,092 [http-nio-7200-exec-8 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-02-04 14:34:07,101 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-02-04 14:34:07,153 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-04 14:34:07,188 [http-nio-7200-exec-8 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-02-04 14:34:07,304 [http-nio-7200-exec-8 | c.o.t.e.i.m.PersistedHashMap] Restored 1612 entities allocating 12.0 MB
+[INFO ] 2022-02-04 14:34:07,305 [http-nio-7200-exec-8 | c.o.t.e.i.m.PersistedHashMap] Done in 115 ms.
+[INFO ] 2022-02-04 14:34:07,398 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-02-04 14:34:07,410 [http-nio-7200-exec-8 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-02-04 14:34:07,423 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-02-04 14:34:07,437 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-02-04 14:34:07,453 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-04 14:34:07,466 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-02-04 14:34:08,295 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-02-04 14:34:08,304 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-02-04 14:34:08,397 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-02-04 14:34:08,436 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-02-04 14:34:08,447 [http-nio-7200-exec-8 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-02-04 14:34:08,460 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-02-04 14:34:08,550 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-02-04 14:34:08,616 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-02-04 14:34:08,617 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:34:08,617 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-02-04 14:34:08,617 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-02-04 14:34:08,685 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-02-04 14:34:08,701 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-02-04 14:34:08,706 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-02-04 14:34:08,709 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-02-04 14:34:08,711 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-02-04 14:34:08,712 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-02-04 14:34:08,712 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-02-04 14:34:08,712 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-02-04 14:34:08,712 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-02-04 14:34:08,712 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-02-04 14:34:08,712 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:34:08,725 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-02-04 14:34:08,733 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-02-04 14:34:08,733 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-02-04 14:34:08,755 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-02-04 14:34:08,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-02-04 14:34:08,799 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-02-04 14:34:08,835 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-02-04 14:34:08,836 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-02-04 14:34:08,951 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-02-04 14:34:08,951 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-02-04 14:34:08,987 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-02-04 14:34:08,989 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-02-04 14:34:09,036 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-02-04 14:34:09,037 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-02-04 14:34:09,135 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-02-04 14:34:09,136 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-02-04 14:34:09,166 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-02-04 14:34:09,166 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-02-04 14:34:09,168 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-02-04 14:34:09,352 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-02-04 14:34:09,356 [http-nio-7200-exec-8 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/FloodDemo_FakeData/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-02-04 14:34:09,368 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-02-04 14:34:09,370 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-02-04 14:34:09,385 [http-nio-7200-exec-8 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-02-04 14:34:09,386 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-02-04 14:34:09,388 [http-nio-7200-exec-8 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-02-04 14:34:09,388 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-02-04 14:34:09,388 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-02-04 14:34:09,389 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-02-04 14:34:09,389 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-02-04 14:34:09,390 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-02-04 14:34:09,391 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-02-04 14:34:09,391 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-02-04 14:34:09,391 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-02-04 14:34:09,391 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-02-04 14:34:09,391 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-02-04 14:34:09,391 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-02-04 14:34:09,426 [http-nio-7200-exec-8 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-02-04 14:34:09,426 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-02-04 14:34:09,426 [http-nio-7200-exec-8 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-02-04 14:34:09,427 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-02-04 14:34:09,507 [http-nio-7200-exec-8 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-02-04 14:34:09,507 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-02-04 14:34:09,594 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-02-04 14:34:09,605 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-02-04 14:34:14,068 [http-nio-7200-exec-8 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-02-04 14:34:14,069 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-02-04 14:34:14,085 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-02-04 14:34:14,107 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-02-04 14:34:14,135 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-02-04 14:34:14,141 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-02-04 14:34:14,142 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-02-04 14:34:14,305 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-02-04 14:34:14,305 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-02-04 14:34:14,305 [http-nio-7200-exec-8 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-02-04 14:34:14,353 [http-nio-7200-exec-8 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-02-04 14:34:17,859 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-02-04 14:34:17,859 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-02-04 14:34:17,864 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository corpus_repo in READ/WRITE mode.
+[INFO ] 2022-02-04 14:34:17,864 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-02-04 14:34:17,865 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-02-04 14:34:17,865 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-02-04 14:34:17,865 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-02-04 14:34:17,865 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-02-04 14:34:17,866 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-02-04 14:34:17,869 [http-nio-7200-exec-3 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-02-04 14:34:17,869 [http-nio-7200-exec-3 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-02-04 14:34:17,870 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-04 14:34:17,874 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-04 14:34:17,874 [http-nio-7200-exec-3 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-02-04 14:34:17,936 [http-nio-7200-exec-3 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-02-04 14:34:17,995 [http-nio-7200-exec-3 | c.o.t.e.i.m.PersistedHashMap] Restored 3630 entities allocating 12.0 MB
+[INFO ] 2022-02-04 14:34:17,996 [http-nio-7200-exec-3 | c.o.t.e.i.m.PersistedHashMap] Done in 59 ms.
+[WARN ] 2022-02-04 14:34:18,085 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-02-04 14:34:18,125 [http-nio-7200-exec-3 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-02-04 14:34:18,168 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-02-04 14:34:18,168 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:34:18,168 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-02-04 14:34:18,168 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-02-04 14:34:18,175 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-02-04 14:34:18,175 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-02-04 14:34:18,176 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:34:18,178 [http-nio-7200-exec-3 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-02-04 14:34:18,179 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-02-04 14:34:18,179 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-02-04 14:34:18,179 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-02-04 14:34:18,191 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-02-04 14:34:18,192 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-02-04 14:34:18,216 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-02-04 14:34:18,217 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-02-04 14:34:18,316 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-02-04 14:34:18,317 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-02-04 14:34:18,331 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-02-04 14:34:18,332 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-02-04 14:34:18,348 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-02-04 14:34:18,348 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-02-04 14:34:18,433 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-02-04 14:34:18,433 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-02-04 14:34:18,437 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-02-04 14:34:18,438 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-02-04 14:34:18,438 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-02-04 14:34:18,438 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-02-04 14:34:18,440 [http-nio-7200-exec-3 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-02-04 14:34:18,445 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-02-04 14:34:18,445 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-02-04 14:34:18,448 [http-nio-7200-exec-3 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-02-04 14:34:18,448 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-02-04 14:34:18,448 [http-nio-7200-exec-3 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-02-04 14:34:18,448 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-02-04 14:34:18,449 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-02-04 14:34:18,461 [http-nio-7200-exec-3 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-02-04 14:34:18,462 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-02-04 14:34:18,462 [http-nio-7200-exec-3 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-02-04 14:34:18,462 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-02-04 14:34:18,564 [http-nio-7200-exec-3 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-02-04 14:34:18,565 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-02-04 14:34:18,565 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-02-04 14:34:18,569 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-02-04 14:34:22,037 [http-nio-7200-exec-3 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-02-04 14:34:22,062 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-02-04 14:34:22,112 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-02-04 14:34:22,114 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-02-04 14:34:22,115 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-02-04 14:34:22,117 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-02-04 14:34:22,117 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-02-04 14:34:22,257 [http-nio-7200-exec-3 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-02-04 14:34:22,467 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:34:22,472 [repositories/corpus_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-02-04 14:34:22,488 [repositories/corpus_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-02-04 14:34:22,583 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:34:22,651 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-02-04 14:34:22,669 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-02-04 14:34:22,740 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-02-04 14:34:22,742 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-02-04 14:34:22,776 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-02-04 14:34:22,777 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-02-04 14:34:22,777 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-02-04 14:36:23,575 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-02-04 14:36:24,425 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 264932669
+[INFO ] 2022-02-04 14:36:24,425 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 264932669
+[INFO ] 2022-02-04 14:36:24,434 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 264932669 is finished
+[INFO ] 2022-02-04 14:36:24,434 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 264932669 is finished
+[INFO ] 2022-02-04 14:36:41,121 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:36:41,125 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:37:02,930 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:37:02,953 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:37:37,395 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:37:37,397 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:38:03,740 [repositories/corpus_repo | c.o.f.s.RepositoryController] GET query 207352401
+[INFO ] 2022-02-04 14:38:03,788 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 207352401 is finished
+[INFO ] 2022-02-04 14:38:03,851 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:38:03,853 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:38:03,872 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:38:03,873 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:38:05,174 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:38:05,176 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:38:05,185 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:38:05,187 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:38:08,778 [http-nio-7200-exec-10 | c.o.t.p.d.DependenciesPlugin] Start building dependency graph
+[INFO ] 2022-02-04 14:38:09,202 [http-nio-7200-exec-10 | c.o.t.p.d.DependenciesPlugin] Finished building dependency graph for : 0
+[INFO ] 2022-02-04 14:40:03,465 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-02-04 14:40:03,465 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-02-04 14:40:03,470 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository corpus_repo1 in READ/WRITE mode.
+[INFO ] 2022-02-04 14:40:03,470 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-02-04 14:40:03,470 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-02-04 14:40:03,470 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-02-04 14:40:03,470 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-02-04 14:40:03,471 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-02-04 14:40:03,471 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-02-04 14:40:03,471 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-02-04 14:40:03,473 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-02-04 14:40:03,473 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-04 14:40:03,484 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Detected unclean shutdown
+[INFO ] 2022-02-04 14:40:03,484 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-04 14:40:03,485 [http-nio-7200-exec-8 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-02-04 14:40:03,524 [http-nio-7200-exec-8 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-02-04 14:40:03,761 [http-nio-7200-exec-8 | c.o.t.e.i.m.PersistedHashMap] Restored 5460 entities allocating 12.0 MB
+[INFO ] 2022-02-04 14:40:03,761 [http-nio-7200-exec-8 | c.o.t.e.i.m.PersistedHashMap] Done in 237 ms.
+[WARN ] 2022-02-04 14:40:03,893 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-02-04 14:40:03,984 [http-nio-7200-exec-8 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-02-04 14:40:04,012 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-02-04 14:40:04,012 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:40:04,012 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-02-04 14:40:04,012 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-02-04 14:40:04,018 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-02-04 14:40:04,019 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-02-04 14:40:04,019 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-02-04 14:40:04,019 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-02-04 14:40:04,019 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-02-04 14:40:04,019 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-02-04 14:40:04,019 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-02-04 14:40:04,020 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-02-04 14:40:04,020 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-02-04 14:40:04,020 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-02-04 14:40:04,020 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:40:04,022 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-02-04 14:40:04,022 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-02-04 14:40:04,023 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-02-04 14:40:04,024 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-02-04 14:40:04,132 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-02-04 14:40:04,135 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-02-04 14:40:04,164 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-02-04 14:40:04,164 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-02-04 14:40:04,332 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-02-04 14:40:04,349 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-02-04 14:40:04,365 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-02-04 14:40:04,366 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-02-04 14:40:04,585 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-02-04 14:40:04,586 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-02-04 14:40:04,660 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-02-04 14:40:04,690 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-02-04 14:40:04,701 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-02-04 14:40:04,702 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-02-04 14:40:04,704 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-02-04 14:40:04,704 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-02-04 14:40:04,707 [http-nio-7200-exec-8 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo1/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-02-04 14:40:04,711 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-02-04 14:40:04,713 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-02-04 14:40:04,715 [http-nio-7200-exec-8 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-02-04 14:40:04,715 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-02-04 14:40:04,715 [http-nio-7200-exec-8 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-02-04 14:40:04,715 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-02-04 14:40:04,715 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-02-04 14:40:04,715 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-02-04 14:40:04,715 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-02-04 14:40:04,716 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-02-04 14:40:04,716 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-02-04 14:40:04,716 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-02-04 14:40:04,716 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-02-04 14:40:04,716 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-02-04 14:40:04,716 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-02-04 14:40:04,720 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-02-04 14:40:04,736 [http-nio-7200-exec-8 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-02-04 14:40:04,737 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-02-04 14:40:04,739 [http-nio-7200-exec-8 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-02-04 14:40:04,739 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-02-04 14:40:04,808 [http-nio-7200-exec-8 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-02-04 14:40:04,808 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-02-04 14:40:04,809 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-02-04 14:40:04,815 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-02-04 14:40:09,554 [http-nio-7200-exec-8 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-02-04 14:40:09,557 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-02-04 14:40:09,627 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-02-04 14:40:09,632 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-02-04 14:40:09,632 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-02-04 14:40:09,632 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-02-04 14:40:09,632 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-02-04 14:40:09,712 [http-nio-7200-exec-8 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-02-04 14:40:46,899 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:40:46,901 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:41:46,006 [JavaFX Application Thread | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-02-04 14:41:46,088 [JavaFX Application Thread | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-02-04 14:41:46,225 [JavaFX Application Thread | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-02-04 14:41:46,265 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfStatements = 9403
+[INFO ] 2022-02-04 14:41:46,265 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 8169
+[INFO ] 2022-02-04 14:41:46,268 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-02-04 14:41:46,277 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down
+[INFO ] 2022-02-04 14:41:46,414 [JavaFX Application Thread | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-02-04 14:41:46,429 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfStatements = 4482
+[INFO ] 2022-02-04 14:41:46,429 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 3621
+[INFO ] 2022-02-04 14:41:46,431 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-02-04 14:41:46,438 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down
+[INFO ] 2022-02-04 14:41:46,583 [JavaFX Application Thread | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-02-04 14:41:46,593 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfStatements = 13821
+[INFO ] 2022-02-04 14:41:46,593 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 13526
+[INFO ] 2022-02-04 14:41:46,594 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-02-04 14:41:46,599 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down
+[WARN ] 2022-02-04 14:41:46,628 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [Import cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.ontotext.forest.impex.ExecutorProvider.lambda$initCleanupPools$1(ExecutorProvider.java:26)
+ com.ontotext.forest.impex.ExecutorProvider$$Lambda$302/2004669593.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+[WARN ] 2022-02-04 14:41:46,629 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+[WARN ] 2022-02-04 14:41:46,630 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-02-04 14:42:03,939 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-02-04 14:42:05,448 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-02-04 14:42:19,004 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-02-04 14:42:19,005 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-02-04 14:42:19,005 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-02-04 14:42:19,006 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-02-04 14:42:19,006 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-02-04 14:42:41,178 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-02-04 14:42:50,757 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-02-04 14:42:50,759 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-02-04 14:42:50,777 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository corpus_repo in READ/WRITE mode.
+[INFO ] 2022-02-04 14:42:50,778 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-02-04 14:42:50,779 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-02-04 14:42:50,779 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-02-04 14:42:50,779 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-02-04 14:42:50,779 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-02-04 14:42:50,780 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-02-04 14:42:50,783 [http-nio-7200-exec-10 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-02-04 14:42:50,783 [http-nio-7200-exec-10 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-02-04 14:42:50,786 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-04 14:42:50,818 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-04 14:42:50,818 [http-nio-7200-exec-10 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-02-04 14:42:50,836 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-02-04 14:42:50,855 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-04 14:42:51,006 [http-nio-7200-exec-10 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-02-04 14:42:51,250 [http-nio-7200-exec-10 | c.o.t.e.i.m.PersistedHashMap] Restored 3630 entities allocating 12.0 MB
+[INFO ] 2022-02-04 14:42:51,250 [http-nio-7200-exec-10 | c.o.t.e.i.m.PersistedHashMap] Done in 244 ms.
+[INFO ] 2022-02-04 14:42:51,443 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-02-04 14:42:51,454 [http-nio-7200-exec-10 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-02-04 14:42:51,459 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-02-04 14:42:51,473 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-02-04 14:42:51,495 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-04 14:42:51,500 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-02-04 14:42:52,270 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-02-04 14:42:52,273 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-02-04 14:42:52,347 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-02-04 14:42:52,381 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-02-04 14:42:52,394 [http-nio-7200-exec-10 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-02-04 14:42:52,422 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-02-04 14:42:52,447 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-02-04 14:42:52,530 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-02-04 14:42:52,530 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:42:52,530 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-02-04 14:42:52,530 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-02-04 14:42:52,623 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-02-04 14:42:52,623 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-02-04 14:42:52,623 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-02-04 14:42:52,624 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-02-04 14:42:52,624 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-02-04 14:42:52,625 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-02-04 14:42:52,627 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-02-04 14:42:52,627 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-02-04 14:42:52,627 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-02-04 14:42:52,627 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-02-04 14:42:52,627 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-02-04 14:42:52,629 [http-nio-7200-exec-10 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-02-04 14:42:52,631 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-02-04 14:42:52,631 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-02-04 14:42:52,632 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-02-04 14:42:52,646 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-02-04 14:42:52,646 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-02-04 14:42:52,695 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-02-04 14:42:52,696 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-02-04 14:42:52,814 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-02-04 14:42:52,814 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-02-04 14:42:52,830 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-02-04 14:42:52,831 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-02-04 14:42:52,876 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-02-04 14:42:52,877 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-02-04 14:42:52,975 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-02-04 14:42:52,975 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-02-04 14:42:52,999 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-02-04 14:42:53,002 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-02-04 14:42:53,002 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-02-04 14:42:53,143 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-02-04 14:42:53,146 [http-nio-7200-exec-10 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-02-04 14:42:53,154 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-02-04 14:42:53,155 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-02-04 14:42:53,156 [http-nio-7200-exec-10 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-02-04 14:42:53,156 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-02-04 14:42:53,157 [http-nio-7200-exec-10 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-02-04 14:42:53,157 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-02-04 14:42:53,159 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-02-04 14:42:53,159 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-02-04 14:42:53,160 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-02-04 14:42:53,160 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-02-04 14:42:53,161 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-02-04 14:42:53,161 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-02-04 14:42:53,162 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-02-04 14:42:53,162 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-02-04 14:42:53,162 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-02-04 14:42:53,162 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-02-04 14:42:53,173 [http-nio-7200-exec-10 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-02-04 14:42:53,174 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-02-04 14:42:53,174 [http-nio-7200-exec-10 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-02-04 14:42:53,174 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-02-04 14:42:53,255 [http-nio-7200-exec-10 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-02-04 14:42:53,255 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-02-04 14:42:53,267 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-02-04 14:42:53,279 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-02-04 14:42:57,017 [http-nio-7200-exec-10 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-02-04 14:42:57,017 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-02-04 14:42:57,050 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-02-04 14:42:57,054 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-02-04 14:42:57,054 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-02-04 14:42:57,064 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-02-04 14:42:57,064 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-02-04 14:42:57,217 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-02-04 14:42:57,217 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-02-04 14:42:57,217 [http-nio-7200-exec-10 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-02-04 14:42:57,241 [http-nio-7200-exec-10 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-02-04 14:42:57,656 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-04 14:42:57,664 [repositories/corpus_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-02-04 14:42:57,673 [repositories/corpus_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-02-04 14:42:57,913 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-04 14:42:58,034 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-02-04 14:42:58,047 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-02-04 14:42:58,063 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-02-04 14:42:58,063 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-02-04 14:42:58,076 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-02-04 14:42:58,079 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-02-04 14:42:58,079 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'

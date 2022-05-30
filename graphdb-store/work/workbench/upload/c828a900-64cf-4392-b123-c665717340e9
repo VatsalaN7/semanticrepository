@@ -1,0 +1,290 @@
+[
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "is", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_1", 
+                "rdf:object": "a river in Lancaster.", 
+                "rdf:subject": "The River Wharfe"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "has", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_2", 
+                "rdf:object": "a catchment area of xkm2 draining to Lancaster.", 
+                "rdf:subject": "It"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "draining", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_3", 
+                "rdf:object": "to Lancaster.", 
+                "rdf:subject": "It has a catchment area of xkm2"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "are", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_4", 
+                "rdf:object": "gauged by the Environment Agency at Tadcaster (station ID: 8202), where the normal range is between 0.18m and 2.90m.", 
+                "rdf:subject": "River levels"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "gauged", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_5", 
+                "rdf:object": "by the Environment Agency at Tadcaster (station ID: 8202), where the normal range is between 0.18m and 2.90m.", 
+                "rdf:subject": "River levels are"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "is", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_6", 
+                "rdf:object": "between 0.18m and 2.90m.", 
+                "rdf:subject": "River levels are gauged by the Environment Agency at Tadcaster (station ID: 8202), where the normal range"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "sited", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_7", 
+                "rdf:object": "approximately 1.5km upstream of the A659 Tadcaster road bridge.", 
+                "rdf:subject": "This station is"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "flooding", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_8", 
+                "rdf:object": "from the river can be expected.", 
+                "rdf:subject": "According to the Environment Agency when the Wharfe at Tadcaster rises above 2.9m"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "tidal", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_9", 
+                "rdf:object": "from where it joins the river Ouse back up to the weir located approximately 350m upstream of Tadcaster A659 Road Bridge.", 
+                "rdf:subject": "The River Wharfe is"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "related", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_10", 
+                "rdf:object": "to both river flows and tidal influence.", 
+                "rdf:subject": "Hence flood risk from the Wharfe is"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "classified", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_11", 
+                "rdf:object": "as a main river the Environment Agency manages flood risk, maintaining and managing flood defences along the river as well as having the power to serve notice to any person or body requiring them to carry out necessary works to maintain flow.", 
+                "rdf:subject": "The River Wharfe is"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:The River Wharfe", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "manages", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_12", 
+                "rdf:object": "flood risk, maintaining and managing flood defences along the river as well as having the power to serve notice to any person or body requiring them to carry out necessary works to maintain flow.", 
+                "rdf:subject": "The River Wharfe is classified as a main river the Environment Agency"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }
+]

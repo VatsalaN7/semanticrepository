@@ -1,0 +1,2018 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://archive.org/services/purl/domain/floodmodel#"
+     xml:base="https://archive.org/services/purl/domain/floodmodel"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:floodmodel="https://archive.org/services/purl/domain/floodmodel#"
+     xmlns:Ontology1321454521="http://www.owl-ontologies.com/Ontology1321454521.owl#">
+    <owl:Ontology rdf:about="https://archive.org/services/purl/domain/floodmodel#">
+        <owl:imports rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#produceDischarge -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#produceDischarge">
+        <rdfs:range rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#assesses -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#assesses"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasAmount -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasAmount"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasCause -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasCause"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasComponents -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasComponents"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasDataFormat -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasDataFormat"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasFair -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasFair">
+        <rdfs:subPropertyOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasAmount"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasFloodDepth -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasFloodDepth"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasImpact -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasImpact"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasLargeScale -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasLargeScale">
+        <rdfs:subPropertyOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasAmount"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasOccurrence -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasOccurrence"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasPart -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasPart"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasSlight -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasSlight">
+        <rdfs:subPropertyOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasAmount"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasWarning -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasWarning"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#isAssessedBy -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#isAssessedBy"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#isCarrierOf -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#isCarrierOf"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#isCausedBy -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#isContributorOf -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#isContributorOf"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#isMeasuredBy -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#isMeasuredBy"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#isMeasuring -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#isMeasuring"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#isPartOf"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#occurredIn -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#produceOutput -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#produceOutput">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#produce"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasDescription"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasTimeRecorded -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasTimeRecorded">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/floodmodel#hasValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#Agent -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isContributorOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Gauges"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#WasteWaterServices"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasOccurrence"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Areas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#DataSource -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#DataSource">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isDataSourceOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#Device -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#Device">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isDataSourceOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#SimpleData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#produceOutput"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#Model -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#Model">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#useAndNeed"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#InputParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#assesses"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#produceOutput"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#OutputParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Impacts"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1321454521.owl#TopographicHazardAssessment -->
+
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1321454521.owl#TopographicHazardAssessment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#assesses"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#assesses"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#ABI -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#ABI">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Non-FCERM_Organisations"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Association of British Insurers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Age -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Age">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Air -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Air">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#EnvironmentalFactor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#All -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#All">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Assessment -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Assessment">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Impacts"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#actionManagedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#AssessmentReportOrProcedure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Beach_Erosion -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Beach_Erosion">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Storms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Built -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Built">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#LandUse"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Burst_River_Banks -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Burst_River_Banks">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burst river banks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#CEH -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#CEH">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#CSV -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#CSV">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#DataFormat"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#CatchmentArea -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#CatchmentArea"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#CauseOfHazard -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasCause"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Coast_of_Large_Body -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Coast_of_Large_Body">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coast of large body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Coast_of_sea -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Coast_of_sea">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coast of sea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Coastal -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Coastal">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Major"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Minor"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Moderate"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Coast_of_Large_Body"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Coast_of_sea"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#StormParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Beach_Erosion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surge Flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Commercial -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Commercial">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Condition -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Condition">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Cost -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Cost">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Impacts"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Cracks -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Cracks">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Critical -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Critical">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#CrossSection -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#CrossSection">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#DamBurst -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#DamBurst">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dam burst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Damages -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Damages">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Impacts"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Damages_Avoided -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Damages_Avoided">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Damages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">damages avoided</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Data -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Data">
+        <rdfs:subClassOf rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#non-physical-object"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasDataSource"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#DataSource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isObtainedWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasDataFormat"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#DataFormat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#DataFormat -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#DataFormat">
+        <rdfs:subClassOf rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#non-physical-object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#DefectiveJoints -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#DefectiveJoints">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Built"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defence infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Dimension -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Dimension">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Direction -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Direction">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#StormParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Dyke_Break -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Dyke_Break">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">river dyke burst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Elements -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Elements">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Embankments -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Embankments">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#EnvironmentAgency -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#EnvironmentAgency">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FCERM_Operating_Authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Estimated_Damage -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Estimated_Damage">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Damages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estimated damage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Excel -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Excel">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#DataFormat"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#ExistingProperties -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#ExistingProperties">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FCERM_Operating_Authorities -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FCERM_Operating_Authorities">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FEH -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FEH">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Flap_Valves -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Flap_Valves">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Flash_Flooding -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Flash_Flooding">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Fluvial"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Storms"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Torrent"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Damages"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Storms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Flat_Area -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Flat_Area">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Terrain_Type"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flat area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Flood -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Flood">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#HydrologicalHazard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Impacts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasWarning"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodWarningTypes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isAssessedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#WasteWaterServices"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#CatchmentArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FloodAlert -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FloodAlert">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodWarningTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FloodDepth -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FloodDepth">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InputParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#assesses"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Properties_Flooded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FloodLevels -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FloodLevels">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InputParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FloodWalls -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FloodWalls">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FloodWarning -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FloodWarning">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodWarningTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FloodWarningThreshold -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FloodWarningThreshold">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Thresholds"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FloodWarningTypes -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FloodWarningTypes"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Areas -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Areas">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#LandSurface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#actionManagedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodWarningTypes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Zones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isMeasuredBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Gauges"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flood warning areas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Zones -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Zones">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#LandSurface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Areas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Fluvial -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Fluvial">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">River Flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#FoulWater -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#FoulWater">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Gauges -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Gauges">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Built"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isMeasuring"/>
+                        <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#RainfallAnalysisParameter"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isMeasuring"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodDepth"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isMeasuring"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodLevels"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isMeasuring"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#GroundWater -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#GroundWater">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Heavy_Rainfall -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Heavy_Rainfall">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Heavy_Snow_Melt -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Heavy_Snow_Melt">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Height -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Height">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#High_Velocity -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#High_Velocity">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high velocity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Highways -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Highways">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Hilly_or_Mountainous_Area -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Hilly_or_Mountainous_Area">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Terrain_Type"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hilly or mountainous area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Historic -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Historic">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#LandUse"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#HistoricLandmarks -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#HistoricLandmarks">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Huge_Rivers -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Huge_Rivers">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#River"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huge rivers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Ice_Jams -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Ice_Jams">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Impacts -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Impacts">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Independent_of_Water_Body -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Independent_of_Water_Body">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent of water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#InformationThreshold -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#InformationThreshold">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Thresholds"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InputParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#InputParameter -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#InputParameter">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Internal_Drainage_Boards -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Internal_Drainage_Boards">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FCERM_Operating_Authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#JBA -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#JBA">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#LRF_NAME -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#LRF_NAME">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#TopographicHazardAssessment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Local_Authorities -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Local_Authorities">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FCERM_Operating_Authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Location -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Location">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Areas"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood_Warning_Areas"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Maintained -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Maintained">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Condition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasTimeRecorded"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Major -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Major">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodLevels"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasFair"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Beach_Erosion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Manholes -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Manholes">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Ministry_of_Defence -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Ministry_of_Defence">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Non-FCERM_Organisations"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Minor -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Minor">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodLevels"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasSlight"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Beach_Erosion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#ModelOutput -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#ModelOutput">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#DataSource"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Moderate -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Moderate">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodLevels"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasLargeScale"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Beach_Erosion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#NFCDD -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#NFCDD">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Name -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Name">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#National_Trust -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#National_Trust">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Non-FCERM_Organisations"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#NewlyBuilt -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#NewlyBuilt">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Condition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasTimeRecorded"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#NewlyBuiltProperties -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#NewlyBuiltProperties">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Non-FCERM_Organisations -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Non-FCERM_Organisations">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#NumberofAssets -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#NumberofAssets">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#OperationalActivityThreshold -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#OperationalActivityThreshold">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Thresholds"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Outdated -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Outdated">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Condition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasTimeRecorded"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Outfalls -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Outfalls">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#OutputParameter -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#OutputParameter">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Overbank_Flooding -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Overbank_Flooding">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Fluvial"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasImpact"/>
+                        <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#EmbankmentBreak"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasImpact"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#DamBurst"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasImpact"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Dyke_Break"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Burst_River_Banks"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#DamBurst"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Dyke_Break"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Ownership -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Ownership">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#PDF -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#PDF">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#DataFormat"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Pluvial -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Pluvial">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Heavy_Rainfall"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCausedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Sewerage_System"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Damages"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Independent_of_Water_Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Precipitation -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Precipitation">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Properties -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Properties">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Properties_Flooded -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Properties_Flooded">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Impacts"/>
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasFloodDepth"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodDepth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">properties flooded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Pumping_Stations -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Pumping_Stations">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#RASP -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#RASP">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Built"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#InfrastructureParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Residential -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Residential">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#River -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#River">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasOccurrence"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Burst_River_Banks"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#RiverChannels -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#RiverChannels">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#RiverParameter -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#RiverParameter">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InputParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isMeasuredBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Gauges"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#River_Depth -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#River_Depth">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">river depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#River_Levels -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#River_Levels">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Roads -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Roads">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#SevereFloodWarning -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#SevereFloodWarning">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FloodWarningTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Sewerage_System -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Sewerage_System">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Defence_Infrastructure"/>
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#WasteWaterServices"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Cracks"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#DefectiveJoints"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flap_Valves"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Manholes"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#dischargeAffectedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#dischargeAffectedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCarrierOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#FoulWater"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCarrierOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#SurfaceWaterRunOff"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#isCarrierOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#UsedWater"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sewerage system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#SimpleData -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#SimpleData">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Size -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Size">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#StormParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Sluices -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Sluices">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Small_Streams -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Small_Streams">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#River"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small streams</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Soil_Saturation -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Soil_Saturation">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil saturation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Speed -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Speed">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#StormParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#StormParameter -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#StormParameter">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#InputParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterOf"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#Storms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Storms -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Storms">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#StormParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Strength -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Strength">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#StormParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Structures -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Structures">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Receptor_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#SurfaceWaterRunOff -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#SurfaceWaterRunOff">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#SynthesizedData -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#SynthesizedData">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Temperature -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Temperature">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Terrain_Type -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Terrain_Type">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#RiverParameter"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrain type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Thresholds -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Thresholds">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Impacts"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Torrent -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Torrent">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#High_Velocity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/floodmodel#occurredIn"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/floodmodel#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Trash_Screens -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Trash_Screens">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#UrbanSpaces -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#UrbanSpaces">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#CauseOfHazard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#UsedWater -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#UsedWater">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#WasteWaterServices -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#WasteWaterServices">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Socioeconomic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Water_Industry -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Water_Industry">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#FCERM_Operating_Authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Weirs -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#Weirs">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/floodmodel#Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#CFMP/SFRA -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/floodmodel#CFMP/SFRA">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Flood1 -->
+
+    <owl:NamedIndividual rdf:about="https://archive.org/services/purl/domain/floodmodel#Flood1">
+        <rdf:type rdf:resource="https://archive.org/services/purl/domain/floodmodel#Flood"/>
+        <Ontology1321454521:hasCharacterizingIndicator rdf:resource="https://archive.org/services/purl/domain/floodmodel#Parameter1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/floodmodel#Parameter1 -->
+
+    <owl:NamedIndividual rdf:about="https://archive.org/services/purl/domain/floodmodel#Parameter1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,140 @@
+[
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Acaena_anserinifolia_(Piripiri)",
+    "plantbiodiversity:hasBinomial": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Binomial",
+      "plantbiodiversity:hasBinomial": "Acaena anserinifolia"
+    },
+    "plantbiodiversity:hasCommonNames": {
+      "@id": "Acaena_anserinifolia_(Piripiri)CommonNames",
+      "plantbiodiversity:hasCommonNames": "Bidibid, Cockle button, Hutiwai, Piripiri, pirikahu, piriwhetau, huruhuru-o-hine-nui-te-p\u014d, kai\u0101, kaikai\u0101rure, kai\u0101rurerure, kaikai\u0101"
+    },
+    "plantbiodiversity:hasDescription": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Description",
+      "plantbiodiversity:hasDescription": "Acaena\u00a0is a genus of about 100 species of mainly evergreen, creeping herbaceous perennial ... These names are the English rendition of the original M\u0101ori name of\u00a0piripiri. The plant is also called the ... with the barbed burrs. In California, A. pallida, A. novae-zelandiae and A.\u00a0anserinifolia\u00a0are considered serious weeds."
+    },
+    "plantbiodiversity:hasFamily": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Family",
+      "plantbiodiversity:hasFamily": "Rosaceae"
+    },
+    "plantbiodiversity:hasGenus": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Genus",
+      "plantbiodiversity:hasGenus": "Acaena"
+    },
+    "plantbiodiversity:hasKingdom": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Kingdom",
+      "plantbiodiversity:hasKingdom": "Plantae"
+    },
+    "plantbiodiversity:hasOrder": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Order",
+      "plantbiodiversity:hasOrder": "Rosales"
+    },
+    "plantbiodiversity:hasSpecies": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Species",
+      "plantbiodiversity:hasSpecies": "A. anserinifolia"
+    },
+    "plantbiodiversity:hasSubFamily": {
+      "@id": "Acaena_anserinifolia_(Piripiri)SubFamily",
+      "plantbiodiversity:hasSubFamily": "Rosoideae"
+    },
+    "plantbiodiversity:hasSubTribe": {
+      "@id": "Acaena_anserinifolia_(Piripiri)SubTribe",
+      "plantbiodiversity:hasSubTribe": "Sanguisorbinae"
+    },
+    "plantbiodiversity:hasSynonyms": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Synonyms",
+      "plantbiodiversity:hasSynonyms": "Acaena pusilla var. pusilla, A. pusilla var. suprasericascens A. viridior"
+    },
+    "plantbiodiversity:hasTribe": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Tribe",
+      "plantbiodiversity:hasTribe": "Sanguisorbeae"
+    },
+    "plantbiodiversity:hasUnranked": {
+      "@id": "Acaena_anserinifolia_(Piripiri)Unranked",
+      "plantbiodiversity:hasUnranked": "Angiosperms, Eudicots, Rosids"
+    },
+    "plantbiodiversity:hasValue": "Acaena anserinifolia (Piripiri)",
+    "rdfs:subClassOf": {
+      "@id": "plantbiodiversity:plantname"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Nuphar_Lutea",
+    "plantbiodiversity:hasBinomial": {
+      "@id": "Nuphar_LuteaBinomial",
+      "plantbiodiversity:hasBinomial": "Nuphar Lutea"
+    },
+    "plantbiodiversity:hasCommonNames": {
+      "@id": "Nuphar_LuteaCommonNames",
+      "plantbiodiversity:hasCommonNames": "Nil"
+    },
+    "plantbiodiversity:hasDescription": {
+      "@id": "Nuphar_LuteaDescription",
+      "plantbiodiversity:hasDescription": "Some botanists have treated Nuphar lutea as the sole species in Nuphar, including all the other species in it as subspecies and giving the species a holarctic range, but the genus is now more usually divided into eight species (see Nuphar for details"
+    },
+    "plantbiodiversity:hasFamily": {
+      "@id": "Nuphar_LuteaFamily",
+      "plantbiodiversity:hasFamily": "Nymphaeacea"
+    },
+    "plantbiodiversity:hasGenus": {
+      "@id": "Nuphar_LuteaGenus",
+      "plantbiodiversity:hasGenus": "Nil"
+    },
+    "plantbiodiversity:hasKingdom": {
+      "@id": "Nuphar_LuteaKingdom",
+      "plantbiodiversity:hasKingdom": "Nil"
+    },
+    "plantbiodiversity:hasOrder": {
+      "@id": "Nuphar_LuteaOrder",
+      "plantbiodiversity:hasOrder": "Nil"
+    },
+    "plantbiodiversity:hasSpecies": {
+      "@id": "Nuphar_LuteaSpecies",
+      "plantbiodiversity:hasSpecies": "Nil"
+    },
+    "plantbiodiversity:hasSubFamily": {
+      "@id": "Nuphar_LuteaSubFamily",
+      "plantbiodiversity:hasSubFamily": "Nil"
+    },
+    "plantbiodiversity:hasSubTribe": {
+      "@id": "Nuphar_LuteaSubTribe",
+      "plantbiodiversity:hasSubTribe": "Nil"
+    },
+    "plantbiodiversity:hasSynonyms": {
+      "@id": "Nuphar_LuteaSynonyms",
+      "plantbiodiversity:hasSynonyms": "Nil"
+    },
+    "plantbiodiversity:hasTribe": {
+      "@id": "Nuphar_LuteaTribe",
+      "plantbiodiversity:hasTribe": "Nil"
+    },
+    "plantbiodiversity:hasUnranked": {
+      "@id": "Nuphar_LuteaUnranked",
+      "plantbiodiversity:hasUnranked": "Nil"
+    },
+    "plantbiodiversity:hasValue": "Nuphar Lutea",
+    "rdfs:subClassOf": {
+      "@id": "plantbiodiversity:plantname"
+    }
+  }
+]

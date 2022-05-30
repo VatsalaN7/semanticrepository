@@ -1,0 +1,200 @@
+[
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Newton",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass grazed very short, areas outside of fenced boundary looked a lot more diverse but unknown if this belongs to the solar park",
+            "pollinator:hasPolarity": 0.1,
+            "pollinator:hasSheep": "Yes",
+            "pollinator:hasSubjectivity": 0.38
+        },
+        "pollinator:hasObservationDate": "14/07/2021",
+        "pollinator:hasValue": "Newton"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Woolbridge",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass uncut and very long everywhere",
+            "pollinator:hasPolarity": -0.28,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.66
+        },
+        "pollinator:hasObservationDate": "15/07/2021",
+        "pollinator:hasValue": "Woolbridge"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Verwood",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "Yes",
+            "pollinator:hasObservation": "Grass uncut in some fields and cut in others, very variable across the site",
+            "pollinator:hasPolarity": -0.15,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.55
+        },
+        "pollinator:hasObservationDate": "15/07/2021",
+        "pollinator:hasValue": "Verwood"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Cowdown",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass uncut and long, especially in the margins",
+            "pollinator:hasPolarity": -0.18,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.73
+        },
+        "pollinator:hasObservationDate": "16/07/2021",
+        "pollinator:hasValue": "Cowdown"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Sheepbridge",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass cut and cuttings not removed, border between fields looked unmown but could be public footpath",
+            "pollinator:hasPolarity": 0.0,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.07
+        },
+        "pollinator:hasObservationDate": "16/07/2021",
+        "pollinator:hasValue": "Sheepbridge"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "Saxley",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass cut (but flowers beginning to grow back), areas left uncut near the entrance and front of the site",
+            "pollinator:hasPolarity": -0.1,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.3
+        },
+        "pollinator:hasObservationDate": "19/07/2021",
+        "pollinator:hasValue": "Saxley"
+    }
+]

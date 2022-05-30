@@ -1,0 +1,202 @@
+[
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_1",
+                    "localkn:hasIndicator": "were",
+                    "localkn:hasValue": "exceptional with the AWharfe catchments seeing some of their highest recorded levels."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_2",
+                    "localkn:hasIndicator": "are",
+                    "localkn:hasValue": "likely to be as a result of peak flows from upstream coinciding with still intense rainfall and the capacity of the catchment to move water being exceeded."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_3",
+                    "localkn:hasIndicator": "recorded",
+                    "localkn:hasValue": "particularly intense rainfall."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_4",
+                    "localkn:hasIndicator": "recorded",
+                    "localkn:hasValue": "in one 36 hour period."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_5",
+                    "localkn:hasIndicator": "shows",
+                    "localkn:hasValue": "river flows at Tadcaster, rainfall response at the mid catchment rain gauge at Otley and the upper catchment rain gauge at Beckermonds during December."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_6",
+                    "localkn:hasIndicator": "increased",
+                    "localkn:hasValue": "more quickly than, and exceeded, past events."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_7",
+                    "localkn:hasIndicator": "shows",
+                    "localkn:hasValue": "a comparison of the flood events of 2000, 2012 and 2015 in Tadcaster."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "localkn:obs_8",
+                    "localkn:hasIndicator": "rose",
+                    "localkn:hasValue": "faster, and to a higher level, than in previous flood events, due to a combination of intense rainfall, high flows arriving from upstream and the catchment being saturated."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Response Wharfe catchments",
+        "rdf:type": "damage:data"
+    }
+]

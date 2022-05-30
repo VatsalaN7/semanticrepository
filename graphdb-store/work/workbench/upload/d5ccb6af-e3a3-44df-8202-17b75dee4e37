@@ -1,0 +1,1421 @@
+[
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteA",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass grazed very short, areas outside of fenced boundary looked a lot more diverse but unknown if this belongs to the solar park",
+            "pollinator:hasPolarity": 0.1,
+            "pollinator:hasSheep": "Yes",
+            "pollinator:hasSubjectivity": 0.38
+        },
+        "pollinator:hasObservationDate": "2021-07-14",
+        "pollinator:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteB",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass uncut and very long everywhere",
+            "pollinator:hasPolarity": -0.28,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.66
+        },
+        "pollinator:hasObservationDate": "2021-07-15",
+        "pollinator:hasValue": "SiteB"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteC",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "Yes",
+            "pollinator:hasObservation": "Grass uncut in some fields and cut in others, very variable across the site",
+            "pollinator:hasPolarity": -0.15,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.55
+        },
+        "pollinator:hasObservationDate": "2021-07-15",
+        "pollinator:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteD",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass uncut and long, especially in the margins",
+            "pollinator:hasPolarity": -0.18,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.73
+        },
+        "pollinator:hasObservationDate": "2021-07-16",
+        "pollinator:hasValue": "SiteD"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteE",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass cut and cuttings not removed, border between fields looked unmown but could be public footpath",
+            "pollinator:hasPolarity": 0.0,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.07
+        },
+        "pollinator:hasObservationDate": "2021-07-16",
+        "pollinator:hasValue": "SiteE"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteF",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass cut (but flowers beginning to grow back), areas left uncut near the entrance and front of the site",
+            "pollinator:hasPolarity": -0.1,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.3
+        },
+        "pollinator:hasObservationDate": "2021-07-19",
+        "pollinator:hasValue": "SiteF"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteG",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass grazed very short in areas, but patches left slightly longer",
+            "pollinator:hasPolarity": -0.06,
+            "pollinator:hasSheep": "Yes",
+            "pollinator:hasSubjectivity": 0.19
+        },
+        "pollinator:hasObservationDate": "2021-07-19",
+        "pollinator:hasValue": "SiteG"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteH",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass uncut because of skylarks, ecologist on site to advise before cutting, relatively high abundance and diversity of flowering plants",
+            "pollinator:hasPolarity": -0.31,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.75
+        },
+        "pollinator:hasObservationDate": "2021-07-21",
+        "pollinator:hasValue": "SiteH"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteI",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass not cut recently",
+            "pollinator:hasPolarity": 0.0,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.25
+        },
+        "pollinator:hasObservationDate": "2021-07-21",
+        "pollinator:hasValue": "SiteI"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteJ",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass was in the middle of being cut, in one field there was some trimming in front of the panels but in another the whole row had been cut, special amphibian areas, many frogs on site",
+            "pollinator:hasPolarity": 0.26,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.37
+        },
+        "pollinator:hasObservationDate": "2021-07-22",
+        "pollinator:hasValue": "SiteJ"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteK",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass uncut, long between panels and even longer in the margins, many hedgerows running through the site",
+            "pollinator:hasPolarity": -0.02,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.57
+        },
+        "pollinator:hasObservationDate": "2021-07-23",
+        "pollinator:hasValue": "SiteK"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteL",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Two biodiversity areas on site (front near entrance and back right of first field) that appeared to be seeded and had insect hotels, climbing species planted for screening",
+            "pollinator:hasPolarity": 0.16,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.32
+        },
+        "pollinator:hasObservationDate": "2021-07-26",
+        "pollinator:hasValue": "SiteL"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteM",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass not cut recently (engineer says grass is cut twice per year), relatively high abundance of flowering plants between panel rows that were not always captured in quadrats",
+            "pollinator:hasPolarity": 0.08,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.39
+        },
+        "pollinator:hasObservationDate": "2021-07-27",
+        "pollinator:hasValue": "SiteM"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteN",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass not cut recently (engineer says grass is cut twice per year), areas at back of site where flowering plants were more abundant",
+            "pollinator:hasPolarity": 0.28,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.42
+        },
+        "pollinator:hasObservationDate": "2021-07-27",
+        "pollinator:hasValue": "SiteN"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteA",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass grazed very short, areas outside of fenced boundary looked a lot more diverse but unknown if this belongs to the solar park",
+            "pollinator:hasPolarity": 0.1,
+            "pollinator:hasSheep": "Yes",
+            "pollinator:hasSubjectivity": 0.38
+        },
+        "pollinator:hasObservationDate": "2021-08-17",
+        "pollinator:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteB",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass cut since July visit but had grown back quite long, flowering plants were still present despite cutting",
+            "pollinator:hasPolarity": -0.16,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.32
+        },
+        "pollinator:hasObservationDate": "2021-08-17",
+        "pollinator:hasValue": "SiteB"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteD",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass cut in one field but seemed uncut and long in other areas and margins",
+            "pollinator:hasPolarity": -0.22,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.52
+        },
+        "pollinator:hasObservationDate": "2021-08-18",
+        "pollinator:hasValue": "SiteD"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteE",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass cut and cuttings not removed, border between fields looked unmown but could be public footpath - more flowering plants (mostly daisies) than in July",
+            "pollinator:hasPolarity": 0.33,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.36
+        },
+        "pollinator:hasObservationDate": "2021-08-18",
+        "pollinator:hasValue": "SiteE"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteC",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "Yes",
+            "pollinator:hasObservation": "Grass cut across the site with some patches left long away from the panels (mostly too small for a transect)",
+            "pollinator:hasPolarity": 0.05,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.32
+        },
+        "pollinator:hasObservationDate": "2021-08-19",
+        "pollinator:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteG",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass grazed very short (bare ground in some areas) especially in first field, slightly longer in second field and some flowering plants ",
+            "pollinator:hasPolarity": 0.08,
+            "pollinator:hasSheep": "Yes",
+            "pollinator:hasSubjectivity": 0.26
+        },
+        "pollinator:hasObservationDate": "2021-08-20",
+        "pollinator:hasValue": "SiteG"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteJ",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass was longer than July visit but not long in any areas between the panels, very boggy",
+            "pollinator:hasPolarity": 0.11,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.35
+        },
+        "pollinator:hasObservationDate": "2021-08-23",
+        "pollinator:hasValue": "SiteJ"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteO",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass was mown with cuttings left in place, suggestion that sheep could graze parts of the park but they were not on site",
+            "pollinator:hasPolarity": 0.0,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.0
+        },
+        "pollinator:hasObservationDate": "2021-08-23",
+        "pollinator:hasValue": "SiteO"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteI",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass seemed like it had not been cut recently but there were few flowering plants between rows, areas left longer in some margin patches (knapweed dominated)",
+            "pollinator:hasPolarity": -0.07,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.12
+        },
+        "pollinator:hasObservationDate": "2021-08-24",
+        "pollinator:hasValue": "SiteI"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteH",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Vegetation had been cut since July visit but had partially regrown - strip cut very short in front of panels",
+            "pollinator:hasPolarity": -0.05,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.34
+        },
+        "pollinator:hasObservationDate": "2021-08-24",
+        "pollinator:hasValue": "SiteH"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteL",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Two biodiversity areas on site (front near entrance and back right of first field) that appeared to be seeded and had insect hotels, climbing species planted for screening",
+            "pollinator:hasPolarity": 0.16,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.32
+        },
+        "pollinator:hasObservationDate": "2021-08-25",
+        "pollinator:hasValue": "SiteL"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteK",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass uncut (? - same as July), long between panels and even longer in the margins, many hedgerows running through the site",
+            "pollinator:hasPolarity": -0.01,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.46
+        },
+        "pollinator:hasObservationDate": "2021-08-26",
+        "pollinator:hasValue": "SiteK"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteM",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass not cut recently (engineer says grass is cut twice per year), relatively high abundance of flowering plants between panel rows that were not always captured in quadrats - areas at the back of the site that were wildflower rich",
+            "pollinator:hasPolarity": 0.13,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.38
+        },
+        "pollinator:hasObservationDate": "2021-08-27",
+        "pollinator:hasValue": "SiteM"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteN",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass not cut recently (engineer says grass is cut twice per year), areas at back of site where flowering plants were more abundant",
+            "pollinator:hasPolarity": 0.28,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.42
+        },
+        "pollinator:hasObservationDate": "2021-08-27",
+        "pollinator:hasValue": "SiteN"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteA",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass grazed very short, areas outside of fenced boundary looked a lot more diverse but unknown if this belongs to the solar park",
+            "pollinator:hasPolarity": 0.1,
+            "pollinator:hasSheep": "Yes",
+            "pollinator:hasSubjectivity": 0.38
+        },
+        "pollinator:hasObservationDate": "2021-09-16",
+        "pollinator:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteC",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "Yes",
+            "pollinator:hasObservation": "Grass quite consistent length across the site, some patches left long but too small for a transect",
+            "pollinator:hasPolarity": -0.01,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.26
+        },
+        "pollinator:hasObservationDate": "2021-09-16",
+        "pollinator:hasValue": "SiteC"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteP",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "Yes",
+            "pollinator:hasObservation": "Not grazed and grass relatively long in places, large area of heather towards back of site which was noticeably more valuable to pollinators",
+            "pollinator:hasPolarity": 0.17,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.33
+        },
+        "pollinator:hasObservationDate": "2021-09-17",
+        "pollinator:hasValue": "SiteP"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteB",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass seemed to be very recently cut and some strimming was going on on site, lack of flowering plants and margins appeared to be cut too",
+            "pollinator:hasPolarity": 0.0,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.32
+        },
+        "pollinator:hasObservationDate": "2021-09-17",
+        "pollinator:hasValue": "SiteB"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteD",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass was being cut as we were on site - most rows appeared to be fully mown, whereas others had a strip left in front of the panels. Areas away from panels were left longer.",
+            "pollinator:hasPolarity": 0.17,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.17
+        },
+        "pollinator:hasObservationDate": "2021-09-20",
+        "pollinator:hasValue": "SiteD"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteE",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass seemed longer than in July and August, abundant open areas of daisies at the site entrance",
+            "pollinator:hasPolarity": 0.3,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.72
+        },
+        "pollinator:hasObservationDate": "2021-09-20",
+        "pollinator:hasValue": "SiteE"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteG",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "No sheep on site this time, although droppings and short grass suggest they had been grazing up until recently",
+            "pollinator:hasPolarity": 0.0,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.28
+        },
+        "pollinator:hasObservationDate": "2021-09-21",
+        "pollinator:hasValue": "SiteG"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteJ",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Vegetation similar to July and August, still very boggy",
+            "pollinator:hasPolarity": 0.1,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.35
+        },
+        "pollinator:hasObservationDate": "2021-09-22",
+        "pollinator:hasValue": "SiteJ"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteO",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Vegetation was longer than August visit, no sheep on site but droppings suggest they could have been recently",
+            "pollinator:hasPolarity": 0.0,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.25
+        },
+        "pollinator:hasObservationDate": "2021-09-22",
+        "pollinator:hasValue": "SiteO"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteI",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass seemed like it had not been cut recently but there were few flowering plants between rows, areas left longer in some margin patches (knapweed dominated)",
+            "pollinator:hasPolarity": -0.07,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.12
+        },
+        "pollinator:hasObservationDate": "2021-09-23",
+        "pollinator:hasValue": "SiteI"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteH",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Vegetation appeared similar to August, with some flowering plant species still present between the rows - strips had been mown in front of the panels themselves (maybe 1m wide)",
+            "pollinator:hasPolarity": -0.03,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.27
+        },
+        "pollinator:hasObservationDate": "2021-09-23",
+        "pollinator:hasValue": "SiteH"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteL",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Vegetation similar to previous visits, still some flowering plant species between rows despite it being September - also areas not between rows that were rich, close to substations",
+            "pollinator:hasPolarity": 0.07,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.44
+        },
+        "pollinator:hasObservationDate": "2021-09-24",
+        "pollinator:hasValue": "SiteL"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteK",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Grass not cut recently (engineer says grass is cut twice per year), very few flowering plants anywhere on site (between rows or in margin areas)",
+            "pollinator:hasPolarity": -0.13,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.19
+        },
+        "pollinator:hasObservationDate": "2021-09-27",
+        "pollinator:hasValue": "SiteK"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteM",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Vegetation across the whole site (including margins and free areas) had been cut since August visit, very few flowering plants across the site",
+            "pollinator:hasPolarity": 0.11,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.44
+        },
+        "pollinator:hasObservationDate": "2021-09-28",
+        "pollinator:hasValue": "SiteM"
+    },
+    {
+        "@context": {
+            "pollinator": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "SiteN",
+        "rdf:type": {
+            "@id": "pollinator:Site"
+        },
+        "owl:equivalentClass": {
+            "@id": "ecosystem:Site",
+            "ecosystem:has": {
+                "@id": "ecosystem:Ecosystem_services",
+                "@type": "ecosystem:Ecosystem_services"
+            }
+        },
+        "pollinator:has": {
+            "rdfs:member": {
+                "@id": "pollinator:SiteObservation"
+            },
+            "pollinator:hasHoneyHives": "No",
+            "pollinator:hasObservation": "Vegetation across the whole site (including margins and free areas) had been cut since August visit, very few flowering plants across the site",
+            "pollinator:hasPolarity": 0.11,
+            "pollinator:hasSheep": "No",
+            "pollinator:hasSubjectivity": 0.44
+        },
+        "pollinator:hasObservationDate": "2021-09-28",
+        "pollinator:hasValue": "SiteN"
+    }
+]

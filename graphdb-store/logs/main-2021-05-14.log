@@ -1,0 +1,142 @@
+[INFO ] 2021-05-14 12:03:32,350 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 12:03:43,648 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 12:03:43,685 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 12:03:44,061 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2021-05-14 12:03:52,237 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:07:03,098 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:07:03,120 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:07:57,894 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2021-05-14 14:07:57,895 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2021-05-14 14:07:57,903 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository FloodDemo_FakeData in READ/WRITE mode.
+[INFO ] 2021-05-14 14:07:57,903 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2021-05-14 14:07:57,903 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2021-05-14 14:07:57,903 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2021-05-14 14:07:57,903 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2021-05-14 14:07:57,904 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2021-05-14 14:07:57,904 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2021-05-14 14:07:57,908 [http-nio-7200-exec-10 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2021-05-14 14:07:57,909 [http-nio-7200-exec-10 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2021-05-14 14:07:57,909 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2021-05-14 14:07:57,912 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Storage folder do not exists and is created: /Users/archana/Library/Application Support/GraphDB/data/repositories/FloodDemo_FakeData/storage
+[INFO ] 2021-05-14 14:07:57,918 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2021-05-14 14:07:57,918 [http-nio-7200-exec-10 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2021-05-14 14:07:58,095 [http-nio-7200-exec-10 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2021-05-14 14:07:59,217 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2021-05-14 14:07:59,219 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2021-05-14 14:07:59,220 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2021-05-14 14:07:59,220 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2021-05-14 14:07:59,232 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2021-05-14 14:07:59,235 [http-nio-7200-exec-10 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2021-05-14 14:07:59,235 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2021-05-14 14:07:59,235 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2021-05-14 14:07:59,236 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2021-05-14 14:07:59,269 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2021-05-14 14:07:59,269 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2021-05-14 14:07:59,351 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2021-05-14 14:07:59,351 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2021-05-14 14:07:59,472 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2021-05-14 14:07:59,472 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2021-05-14 14:07:59,485 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2021-05-14 14:07:59,485 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2021-05-14 14:07:59,508 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2021-05-14 14:07:59,508 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2021-05-14 14:07:59,557 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2021-05-14 14:07:59,557 [http-nio-7200-exec-10 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2021-05-14 14:07:59,564 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2021-05-14 14:07:59,565 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2021-05-14 14:07:59,565 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2021-05-14 14:07:59,565 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2021-05-14 14:07:59,567 [http-nio-7200-exec-10 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/FloodDemo_FakeData/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2021-05-14 14:07:59,573 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2021-05-14 14:07:59,574 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2021-05-14 14:07:59,575 [http-nio-7200-exec-10 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2021-05-14 14:07:59,576 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2021-05-14 14:07:59,576 [http-nio-7200-exec-10 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2021-05-14 14:07:59,576 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2021-05-14 14:07:59,576 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2021-05-14 14:07:59,577 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2021-05-14 14:07:59,578 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2021-05-14 14:07:59,578 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2021-05-14 14:07:59,578 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2021-05-14 14:07:59,578 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2021-05-14 14:07:59,579 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2021-05-14 14:07:59,579 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2021-05-14 14:07:59,579 [http-nio-7200-exec-10 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2021-05-14 14:07:59,580 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[WARN ] 2021-05-14 14:07:59,585 [http-nio-7200-exec-10 | c.o.p.literals-index] Rebuilding literals indexes. Starting from id:1
+[WARN ] 2021-05-14 14:07:59,795 [http-nio-7200-exec-10 | c.o.p.literals-index] Complete in 0.209, num entries indexed:0
+[INFO ] 2021-05-14 14:07:59,795 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2021-05-14 14:07:59,820 [http-nio-7200-exec-10 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2021-05-14 14:07:59,821 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2021-05-14 14:07:59,900 [http-nio-7200-exec-10 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2021-05-14 14:07:59,900 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2021-05-14 14:07:59,902 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2021-05-14 14:07:59,908 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2021-05-14 14:08:02,716 [http-nio-7200-exec-10 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2021-05-14 14:08:02,717 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2021-05-14 14:08:02,735 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2021-05-14 14:08:02,740 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2021-05-14 14:08:02,741 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2021-05-14 14:08:02,741 [http-nio-7200-exec-10 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2021-05-14 14:08:02,747 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2021-05-14 14:08:03,001 [http-nio-7200-exec-10 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2021-05-14 14:08:34,050 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:08:34,052 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:08:58,820 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:08:58,825 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:08:58,893 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2021-05-14 14:08:58,893 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2021-05-14 14:10:32,942 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:10:32,945 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:10:37,094 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:15:26,776 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:15:36,244 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:15:41,416 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:15:46,983 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:15:50,259 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:15:53,702 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:15:58,384 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:16:00,901 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:16:02,948 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:16:05,380 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:16:07,720 [repositories/flood-repo | c.o.g.s.StatementsController] GET statements
+[INFO ] 2021-05-14 14:19:14,658 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:19:14,661 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:20:32,073 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:20:33,437 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:20:33,440 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:20:38,025 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:24:50,929 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:24:54,598 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:24:54,602 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:24:57,897 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:24:59,523 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:24:59,525 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:26:08,303 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:26:14,716 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:26:14,719 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:26:16,648 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:26:54,744 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:26:58,550 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:26:58,551 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:27:01,410 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:27:02,819 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:27:02,820 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:27:14,612 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:28:15,794 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:28:21,471 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:28:21,472 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:28:27,454 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:28:27,455 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-05-14 14:28:29,186 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-05-14 14:28:29,187 [repositories/FloodDemo_FakeData | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished

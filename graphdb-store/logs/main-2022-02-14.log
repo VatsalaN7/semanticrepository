@@ -1,0 +1,409 @@
+[INFO ] 2022-02-14 10:42:19,473 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-02-14 10:42:20,989 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-02-14 10:42:29,874 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-02-14 10:42:29,877 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-02-14 10:42:29,877 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-02-14 10:42:29,878 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-02-14 10:42:29,878 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-02-14 10:42:46,966 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-02-14 10:42:55,243 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-02-14 10:42:55,247 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-02-14 10:42:55,430 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_repo in READ/WRITE mode.
+[INFO ] 2022-02-14 10:42:55,438 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-02-14 10:42:55,465 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-02-14 10:42:55,469 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-02-14 10:42:55,492 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-02-14 10:42:55,495 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-02-14 10:42:55,495 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-02-14 10:42:55,515 [repositories/Biodiversity_repo | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-02-14 10:42:55,515 [repositories/Biodiversity_repo | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-02-14 10:42:55,520 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-14 10:42:55,610 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-14 10:42:55,617 [repositories/Biodiversity_repo | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-02-14 10:42:55,622 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-02-14 10:42:55,638 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-02-14 10:42:55,916 [repositories/Biodiversity_repo | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-02-14 10:42:56,196 [repositories/Biodiversity_repo | c.o.t.e.i.m.PersistedHashMap] Restored 3965 entities allocating 12.0 MB
+[INFO ] 2022-02-14 10:42:56,197 [repositories/Biodiversity_repo | c.o.t.e.i.m.PersistedHashMap] Done in 279 ms.
+[INFO ] 2022-02-14 10:42:56,494 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-02-14 10:42:56,498 [repositories/Biodiversity_repo | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-02-14 10:42:56,565 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-02-14 10:42:56,589 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-02-14 10:42:56,732 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-02-14 10:42:56,738 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-02-14 10:42:58,275 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-02-14 10:42:58,280 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-02-14 10:42:58,408 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-02-14 10:42:58,453 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-02-14 10:42:58,563 [repositories/Biodiversity_repo | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-02-14 10:42:58,580 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-02-14 10:42:58,600 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-02-14 10:42:58,642 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-02-14 10:42:58,643 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-02-14 10:42:58,644 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-02-14 10:42:58,644 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-02-14 10:42:58,760 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-02-14 10:42:58,760 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-02-14 10:42:58,760 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-02-14 10:42:58,761 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-02-14 10:42:58,761 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-02-14 10:42:58,761 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-02-14 10:42:58,773 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-02-14 10:42:58,774 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-02-14 10:42:58,774 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-02-14 10:42:58,774 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-02-14 10:42:58,775 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-02-14 10:42:58,776 [repositories/Biodiversity_repo | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-02-14 10:42:58,776 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-02-14 10:42:58,776 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-02-14 10:42:58,780 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-02-14 10:42:58,804 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-02-14 10:42:58,806 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-02-14 10:42:58,888 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-02-14 10:42:58,888 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-02-14 10:42:58,970 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-02-14 10:42:58,971 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-02-14 10:42:58,990 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-02-14 10:42:58,990 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-02-14 10:42:59,352 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-02-14 10:42:59,357 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-02-14 10:42:59,524 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-02-14 10:42:59,524 [repositories/Biodiversity_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-02-14 10:42:59,539 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-02-14 10:42:59,540 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-02-14 10:42:59,541 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-02-14 10:42:59,857 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-02-14 10:42:59,892 [repositories/Biodiversity_repo | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-02-14 10:42:59,899 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-02-14 10:42:59,902 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-02-14 10:42:59,904 [repositories/Biodiversity_repo | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-02-14 10:42:59,906 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-02-14 10:42:59,907 [repositories/Biodiversity_repo | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-02-14 10:42:59,908 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-02-14 10:42:59,910 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-02-14 10:42:59,910 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-02-14 10:42:59,913 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-02-14 10:42:59,913 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-02-14 10:42:59,913 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-02-14 10:42:59,913 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-02-14 10:42:59,913 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-02-14 10:42:59,913 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-02-14 10:42:59,913 [repositories/Biodiversity_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-02-14 10:42:59,914 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-02-14 10:42:59,940 [repositories/Biodiversity_repo | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-02-14 10:42:59,942 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-02-14 10:42:59,942 [repositories/Biodiversity_repo | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-02-14 10:42:59,942 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-02-14 10:42:59,987 [repositories/Biodiversity_repo | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-02-14 10:42:59,988 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-02-14 10:43:00,005 [repositories/Biodiversity_repo | c.o.t.p.d.DependenciesPlugin] Dependency graph was restored from cache
+[INFO ] 2022-02-14 10:43:00,006 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-02-14 10:43:00,008 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-02-14 10:43:06,044 [repositories/Biodiversity_repo | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-02-14 10:43:06,046 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-02-14 10:43:06,064 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-02-14 10:43:06,072 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-02-14 10:43:06,073 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-02-14 10:43:06,082 [repositories/Biodiversity_repo | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-02-14 10:43:06,084 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-02-14 10:43:06,150 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-02-14 10:43:06,151 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-02-14 10:43:06,151 [repositories/Biodiversity_repo | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-02-14 10:43:06,166 [repositories/Biodiversity_repo | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-02-14 10:43:06,247 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 10:43:06,247 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 10:43:06,250 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-02-14 10:43:06,265 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-02-14 10:43:06,307 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 10:43:06,324 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 10:43:06,326 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 10:43:06,339 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 10:43:06,400 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-02-14 10:43:06,411 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-02-14 10:43:06,423 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-02-14 10:43:06,423 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-02-14 10:43:06,433 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-02-14 10:43:06,434 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-02-14 10:43:06,435 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-02-14 10:44:52,132 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-02-14 10:44:52,284 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-02-14 10:44:52,535 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-02-14 10:46:49,863 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 274259932
+[INFO ] 2022-02-14 10:46:49,901 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1828240914 is finished
+[INFO ] 2022-02-14 10:47:24,814 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -236748832
+[INFO ] 2022-02-14 10:47:24,848 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1129445518 is finished
+[INFO ] 2022-02-14 10:51:07,290 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1651989583
+[INFO ] 2022-02-14 10:51:07,399 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 744295773 is finished
+[INFO ] 2022-02-14 10:51:32,484 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 306112166
+[INFO ] 2022-02-14 10:51:32,610 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -212659832 is finished
+[INFO ] 2022-02-14 10:51:59,946 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1256730512
+[INFO ] 2022-02-14 10:51:59,966 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -128043298 is finished
+[INFO ] 2022-02-14 10:52:21,348 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 405041457
+[INFO ] 2022-02-14 10:52:21,392 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 219852765 is finished
+[INFO ] 2022-02-14 10:52:32,564 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -566002916
+[INFO ] 2022-02-14 10:52:32,580 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2141104850 is finished
+[INFO ] 2022-02-14 10:52:45,168 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -836512618
+[INFO ] 2022-02-14 10:52:45,312 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1194817944 is finished
+[INFO ] 2022-02-14 10:53:00,128 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1421350656
+[INFO ] 2022-02-14 10:53:00,205 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -747334290 is finished
+[INFO ] 2022-02-14 10:53:43,667 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -68966667
+[INFO ] 2022-02-14 10:53:43,690 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1136431975 is finished
+[INFO ] 2022-02-14 10:54:17,461 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1411935578
+[INFO ] 2022-02-14 10:54:17,483 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1449479340 is finished
+[INFO ] 2022-02-14 10:54:24,663 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 10:54:28,689 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 10:54:28,691 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 10:54:28,822 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2022-02-14 10:55:45,674 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 863480155
+[INFO ] 2022-02-14 10:55:45,813 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 240709107 is finished
+[INFO ] 2022-02-14 10:55:56,713 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 986346238
+[INFO ] 2022-02-14 10:55:56,986 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -343684048 is finished
+[INFO ] 2022-02-14 10:56:24,695 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1014093290
+[INFO ] 2022-02-14 10:56:24,757 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 790430916 is finished
+[INFO ] 2022-02-14 11:24:20,144 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1063092992
+[INFO ] 2022-02-14 11:24:20,176 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1711625874 is finished
+[INFO ] 2022-02-14 11:24:27,952 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -236748832
+[INFO ] 2022-02-14 11:24:27,981 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1129445518 is finished
+[INFO ] 2022-02-14 11:25:12,890 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1914650812
+[INFO ] 2022-02-14 11:25:12,916 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -345626318 is finished
+[INFO ] 2022-02-14 11:30:11,527 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:30:15,992 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-14 11:30:16,744 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:30:50,730 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:30:52,341 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:30:52,344 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:31:21,603 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:31:26,026 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-14 11:31:26,338 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:31:56,106 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:31:57,460 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:31:57,461 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:32:45,255 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1548244500
+[INFO ] 2022-02-14 11:32:45,306 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -585827622 is finished
+[INFO ] 2022-02-14 11:33:05,886 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 374170882
+[INFO ] 2022-02-14 11:33:05,967 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 266597548 is finished
+[INFO ] 2022-02-14 11:34:41,022 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 811801005
+[INFO ] 2022-02-14 11:34:41,163 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -303006495 is finished
+[INFO ] 2022-02-14 11:35:07,813 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1902613722
+[INFO ] 2022-02-14 11:35:07,886 [repositories/Biodiversity_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Encountered "<EOF>" at line 26, column 34.
+Was expecting one of:
+    "(" ...
+    "{" ...
+    "}" ...
+    "[" ...
+    "." ...
+    <NIL> ...
+    <ANON> ...
+    "optional" ...
+    "graph" ...
+    "minus" ...
+    "filter" ...
+    "true" ...
+    "false" ...
+    "bind" ...
+    "service" ...
+    "values" ...
+    <Q_IRI_REF> ...
+    <PNAME_NS> ...
+    <PNAME_LN> ...
+    <BLANK_NODE_LABEL> ...
+    <VAR1> ...
+    <VAR2> ...
+    <INTEGER> ...
+    <INTEGER_POSITIVE> ...
+    <INTEGER_NEGATIVE> ...
+    <DECIMAL> ...
+    <DECIMAL_POSITIVE> ...
+    <DECIMAL_NEGATIVE> ...
+    <DOUBLE> ...
+    <DOUBLE_POSITIVE> ...
+    <DOUBLE_NEGATIVE> ...
+    <STRING_LITERAL1> ...
+    <STRING_LITERAL2> ...
+    <STRING_LITERAL_LONG1> ...
+    <STRING_LITERAL_LONG2> ...
+    
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-02-14 11:35:29,629 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1861117333
+[INFO ] 2022-02-14 11:35:29,662 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1148516637 is finished
+[INFO ] 2022-02-14 11:35:41,654 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 87723867
+[INFO ] 2022-02-14 11:35:41,717 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -110508045 is finished
+[INFO ] 2022-02-14 11:38:59,831 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 431970672
+[INFO ] 2022-02-14 11:38:59,851 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1818130686 is finished
+[INFO ] 2022-02-14 11:39:25,518 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:39:25,523 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:39:29,332 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:39:29,395 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:40:56,824 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -648855267
+[INFO ] 2022-02-14 11:40:56,871 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1536072561 is finished
+[INFO ] 2022-02-14 11:41:07,708 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -592118531
+[INFO ] 2022-02-14 11:41:07,719 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -940864623 is finished
+[INFO ] 2022-02-14 11:41:13,731 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1980930947
+[INFO ] 2022-02-14 11:41:13,873 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -769669941 is finished
+[INFO ] 2022-02-14 11:41:24,300 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1476603255
+[INFO ] 2022-02-14 11:41:24,309 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1917733499 is finished
+[INFO ] 2022-02-14 11:41:34,425 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 201994641
+[INFO ] 2022-02-14 11:41:34,474 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1555469443 is finished
+[INFO ] 2022-02-14 11:41:57,144 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1066403936
+[INFO ] 2022-02-14 11:41:57,190 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1474484430 is finished
+[INFO ] 2022-02-14 11:42:10,216 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1449028183
+[INFO ] 2022-02-14 11:42:10,328 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'default.min.distinct.threshold' to default value '250.0M'
+[INFO ] 2022-02-14 11:42:10,344 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -846387643 is finished
+[INFO ] 2022-02-14 11:42:44,094 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1933397541
+[INFO ] 2022-02-14 11:42:44,137 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1189218753 is finished
+[INFO ] 2022-02-14 11:44:53,442 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1649963802
+[INFO ] 2022-02-14 11:44:53,543 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 557106580 is finished
+[INFO ] 2022-02-14 11:47:39,119 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 249778202
+[INFO ] 2022-02-14 11:47:39,228 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 249778202 is finished
+[INFO ] 2022-02-14 11:47:52,427 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -377841032
+[INFO ] 2022-02-14 11:47:52,558 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1408233004 is finished
+[INFO ] 2022-02-14 11:48:25,529 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1899886877
+[INFO ] 2022-02-14 11:48:25,602 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -642413895 is finished
+[INFO ] 2022-02-14 11:48:47,401 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -404975154
+[INFO ] 2022-02-14 11:48:47,608 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -404975154 is finished
+[INFO ] 2022-02-14 11:53:30,037 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:53:32,395 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:53:32,397 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:54:41,727 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:54:44,330 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:54:44,331 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:55:28,154 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:55:30,062 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:55:30,065 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:59:02,728 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:59:02,731 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:59:06,720 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:59:06,723 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:59:08,061 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:59:08,062 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:59:08,676 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 11:59:08,678 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:59:36,740 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 11:59:41,915 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-14 11:59:42,868 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:00:42,837 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:00:45,061 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:00:45,069 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:03:35,823 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:03:51,032 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-14 12:03:51,631 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:04:31,572 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:04:33,622 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:04:33,623 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:05:10,593 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:05:10,595 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:05:12,855 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:05:12,861 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:06:15,536 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1768429104
+[INFO ] 2022-02-14 12:06:15,547 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1768429104 is finished
+[INFO ] 2022-02-14 12:08:17,134 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1676530029
+[INFO ] 2022-02-14 12:08:17,142 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1676530029 is finished
+[INFO ] 2022-02-14 12:09:45,151 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -453698408
+[INFO ] 2022-02-14 12:09:45,167 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -453698408 is finished
+[INFO ] 2022-02-14 12:09:57,577 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1830133219
+[INFO ] 2022-02-14 12:09:57,586 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1830133219 is finished
+[INFO ] 2022-02-14 12:11:25,221 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-02-14 12:11:25,255 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-02-14 12:11:42,012 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1066403936
+[INFO ] 2022-02-14 12:11:42,022 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1474484430 is finished
+[INFO ] 2022-02-14 12:12:10,565 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-02-14 12:12:10,574 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-02-14 12:12:24,848 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1545469252
+[INFO ] 2022-02-14 12:12:24,880 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1545469252 is finished
+[INFO ] 2022-02-14 12:12:28,277 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1063092992
+[INFO ] 2022-02-14 12:12:28,281 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1711625874 is finished
+[INFO ] 2022-02-14 12:13:13,197 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1545469252
+[INFO ] 2022-02-14 12:13:13,232 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1545469252 is finished
+[INFO ] 2022-02-14 12:17:42,684 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1804490111
+[INFO ] 2022-02-14 12:17:42,771 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2100025203 is finished
+[INFO ] 2022-02-14 12:18:05,312 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1860887654
+[INFO ] 2022-02-14 12:18:05,441 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 969698580 is finished
+[INFO ] 2022-02-14 12:18:28,120 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 641815266
+[INFO ] 2022-02-14 12:18:28,158 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1427763916 is finished
+[INFO ] 2022-02-14 12:19:56,514 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1714929205
+[INFO ] 2022-02-14 12:19:56,567 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 913521539 is finished
+[INFO ] 2022-02-14 12:20:11,508 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1714929205
+[INFO ] 2022-02-14 12:20:11,522 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 913521539 is finished
+[INFO ] 2022-02-14 12:20:31,667 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 707100163
+[INFO ] 2022-02-14 12:20:31,704 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 486634059 is finished
+[INFO ] 2022-02-14 12:23:21,641 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:23:26,818 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-14 12:23:26,926 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:23:32,290 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-14 12:23:32,383 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:25:35,760 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 700547892
+[INFO ] 2022-02-14 12:25:35,870 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2073346490 is finished
+[INFO ] 2022-02-14 12:26:33,580 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1035418951
+[INFO ] 2022-02-14 12:26:33,611 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1769040505 is finished
+[INFO ] 2022-02-14 12:26:43,335 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:26:46,079 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:26:46,080 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:27:12,828 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:27:17,008 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:27:17,009 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:27:30,298 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:27:37,613 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-02-14 12:27:39,054 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:28:03,636 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:28:05,884 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:28:05,887 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:28:35,692 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-02-14 12:28:35,694 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-02-14 12:28:51,979 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 700547892
+[INFO ] 2022-02-14 12:28:52,233 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2073346490 is finished
+[INFO ] 2022-02-14 12:31:07,921 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -620311183
+[INFO ] 2022-02-14 12:31:07,954 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2014804893 is finished
+[INFO ] 2022-02-14 12:38:09,726 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1012853162
+[INFO ] 2022-02-14 12:38:09,787 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1966593230 is finished
+[INFO ] 2022-02-14 12:38:50,474 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 918163773
+[INFO ] 2022-02-14 12:38:50,551 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 315312857 is finished
+[INFO ] 2022-02-14 12:39:31,025 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2086287346
+[INFO ] 2022-02-14 12:39:31,063 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1877647410 is finished
+[INFO ] 2022-02-14 12:40:08,412 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 417761559
+[INFO ] 2022-02-14 12:40:08,451 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 417761559 is finished

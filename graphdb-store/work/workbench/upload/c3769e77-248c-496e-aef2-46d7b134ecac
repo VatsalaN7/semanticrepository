@@ -1,0 +1,146 @@
+[
+    {
+        "localkn:isAbout": "localkn:Water Company Risk Management Functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "named", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_1", 
+                "rdf:object": "as a Risk Management Authority under the Flood and Water Management Act 2010 and must have regard to the Local Strategy of the LLFA.", 
+                "rdf:subject": "Water companies in England and Wales are"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:Water Company Risk Management Functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "manage", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_2", 
+                "rdf:object": "risks associated with assets or processes that may cause or be affected by flooding, and must share relevant data with other flood risk authorities.", 
+                "rdf:subject": "They are required to"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:Water Company Risk Management Functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "have", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_3", 
+                "rdf:object": "flood risk management functions under the Water Resources Act (1991).", 
+                "rdf:subject": "They also"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:Water Company Risk Management Functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "include", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_4", 
+                "rdf:object": ": the inspection, maintenance, repair and any works to their drainage assets which may include watercourses, pipes, ditches or other infrastructure such as pumping stations.", 
+                "rdf:subject": "Relevant actions of water companies"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:Water Company Risk Management Functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "designates", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_5", 
+                "rdf:object": "water and wastewater undertakers as statutory category 2 responders to national disasters and emergencies, placing on them duties to share assured information with other responders in an appropriate manner.", 
+                "rdf:subject": "The Civil Contingencies Act 2004 (CCA) also"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:Water Company Risk Management Functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "designates", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_6", 
+                "rdf:object": "water and wastewater undertakers as statutory category 2 responders to national disasters and emergencies, placing on them duties to share assured information with other responders in an appropriate manner.", 
+                "rdf:subject": "The Civil Contingencies Act 2004 (CCA) also"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }
+]

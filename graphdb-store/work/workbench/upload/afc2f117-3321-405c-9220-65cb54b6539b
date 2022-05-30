@@ -1,0 +1,4582 @@
+[
+    {
+        "damage:hasDescription": "Nil", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "Totals_for_all_affected_properties_and_roads_within_listed_FWAs_when_gauges_at_specified_levels"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "977"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "Nil", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "Nil", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFWYASHFRD", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "River_Wye_at_Ashford_in_the_Water"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "ASHFORD"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "41"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFWYASHFRD", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFWYASHFRDCS", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "River_Wye_at_Ashford_in_the_Water,_Church_Street_Area"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "ASHFORD"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "34"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYASHFRDCS", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFWYASHFRDCS", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFWYBAKEWELL", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "River_Wye_at_Bakewell"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "ASHFORD"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "408"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKEWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFWYBAKEWELL", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFWYROWSLEY", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "River_Wye_at_Rowsley"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "ASHFORD"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "No_model_data"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYROWSLEY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFWYROWSLEY", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFWYBAKMILF", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "River_Wye_at_Wye_Bank_and_Milford_at_Bakewell"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "ASHFORD"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "55"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYBAKMILF", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFWYBAKMILF", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFWYCHEE", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "River_Wye_at_Chee_Dale,_Cressbrook_and_Upperdale"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "BUXTON"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "No_model_data"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYCHEE", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFWYCHEE", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFWYLITTMILL", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "River_Wye_at_Litton_Mill"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "BUXTON"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "No_model_data"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFWYLITTMILL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFWYLITTMILL", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFMEBUDBY", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "River_Meden_at_Budby"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "CHURCH_WARSOP"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "0"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEBUDBY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFMEBUDBY", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFMEWARSOP", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "River_Meden_at_Market_Warsop,_Church_Warsop_and_Meden_Vale"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "CHURCH_WARSOP"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "Yes"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "2"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMEWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFMEWARSOP", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFMECHWARSOP", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "River_Meden_for_low_lying_riverside_properties_at_Church_Warsop"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "CHURCH_WARSOP"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "Yes"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "2"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMECHWARSOP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFMECHWARSOP", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFMAMANSFLD", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "River_Maun_at_Mansfield"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "FIELD_MILL_DAM"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "103"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFMAMANSFLD", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFMAMANSFLD", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWBTRBESTHRP", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "River_Trent_at_Besthorpe"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "NORTH_MUSKHAM"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "52"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRBESTHRP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWBTRBESTHRP", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWBTRCARLTON", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "River_Trent_at_Carlton_on_Trent_including_Beck_Cottage"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "NORTH_MUSKHAM"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "Yes"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "35"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCARLTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWBTRCARLTON", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWBTRCOLLHAM", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "River_Trent_at_Collingham"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "NORTH_MUSKHAM"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "15"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCOLLHAM", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWBTRCOLLHAM", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWBTRCROMWELL", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "River_Trent_at_Cromwell"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "NORTH_MUSKHAM"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "4"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRCROMWELL", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWBTRCROMWELL", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWBTRGIRTON", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "River_Trent_at_Girton"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "NORTH_MUSKHAM"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "26"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRGIRTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWBTRGIRTON", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWBTRSUTTON", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "River_Trent_at_Sutton-on-Trent_including_Carlton_Hall"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "NORTH_MUSKHAM"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "Yes"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "149"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWBTRSUTTON", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWBTRSUTTON", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFRYWORKSP", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "River_Ryton_at_Worksop_Town_Centre"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "WORKSOP"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "51"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYWORKSP", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFRYWORKSP", 
+        "@type": "damage:Code"
+    }, 
+    {
+        "damage:hasDescription": "034FWFRYSHELLY", 
+        "damage:hasDamages": [
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Estimated_Damages", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Estimated_Damage"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Damages_Avoided", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isCausedBy": {
+                        "@id": "floodmodel:Flood"
+                    }, 
+                    "@id": "floodmodel:Damages_Avoided"
+                }
+            }
+        ], 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "River_Ryton_at_Worksop,_Shelley_Street"
+                }, 
+                "@id": "damage:River", 
+                "rdfs:subClassOf": {
+                    "floodmodel:hasPart": {
+                        "@id": "floodmodel:Flood_Warning_Areas"
+                    }, 
+                    "@id": "floodmodel:River", 
+                    "floodmodel:hasCharacterizingIndicator": [
+                        {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        {
+                            "@id": "floodmodel:WasteWaterServices"
+                        }, 
+                        {
+                            "@id": "floodmodel:Defence_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Receptor_Infrastructure"
+                        }, 
+                        {
+                            "@id": "floodmodel:Water"
+                        }, 
+                        {
+                            "@id": "floodmodel:LandSlope"
+                        }
+                    ], 
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:RiverParameter"
+                    }
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "WORKSOP"
+                }, 
+                "@id": "damage:Gauge", 
+                "rdfs:subclassOf": {
+                    "floodmodel:isMeasuring": [
+                        {
+                            "@id": "floodmodel:FloodDepth"
+                        }, 
+                        {
+                            "@id": "floodmodel:RiverParameter"
+                        }
+                    ], 
+                    "@id": "floodmodel:Gauges"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "No"
+                }, 
+                "@id": "damage:Overlaps_Other_FWA"
+            }, 
+            {
+                "@id": "damage:All", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:All"
+                }, 
+                "damage:Value": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "0"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Residential", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Residential"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Commercial", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Commercial"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Critical", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Critical"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "Nil"
+                }, 
+                "@id": "damage:Number_Protected"
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Min_Range_Value"
+                }, 
+                "@id": "damage:Range_Min", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_1"
+                }, 
+                "@id": "damage:Range_1", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Intermediate_Range_Value_2"
+                }, 
+                "@id": "damage:Range_2", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "damage:hasRange": {
+                    "@id": "damage:Max_Range_Value"
+                }, 
+                "@id": "damage:Range_Max", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Properties_Flooded"
+                }
+            }, 
+            {
+                "damage:hasValue": {
+                    "damage:isAttachedto": "034FWFRYSHELLY", 
+                    "@id": "./"
+                }, 
+                "@id": "damage:Road_Length", 
+                "rdfs:subClassOf": {
+                    "floodmodel:isParameterizedBy": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "floodmodel:Roads"
+                }
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "@id": "034FWFRYSHELLY", 
+        "@type": "damage:Code"
+    }
+]

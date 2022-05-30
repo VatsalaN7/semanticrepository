@@ -1,0 +1,86 @@
+[
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata120",
+        "rdfs:member": {
+            "@id": "soil:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "soil:collectedBy": {
+            "@id": "soil:Author",
+            "@type": "soil:Author",
+            "soil:hasValue": "Fabio Carvalho G Da Silva"
+        },
+        "soil:hasComponent": {
+            "rdfs:member": {
+                "@id": "soil:Plot_ID"
+            },
+            "soil:hasValue": "['ND121U' 'ND122U' 'ND123U' 'ND124U' 'ND125B' 'ND126B' 'ND127B' 'ND128B'\n 'ND129C' 'ND130C' 'ND131C' 'ND132C']",
+            "soil:isAttached": "0"
+        },
+        "soil:hasDate": "29/07/2021",
+        "soil:hasSiteInfo": {
+            "rdfs:member": {
+                "@id": "soil:SiteInfo"
+            },
+            "soil:hasValue": "['Overgrown_vegetation;_rabbits_seen_on_site;_PVC_corer_used_for_soil_sampling;_last_two_control_plots_sampled_from_wildflower_meadow_south_of_small_site'\n 'Nil']",
+            "soil:isAttached": "0"
+        },
+        "soil:hasValue": "SiteA"
+    },
+    {
+        "@context": {
+            "soil": "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#",
+            "ecosystem": "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@id": "soil_data_sitedata121",
+        "rdfs:member": {
+            "@id": "soil:Site",
+            "owl:equivalentClass": {
+                "@id": "ecosystem:Site",
+                "ecosystem:has": {
+                    "@id": "ecosystem:Ecosystem_services",
+                    "@type": "ecosystem:Ecosystem_services"
+                }
+            }
+        },
+        "soil:collectedBy": {
+            "@id": "soil:Author",
+            "@type": "soil:Author",
+            "soil:hasValue": "Fabio Carvalho G Da Silva"
+        },
+        "soil:hasComponent": {
+            "rdfs:member": {
+                "@id": "soil:Plot_ID"
+            },
+            "soil:hasValue": "['VW241U' 'VW242U' 'VW243U' 'VW244U' 'VW245B' 'VW246B' 'VW247B' 'VW248B'\n 'VW249C' 'VW250C' 'VW251C' 'VW252C']",
+            "soil:isAttached": "1"
+        },
+        "soil:hasDate": "25/08/2021",
+        "soil:hasSiteInfo": {
+            "rdfs:member": {
+                "@id": "soil:SiteInfo"
+            },
+            "soil:hasValue": "['Deer_seen_on_site;_abundant_Urtica_under_panels_in_places,_especially_in_field_1;_control_samples_collected_from_adjacent_land_outside_the_fenced_area_(pastureland?);_PVC_corer_used'\n 'Nil']",
+            "soil:isAttached": "1"
+        },
+        "soil:hasValue": "SiteC"
+    }
+]

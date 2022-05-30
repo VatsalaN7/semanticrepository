@@ -1,0 +1,84 @@
+[INFO ] 2021-06-07 11:35:23,866 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 11:36:14,462 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 11:36:49,296 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 11:42:08,742 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 12:05:47,845 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#GaugeConsole>
+[INFO ] 2021-06-07 12:05:47,846 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#Properties>
+[INFO ] 2021-06-07 12:05:47,846 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#GaugeLevels>
+[INFO ] 2021-06-07 12:06:16,642 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 12:07:36,283 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#GaugeLevels>
+[INFO ] 2021-06-07 12:45:59,817 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 12:55:36,696 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 12:56:31,450 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 13:47:05,826 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#GaugeLevels>
+[INFO ] 2021-06-07 13:51:16,020 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 13:53:47,180 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 14:03:51,666 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 14:16:58,760 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/damageassessment#Property>
+[INFO ] 2021-06-07 14:17:21,729 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 14:24:09,101 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 14:24:25,653 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#Property>
+[INFO ] 2021-06-07 17:28:08,437 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:08,911 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,005 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,090 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,180 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,246 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,315 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,436 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,518 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,582 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:28:09,672 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:38:38,565 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page25>
+[INFO ] 2021-06-07 17:38:38,565 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page43>
+[INFO ] 2021-06-07 17:38:38,566 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page37>
+[INFO ] 2021-06-07 17:38:38,566 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page23>
+[INFO ] 2021-06-07 17:38:38,566 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page9>
+[INFO ] 2021-06-07 17:38:38,567 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page26>
+[INFO ] 2021-06-07 17:38:39,630 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page38>
+[INFO ] 2021-06-07 17:38:39,752 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page10>
+[INFO ] 2021-06-07 17:38:39,833 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page27>
+[INFO ] 2021-06-07 17:38:49,139 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#GaugeConsole>
+[INFO ] 2021-06-07 17:38:49,139 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page24>
+[INFO ] 2021-06-07 17:38:49,139 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page44>
+[INFO ] 2021-06-07 17:38:49,140 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel#GaugeLevels>
+[INFO ] 2021-06-07 17:39:41,057 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:40:00,206 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:40:43,517 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:41:08,946 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:41:48,491 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:42:16,359 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page24>
+[INFO ] 2021-06-07 17:44:10,863 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:47:38,792 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/localknowledge#Page24>
+[INFO ] 2021-06-07 17:48:04,225 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:53:32,006 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:53:46,287 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:53:54,620 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:54:05,893 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:54:18,574 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:54:29,179 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:54:42,427 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:54:51,529 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-07 17:55:05,791 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

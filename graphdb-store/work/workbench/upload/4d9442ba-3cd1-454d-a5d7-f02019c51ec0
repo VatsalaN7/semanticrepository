@@ -1,0 +1,202 @@
+[
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_1",
+                    "localkn:hasIndicator": "dominated",
+                    "localkn:hasValue": "the late spring, summer and early autumn of 2015"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_2",
+                    "localkn:hasIndicator": "increased",
+                    "localkn:hasValue": "above normal in late November"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_3",
+                    "localkn:hasIndicator": "increased",
+                    "localkn:hasValue": "from \"above normal\" to \"exceptionally high\""
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_4",
+                    "localkn:hasIndicator": "were",
+                    "localkn:hasValue": "notably \"high\" or \"exceptionally high\""
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_5",
+                    "localkn:hasIndicator": "presented",
+                    "localkn:hasValue": "using an annual maximum (AMAX) rank order for EA gauging stations"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_6",
+                    "localkn:hasIndicator": "defines",
+                    "localkn:hasValue": "the highest peak value in each water year, which runs from October to September"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_7",
+                    "localkn:hasIndicator": "shows",
+                    "localkn:hasValue": "record peak levels along the west Pennine catchments, with near record peaks tracking northeast over North Yorkshire"
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    },
+    {
+        "@context": {
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        "@id": "TadcasterS19V4",
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster",
+        "localkn:hasProvenance": {
+            "@id": "localkn:DataProvenance",
+            "localkn:records": {
+                "@id": "localkn:Observations",
+                "localkn:observes": {
+                    "@id": "obs_8",
+                    "localkn:hasIndicator": "occurred",
+                    "localkn:hasValue": "in the middle and lower reaches of their catchments."
+                }
+            }
+        },
+        "localkn:isAbout": "localkn:River Levels",
+        "rdf:type": "damage:data"
+    }
+]

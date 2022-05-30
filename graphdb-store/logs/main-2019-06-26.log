@@ -1,0 +1,4 @@
+[INFO ] 2019-06-26 14:35:39,311 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-26 14:35:39,316 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-06-26 14:35:40,897 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-06-26 14:35:40,898 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished

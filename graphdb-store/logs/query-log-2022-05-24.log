@@ -1,0 +1,2 @@
+[INFO ] 2022-05-24 15:02:39,823 [import-task-Biodiversity_anonym_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2022-05-24 17:34:16,778 [import-task-Biodiversity_anonym_repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

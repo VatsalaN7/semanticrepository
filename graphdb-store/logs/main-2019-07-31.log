@@ -1,0 +1,338 @@
+[INFO ] 2019-07-31 11:21:52,971 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2019-07-31 11:21:54,231 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2019-07-31 11:22:01,515 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2019-07-31 11:22:01,515 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2019-07-31 11:22:01,515 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2019-07-31 11:22:01,515 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2019-07-31 11:22:01,515 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2019-07-31 11:22:06,403 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2019-07-31 11:22:09,095 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2019-07-31 11:22:09,096 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2019-07-31 11:22:09,124 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository flood-repo in READ/WRITE mode.
+[INFO ] 2019-07-31 11:22:09,124 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,124 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2019-07-31 11:22:09,125 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,125 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2019-07-31 11:22:09,125 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2019-07-31 11:22:09,125 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2019-07-31 11:22:09,128 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2019-07-31 11:22:09,128 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2019-07-31 11:22:09,128 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2019-07-31 11:22:09,155 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,155 [http-nio-7200-exec-2 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2019-07-31 11:22:09,158 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2019-07-31 11:22:09,167 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,221 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2019-07-31 11:22:09,272 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restored 1876 entities allocating 12.0 MB
+[INFO ] 2019-07-31 11:22:09,273 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Done in 51 ms.
+[INFO ] 2019-07-31 11:22:09,366 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,378 [http-nio-7200-exec-2 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2019-07-31 11:22:09,382 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2019-07-31 11:22:09,394 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2019-07-31 11:22:09,436 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2019-07-31 11:22:09,439 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2019-07-31 11:22:09,754 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2019-07-31 11:22:09,757 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,802 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2019-07-31 11:22:09,830 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,838 [http-nio-7200-exec-2 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2019-07-31 11:22:09,844 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2019-07-31 11:22:09,862 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,906 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2019-07-31 11:22:09,906 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2019-07-31 11:22:09,906 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2019-07-31 11:22:09,906 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2019-07-31 11:22:09,936 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2019-07-31 11:22:09,936 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2019-07-31 11:22:09,936 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2019-07-31 11:22:09,936 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2019-07-31 11:22:09,937 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2019-07-31 11:22:09,938 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2019-07-31 11:22:09,938 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2019-07-31 11:22:09,938 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2019-07-31 11:22:09,938 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2019-07-31 11:22:09,938 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2019-07-31 11:22:09,939 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2019-07-31 11:22:09,941 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2019-07-31 11:22:09,942 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2019-07-31 11:22:09,942 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2019-07-31 11:22:09,943 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2019-07-31 11:22:09,952 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2019-07-31 11:22:09,952 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2019-07-31 11:22:09,992 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2019-07-31 11:22:09,993 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2019-07-31 11:22:10,063 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2019-07-31 11:22:10,063 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2019-07-31 11:22:10,093 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2019-07-31 11:22:10,093 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2019-07-31 11:22:10,122 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2019-07-31 11:22:10,122 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2019-07-31 11:22:10,186 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2019-07-31 11:22:10,186 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2019-07-31 11:22:10,195 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2019-07-31 11:22:10,196 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2019-07-31 11:22:10,196 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2019-07-31 11:22:10,258 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2019-07-31 11:22:10,260 [http-nio-7200-exec-2 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/flood-repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2019-07-31 11:22:10,263 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2019-07-31 11:22:10,264 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2019-07-31 11:22:10,267 [http-nio-7200-exec-2 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2019-07-31 11:22:10,267 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2019-07-31 11:22:10,268 [http-nio-7200-exec-2 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2019-07-31 11:22:10,268 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2019-07-31 11:22:10,268 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2019-07-31 11:22:10,268 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2019-07-31 11:22:10,269 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2019-07-31 11:22:10,269 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2019-07-31 11:22:10,269 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2019-07-31 11:22:10,269 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2019-07-31 11:22:10,269 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2019-07-31 11:22:10,270 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2019-07-31 11:22:10,270 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2019-07-31 11:22:10,270 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2019-07-31 11:22:10,279 [http-nio-7200-exec-2 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2019-07-31 11:22:10,279 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2019-07-31 11:22:10,280 [http-nio-7200-exec-2 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2019-07-31 11:22:10,281 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2019-07-31 11:22:10,324 [http-nio-7200-exec-2 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2019-07-31 11:22:10,324 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2019-07-31 11:22:10,326 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2019-07-31 11:22:10,330 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2019-07-31 11:22:11,984 [http-nio-7200-exec-2 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2019-07-31 11:22:11,984 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2019-07-31 11:22:11,993 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2019-07-31 11:22:11,997 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2019-07-31 11:22:11,997 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2019-07-31 11:22:11,999 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2019-07-31 11:22:12,000 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2019-07-31 11:22:12,052 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2019-07-31 11:22:12,052 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2019-07-31 11:22:12,052 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2019-07-31 11:22:12,072 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2019-07-31 11:22:12,647 [repositories/flood-repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:22:12,659 [repositories/flood-repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2019-07-31 11:22:12,668 [repositories/flood-repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2019-07-31 11:22:12,745 [repositories/flood-repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:22:12,815 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2019-07-31 11:22:12,824 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2019-07-31 11:22:12,838 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2019-07-31 11:22:12,839 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2019-07-31 11:22:12,862 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2019-07-31 11:22:12,863 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2019-07-31 11:22:12,863 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2019-07-31 11:22:22,116 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2019-07-31 11:22:22,116 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2019-07-31 11:22:22,120 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository corpus_repo in READ/WRITE mode.
+[INFO ] 2019-07-31 11:22:22,121 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2019-07-31 11:22:22,121 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2019-07-31 11:22:22,121 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2019-07-31 11:22:22,121 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2019-07-31 11:22:22,121 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2019-07-31 11:22:22,122 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2019-07-31 11:22:22,122 [http-nio-7200-exec-3 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2019-07-31 11:22:22,122 [http-nio-7200-exec-3 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2019-07-31 11:22:22,122 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2019-07-31 11:22:22,124 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2019-07-31 11:22:22,124 [http-nio-7200-exec-3 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2019-07-31 11:22:22,178 [http-nio-7200-exec-3 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2019-07-31 11:22:22,226 [http-nio-7200-exec-3 | c.o.t.e.i.m.PersistedHashMap] Restored 3630 entities allocating 12.0 MB
+[INFO ] 2019-07-31 11:22:22,227 [http-nio-7200-exec-3 | c.o.t.e.i.m.PersistedHashMap] Done in 47 ms.
+[WARN ] 2019-07-31 11:22:22,259 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2019-07-31 11:22:22,271 [http-nio-7200-exec-3 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2019-07-31 11:22:22,283 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2019-07-31 11:22:22,284 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2019-07-31 11:22:22,284 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2019-07-31 11:22:22,284 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2019-07-31 11:22:22,289 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2019-07-31 11:22:22,290 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2019-07-31 11:22:22,290 [http-nio-7200-exec-3 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2019-07-31 11:22:22,291 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2019-07-31 11:22:22,291 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2019-07-31 11:22:22,291 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2019-07-31 11:22:22,319 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2019-07-31 11:22:22,319 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2019-07-31 11:22:22,333 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2019-07-31 11:22:22,333 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2019-07-31 11:22:22,359 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2019-07-31 11:22:22,360 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2019-07-31 11:22:22,366 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2019-07-31 11:22:22,367 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2019-07-31 11:22:22,376 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2019-07-31 11:22:22,377 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2019-07-31 11:22:22,415 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2019-07-31 11:22:22,416 [http-nio-7200-exec-3 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2019-07-31 11:22:22,420 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2019-07-31 11:22:22,421 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2019-07-31 11:22:22,421 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2019-07-31 11:22:22,421 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2019-07-31 11:22:22,422 [http-nio-7200-exec-3 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2019-07-31 11:22:22,425 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2019-07-31 11:22:22,425 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2019-07-31 11:22:22,426 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2019-07-31 11:22:22,427 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2019-07-31 11:22:22,427 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2019-07-31 11:22:22,427 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2019-07-31 11:22:22,427 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2019-07-31 11:22:22,427 [http-nio-7200-exec-3 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2019-07-31 11:22:22,427 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2019-07-31 11:22:22,441 [http-nio-7200-exec-3 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2019-07-31 11:22:22,441 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2019-07-31 11:22:22,441 [http-nio-7200-exec-3 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2019-07-31 11:22:22,442 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2019-07-31 11:22:22,471 [http-nio-7200-exec-3 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2019-07-31 11:22:22,471 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2019-07-31 11:22:22,472 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2019-07-31 11:22:22,475 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2019-07-31 11:22:22,839 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2019-07-31 11:22:22,839 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2019-07-31 11:22:22,842 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository corpus_repo1 in READ/WRITE mode.
+[INFO ] 2019-07-31 11:22:22,842 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2019-07-31 11:22:22,843 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2019-07-31 11:22:22,848 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Detected unclean shutdown
+[INFO ] 2019-07-31 11:22:22,849 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2019-07-31 11:22:22,849 [repositories/corpus_repo1 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2019-07-31 11:22:22,899 [repositories/corpus_repo1 | c.o.t.e.u.EntityPoolRestoreUtil] Begin restoring from persistence: hashmap types array
+[INFO ] 2019-07-31 11:22:22,975 [repositories/corpus_repo1 | c.o.t.e.u.EntityPoolRestoreUtil] Done in 76ms.
+[INFO ] 2019-07-31 11:22:23,038 [repositories/corpus_repo1 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2019-07-31 11:22:23,121 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2019-07-31 11:22:23,123 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2019-07-31 11:22:23,124 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2019-07-31 11:22:23,124 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2019-07-31 11:22:23,125 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2019-07-31 11:22:23,126 [repositories/corpus_repo1 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2019-07-31 11:22:23,126 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2019-07-31 11:22:23,126 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2019-07-31 11:22:23,126 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2019-07-31 11:22:23,133 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2019-07-31 11:22:23,133 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2019-07-31 11:22:23,149 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2019-07-31 11:22:23,149 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2019-07-31 11:22:23,204 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2019-07-31 11:22:23,204 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2019-07-31 11:22:23,215 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2019-07-31 11:22:23,215 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2019-07-31 11:22:23,224 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2019-07-31 11:22:23,225 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2019-07-31 11:22:23,280 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2019-07-31 11:22:23,280 [repositories/corpus_repo1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2019-07-31 11:22:23,284 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2019-07-31 11:22:23,286 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2019-07-31 11:22:23,287 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2019-07-31 11:22:23,288 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2019-07-31 11:22:23,291 [repositories/corpus_repo1 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo1/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2019-07-31 11:22:23,293 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2019-07-31 11:22:23,293 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2019-07-31 11:22:23,299 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2019-07-31 11:22:23,300 [repositories/corpus_repo1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2019-07-31 11:22:23,300 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2019-07-31 11:22:23,309 [repositories/corpus_repo1 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2019-07-31 11:22:23,310 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2019-07-31 11:22:23,310 [repositories/corpus_repo1 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2019-07-31 11:22:23,310 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2019-07-31 11:22:23,347 [repositories/corpus_repo1 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2019-07-31 11:22:23,363 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2019-07-31 11:22:23,364 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2019-07-31 11:22:23,366 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2019-07-31 11:22:24,456 [http-nio-7200-exec-3 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2019-07-31 11:22:24,457 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2019-07-31 11:22:24,464 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2019-07-31 11:22:24,467 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2019-07-31 11:22:24,467 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2019-07-31 11:22:24,467 [http-nio-7200-exec-3 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2019-07-31 11:22:24,468 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2019-07-31 11:22:24,505 [http-nio-7200-exec-3 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2019-07-31 11:22:24,968 [repositories/corpus_repo1 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2019-07-31 11:22:24,969 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2019-07-31 11:22:24,974 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2019-07-31 11:22:24,976 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2019-07-31 11:22:24,976 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2019-07-31 11:22:24,977 [repositories/corpus_repo1 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2019-07-31 11:22:24,977 [repositories/corpus_repo1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2019-07-31 11:22:25,002 [repositories/corpus_repo1 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2019-07-31 11:22:25,065 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:22:25,073 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2019-07-31 11:22:25,073 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2019-07-31 11:22:25,101 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:22:28,862 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:22:34,331 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:22:34,335 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:22:34,485 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2019-07-31 11:22:34,498 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2019-07-31 11:23:44,722 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:23:50,174 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:23:50,180 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:00,157 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:02,252 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:24:02,255 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:14,717 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:18,464 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:24:18,468 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:27,087 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:29,881 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:24:29,913 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:39,113 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:42,546 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:24:42,590 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:49,732 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:24:53,632 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:24:53,637 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:25:01,918 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:25:05,007 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:25:05,016 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:25:12,988 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:25:15,880 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:25:15,884 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:26:05,944 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:29:24,282 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:29:26,681 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:29:26,689 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:29:51,367 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:29:59,513 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:29:59,519 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:30:14,237 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-07-31 11:30:17,742 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-07-31 11:30:17,759 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished

@@ -1,0 +1,895 @@
+[INFO ] 2022-03-10 11:53:51,552 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-03-10 11:53:53,654 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-03-10 11:54:01,593 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-03-10 11:54:01,594 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-03-10 11:54:01,595 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-03-10 11:54:01,595 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-03-10 11:54:01,595 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-03-10 11:54:18,082 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-03-10 11:54:26,275 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-03-10 11:54:26,277 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-03-10 11:54:26,290 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_repo in READ/WRITE mode.
+[INFO ] 2022-03-10 11:54:26,290 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-03-10 11:54:26,291 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-03-10 11:54:26,291 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-03-10 11:54:26,291 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-03-10 11:54:26,291 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-03-10 11:54:26,292 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-03-10 11:54:26,294 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-03-10 11:54:26,294 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-03-10 11:54:26,295 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-03-10 11:54:26,337 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-03-10 11:54:26,337 [http-nio-7200-exec-1 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-03-10 11:54:26,344 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-03-10 11:54:26,352 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-03-10 11:54:26,390 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-03-10 11:54:26,462 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Restored 4133 entities allocating 12.0 MB
+[INFO ] 2022-03-10 11:54:26,464 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Done in 71 ms.
+[INFO ] 2022-03-10 11:54:26,691 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-03-10 11:54:26,696 [http-nio-7200-exec-1 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-03-10 11:54:26,699 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-03-10 11:54:26,713 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-03-10 11:54:26,862 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-03-10 11:54:26,866 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-03-10 11:54:27,324 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-03-10 11:54:27,326 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-03-10 11:54:27,396 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-03-10 11:54:27,421 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-03-10 11:54:27,436 [http-nio-7200-exec-1 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-03-10 11:54:27,449 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-03-10 11:54:27,492 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-03-10 11:54:27,536 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-03-10 11:54:27,536 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-03-10 11:54:27,536 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-03-10 11:54:27,536 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-03-10 11:54:27,577 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-03-10 11:54:27,581 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-03-10 11:54:27,581 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-03-10 11:54:27,581 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-03-10 11:54:27,581 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-03-10 11:54:27,581 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-03-10 11:54:27,583 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-03-10 11:54:27,583 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-03-10 11:54:27,583 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-03-10 11:54:27,584 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-03-10 11:54:27,584 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-03-10 11:54:27,585 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-03-10 11:54:27,586 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-03-10 11:54:27,586 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-03-10 11:54:27,589 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-03-10 11:54:27,613 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-03-10 11:54:27,614 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-03-10 11:54:27,658 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-03-10 11:54:27,658 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-03-10 11:54:27,743 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-03-10 11:54:27,743 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-03-10 11:54:27,790 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-03-10 11:54:27,791 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-03-10 11:54:27,823 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-03-10 11:54:27,823 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-03-10 11:54:27,896 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-03-10 11:54:27,896 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-03-10 11:54:27,907 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-03-10 11:54:27,907 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-03-10 11:54:27,908 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-03-10 11:54:27,986 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-03-10 11:54:27,989 [http-nio-7200-exec-1 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-03-10 11:54:27,992 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-03-10 11:54:27,993 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-03-10 11:54:27,995 [http-nio-7200-exec-1 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-03-10 11:54:27,995 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-03-10 11:54:27,996 [http-nio-7200-exec-1 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-03-10 11:54:27,997 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-03-10 11:54:27,997 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-03-10 11:54:27,997 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-03-10 11:54:27,998 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-03-10 11:54:27,998 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-03-10 11:54:27,998 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-03-10 11:54:27,998 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-03-10 11:54:27,999 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-03-10 11:54:27,999 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-03-10 11:54:27,999 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-03-10 11:54:27,999 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-03-10 11:54:28,016 [http-nio-7200-exec-1 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-03-10 11:54:28,017 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-03-10 11:54:28,017 [http-nio-7200-exec-1 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-03-10 11:54:28,017 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-03-10 11:54:28,058 [http-nio-7200-exec-1 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-03-10 11:54:28,058 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-03-10 11:54:28,084 [http-nio-7200-exec-1 | c.o.t.p.d.DependenciesPlugin] Dependency graph was restored from cache
+[INFO ] 2022-03-10 11:54:28,085 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-03-10 11:54:28,089 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-03-10 11:54:31,380 [http-nio-7200-exec-1 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-03-10 11:54:31,380 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-03-10 11:54:31,395 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-03-10 11:54:31,403 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-03-10 11:54:31,404 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-03-10 11:54:31,406 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-03-10 11:54:31,408 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-03-10 11:54:31,504 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-03-10 11:54:31,505 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-03-10 11:54:31,506 [http-nio-7200-exec-1 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-03-10 11:54:31,631 [http-nio-7200-exec-1 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-03-10 11:54:31,784 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 11:54:31,784 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 11:54:31,789 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-03-10 11:54:31,799 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-03-10 11:54:31,854 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 11:54:31,854 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 11:54:31,909 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-03-10 11:54:31,922 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-03-10 11:54:31,939 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-03-10 11:54:31,939 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-03-10 11:54:31,947 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-03-10 11:54:31,948 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-03-10 11:54:31,948 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-03-10 11:54:33,262 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -466753012
+[INFO ] 2022-03-10 11:54:33,287 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-03-10 11:54:33,381 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -466753012 is finished
+[INFO ] 2022-03-10 11:54:39,647 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -366690133
+[INFO ] 2022-03-10 11:54:39,696 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -366690133 is finished
+[INFO ] 2022-03-10 11:54:44,198 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -87889258
+[INFO ] 2022-03-10 11:54:44,343 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -87889258 is finished
+[INFO ] 2022-03-10 11:54:50,580 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1353694154
+[INFO ] 2022-03-10 11:54:50,674 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1353694154 is finished
+[INFO ] 2022-03-10 11:54:58,032 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1545469252
+[INFO ] 2022-03-10 11:54:58,111 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1545469252 is finished
+[INFO ] 2022-03-10 11:55:07,192 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1063092992
+[INFO ] 2022-03-10 11:55:07,211 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1711625874 is finished
+[INFO ] 2022-03-10 11:55:22,353 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1035418951
+[INFO ] 2022-03-10 11:55:22,467 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'default.min.distinct.threshold' to default value '250.0M'
+[INFO ] 2022-03-10 11:55:22,527 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1769040505 is finished
+[INFO ] 2022-03-10 11:55:41,439 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 249778202
+[INFO ] 2022-03-10 11:55:41,475 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 249778202 is finished
+[INFO ] 2022-03-10 11:55:53,113 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1609258517
+[INFO ] 2022-03-10 11:55:53,216 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2047622577 is finished
+[INFO ] 2022-03-10 11:56:01,257 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -453698408
+[INFO ] 2022-03-10 11:56:01,285 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -453698408 is finished
+[INFO ] 2022-03-10 11:56:09,174 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1830133219
+[INFO ] 2022-03-10 11:56:09,197 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1830133219 is finished
+[INFO ] 2022-03-10 11:56:13,204 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-03-10 11:56:13,272 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-03-10 11:56:19,133 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1066403936
+[INFO ] 2022-03-10 11:56:19,235 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1474484430 is finished
+[INFO ] 2022-03-10 11:56:44,857 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 700547892
+[INFO ] 2022-03-10 11:56:44,947 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2073346490 is finished
+[INFO ] 2022-03-10 11:57:32,066 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1923979551
+[INFO ] 2022-03-10 11:57:32,203 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1459933009 is finished
+[INFO ] 2022-03-10 11:57:49,830 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -620311183
+[INFO ] 2022-03-10 11:57:49,861 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2014804893 is finished
+[INFO ] 2022-03-10 11:58:04,841 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2086287346
+[INFO ] 2022-03-10 11:58:04,994 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1877647410 is finished
+[INFO ] 2022-03-10 11:58:57,395 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2086287346
+[INFO ] 2022-03-10 11:58:57,512 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1877647410 is finished
+[INFO ] 2022-03-10 11:59:43,331 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-03-10 11:59:43,333 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-03-10 11:59:43,340 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository FloodDemo_FakeData in READ/WRITE mode.
+[INFO ] 2022-03-10 11:59:43,340 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-03-10 11:59:43,341 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-03-10 11:59:43,341 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-03-10 11:59:43,341 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-03-10 11:59:43,343 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-03-10 11:59:43,343 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-03-10 11:59:43,344 [http-nio-7200-exec-5 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-03-10 11:59:43,344 [http-nio-7200-exec-5 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-03-10 11:59:43,345 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-03-10 11:59:43,354 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Detected unclean shutdown
+[INFO ] 2022-03-10 11:59:43,355 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-03-10 11:59:43,355 [http-nio-7200-exec-5 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-03-10 11:59:43,393 [http-nio-7200-exec-5 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-03-10 11:59:43,446 [http-nio-7200-exec-5 | c.o.t.e.i.m.PersistedHashMap] Restored 1612 entities allocating 12.0 MB
+[INFO ] 2022-03-10 11:59:43,446 [http-nio-7200-exec-5 | c.o.t.e.i.m.PersistedHashMap] Done in 53 ms.
+[WARN ] 2022-03-10 11:59:43,522 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-03-10 11:59:43,551 [http-nio-7200-exec-5 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-03-10 11:59:43,574 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-03-10 11:59:43,575 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-03-10 11:59:43,575 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-03-10 11:59:43,575 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-03-10 11:59:43,586 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-03-10 11:59:43,586 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-03-10 11:59:43,586 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-03-10 11:59:43,587 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-03-10 11:59:43,587 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-03-10 11:59:43,587 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-03-10 11:59:43,587 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-03-10 11:59:43,588 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-03-10 11:59:43,591 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-03-10 11:59:43,591 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-03-10 11:59:43,591 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-03-10 11:59:43,595 [http-nio-7200-exec-5 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-03-10 11:59:43,596 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-03-10 11:59:43,599 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-03-10 11:59:43,600 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-03-10 11:59:43,617 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-03-10 11:59:43,618 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-03-10 11:59:43,638 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-03-10 11:59:43,639 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-03-10 11:59:43,693 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-03-10 11:59:43,693 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-03-10 11:59:43,704 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-03-10 11:59:43,704 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-03-10 11:59:43,719 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-03-10 11:59:43,719 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-03-10 11:59:43,771 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-03-10 11:59:43,771 [http-nio-7200-exec-5 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-03-10 11:59:43,777 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-03-10 11:59:43,777 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-03-10 11:59:43,778 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-03-10 11:59:43,778 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-03-10 11:59:43,782 [http-nio-7200-exec-5 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/FloodDemo_FakeData/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-03-10 11:59:43,787 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-03-10 11:59:43,788 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-03-10 11:59:43,790 [http-nio-7200-exec-5 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-03-10 11:59:43,791 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-03-10 11:59:43,791 [http-nio-7200-exec-5 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-03-10 11:59:43,792 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-03-10 11:59:43,792 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-03-10 11:59:43,792 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-03-10 11:59:43,792 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-03-10 11:59:43,793 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-03-10 11:59:43,793 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-03-10 11:59:43,793 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-03-10 11:59:43,793 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-03-10 11:59:43,794 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-03-10 11:59:43,794 [http-nio-7200-exec-5 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-03-10 11:59:43,794 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-03-10 11:59:43,800 [http-nio-7200-exec-5 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-03-10 11:59:43,800 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-03-10 11:59:43,801 [http-nio-7200-exec-5 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-03-10 11:59:43,801 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-03-10 11:59:43,857 [http-nio-7200-exec-5 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-03-10 11:59:43,857 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-03-10 11:59:43,861 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-03-10 11:59:43,866 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-03-10 11:59:48,305 [http-nio-7200-exec-5 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-03-10 11:59:48,306 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-03-10 11:59:48,320 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-03-10 11:59:48,328 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-03-10 11:59:48,329 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-03-10 11:59:48,329 [http-nio-7200-exec-5 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-03-10 11:59:48,330 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-03-10 11:59:48,378 [http-nio-7200-exec-5 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-03-10 12:04:04,317 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:04:04,319 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:05:05,447 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2002403695
+[INFO ] 2022-03-10 12:05:05,465 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2002403695 is finished
+[INFO ] 2022-03-10 12:05:42,471 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1107529910
+[INFO ] 2022-03-10 12:05:42,501 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1107529910 is finished
+[INFO ] 2022-03-10 12:05:46,645 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:05:46,649 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:05:46,849 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2022-03-10 12:05:54,813 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:05:54,825 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:05:57,094 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:05:57,102 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:05:59,733 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:05:59,761 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:06:10,160 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:06:10,164 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:11:03,665 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 187257104
+[INFO ] 2022-03-10 12:11:03,720 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 187257104 is finished
+[INFO ] 2022-03-10 12:14:06,223 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1308872481
+[INFO ] 2022-03-10 12:14:06,228 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1308872481 is finished
+[INFO ] 2022-03-10 12:17:14,627 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 157759639
+[INFO ] 2022-03-10 12:17:14,654 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 157759639 is finished
+[INFO ] 2022-03-10 12:17:23,559 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1943122377
+[INFO ] 2022-03-10 12:17:23,611 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1943122377 is finished
+[INFO ] 2022-03-10 12:17:31,164 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1028512270
+[INFO ] 2022-03-10 12:17:31,194 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1028512270 is finished
+[INFO ] 2022-03-10 12:17:36,733 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:17:36,739 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:17:47,497 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:17:47,594 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:22:24,950 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1729537501
+[INFO ] 2022-03-10 12:22:24,974 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1729537501 is finished
+[INFO ] 2022-03-10 12:22:31,208 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1028512270
+[INFO ] 2022-03-10 12:22:31,242 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1028512270 is finished
+[INFO ] 2022-03-10 12:22:35,976 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:22:35,989 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:24:58,480 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:25:08,119 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 12:25:08,547 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:25:46,972 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:25:46,984 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:25:51,664 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1729537501
+[INFO ] 2022-03-10 12:25:51,713 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1729537501 is finished
+[INFO ] 2022-03-10 12:25:57,852 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -785166006
+[INFO ] 2022-03-10 12:25:57,874 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -785166006 is finished
+[INFO ] 2022-03-10 12:26:02,116 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -932912655
+[INFO ] 2022-03-10 12:26:02,127 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -932912655 is finished
+[INFO ] 2022-03-10 12:26:04,709 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:26:04,719 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:26:10,906 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:26:10,910 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:26:24,371 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:26:24,373 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:26:43,621 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1407550181
+[INFO ] 2022-03-10 12:26:43,647 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1407550181 is finished
+[INFO ] 2022-03-10 12:26:59,626 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1376828508
+[INFO ] 2022-03-10 12:26:59,765 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1376828508 is finished
+[INFO ] 2022-03-10 12:27:52,433 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:27:57,179 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 12:27:57,342 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:28:43,345 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:28:43,348 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:28:51,053 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1751095904
+[INFO ] 2022-03-10 12:28:51,068 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1751095904 is finished
+[INFO ] 2022-03-10 12:29:31,488 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2101724475
+[INFO ] 2022-03-10 12:29:31,502 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2101724475 is finished
+[INFO ] 2022-03-10 12:29:45,121 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -701165940
+[INFO ] 2022-03-10 12:29:45,144 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -701165940 is finished
+[INFO ] 2022-03-10 12:31:22,473 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:31:24,500 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:31:24,502 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:31:29,357 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:31:29,361 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:31:35,147 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:31:35,149 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:33:21,699 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:33:25,518 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 12:33:25,877 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:33:57,322 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:33:57,327 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:33:59,709 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -701165940
+[INFO ] 2022-03-10 12:33:59,756 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -701165940 is finished
+[INFO ] 2022-03-10 12:34:30,802 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1824008976
+[INFO ] 2022-03-10 12:34:30,839 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1824008976 is finished
+[INFO ] 2022-03-10 12:34:37,288 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:34:39,197 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:34:39,208 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:34:49,754 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:34:49,773 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:38:09,276 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:38:13,744 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 12:38:14,070 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:38:50,255 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:38:50,257 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:38:57,615 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1461356086
+[INFO ] 2022-03-10 12:38:57,621 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1461356086 is finished
+[INFO ] 2022-03-10 12:39:02,651 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:39:04,646 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:39:04,652 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:39:06,946 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:39:06,949 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:39:09,295 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:39:09,313 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:39:36,600 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1786894710
+[INFO ] 2022-03-10 12:39:36,653 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1786894710 is finished
+[INFO ] 2022-03-10 12:39:57,709 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:39:57,710 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:39:59,958 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:39:59,960 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:42:00,731 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:42:06,436 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 12:42:06,565 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:42:36,676 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:42:36,681 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:42:38,484 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1786894710
+[INFO ] 2022-03-10 12:42:38,518 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1786894710 is finished
+[INFO ] 2022-03-10 12:42:45,340 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2060486026
+[INFO ] 2022-03-10 12:42:45,356 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2060486026 is finished
+[INFO ] 2022-03-10 12:42:55,022 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:42:56,493 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:42:56,525 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:43:13,057 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:43:13,072 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:43:15,001 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:43:15,031 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:46:19,783 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1623154955
+[INFO ] 2022-03-10 12:46:19,813 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1623154955 is finished
+[INFO ] 2022-03-10 12:50:41,776 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 249778202
+[INFO ] 2022-03-10 12:50:41,798 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 249778202 is finished
+[INFO ] 2022-03-10 12:53:45,787 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1955791562
+[INFO ] 2022-03-10 12:53:45,853 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1158850394 is finished
+[INFO ] 2022-03-10 12:56:45,983 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:57:45,263 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:57:45,280 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 12:57:49,435 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 12:57:49,450 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:01:21,365 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1109139481
+[INFO ] 2022-03-10 13:01:21,382 [repositories/Biodiversity_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Encountered "<EOF>" at line 15, column 33.
+Was expecting one of:
+    "{" ...
+    "}" ...
+    "optional" ...
+    "graph" ...
+    "minus" ...
+    "filter" ...
+    "bind" ...
+    "service" ...
+    "values" ...
+    <VAR1> ...
+    <VAR2> ...
+    <Q_IRI_REF> ...
+    <PNAME_LN> ...
+    <PNAME_NS> ...
+    <STRING_LITERAL1> ...
+    <STRING_LITERAL2> ...
+    <STRING_LITERAL_LONG1> ...
+    <STRING_LITERAL_LONG2> ...
+    <INTEGER> ...
+    <DECIMAL> ...
+    <DOUBLE> ...
+    <INTEGER_POSITIVE> ...
+    <DECIMAL_POSITIVE> ...
+    <DOUBLE_POSITIVE> ...
+    <INTEGER_NEGATIVE> ...
+    <DECIMAL_NEGATIVE> ...
+    <DOUBLE_NEGATIVE> ...
+    "true" ...
+    "false" ...
+    <BLANK_NODE_LABEL> ...
+    <ANON> ...
+    <NIL> ...
+    "(" ...
+    "[" ...
+    
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-03-10 13:02:24,637 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1241605036
+[INFO ] 2022-03-10 13:02:24,648 [repositories/Biodiversity_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Encountered "<EOF>" at line 15, column 34.
+Was expecting one of:
+    "{" ...
+    "}" ...
+    "optional" ...
+    "graph" ...
+    "minus" ...
+    "filter" ...
+    "bind" ...
+    "service" ...
+    "values" ...
+    <VAR1> ...
+    <VAR2> ...
+    <Q_IRI_REF> ...
+    <PNAME_LN> ...
+    <PNAME_NS> ...
+    <STRING_LITERAL1> ...
+    <STRING_LITERAL2> ...
+    <STRING_LITERAL_LONG1> ...
+    <STRING_LITERAL_LONG2> ...
+    <INTEGER> ...
+    <DECIMAL> ...
+    <DOUBLE> ...
+    <INTEGER_POSITIVE> ...
+    <DECIMAL_POSITIVE> ...
+    <DOUBLE_POSITIVE> ...
+    <INTEGER_NEGATIVE> ...
+    <DECIMAL_NEGATIVE> ...
+    <DOUBLE_NEGATIVE> ...
+    "true" ...
+    "false" ...
+    <BLANK_NODE_LABEL> ...
+    <ANON> ...
+    <NIL> ...
+    "(" ...
+    "[" ...
+    
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-03-10 13:02:33,260 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1531826924
+[INFO ] 2022-03-10 13:02:33,285 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -731151398 is finished
+[INFO ] 2022-03-10 13:02:45,406 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:02:47,767 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:02:47,814 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:04:15,155 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 387114224
+[INFO ] 2022-03-10 13:04:15,261 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1882251906 is finished
+[INFO ] 2022-03-10 13:05:12,895 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:05:19,471 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 13:05:19,605 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:05:56,177 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:05:56,179 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:06:36,487 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 989629729
+[INFO ] 2022-03-10 13:06:36,523 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 305965549 is finished
+[INFO ] 2022-03-10 13:06:42,273 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:06:44,717 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:06:44,724 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:07:36,006 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1902409974
+[INFO ] 2022-03-10 13:07:36,105 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1175334600 is finished
+[INFO ] 2022-03-10 13:09:56,752 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:10:02,224 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 13:10:02,362 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:10:37,339 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:10:37,344 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:10:51,857 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 989629729
+[INFO ] 2022-03-10 13:10:51,867 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 305965549 is finished
+[INFO ] 2022-03-10 13:11:13,099 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:11:14,520 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:11:14,524 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:42:47,130 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:42:52,054 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 13:42:52,199 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:43:30,318 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:43:30,321 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:44:23,008 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -838160693
+[INFO ] 2022-03-10 13:44:23,018 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1936912003 is finished
+[INFO ] 2022-03-10 13:45:19,912 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 590271411
+[INFO ] 2022-03-10 13:45:19,921 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182059163 is finished
+[INFO ] 2022-03-10 13:45:25,398 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:45:27,446 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:45:27,450 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:48:10,784 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:48:16,207 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 13:48:16,395 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:48:46,335 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:48:46,338 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:48:49,092 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 590271411
+[INFO ] 2022-03-10 13:48:49,098 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182059163 is finished
+[INFO ] 2022-03-10 13:49:09,045 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 590271411
+[INFO ] 2022-03-10 13:49:09,054 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182059163 is finished
+[INFO ] 2022-03-10 13:49:12,039 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:49:15,039 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:49:15,043 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:49:57,888 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1348705576
+[INFO ] 2022-03-10 13:49:57,898 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1656707142 is finished
+[INFO ] 2022-03-10 13:50:05,850 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -390749326
+[INFO ] 2022-03-10 13:50:05,871 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1372431300 is finished
+[INFO ] 2022-03-10 13:51:24,977 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1348705576
+[INFO ] 2022-03-10 13:51:25,019 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1656707142 is finished
+[INFO ] 2022-03-10 13:51:41,092 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:51:49,801 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 13:51:50,017 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:51:56,811 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:51:56,853 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:51:58,611 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1348705576
+[INFO ] 2022-03-10 13:51:58,644 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1656707142 is finished
+[INFO ] 2022-03-10 13:52:00,553 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1348705576
+[INFO ] 2022-03-10 13:52:00,565 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1656707142 is finished
+[INFO ] 2022-03-10 13:52:13,990 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:52:17,096 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:52:17,100 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:52:25,760 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:52:25,775 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:52:28,595 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1348705576
+[INFO ] 2022-03-10 13:52:28,635 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1656707142 is finished
+[INFO ] 2022-03-10 13:52:43,083 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:52:43,087 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:52:45,275 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1348705576
+[INFO ] 2022-03-10 13:52:45,283 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1656707142 is finished
+[INFO ] 2022-03-10 13:52:50,621 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:52:58,910 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 13:52:59,037 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:53:02,949 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:53:02,950 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:53:05,486 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:53:05,491 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:53:05,494 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:53:05,498 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:53:07,504 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1348705576
+[INFO ] 2022-03-10 13:53:07,507 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1656707142 is finished
+[INFO ] 2022-03-10 13:53:20,894 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:53:27,103 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:53:27,104 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:53:49,278 [Thread-12 | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-03-10 13:53:49,375 [Thread-12 | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-03-10 13:53:49,490 [Thread-42 | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-03-10 13:53:49,496 [Thread-19 | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-03-10 13:53:49,528 [Thread-19 | c.o.t.b.AVLRepository] NumberOfStatements = 4717
+[INFO ] 2022-03-10 13:53:49,528 [Thread-19 | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 2254
+[INFO ] 2022-03-10 13:53:49,528 [Thread-42 | c.o.t.b.AVLRepository] NumberOfStatements = 4482
+[INFO ] 2022-03-10 13:53:49,528 [Thread-42 | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 3621
+[INFO ] 2022-03-10 13:53:49,530 [Thread-19 | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-03-10 13:53:49,530 [Thread-42 | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-03-10 13:53:49,538 [Thread-42 | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down
+[INFO ] 2022-03-10 13:53:49,641 [Thread-19 | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down
+[INFO ] 2022-03-10 13:54:05,656 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-03-10 13:54:06,710 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-03-10 13:54:13,741 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-03-10 13:54:13,742 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-03-10 13:54:13,742 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-03-10 13:54:13,742 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-03-10 13:54:13,742 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-03-10 13:54:29,497 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-03-10 13:54:37,069 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-03-10 13:54:37,070 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-03-10 13:54:37,091 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_repo in READ/WRITE mode.
+[INFO ] 2022-03-10 13:54:37,092 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-03-10 13:54:37,092 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-03-10 13:54:37,094 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-03-10 13:54:37,095 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-03-10 13:54:37,096 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-03-10 13:54:37,096 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-03-10 13:54:37,097 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-03-10 13:54:37,099 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-03-10 13:54:37,101 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-03-10 13:54:37,120 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-03-10 13:54:37,121 [http-nio-7200-exec-2 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-03-10 13:54:37,125 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-03-10 13:54:37,132 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-03-10 13:54:37,185 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-03-10 13:54:37,236 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restored 4239 entities allocating 12.0 MB
+[INFO ] 2022-03-10 13:54:37,236 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Done in 51 ms.
+[INFO ] 2022-03-10 13:54:37,402 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-03-10 13:54:37,405 [http-nio-7200-exec-2 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-03-10 13:54:37,407 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-03-10 13:54:37,419 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-03-10 13:54:37,493 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-03-10 13:54:37,510 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-03-10 13:54:38,143 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-03-10 13:54:38,148 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-03-10 13:54:38,220 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-03-10 13:54:38,398 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-03-10 13:54:38,410 [http-nio-7200-exec-2 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-03-10 13:54:38,445 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-03-10 13:54:38,484 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-03-10 13:54:38,554 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-03-10 13:54:38,555 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-03-10 13:54:38,555 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-03-10 13:54:38,555 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-03-10 13:54:38,633 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-03-10 13:54:38,634 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-03-10 13:54:38,634 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-03-10 13:54:38,634 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-03-10 13:54:38,634 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-03-10 13:54:38,634 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-03-10 13:54:38,635 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-03-10 13:54:38,635 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-03-10 13:54:38,635 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-03-10 13:54:38,635 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-03-10 13:54:38,635 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-03-10 13:54:38,660 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-03-10 13:54:38,668 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-03-10 13:54:38,668 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-03-10 13:54:38,678 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-03-10 13:54:38,702 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-03-10 13:54:38,703 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-03-10 13:54:38,723 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-03-10 13:54:38,724 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-03-10 13:54:38,798 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-03-10 13:54:38,798 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-03-10 13:54:38,838 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-03-10 13:54:38,839 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-03-10 13:54:38,878 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-03-10 13:54:38,879 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-03-10 13:54:38,965 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-03-10 13:54:38,967 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-03-10 13:54:38,981 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-03-10 13:54:38,982 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-03-10 13:54:38,982 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-03-10 13:54:39,162 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-03-10 13:54:39,165 [http-nio-7200-exec-2 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-03-10 13:54:39,171 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-03-10 13:54:39,171 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-03-10 13:54:39,176 [http-nio-7200-exec-2 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-03-10 13:54:39,177 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-03-10 13:54:39,178 [http-nio-7200-exec-2 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-03-10 13:54:39,178 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-03-10 13:54:39,178 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-03-10 13:54:39,179 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-03-10 13:54:39,228 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-03-10 13:54:39,229 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-03-10 13:54:39,229 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-03-10 13:54:39,229 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-03-10 13:54:39,253 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-03-10 13:54:39,253 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-03-10 13:54:39,253 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-03-10 13:54:39,253 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-03-10 13:54:39,274 [http-nio-7200-exec-2 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-03-10 13:54:39,274 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-03-10 13:54:39,275 [http-nio-7200-exec-2 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-03-10 13:54:39,275 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-03-10 13:54:39,336 [http-nio-7200-exec-2 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-03-10 13:54:39,337 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-03-10 13:54:39,384 [http-nio-7200-exec-2 | c.o.t.p.d.DependenciesPlugin] Dependency graph was restored from cache
+[INFO ] 2022-03-10 13:54:39,385 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-03-10 13:54:39,389 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-03-10 13:54:41,728 [http-nio-7200-exec-2 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-03-10 13:54:41,729 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-03-10 13:54:41,744 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-03-10 13:54:41,752 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-03-10 13:54:41,754 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-03-10 13:54:41,756 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-03-10 13:54:41,757 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-03-10 13:54:41,819 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-03-10 13:54:41,819 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-03-10 13:54:41,821 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-03-10 13:54:41,861 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-03-10 13:54:42,225 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:54:42,225 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:54:42,231 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-03-10 13:54:42,241 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-03-10 13:54:42,295 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:54:42,295 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:54:42,423 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-03-10 13:54:42,438 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-03-10 13:54:42,463 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-03-10 13:54:42,464 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-03-10 13:54:42,480 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-03-10 13:54:42,481 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-03-10 13:54:42,481 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-03-10 13:54:42,803 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 590271411
+[INFO ] 2022-03-10 13:54:42,815 [repositories/Biodiversity_repo | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-03-10 13:54:42,887 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182059163 is finished
+[INFO ] 2022-03-10 13:54:50,894 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:55:20,811 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:55:20,826 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:55:22,261 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 590271411
+[INFO ] 2022-03-10 13:55:22,295 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182059163 is finished
+[INFO ] 2022-03-10 13:55:23,932 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 590271411
+[INFO ] 2022-03-10 13:55:23,957 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182059163 is finished
+[INFO ] 2022-03-10 13:56:54,749 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 13:56:54,754 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 13:56:57,509 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 590271411
+[INFO ] 2022-03-10 13:56:57,563 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1182059163 is finished
+[INFO ] 2022-03-10 13:58:51,662 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1553866211
+[INFO ] 2022-03-10 13:58:51,699 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 677026417 is finished
+[INFO ] 2022-03-10 13:59:03,359 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -866658291
+[INFO ] 2022-03-10 13:59:03,377 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1887241599 is finished
+[INFO ] 2022-03-10 14:01:05,883 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1678311321
+[INFO ] 2022-03-10 14:01:05,929 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -310439307 is finished
+[INFO ] 2022-03-10 14:01:23,534 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:01:27,850 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 14:01:27,852 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:01:29,313 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 14:01:29,315 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:01:29,614 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2022-03-10 14:05:49,187 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:05:53,543 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 14:05:53,911 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:06:19,076 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 14:06:19,079 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:06:22,271 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1678311321
+[INFO ] 2022-03-10 14:06:22,298 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -310439307 is finished
+[INFO ] 2022-03-10 14:07:33,533 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1524982892
+[INFO ] 2022-03-10 14:07:33,571 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -619613310 is finished
+[INFO ] 2022-03-10 14:07:54,899 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2044930630
+[INFO ] 2022-03-10 14:07:54,945 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1404359144 is finished
+[INFO ] 2022-03-10 14:07:59,323 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -976319477
+[INFO ] 2022-03-10 14:07:59,394 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -948643517 is finished
+[INFO ] 2022-03-10 14:09:22,073 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1955791562
+[INFO ] 2022-03-10 14:09:22,171 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1158850394 is finished
+[INFO ] 2022-03-10 14:10:31,724 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -378780354
+[INFO ] 2022-03-10 14:10:31,826 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1913478170 is finished
+[INFO ] 2022-03-10 14:11:45,861 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1646358576
+[INFO ] 2022-03-10 14:11:45,957 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1552831788 is finished
+[INFO ] 2022-03-10 14:11:59,416 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 494059281
+[INFO ] 2022-03-10 14:11:59,471 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2003340883 is finished
+[INFO ] 2022-03-10 14:12:32,325 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1623154955
+[INFO ] 2022-03-10 14:12:32,361 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1623154955 is finished
+[INFO ] 2022-03-10 14:14:02,317 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1222862400
+[INFO ] 2022-03-10 14:14:02,340 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1222862400 is finished
+[INFO ] 2022-03-10 14:14:11,847 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1894034745
+[INFO ] 2022-03-10 14:14:11,855 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1894034745 is finished
+[INFO ] 2022-03-10 14:15:29,416 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2049919766
+[INFO ] 2022-03-10 14:15:29,465 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 2049919766 is finished
+[INFO ] 2022-03-10 14:15:52,939 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -920609679
+[INFO ] 2022-03-10 14:15:52,986 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -920609679 is finished
+[INFO ] 2022-03-10 14:16:01,237 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1223115433
+[INFO ] 2022-03-10 14:16:01,353 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1223115433 is finished
+[INFO ] 2022-03-10 14:16:08,914 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -920609679
+[INFO ] 2022-03-10 14:16:08,952 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -920609679 is finished
+[INFO ] 2022-03-10 14:16:13,829 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:16:29,678 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:16:41,304 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 14:16:41,308 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:17:18,119 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 14:17:18,127 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:17:21,927 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1606401784
+[INFO ] 2022-03-10 14:17:21,965 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1606401784 is finished
+[INFO ] 2022-03-10 14:17:35,920 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 1019312781
+[INFO ] 2022-03-10 14:17:36,000 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1019312781 is finished
+[INFO ] 2022-03-10 14:17:53,246 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -378780354
+[INFO ] 2022-03-10 14:17:53,322 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1913478170 is finished
+[INFO ] 2022-03-10 14:18:22,597 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 494059281
+[INFO ] 2022-03-10 14:18:22,624 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2003340883 is finished
+[INFO ] 2022-03-10 14:18:25,452 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 494059281
+[INFO ] 2022-03-10 14:18:25,475 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2003340883 is finished
+[INFO ] 2022-03-10 14:18:52,153 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 817355754
+[INFO ] 2022-03-10 14:18:52,199 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -512157242 is finished
+[INFO ] 2022-03-10 14:22:03,098 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:22:41,817 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 14:22:41,873 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:37:07,722 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -52077124
+[INFO ] 2022-03-10 14:37:08,089 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1085264846 is finished
+[INFO ] 2022-03-10 14:37:22,243 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1336954567
+[INFO ] 2022-03-10 14:37:22,427 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 913777877 is finished
+[INFO ] 2022-03-10 14:39:03,642 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:39:10,507 [repositories/Biodiversity_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2022-03-10 14:39:11,200 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:39:45,490 [repositories/Biodiversity_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-03-10 14:39:45,548 [repositories/Biodiversity_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-03-10 14:39:49,530 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -2132322499
+[INFO ] 2022-03-10 14:39:49,978 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1135286609 is finished
+[INFO ] 2022-03-10 14:40:06,839 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1283993796
+[INFO ] 2022-03-10 14:40:07,199 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1143625038 is finished
+[INFO ] 2022-03-10 14:40:41,001 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 452274713
+[INFO ] 2022-03-10 14:40:41,531 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -2138802187 is finished
+[INFO ] 2022-03-10 14:43:08,429 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-03-10 14:43:08,497 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-03-10 14:43:10,825 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-03-10 14:43:10,863 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-03-10 14:43:11,459 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -1815945945
+[INFO ] 2022-03-10 14:43:11,491 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -1815945945 is finished
+[INFO ] 2022-03-10 14:43:48,668 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query 2018319100
+[INFO ] 2022-03-10 14:43:49,033 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query 1868183282 is finished
+[INFO ] 2022-03-10 14:59:07,162 [repositories/Biodiversity_repo | c.o.f.s.RepositoryController] POST query -630708709
+[INFO ] 2022-03-10 14:59:07,181 [repositories/Biodiversity_repo | c.o.g.s.TupleQueryResultView] Request for query -630708709 is finished

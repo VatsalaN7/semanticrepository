@@ -1,0 +1,2532 @@
+[
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b3f5a891faf71b379e2",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "is"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " it"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": [],
+    "sentenceSchema:hasEntityDescription": {},
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": []
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": []
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "is"
+    },
+    "sentenceSchema:hasRelationEntities": [],
+    "sentenceSchema:hasSentenceOrder": 0,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " it"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b405a891faf71b379e3",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "called"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": ", half \n the  lowlying"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": [
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities1",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e31",
+          "biodiversitycorpus:hasEntOrder": 1,
+          "biodiversitycorpus:hasValue": "A mountainous"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:spatialRelation"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities12",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e32",
+          "biodiversitycorpus:hasEntOrder": 2,
+          "biodiversitycorpus:hasValue": "rare"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:abundance"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities123",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e33",
+          "biodiversitycorpus:hasEntOrder": 3,
+          "biodiversitycorpus:hasValue": "Mr. Baker"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:observer"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities1234",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e34",
+          "biodiversitycorpus:hasEntOrder": 4,
+          "biodiversitycorpus:hasValue": "Mr. Watson"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:observer"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities12345",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e35",
+          "biodiversitycorpus:hasEntOrder": 5,
+          "biodiversitycorpus:hasValue": "Wigton"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:location"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities123456",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e36",
+          "biodiversitycorpus:hasEntOrder": 6,
+          "biodiversitycorpus:hasValue": "Penrith"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:observer"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities1234567",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e37",
+          "biodiversitycorpus:hasEntOrder": 7,
+          "biodiversitycorpus:hasValue": "Tebay"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:location"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities12345678",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e38",
+          "biodiversitycorpus:hasEntOrder": 8,
+          "biodiversitycorpus:hasValue": "Cumberland"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:location"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities123456789",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e39",
+          "biodiversitycorpus:hasEntOrder": 9,
+          "biodiversitycorpus:hasValue": "Carlisle"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:plantname"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities12345678910",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e310",
+          "biodiversitycorpus:hasEntOrder": 10,
+          "biodiversitycorpus:hasValue": "\n"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:plantname"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities1234567891011",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e311",
+          "biodiversitycorpus:hasEntOrder": 11,
+          "biodiversitycorpus:hasValue": "western"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:spatialRelation"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities123456789101112",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e312",
+          "biodiversitycorpus:hasEntOrder": 12,
+          "biodiversitycorpus:hasValue": "Cumberland\n"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:plantname"
+        }
+      },
+      {
+        "@id": "5c895b405a891faf71b379e3-Entities12345678910111213",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b405a891faf71b379e313",
+          "biodiversitycorpus:hasEntOrder": 13,
+          "biodiversitycorpus:hasValue": "Westmoreland"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:location"
+        }
+      }
+    ],
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "Cumberland",
+      "sentenceSchema:hasValue": "Westmoreland"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": []
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "called"
+    },
+    "sentenceSchema:hasRelationEntities": {
+      "@id": "sentenceSchema:token",
+      "rdf:type": {
+        "@id": "sentenceSchema:token"
+      },
+      "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+      "sentenceSchema:hasToken": "called",
+      "sentenceSchema:hasTokenType": "VERB",
+      "sentenceSchema:isAfter": "\n",
+      "sentenceSchema:isBefore": "western"
+    },
+    "sentenceSchema:hasSentenceOrder": 1,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": ", half \n the  lowlying"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b405a891faf71b379e4",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "been"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": "to whose  visits"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": {
+      "@id": "5c895b405a891faf71b379e4-Entities1",
+      "biodiversitycorpus:Entity": {
+        "@id": "5c895b405a891faf71b379e41",
+        "biodiversitycorpus:hasEntOrder": 1,
+        "biodiversitycorpus:hasValue": "Lake Country"
+      },
+      "rdf:type": {
+        "@id": "biodiversitycorpus:location"
+      }
+    },
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "Cumberland",
+      "sentenceSchema:hasValue": "Westmoreland"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": {
+        "@id": "sentenceSchema:noniob_children",
+        "rdf:type": {
+          "@id": "sentenceSchema:noniob_children"
+        },
+        "sentenceSchema:hasValue": " been one"
+      }
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "been"
+    },
+    "sentenceSchema:hasRelationEntities": {
+      "@id": "sentenceSchema:token",
+      "rdf:type": {
+        "@id": "sentenceSchema:token"
+      },
+      "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+      "sentenceSchema:hasToken": "called",
+      "sentenceSchema:hasTokenType": "VERB",
+      "sentenceSchema:isAfter": "\n",
+      "sentenceSchema:isBefore": "western"
+    },
+    "sentenceSchema:hasSentenceOrder": 2,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": "to whose  visits"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b405a891faf71b379e5",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "differs"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " it"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": [],
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "Cumberland",
+      "sentenceSchema:hasValue": "Westmoreland"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": {
+        "@id": "sentenceSchema:noniob_children",
+        "rdf:type": {
+          "@id": "sentenceSchema:noniob_children"
+        },
+        "sentenceSchema:hasValue": " been one"
+      }
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "differs"
+    },
+    "sentenceSchema:hasRelationEntities": {
+      "@id": "sentenceSchema:token",
+      "rdf:type": {
+        "@id": "sentenceSchema:token"
+      },
+      "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+      "sentenceSchema:hasToken": "called",
+      "sentenceSchema:hasTokenType": "VERB",
+      "sentenceSchema:isAfter": "\n",
+      "sentenceSchema:isBefore": "western"
+    },
+    "sentenceSchema:hasSentenceOrder": 3,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " it"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379e6",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "strikes"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " which"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": {
+      "@id": "5c895b415a891faf71b379e6-Entities1",
+      "biodiversitycorpus:Entity": {
+        "@id": "5c895b415a891faf71b379e61",
+        "biodiversitycorpus:hasEntOrder": 1,
+        "biodiversitycorpus:hasValue": "Mr. Baker"
+      },
+      "rdf:type": {
+        "@id": "biodiversitycorpus:observer"
+      }
+    },
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "Cumberland",
+      "sentenceSchema:hasValue": "Westmoreland"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "strikes"
+    },
+    "sentenceSchema:hasRelationEntities": {
+      "@id": "sentenceSchema:token",
+      "rdf:type": {
+        "@id": "sentenceSchema:token"
+      },
+      "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+      "sentenceSchema:hasToken": "called",
+      "sentenceSchema:hasTokenType": "VERB",
+      "sentenceSchema:isAfter": "\n",
+      "sentenceSchema:isBefore": "western"
+    },
+    "sentenceSchema:hasSentenceOrder": 4,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " which"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379e7",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "is"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " it"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": [],
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "Cumberland",
+      "sentenceSchema:hasValue": "Westmoreland"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "is"
+    },
+    "sentenceSchema:hasRelationEntities": {
+      "@id": "sentenceSchema:token",
+      "rdf:type": {
+        "@id": "sentenceSchema:token"
+      },
+      "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+      "sentenceSchema:hasToken": "called",
+      "sentenceSchema:hasTokenType": "VERB",
+      "sentenceSchema:isAfter": "\n",
+      "sentenceSchema:isBefore": "western"
+    },
+    "sentenceSchema:hasSentenceOrder": 5,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " it"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379e8",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "think"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " few"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": {
+      "@id": "5c895b415a891faf71b379e8-Entities1",
+      "biodiversitycorpus:Entity": {
+        "@id": "5c895b415a891faf71b379e81",
+        "biodiversitycorpus:hasEntOrder": 1,
+        "biodiversitycorpus:hasValue": "Mr. Baker"
+      },
+      "rdf:type": {
+        "@id": "biodiversitycorpus:observer"
+      }
+    },
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "Cumberland",
+      "sentenceSchema:hasValue": "Westmoreland"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a botanist"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field student botanist"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "think"
+    },
+    "sentenceSchema:hasRelationEntities": {
+      "@id": "sentenceSchema:token",
+      "rdf:type": {
+        "@id": "sentenceSchema:token"
+      },
+      "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+      "sentenceSchema:hasToken": "called",
+      "sentenceSchema:hasTokenType": "VERB",
+      "sentenceSchema:isAfter": "\n",
+      "sentenceSchema:isBefore": "western"
+    },
+    "sentenceSchema:hasSentenceOrder": 6,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " few"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379e9",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "are"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " we"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": {
+      "@id": "5c895b415a891faf71b379e9-Entities1",
+      "biodiversitycorpus:Entity": {
+        "@id": "5c895b415a891faf71b379e91",
+        "biodiversitycorpus:hasEntOrder": 1,
+        "biodiversitycorpus:hasValue": "Mr. Watson"
+      },
+      "rdf:type": {
+        "@id": "biodiversitycorpus:observer"
+      }
+    },
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "Cumberland",
+      "sentenceSchema:hasValue": "Westmoreland"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a botanist"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a form"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field student botanist"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " condensed form"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "are"
+    },
+    "sentenceSchema:hasRelationEntities": {
+      "@id": "sentenceSchema:token",
+      "rdf:type": {
+        "@id": "sentenceSchema:token"
+      },
+      "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+      "sentenceSchema:hasToken": "called",
+      "sentenceSchema:hasTokenType": "VERB",
+      "sentenceSchema:isAfter": "\n",
+      "sentenceSchema:isBefore": "western"
+    },
+    "sentenceSchema:hasSentenceOrder": 7,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " we"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379ea",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "possessed"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " those"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": [
+      {
+        "@id": "5c895b415a891faf71b379ea-Entities1",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b415a891faf71b379ea1",
+          "biodiversitycorpus:hasEntOrder": 1,
+          "biodiversitycorpus:hasValue": "\n"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:plantname"
+        }
+      },
+      {
+        "@id": "5c895b415a891faf71b379ea-Entities12",
+        "biodiversitycorpus:Entity": {
+          "@id": "5c895b415a891faf71b379ea2",
+          "biodiversitycorpus:hasEntOrder": 2,
+          "biodiversitycorpus:hasValue": "Mr. Baker"
+        },
+        "rdf:type": {
+          "@id": "biodiversitycorpus:observer"
+        }
+      }
+    ],
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "insufficient",
+      "sentenceSchema:hasValue": "\n"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a botanist"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a form"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker points"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n acquaintance"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field student botanist"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " condensed form"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " enriched monographs"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " concerning data"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "possessed"
+    },
+    "sentenceSchema:hasRelationEntities": [
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+        "sentenceSchema:hasToken": "called",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "western"
+      },
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nvarious monographs with which the author has enriched contemporary\nbotanical literature, has always seemed to us one of\n",
+        "sentenceSchema:hasToken": "seemed",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "Mr. Baker"
+      }
+    ],
+    "sentenceSchema:hasSentenceOrder": 8,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " those"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379eb",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "were"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": "\n  who"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": {
+      "@id": "5c895b415a891faf71b379eb-Entities1",
+      "biodiversitycorpus:Entity": {
+        "@id": "5c895b415a891faf71b379eb1",
+        "biodiversitycorpus:hasEntOrder": 1,
+        "biodiversitycorpus:hasValue": "Mr. Briggs"
+      },
+      "rdf:type": {
+        "@id": "biodiversitycorpus:observer"
+      }
+    },
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "insufficient",
+      "sentenceSchema:hasValue": "\n"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a botanist"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a form"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker points"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n acquaintance"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field student botanist"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " condensed form"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " enriched monographs"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " concerning data"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field book"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " recorded made plants"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " improving Plymouth"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " were those"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "were"
+    },
+    "sentenceSchema:hasRelationEntities": [
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+        "sentenceSchema:hasToken": "called",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "western"
+      },
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nvarious monographs with which the author has enriched contemporary\nbotanical literature, has always seemed to us one of\n",
+        "sentenceSchema:hasToken": "seemed",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "Mr. Baker"
+      }
+    ],
+    "sentenceSchema:hasSentenceOrder": 9,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": "\n  who"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379ec",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "wanting"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " these"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": [],
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "insufficient",
+      "sentenceSchema:hasValue": "\n"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a botanist"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a form"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker points"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n acquaintance"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field student botanist"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " condensed form"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " enriched monographs"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " concerning data"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field book"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " recorded made plants"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " improving Plymouth"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " were those"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "wanting"
+    },
+    "sentenceSchema:hasRelationEntities": [
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+        "sentenceSchema:hasToken": "called",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "western"
+      },
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nvarious monographs with which the author has enriched contemporary\nbotanical literature, has always seemed to us one of\n",
+        "sentenceSchema:hasToken": "seemed",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "Mr. Baker"
+      }
+    ],
+    "sentenceSchema:hasSentenceOrder": 10,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " these"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "sentenceSchema": "https://www.ensembleprojects.org/biodiversitysprint/sentenceSchema#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "5c895b415a891faf71b379ed",
+    "biodiversitycorpus:hasProvenance": {
+      "@id": "biodiversitycorpus:Document_Provenance",
+      "biodiversitycorpus:hasDocumentAuthor": "London : Bell & Sons, 1885. 8vo, pp. vi. 262.\n",
+      "biodiversitycorpus:hasDocumentName": "botany",
+      "biodiversitycorpus:hasDocumentPublicationTitle": "A Flora of the Em/Iish Lake District. By J. G. Baker, F.K.S.\n",
+      "biodiversitycorpus:hasDocumentSection": "part3",
+      "biodiversitycorpus:hasDocumentType": "Journal",
+      "biodiversitycorpus:hasDocumentYearofPublication": "1885"
+    },
+    "rdf:predicate": {
+      "@id": "sentenceSchema:Predicate",
+      "sentenceSchema:hasValue": "is"
+    },
+    "rdf:subject": {
+      "@id": "sentenceSchema:Subject",
+      "sentenceSchema:hasValue": " which"
+    },
+    "rdf:type": {
+      "@id": "sentenceSchema:Sentence"
+    },
+    "sentenceSchema:hasEntities": [],
+    "sentenceSchema:hasEntityDescription": {
+      "@id": "sentenceSchema:Entity",
+      "rdf:type": {
+        "@id": "sentenceSchema:Entity"
+      },
+      "sentenceSchema:hasDescription": "insufficient",
+      "sentenceSchema:hasValue": "\n"
+    },
+    "sentenceSchema:hasObject_iob": {
+      "@id": "sentenceSchema:iob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:iob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a individuality"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " are and plants"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker preface"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Watson Province"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Wigton AUonby"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n and Westmoreland Cumberland"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a flora"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Lake Country"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a botanist"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a manner"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " a form"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " Baker points"
+        },
+        {
+          "@id": "sentenceSchema:iob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:iob_children"
+          },
+          "sentenceSchema:hasValue": " \n acquaintance"
+        }
+      ]
+    },
+    "sentenceSchema:hasObject_noniob": {
+      "@id": "sentenceSchema:noniob_children",
+      "rdf:type": {
+        "@id": "sentenceSchema:noniob_children"
+      },
+      "sentenceSchema:hasValue": [
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " been one"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " strikes manner"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field student botanist"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " condensed form"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " enriched monographs"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " concerning data"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " field book"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " recorded made plants"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " improving Plymouth"
+        },
+        {
+          "@id": "sentenceSchema:noniob_children",
+          "rdf:type": {
+            "@id": "sentenceSchema:noniob_children"
+          },
+          "sentenceSchema:hasValue": " were those"
+        }
+      ]
+    },
+    "sentenceSchema:hasPredicate": {
+      "@id": "sentenceSchema:Predicate",
+      "rdf:type": {
+        "@id": "sentenceSchema:Predicate"
+      },
+      "sentenceSchema:hasValue": "is"
+    },
+    "sentenceSchema:hasRelationEntities": [
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nwith a distinct physical individuality of its own, and with a distinct\nbotanical individuality, both in respect of the plants that are present\nand those that are  or absent,\"\u00f3we quote from 's\npreface,\u00f3it does not correspond exactly with 's Lake\nProvince, the district included \" extending northward and eastward\nto AUonby, , , and ,\" but excluding \"the lowlying\nnorthern half of , often called the Plain of Carlisle,\nand the ",
+        "sentenceSchema:hasToken": "called",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "western"
+      },
+      {
+        "@id": "sentenceSchema:token",
+        "rdf:type": {
+          "@id": "sentenceSchema:token"
+        },
+        "sentenceSchema:hasPhrase": "\nvarious monographs with which the author has enriched contemporary\nbotanical literature, has always seemed to us one of\n",
+        "sentenceSchema:hasToken": "seemed",
+        "sentenceSchema:hasTokenType": "VERB",
+        "sentenceSchema:isAfter": "\n",
+        "sentenceSchema:isBefore": "Mr. Baker"
+      }
+    ],
+    "sentenceSchema:hasSentenceOrder": 11,
+    "sentenceSchema:hasSubject": {
+      "@id": "sentenceSchema:Subject",
+      "rdf:type": {
+        "@id": "sentenceSchema:Subject"
+      },
+      "sentenceSchema:hasValue": " which"
+    }
+  }
+]

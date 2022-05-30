@@ -1,0 +1,1467 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://archive.org/services/purl/domain/floodmodel"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://archive.org/services/purl/domain/floodmodel">
+    <Prefix name="" IRI="https://archive.org/services/purl/domain/floodmodel"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="floodmodel" IRI="https://archive.org/services/purl/domain/floodmodel"/>
+    <Import>http://www.owl-ontologies.com/Ontology1321454521.owl</Import>
+    <Declaration>
+        <Class IRI="#Receptor_Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FloodWarningTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cracks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Velocity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embankments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ice_Jams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FloodLevels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flash_Flooding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLargeScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCERM_Operating_Authorities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pluvial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#National_Trust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soil_Saturation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heavy_Rainfall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ABI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FEH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SynthesizedData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasImpact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiverParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DamBurst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fluvial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComponents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataContributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impacts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfrastructureParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FloodWalls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ownership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CauseOfHazard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentAgency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pumping_Stations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Small_Streams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CEH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SevereFloodWarning"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCarrierOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beach_Erosion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#River_Levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roads"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalActivityThreshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewlyBuiltProperties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FloodAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrossSection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExistingProperties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trash_Screens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricLandmarks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Major"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutputParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commercial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeRecorded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceptorInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#River"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#River_Depth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Huge_Rivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberofAssets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defence_Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sewerage_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WasteWaterServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefectiveJoints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coastal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSlight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal_Drainage_Boards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsedWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flap_Valves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfaceWaterRunOff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Independent_of_Water_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Built"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local_Authorities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RASP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefenceInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flat_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thresholds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StormParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FloodWarningThreshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroundWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewlyBuilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outfalls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAmount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hilly_or_Mountainous_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CFMP/SFRA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maintained"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrain_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JBA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dimension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrbanSpaces"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Damage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiverChannels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CatchmentArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurredIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NFCDD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dyke_Break"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sluices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burst_River_Banks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overbank_Flooding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-FCERM_Organisations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weirs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coast_of_sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FloodWarning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministry_of_Defence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InputParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoulWater"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWarning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coast_of_Large_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manholes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Industry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heavy_Snow_Melt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Highways"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationThreshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Precipitation"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+            <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+            <Class IRI="#Defence_Infrastructure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+            <Class IRI="#Receptor_Infrastructure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+            <Class IRI="#WasteWaterServices"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Device"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isDataSourceOf"/>
+            <Class IRI="#SimpleData"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#useAndNeed"/>
+            <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard"/>
+        <Class IRI="#Damage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ABI"/>
+        <Class IRI="#Non-FCERM_Organisations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#EnvironmentalFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assessment"/>
+        <Class IRI="#Impacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beach_Erosion"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beach_Erosion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCausedBy"/>
+            <Class IRI="#Storms"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Built"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#LandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burst_River_Banks"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burst_River_Banks"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+            <Class IRI="#RiverParameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burst_River_Banks"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#occurredIn"/>
+            <Class IRI="#River"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CEH"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coast_of_Large_Body"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coast_of_sea"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coastal"/>
+        <Class IRI="#Flood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coastal"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <Class IRI="#Major"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <Class IRI="#Minor"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+                <Class IRI="#Moderate"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coastal"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#occurredIn"/>
+                <Class IRI="#Coast_of_Large_Body"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#occurredIn"/>
+                <Class IRI="#Coast_of_sea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coastal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+            <Class IRI="#StormParameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coastal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCausedBy"/>
+            <Class IRI="#Beach_Erosion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cost"/>
+        <Class IRI="#Impacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cracks"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critical"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrossSection"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DamBurst"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Damage"/>
+        <Class IRI="#Impacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#non-physical-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataContributor"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#non-physical-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataContributor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefectiveJoints"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefenceInfrastructure"/>
+        <Class IRI="#Built"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defence_Infrastructure"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#LandSurface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dimension"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direction"/>
+        <Class IRI="#StormParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dyke_Break"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elements"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embankments"/>
+        <Class IRI="#Defence_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentAgency"/>
+        <Class IRI="#FCERM_Operating_Authorities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExistingProperties"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCERM_Operating_Authorities"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FEH"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flap_Valves"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flash_Flooding"/>
+        <Class IRI="#Fluvial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flash_Flooding"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isCausedBy"/>
+                <Class IRI="#Storms"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isCausedBy"/>
+                <Class IRI="#Torrent"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flash_Flooding"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#Damage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flash_Flooding"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCausedBy"/>
+            <Class IRI="#Storms"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flat_Area"/>
+        <Class IRI="#Terrain_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#HydrologicalHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+            <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#Impacts"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWarning"/>
+            <Class IRI="#FloodWarningTypes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCausedBy"/>
+            <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#StructuralHazard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCausedBy"/>
+            <Class IRI="#CauseOfHazard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCausedBy"/>
+            <Class IRI="#WasteWaterServices"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#occurredIn"/>
+            <Class IRI="#CatchmentArea"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FloodAlert"/>
+        <Class IRI="#FloodWarningTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FloodLevels"/>
+        <Class IRI="#InputParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FloodWalls"/>
+        <Class IRI="#Defence_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FloodWarning"/>
+        <Class IRI="#FloodWarningTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FloodWarningThreshold"/>
+        <Class IRI="#Thresholds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluvial"/>
+        <Class IRI="#Flood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluvial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#hasCharacterizingIndicator"/>
+            <Class IRI="#RiverParameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluvial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#occurredIn"/>
+            <Class IRI="#River"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoulWater"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroundWater"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heavy_Rainfall"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heavy_Snow_Melt"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Height"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Velocity"/>
+        <Class IRI="#RiverParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Highways"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hilly_or_Mountainous_Area"/>
+        <Class IRI="#Terrain_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historic"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#LandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistoricLandmarks"/>
+        <Class IRI="#Receptor_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huge_Rivers"/>
+        <Class IRI="#River"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_Jams"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impacts"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasDescription"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Independent_of_Water_Body"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationThreshold"/>
+        <Class IRI="#Thresholds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfrastructureParameter"/>
+        <Class IRI="#InputParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InputParameter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal_Drainage_Boards"/>
+        <Class IRI="#FCERM_Operating_Authorities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JBA"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local_Authorities"/>
+        <Class IRI="#FCERM_Operating_Authorities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maintained"/>
+        <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maintained"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasTimeRecorded"/>
+            <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Major"/>
+        <Class IRI="#FloodLevels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Major"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFair"/>
+            <Class IRI="#Beach_Erosion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manholes"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministry_of_Defence"/>
+        <Class IRI="#Non-FCERM_Organisations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minor"/>
+        <Class IRI="#FloodLevels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSlight"/>
+            <Class IRI="#Beach_Erosion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate"/>
+        <Class IRI="#FloodLevels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLargeScale"/>
+            <Class IRI="#Beach_Erosion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NFCDD"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#National_Trust"/>
+        <Class IRI="#Non-FCERM_Organisations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewlyBuilt"/>
+        <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewlyBuilt"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasTimeRecorded"/>
+            <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewlyBuiltProperties"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-FCERM_Organisations"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberofAssets"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalActivityThreshold"/>
+        <Class IRI="#Thresholds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdated"/>
+        <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdated"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasTimeRecorded"/>
+            <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outfalls"/>
+        <Class IRI="#Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutputParameter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overbank_Flooding"/>
+        <Class IRI="#Fluvial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overbank_Flooding"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasImpact"/>
+                <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#EmbankmentBreak"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasImpact"/>
+                <Class IRI="#DamBurst"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasImpact"/>
+                <Class IRI="#Dyke_Break"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overbank_Flooding"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isCausedBy"/>
+                <Class IRI="#Burst_River_Banks"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isCausedBy"/>
+                <Class IRI="#DamBurst"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isCausedBy"/>
+                <Class IRI="#Dyke_Break"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ownership"/>
+        <Class IRI="#InfrastructureParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pluvial"/>
+        <Class IRI="#Flood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pluvial"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isCausedBy"/>
+                <Class IRI="#Heavy_Rainfall"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isCausedBy"/>
+                <Class IRI="#Sewerage_System"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pluvial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#Damage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pluvial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#occurredIn"/>
+            <Class IRI="#Independent_of_Water_Body"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Precipitation"/>
+        <Class IRI="#RiverParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Properties"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Properties"/>
+        <Class IRI="#Receptor_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pumping_Stations"/>
+        <Class IRI="#Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RASP"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceptorInfrastructure"/>
+        <Class IRI="#Built"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Receptor_Infrastructure"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#LandSurface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Receptor_Infrastructure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+            <Class IRI="#InfrastructureParameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residential"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#River"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#CatchmentArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiverChannels"/>
+        <Class IRI="#Defence_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiverParameter"/>
+        <Class IRI="#InputParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#River_Depth"/>
+        <Class IRI="#RiverParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#River_Levels"/>
+        <Class IRI="#RiverParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roads"/>
+        <Class IRI="#Receptor_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SevereFloodWarning"/>
+        <Class IRI="#FloodWarningTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <Class IRI="#Defence_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <Class IRI="#WasteWaterServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <Class IRI="#Cracks"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <Class IRI="#DefectiveJoints"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <Class IRI="#Flap_Valves"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+                <Class IRI="#Manholes"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#dischargeAffectedBy"/>
+            <Class IRI="#CauseOfHazard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#dischargeAffectedBy"/>
+            <Class IRI="#Receptor_Infrastructure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarrierOf"/>
+            <Class IRI="#FoulWater"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarrierOf"/>
+            <Class IRI="#SurfaceWaterRunOff"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sewerage_System"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarrierOf"/>
+            <Class IRI="#UsedWater"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleData"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Size"/>
+        <Class IRI="#StormParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sluices"/>
+        <Class IRI="#Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Small_Streams"/>
+        <Class IRI="#River"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soil_Saturation"/>
+        <Class IRI="#RiverParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed"/>
+        <Class IRI="#StormParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StormParameter"/>
+        <Class IRI="#InputParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StormParameter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterOf"/>
+            <Class IRI="#Storms"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storms"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storms"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+            <Class IRI="#StormParameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strength"/>
+        <Class IRI="#StormParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Structures"/>
+        <Class IRI="#Receptor_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceWaterRunOff"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SynthesizedData"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#RiverParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrain_Type"/>
+        <Class IRI="#RiverParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thresholds"/>
+        <Class IRI="#Impacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thresholds"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torrent"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torrent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#isParameterizedBy"/>
+            <Class IRI="#High_Velocity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torrent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#occurredIn"/>
+            <Class IRI="#River"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trash_Screens"/>
+        <Class IRI="#Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrbanSpaces"/>
+        <Class IRI="#CauseOfHazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsedWater"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WasteWaterServices"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#Socioeconomic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_Industry"/>
+        <Class IRI="#FCERM_Operating_Authorities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weirs"/>
+        <Class IRI="#Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CFMP/SFRA"/>
+        <Class IRI="#DataContributor"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFair"/>
+        <ObjectProperty IRI="#hasAmount"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLargeScale"/>
+        <ObjectProperty IRI="#hasAmount"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSlight"/>
+        <ObjectProperty IRI="#hasAmount"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/Ontology1321454521.owl#produceDischarge"/>
+        <Class IRI="#Flood"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeRecorded"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasValue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ABI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Association of British Insurers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Burst_River_Banks</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">burst river banks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coast_of_Large_Body</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">coast of large body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coast_of_sea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">coast of sea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coastal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Surge Flood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DamBurst</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dam burst</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Defence_Infrastructure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">defence infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dyke_Break</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">river dyke burst</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flat_Area</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">flat area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fluvial</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">River Flood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#High_Velocity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">high velocity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hilly_or_Mountainous_Area</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hilly or mountainous area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Huge_Rivers</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">huge rivers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Independent_of_Water_Body</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">independent of water body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pluvial</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">surface flood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Receptor_Infrastructure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">receptor infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#River_Depth</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">river depth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sewerage_System</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sewerage system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Small_Streams</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">small streams</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Soil_Saturation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">soil saturation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terrain_Type</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">terrain type</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

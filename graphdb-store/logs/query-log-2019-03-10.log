@@ -1,0 +1,45 @@
+[INFO ] 2019-03-10 08:54:28,977 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 08:58:28,106 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 09:02:31,277 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#GeoLocations>
+[INFO ] 2019-03-10 09:02:55,245 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 09:07:13,661 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#GeoLocations>
+[INFO ] 2019-03-10 09:07:41,337 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 09:10:47,474 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#GeoLocations>
+[INFO ] 2019-03-10 09:11:16,122 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 09:29:17,644 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#GeoLocations>
+[INFO ] 2019-03-10 09:29:44,732 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 09:31:13,847 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#GeoLocations>
+[INFO ] 2019-03-10 09:31:37,185 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 09:35:36,092 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#GeoLocations>
+[INFO ] 2019-03-10 09:35:59,073 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 09:37:33,579 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 10:09:18,222 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-10 10:10:09,538 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 10:30:05,153 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-10 10:30:43,225 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 10:34:42,001 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-10 10:35:04,508 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 11:15:54,533 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-10 11:16:26,912 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 11:20:35,011 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-10 11:21:03,553 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 11:22:52,429 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-10 11:23:19,789 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 11:25:16,310 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 11:27:06,397 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#Botany>
+[INFO ] 2019-03-10 11:27:25,502 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 11:27:50,160 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-10 11:30:07,878 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

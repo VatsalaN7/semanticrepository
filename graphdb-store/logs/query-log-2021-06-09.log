@@ -1,0 +1,7 @@
+[INFO ] 2021-06-09 14:01:47,915 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-09 14:17:09,070 [repositories/FloodDemo_FakeData | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://archive.org/services/purl/domain/floodmodel>
+[INFO ] 2021-06-09 14:17:42,254 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-09 14:17:52,037 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-09 14:18:42,825 [import-task-FloodDemo_FakeData-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2021-06-09 14:41:16,694 [import-task-flood-repo-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

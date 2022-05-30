@@ -1,0 +1,106 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://archive.org/services/purl/domain/TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:River Levels"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance",
+    "https://archive.org/services/purl/domain/localknowledge#records" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#Observations",
+    "https://archive.org/services/purl/domain/localknowledge#observes" : [ {
+      "@id" : "https://archive.org/services/purl/domain/obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_2"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_3"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_4"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_5"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_6"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_7"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/obs_8"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_1",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "dominated"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "the late spring, summer and early autumn of 2015"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_2",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "increased"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "above normal in late November"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_3",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "increased"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "from \"above normal\" to \"exceptionally high\""
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_4",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "were"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "notably \"high\" or \"exceptionally high\""
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_5",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "presented"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "using an annual maximum (AMAX) rank order for EA gauging stations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_6",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "defines"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "the highest peak value in each water year, which runs from October to September"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_7",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "shows"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "record peak levels along the west Pennine catchments, with near record peaks tracking northeast over North Yorkshire"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/obs_8",
+    "https://archive.org/services/purl/domain/localknowledge#hasIndicator" : [ {
+      "@value" : "occurred"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasValue" : [ {
+      "@value" : "in the middle and lower reaches of their catchments."
+    } ]
+  } ],
+  "@id" : "https://archive.org/services/purl/domain/localknowledge#Page23"
+} ]

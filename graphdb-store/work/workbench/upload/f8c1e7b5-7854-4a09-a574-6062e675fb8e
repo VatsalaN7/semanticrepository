@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity"
+     xml:base="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:plantbiodiversity="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity"
+     xmlns:plantbiodiversity1="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#">
+    <owl:Ontology rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasBinomialName -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasBinomialName">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Binomial_Name"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasCommonNames -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasCommonNames">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasFamily -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasFamily">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Family"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasGenus -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasGenus">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Genus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasKingdom -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasKingdom">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasOrder -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasOrder">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Order"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSpecies -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSpecies">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Species"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubFamily -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubFamily">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Family"/>
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Family"/>
+                    <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#SubFamily"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubtribe -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubtribe">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Subtribe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSynonyms -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSynonyms">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Synonyms"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasTribe -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasTribe">
+        <rdfs:domain rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:range rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Tribe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#isUnranked -->
+
+    <owl:ObjectProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#isUnranked"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#A._anserinifolia -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#A._anserinifolia">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Species"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#A._pusilla_var._suprasericascens_A._viridior. -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#A._pusilla_var._suprasericascens_A._viridior.">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Synonyms"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Genus"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_anserinifolia -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_anserinifolia">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Binomial_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_pusilla_var._pusilla -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_pusilla_var._pusilla">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Synonyms"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Angiosperms -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Angiosperms">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Bidibid -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Bidibid">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Binomial_Name -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Binomial_Name"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Cockle_button -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Cockle_button">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Eudicots -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Eudicots">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Family -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Family">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubFamily"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#SubFamily"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Genus -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Genus"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Hutiwai -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Hutiwai">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Order -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Order"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Piripiri -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Piripiri">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Plantae -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Plantae">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosacea -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosacea">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Family"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosales -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosales">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Order"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosids -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosids">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosoideae -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosoideae">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#SubFamily"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Sanguisorbeae -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Sanguisorbeae">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Tribe"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Sanguisorbinae -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Sanguisorbinae">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Subtribe"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Species -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Species"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#SubFamily -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#SubFamily"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Subtribe -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Subtribe"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Synonyms -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Synonyms"/>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Tribe -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Tribe">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubtribe"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Subtribe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#huruhuru-o-hine-nui-te-po -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#huruhuru-o-hine-nui-te-po">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaia -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaia">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaiarurerure -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaiarurerure">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaikaia -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaikaia">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaikaiarure -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaikaiarure">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#pirikahu -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#pirikahu">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#piriwhetau -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#piriwhetau">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasCommonNames"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Common_names"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasFamily"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Family"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasKingdom"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Kingdom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasOrder"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Order"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSpecies"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Species"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubFamily"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#SubFamily"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubtribe"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Subtribe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSynonyms"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Synonyms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasTribe"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Tribe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_anserinifolia_(Piripiri) -->
+
+    <owl:Class rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_anserinifolia_(Piripiri)">
+        <rdfs:subClassOf rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasBinomialName"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_anserinifolia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasCommonNames"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Bidibid"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Cockle_button"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Hutiwai"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Piripiri"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#huruhuru-o-hine-nui-te-po"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaia"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaiarurerure"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaikaia"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#kaikaiarure"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#pirikahu"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#piriwhetau"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasFamily"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosacea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasGenus"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasKingdom"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Plantae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasOrder"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosales"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSpecies"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#A._anserinifolia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubFamily"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosoideae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSubtribe"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Sanguisorbinae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasSynonyms"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#A._pusilla_var._suprasericascens_A._viridior."/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_pusilla_var._pusilla"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasTribe"/>
+                <owl:someValuesFrom rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Sanguisorbeae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#isUnranked"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Angiosperms"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Eudicots"/>
+                            <rdf:Description rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Rosids"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#hasValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Acaena anserinifolia (Piripiri)</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_anserinifolia -->
+
+    <owl:NamedIndividual rdf:about="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Acaena_anserinifolia">
+        <rdf:type rdf:resource="https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#plantname"/>
+        <plantbiodiversity1:hasValue>Acaena anserinifolia (Piripiri)</plantbiodiversity1:hasValue>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

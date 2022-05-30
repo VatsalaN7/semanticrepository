@@ -1,0 +1,24 @@
+[INFO ] 2019-03-12 10:39:43,075 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 10:46:20,179 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity>
+[INFO ] 2019-03-12 10:46:47,377 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 11:23:47,369 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity>
+[INFO ] 2019-03-12 11:24:05,868 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 12:08:46,131 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity>
+[INFO ] 2019-03-12 12:09:12,443 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 12:09:42,320 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 12:09:42,417 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 12:16:58,095 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Metadata>
+[INFO ] 2019-03-12 12:17:31,867 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 12:28:06,299 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Metadata>
+[INFO ] 2019-03-12 12:28:31,206 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 13:00:48,060 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Metadata>
+[INFO ] 2019-03-12 13:01:16,900 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-12 13:08:37,562 [repositories/corpus_repo1 | c.o.t.m.MonitorRepositoryConnection] Incoming update:
+CLEAR GRAPH <https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#Metadata>
+[INFO ] 2019-03-12 13:09:05,208 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

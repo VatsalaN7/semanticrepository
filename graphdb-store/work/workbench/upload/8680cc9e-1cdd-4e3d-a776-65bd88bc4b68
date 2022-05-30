@@ -1,0 +1,26 @@
+[
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "Wharfe Bank Terrace,Bridge Street,Commercial Street,Crab Garth,Mill Lane,Wharfe Bank,Beech Close,Church Street,High Street", 
+                "rdf:predicate": "are", 
+                "localkn:isAbout": "localkn:Summary of Flooded Locations", 
+                "@id": "localkn:obs_1-Summary of Flooded Locations", 
+                "rdf:subject": "A total of 79 residential and commercial properties were flooded in Tadcaster"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }
+]

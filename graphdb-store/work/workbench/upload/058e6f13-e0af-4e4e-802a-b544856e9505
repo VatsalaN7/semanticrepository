@@ -1,0 +1,968 @@
+[
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Ambleside",
+    "biodiversitycorpus:hasValue": "Ambleside",
+    "geosparql:hasGeometry": {
+      "@id": "Ambleside",
+      "sf:asWKT": "POINT(-2.96497585945387 54.432060856372)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Langdale",
+    "biodiversitycorpus:hasValue": "Langdale",
+    "geosparql:hasGeometry": {
+      "@id": "Langdale",
+      "sf:asWKT": "POINT(-3.05324350650551 54.4210595582778)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Westmoreland",
+    "biodiversitycorpus:hasValue": "Westmoreland",
+    "geosparql:hasGeometry": {
+      "@id": "Westmoreland",
+      "sf:asWKT": "POINT(-2.38245117460172 51.3767083046744)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Great_Langdale",
+    "biodiversitycorpus:hasValue": "Great Langdale",
+    "geosparql:hasGeometry": {
+      "@id": "Great_Langdale",
+      "sf:asWKT": "POINT(-3.07333425825358 54.4491214854927)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Langdale",
+    "biodiversitycorpus:hasValue": "Langdale",
+    "geosparql:hasGeometry": {
+      "@id": "Langdale",
+      "sf:asWKT": "POINT(-3.05324350650551 54.4210595582778)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Scandale_Beck",
+    "biodiversitycorpus:hasValue": "Scandale Beck",
+    "geosparql:hasGeometry": {
+      "@id": "Scandale_Beck",
+      "sf:asWKT": "POINT(-2.96561007725004 54.459017970112)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Codale_Tarn",
+    "biodiversitycorpus:hasValue": "Codale Tarn",
+    "geosparql:hasGeometry": {
+      "@id": "Codale_Tarn",
+      "sf:asWKT": "POINT(-3.08923033337716 54.4669541789497)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Langdale",
+    "biodiversitycorpus:hasValue": "Langdale",
+    "geosparql:hasGeometry": {
+      "@id": "Langdale",
+      "sf:asWKT": "POINT(-3.05324350650551 54.4210595582778)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Cumberland",
+    "biodiversitycorpus:hasValue": "Cumberland",
+    "geosparql:hasGeometry": {
+      "@id": "Cumberland",
+      "sf:asWKT": "POINT(-0.613161029493038 51.4342921249674)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Westmoreland",
+    "biodiversitycorpus:hasValue": "Westmoreland",
+    "geosparql:hasGeometry": {
+      "@id": "Westmoreland",
+      "sf:asWKT": "POINT(-2.38245117460172 51.3767083046744)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Honwdinm",
+    "biodiversitycorpus:hasValue": "Honwdinm",
+    "geosparql:hasGeometry": {
+      "@id": "Honwdinm",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Braemar",
+    "biodiversitycorpus:hasValue": "Braemar",
+    "geosparql:hasGeometry": {
+      "@id": "Braemar",
+      "sf:asWKT": "POINT(-3.40233012158019 57.0042364398155)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Appin",
+    "biodiversitycorpus:hasValue": "Appin",
+    "geosparql:hasGeometry": {
+      "@id": "Appin",
+      "sf:asWKT": "POINT(-5.35740933831623 56.5603547578321)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Argyleshire",
+    "biodiversitycorpus:hasValue": "Argyleshire",
+    "geosparql:hasGeometry": {
+      "@id": "Argyleshire",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Wales",
+    "biodiversitycorpus:hasValue": "Wales",
+    "geosparql:hasGeometry": {
+      "@id": "Wales",
+      "sf:asWKT": "POINT(-3.5 52.5)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Kincardineshire",
+    "biodiversitycorpus:hasValue": "Kincardineshire",
+    "geosparql:hasGeometry": {
+      "@id": "Kincardineshire",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Sussex",
+    "biodiversitycorpus:hasValue": "Sussex",
+    "geosparql:hasGeometry": {
+      "@id": "Sussex",
+      "sf:asWKT": "POINT(-0.104560694351878 51.0043626592131)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Portlethen",
+    "biodiversitycorpus:hasValue": "Portlethen",
+    "geosparql:hasGeometry": {
+      "@id": "Portlethen",
+      "sf:asWKT": "POINT(-2.13537335668096 57.062227107982)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Kincardineshire",
+    "biodiversitycorpus:hasValue": "Kincardineshire",
+    "geosparql:hasGeometry": {
+      "@id": "Kincardineshire",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "England",
+    "biodiversitycorpus:hasValue": "England",
+    "geosparql:hasGeometry": {
+      "@id": "England",
+      "sf:asWKT": "POINT(-0.70312 52.16045)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Wales_Griffith_Gleu_Lochay_Perthshire",
+    "biodiversitycorpus:hasValue": "Wales Griffith Gleu Lochay Perthshire",
+    "geosparql:hasGeometry": {
+      "@id": "Wales_Griffith_Gleu_Lochay_Perthshire",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Point_Island",
+    "biodiversitycorpus:hasValue": "Point Island",
+    "geosparql:hasGeometry": {
+      "@id": "Point_Island",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Charnwood_Forest",
+    "biodiversitycorpus:hasValue": "Charnwood Forest",
+    "geosparql:hasGeometry": {
+      "@id": "Charnwood_Forest",
+      "sf:asWKT": "POINT(-1.2833027261602 52.7259787838348)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Leicestershire",
+    "biodiversitycorpus:hasValue": "Leicestershire",
+    "geosparql:hasGeometry": {
+      "@id": "Leicestershire",
+      "sf:asWKT": "POINT(-1.42129896011513 52.7706274211182)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Whitehaven",
+    "biodiversitycorpus:hasValue": "Whitehaven",
+    "geosparql:hasGeometry": {
+      "@id": "Whitehaven",
+      "sf:asWKT": "POINT(-3.57595631498259 54.5427183544597)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Johnson",
+    "biodiversitycorpus:hasValue": "Johnson",
+    "geosparql:hasGeometry": {
+      "@id": "Johnson",
+      "sf:asWKT": "POINT(-2.47745160194313 53.5991140718687)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Staveley",
+    "biodiversitycorpus:hasValue": "Staveley",
+    "geosparql:hasGeometry": {
+      "@id": "Staveley",
+      "sf:asWKT": "POINT(-1.3570973036761 53.2587346470999)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Kendal",
+    "biodiversitycorpus:hasValue": "Kendal",
+    "geosparql:hasGeometry": {
+      "@id": "Kendal",
+      "sf:asWKT": "POINT(-2.74722070270913 54.3257564688676)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Keswick",
+    "biodiversitycorpus:hasValue": "Keswick",
+    "geosparql:hasGeometry": {
+      "@id": "Keswick",
+      "sf:asWKT": "POINT(-3.12674649597057 54.6017024477301)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Monasterevan",
+    "biodiversitycorpus:hasValue": "Monasterevan",
+    "geosparql:hasGeometry": {
+      "@id": "Monasterevan",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Monasterevan",
+    "biodiversitycorpus:hasValue": "Monasterevan",
+    "geosparql:hasGeometry": {
+      "@id": "Monasterevan",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Kildare",
+    "biodiversitycorpus:hasValue": "Kildare",
+    "geosparql:hasGeometry": {
+      "@id": "Kildare",
+      "sf:asWKT": "POINT(-6.75 53.16667)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "New_Ross",
+    "biodiversitycorpus:hasValue": "New Ross",
+    "geosparql:hasGeometry": {
+      "@id": "New_Ross",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Millford",
+    "biodiversitycorpus:hasValue": "Millford",
+    "geosparql:hasGeometry": {
+      "@id": "Millford",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Carlow",
+    "biodiversitycorpus:hasValue": "Carlow",
+    "geosparql:hasGeometry": {
+      "@id": "Carlow",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Wexford",
+    "biodiversitycorpus:hasValue": "Wexford",
+    "geosparql:hasGeometry": {
+      "@id": "Wexford",
+      "sf:asWKT": "POINT(-4.5768725930056 55.5410694903225)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Borris",
+    "biodiversitycorpus:hasValue": "Borris",
+    "geosparql:hasGeometry": {
+      "@id": "Borris",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Ireland",
+    "biodiversitycorpus:hasValue": "Ireland",
+    "geosparql:hasGeometry": {
+      "@id": "Ireland",
+      "sf:asWKT": "POINT(-8.0 53.0)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Baylough",
+    "biodiversitycorpus:hasValue": "Baylough",
+    "geosparql:hasGeometry": {
+      "@id": "Baylough",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Capard",
+    "biodiversitycorpus:hasValue": "Capard",
+    "geosparql:hasGeometry": {
+      "@id": "Capard",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Tinnehincli",
+    "biodiversitycorpus:hasValue": "Tinnehincli",
+    "geosparql:hasGeometry": {
+      "@id": "Tinnehincli",
+      "sf:asWKT": "POINT(nan nan)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  },
+  {
+    "@context": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "plantbiodiversity": "https://www.ensembleprojects.org/biodiversitysprint/plantbiodiversity#",
+      "biodiversitycorpus": "https://www.ensembleprojects.org/biodiversitysprint/biodiversitycorpus#",
+      "geosparql": "http://www.opengis.net/ont/geosparql#",
+      "sf": "http://www.opengis.net/ont/sf#",
+      "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "@id": "Kinsale",
+    "biodiversitycorpus:hasValue": "Kinsale",
+    "geosparql:hasGeometry": {
+      "@id": "Kinsale",
+      "sf:asWKT": "POINT(-2.97486929984864 52.8859502769471)",
+      "xsd:type": "geosparql:wktLiteral"
+    },
+    "rdf:type": {
+      "@id": "biodiversitycorpus:location"
+    }
+  }
+]

@@ -1,0 +1,371 @@
+[INFO ] 2019-03-09 14:38:43,636 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:38:55,505 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:38:55,508 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:38:58,296 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:47:40,627 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2019-03-09 14:47:40,628 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2019-03-09 14:47:40,640 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository corpus_repo1 in READ/WRITE mode.
+[INFO ] 2019-03-09 14:47:40,641 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2019-03-09 14:47:40,641 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2019-03-09 14:47:40,641 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2019-03-09 14:47:40,641 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2019-03-09 14:47:40,641 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2019-03-09 14:47:40,642 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2019-03-09 14:47:40,642 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2019-03-09 14:47:40,642 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2019-03-09 14:47:40,643 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2019-03-09 14:47:40,643 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Storage folder do not exists and is created: /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo1/storage
+[INFO ] 2019-03-09 14:47:40,648 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2019-03-09 14:47:40,648 [http-nio-7200-exec-8 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2019-03-09 14:47:40,733 [http-nio-7200-exec-8 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2019-03-09 14:47:40,783 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2019-03-09 14:47:40,783 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2019-03-09 14:47:40,783 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2019-03-09 14:47:40,791 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2019-03-09 14:47:40,798 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2019-03-09 14:47:40,799 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2019-03-09 14:47:40,799 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2019-03-09 14:47:40,799 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2019-03-09 14:47:40,800 [http-nio-7200-exec-8 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2019-03-09 14:47:40,800 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2019-03-09 14:47:40,800 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2019-03-09 14:47:40,801 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2019-03-09 14:47:40,833 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2019-03-09 14:47:40,833 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2019-03-09 14:47:40,869 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2019-03-09 14:47:40,869 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2019-03-09 14:47:40,939 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2019-03-09 14:47:40,940 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2019-03-09 14:47:40,950 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2019-03-09 14:47:40,950 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2019-03-09 14:47:40,971 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2019-03-09 14:47:40,971 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2019-03-09 14:47:41,025 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2019-03-09 14:47:41,025 [http-nio-7200-exec-8 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2019-03-09 14:47:41,030 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2019-03-09 14:47:41,031 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2019-03-09 14:47:41,031 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2019-03-09 14:47:41,031 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2019-03-09 14:47:41,035 [http-nio-7200-exec-8 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/corpus_repo1/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2019-03-09 14:47:41,040 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2019-03-09 14:47:41,040 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2019-03-09 14:47:41,041 [http-nio-7200-exec-8 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2019-03-09 14:47:41,043 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2019-03-09 14:47:41,043 [http-nio-7200-exec-8 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2019-03-09 14:47:41,043 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2019-03-09 14:47:41,043 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2019-03-09 14:47:41,043 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2019-03-09 14:47:41,044 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2019-03-09 14:47:41,044 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2019-03-09 14:47:41,044 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2019-03-09 14:47:41,044 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2019-03-09 14:47:41,044 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2019-03-09 14:47:41,044 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2019-03-09 14:47:41,045 [http-nio-7200-exec-8 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2019-03-09 14:47:41,045 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[WARN ] 2019-03-09 14:47:41,047 [http-nio-7200-exec-8 | c.o.p.literals-index] Rebuilding literals indexes. Starting from id:1
+[WARN ] 2019-03-09 14:47:41,188 [http-nio-7200-exec-8 | c.o.p.literals-index] Complete in 0.141, num entries indexed:0
+[INFO ] 2019-03-09 14:47:41,189 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2019-03-09 14:47:41,190 [http-nio-7200-exec-8 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2019-03-09 14:47:41,190 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2019-03-09 14:47:41,242 [http-nio-7200-exec-8 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2019-03-09 14:47:41,242 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2019-03-09 14:47:41,243 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2019-03-09 14:47:41,251 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2019-03-09 14:47:43,758 [http-nio-7200-exec-8 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2019-03-09 14:47:43,758 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2019-03-09 14:47:43,766 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2019-03-09 14:47:43,768 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2019-03-09 14:47:43,769 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2019-03-09 14:47:43,770 [http-nio-7200-exec-8 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2019-03-09 14:47:43,771 [http-nio-7200-exec-8 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2019-03-09 14:47:43,800 [http-nio-7200-exec-8 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2019-03-09 14:48:12,386 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:48:13,714 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:48:13,715 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:48:13,784 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2019-03-09 14:48:13,788 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2019-03-09 14:48:33,798 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:48:33,802 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:48:35,661 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:48:35,662 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:49:17,176 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:49:19,404 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:49:19,406 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:49:59,653 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:50:01,258 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:50:01,259 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:52:34,790 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:52:37,873 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:52:37,874 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:53:55,210 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:53:58,199 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:53:58,200 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:56:06,975 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:56:10,471 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:56:10,472 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:57:31,541 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:57:31,542 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:57:42,210 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 799319486
+[INFO ] 2019-03-09 14:57:42,214 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1062445926 is finished
+[INFO ] 2019-03-09 14:57:54,802 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:57:57,638 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:57:57,639 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:58:30,149 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:58:31,907 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:58:31,908 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 14:59:32,412 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 497243592
+[INFO ] 2019-03-09 14:59:32,413 [repositories/corpus_repo1 | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: org.eclipse.rdf4j.query.parser.sparql.ast.VisitorException: QName 'biodiversity:location' uses an undefined prefix
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2019-03-09 14:59:44,492 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -2024184971
+[INFO ] 2019-03-09 14:59:44,496 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -2024184971 is finished
+[INFO ] 2019-03-09 14:59:51,736 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1980331345
+[INFO ] 2019-03-09 14:59:51,738 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1980331345 is finished
+[INFO ] 2019-03-09 14:59:53,581 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 14:59:53,582 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:00:04,473 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:00:04,474 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:00:37,888 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -56841312
+[INFO ] 2019-03-09 15:00:37,890 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1690962692 is finished
+[INFO ] 2019-03-09 15:01:12,809 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -532600386
+[INFO ] 2019-03-09 15:01:12,813 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 777904282 is finished
+[INFO ] 2019-03-09 15:01:30,234 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 261345121
+[INFO ] 2019-03-09 15:01:30,236 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 261345121 is finished
+[INFO ] 2019-03-09 15:01:42,250 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:01:42,252 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:01:57,092 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1482490864
+[INFO ] 2019-03-09 15:01:57,094 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1482490864 is finished
+[INFO ] 2019-03-09 15:01:59,079 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:01:59,080 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:02:07,980 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:02:07,981 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:02:19,809 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1476702997
+[INFO ] 2019-03-09 15:02:19,812 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1476702997 is finished
+[INFO ] 2019-03-09 15:02:42,531 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1333608396
+[INFO ] 2019-03-09 15:02:42,533 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1333608396 is finished
+[INFO ] 2019-03-09 15:03:44,268 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1818713686
+[INFO ] 2019-03-09 15:03:44,271 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1818713686 is finished
+[INFO ] 2019-03-09 15:03:51,477 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -105392034
+[INFO ] 2019-03-09 15:03:51,479 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -105392034 is finished
+[INFO ] 2019-03-09 15:03:52,906 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:03:52,907 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:04:26,327 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:04:28,182 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:04:28,183 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:05:51,939 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -325457635
+[INFO ] 2019-03-09 15:05:51,942 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -325457635 is finished
+[INFO ] 2019-03-09 15:05:57,709 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1664979720
+[INFO ] 2019-03-09 15:05:57,713 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1664979720 is finished
+[INFO ] 2019-03-09 15:37:47,571 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 909993251
+[INFO ] 2019-03-09 15:37:47,576 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 909993251 is finished
+[INFO ] 2019-03-09 15:37:55,659 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1810958184
+[INFO ] 2019-03-09 15:37:55,663 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1810958184 is finished
+[INFO ] 2019-03-09 15:38:03,853 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:38:03,854 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:38:16,739 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:38:16,740 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:38:25,616 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 390566677
+[INFO ] 2019-03-09 15:38:25,622 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 390566677 is finished
+[INFO ] 2019-03-09 15:38:39,682 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:38:39,683 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:39:14,315 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:39:14,316 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:39:41,526 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 557537085
+[INFO ] 2019-03-09 15:39:41,531 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 557537085 is finished
+[INFO ] 2019-03-09 15:41:27,884 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 348959646
+[INFO ] 2019-03-09 15:41:27,890 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 348959646 is finished
+[INFO ] 2019-03-09 15:42:04,338 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -53070084
+[INFO ] 2019-03-09 15:42:04,339 [repositories/corpus_repo1 | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Encountered " "where" "where "" at line 11, column 5.
+Was expecting one of:
+    "{" ...
+    "}" ...
+    "optional" ...
+    "graph" ...
+    "minus" ...
+    "filter" ...
+    "bind" ...
+    "service" ...
+    "values" ...
+    <VAR1> ...
+    <VAR2> ...
+    <Q_IRI_REF> ...
+    <PNAME_LN> ...
+    <PNAME_NS> ...
+    <STRING_LITERAL1> ...
+    <STRING_LITERAL2> ...
+    <STRING_LITERAL_LONG1> ...
+    <STRING_LITERAL_LONG2> ...
+    <INTEGER> ...
+    <DECIMAL> ...
+    <DOUBLE> ...
+    <INTEGER_POSITIVE> ...
+    <DECIMAL_POSITIVE> ...
+    <DOUBLE_POSITIVE> ...
+    <INTEGER_NEGATIVE> ...
+    <DECIMAL_NEGATIVE> ...
+    <DOUBLE_NEGATIVE> ...
+    "true" ...
+    "false" ...
+    <BLANK_NODE_LABEL> ...
+    <ANON> ...
+    <NIL> ...
+    "(" ...
+    "[" ...
+    
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2019-03-09 15:44:28,011 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 366333631
+[INFO ] 2019-03-09 15:44:28,014 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 366333631 is finished
+[INFO ] 2019-03-09 15:44:41,707 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1614943563
+[INFO ] 2019-03-09 15:44:41,929 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1614943563 is finished
+[INFO ] 2019-03-09 15:44:58,839 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 15:44:58,842 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 15:47:57,005 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1792719665
+[INFO ] 2019-03-09 15:47:57,022 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1792719665 is finished
+[INFO ] 2019-03-09 15:49:42,983 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1732322611
+[INFO ] 2019-03-09 15:49:42,986 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1732322611 is finished
+[INFO ] 2019-03-09 15:49:47,091 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1188811896
+[INFO ] 2019-03-09 15:49:47,093 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1188811896 is finished
+[INFO ] 2019-03-09 15:49:52,121 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query 1880324843
+[INFO ] 2019-03-09 15:49:52,125 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query 1880324843 is finished
+[INFO ] 2019-03-09 15:49:56,404 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -745054308
+[INFO ] 2019-03-09 15:49:56,409 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -745054308 is finished
+[INFO ] 2019-03-09 15:49:59,920 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1482490864
+[INFO ] 2019-03-09 15:49:59,922 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1482490864 is finished
+[INFO ] 2019-03-09 15:51:41,574 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1792719665
+[INFO ] 2019-03-09 15:51:41,590 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1792719665 is finished
+[INFO ] 2019-03-09 16:00:52,474 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 16:00:52,475 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:00:55,247 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1792719665
+[INFO ] 2019-03-09 16:00:55,270 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -1792719665 is finished
+[INFO ] 2019-03-09 16:01:19,067 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1396362731
+[INFO ] 2019-03-09 16:01:19,111 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -666297935 is finished
+[INFO ] 2019-03-09 16:01:19,206 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -666297935
+[INFO ] 2019-03-09 16:01:19,312 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -666297935 is finished
+[INFO ] 2019-03-09 16:01:56,429 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:02:10,562 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 16:02:10,563 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:02:27,943 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:02:32,794 [repositories/corpus_repo1 | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2019-03-09 16:02:34,153 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:02:43,910 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 16:02:43,911 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:02:45,526 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1396362731
+[INFO ] 2019-03-09 16:02:45,529 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -666297935 is finished
+[INFO ] 2019-03-09 16:03:09,435 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1127781995
+[INFO ] 2019-03-09 16:03:09,438 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -742215375 is finished
+[INFO ] 2019-03-09 16:03:15,439 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 16:03:15,440 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:03:18,472 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1127781995
+[INFO ] 2019-03-09 16:03:18,475 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -742215375 is finished
+[INFO ] 2019-03-09 16:03:21,832 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:03:28,840 [repositories/corpus_repo1 | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2019-03-09 16:03:28,887 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:04:15,229 [repositories/corpus_repo1 | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-09 16:04:15,230 [repositories/corpus_repo1 | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-09 16:04:16,864 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -1127781995
+[INFO ] 2019-03-09 16:04:16,903 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -742215375 is finished
+[INFO ] 2019-03-09 16:04:16,979 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -742215375
+[INFO ] 2019-03-09 16:04:17,091 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -742215375 is finished
+[INFO ] 2019-03-09 16:04:21,753 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -274819177
+[INFO ] 2019-03-09 16:04:21,869 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -742215375 is finished
+[INFO ] 2019-03-09 16:04:21,898 [repositories/corpus_repo1 | c.o.f.s.RepositoryController] POST query -742215375
+[INFO ] 2019-03-09 16:04:21,990 [repositories/corpus_repo1 | c.o.g.s.TupleQueryResultView] Request for query -742215375 is finished

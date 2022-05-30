@@ -1,0 +1,117 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance",
+    "https://archive.org/services/purl/domain/localknowledge#records" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5"
+    }, {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#TadcasterS19V4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "damage:data"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasDescription" : [ {
+      "@value" : "Flood Investigation Report - Tadcaster"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#hasProvenance" : [ {
+      "@id" : "https://archive.org/services/purl/domain/localknowledge#DataProvenance"
+    } ],
+    "https://archive.org/services/purl/domain/localknowledge#isAbout" : [ {
+      "@value" : "localkn:Water Company Risk Management Functions"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_1",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "as a Risk Management Authority under the Flood and Water Management Act 2010 and must have regard to the Local Strategy of the LLFA."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "named"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "Water companies in England and Wales are"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_2",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "risks associated with assets or processes that may cause or be affected by flooding, and must share relevant data with other flood risk authorities."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "manage"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "They are required to"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_3",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "flood risk management functions under the Water Resources Act (1991)."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "have"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "They also"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : ": the inspection, maintenance, repair and any works to their drainage assets which may include watercourses, pipes, ditches or other infrastructure such as pumping stations."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "include"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "Relevant actions of water companies"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_5",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "water and wastewater undertakers as statutory category 2 responders to national disasters and emergencies, placing on them duties to share assured information with other responders in an appropriate manner."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "designates"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The Civil Contingencies Act 2004 (CCA) also"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  }, {
+    "@id" : "https://archive.org/services/purl/domain/localknowledge#obs_6",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : [ {
+      "@value" : "water and wastewater undertakers as statutory category 2 responders to national disasters and emergencies, placing on them duties to share assured information with other responders in an appropriate manner."
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : [ {
+      "@value" : "designates"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : [ {
+      "@value" : "The Civil Contingencies Act 2004 (CCA) also"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@value" : "localkn:Observations"
+    } ]
+  } ],
+  "@id" : "https://archive.org/services/purl/domain/localknowledge#Page44"
+} ]

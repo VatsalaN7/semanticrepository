@@ -1,0 +1,1147 @@
+[INFO ] 2022-05-25 10:12:28,105 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-05-25 10:12:29,705 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-05-25 10:12:36,936 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-05-25 10:12:36,936 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-05-25 10:12:36,937 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-05-25 10:12:36,937 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-05-25 10:12:36,937 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-05-25 10:12:42,900 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-05-25 10:12:47,498 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-05-25 10:12:47,499 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-05-25 10:12:47,511 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-05-25 10:12:47,512 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-05-25 10:12:47,513 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-05-25 10:12:47,513 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-05-25 10:12:47,513 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-05-25 10:12:47,513 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-05-25 10:12:47,513 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-05-25 10:12:47,515 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-05-25 10:12:47,515 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-05-25 10:12:47,516 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 10:12:47,535 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 10:12:47,536 [http-nio-7200-exec-1 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-05-25 10:12:47,538 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-05-25 10:12:47,545 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 10:12:47,610 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-05-25 10:12:47,913 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Restored 21697 entities allocating 12.0 MB
+[INFO ] 2022-05-25 10:12:47,913 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Done in 302 ms.
+[INFO ] 2022-05-25 10:12:48,004 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-05-25 10:12:48,042 [http-nio-7200-exec-1 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-05-25 10:12:48,047 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-05-25 10:12:48,062 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-05-25 10:12:48,081 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 10:12:48,089 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-05-25 10:12:48,582 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-05-25 10:12:48,585 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-05-25 10:12:48,847 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-05-25 10:12:48,863 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-05-25 10:12:48,872 [http-nio-7200-exec-1 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-05-25 10:12:48,883 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-05-25 10:12:48,984 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-05-25 10:12:49,073 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-05-25 10:12:49,073 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-05-25 10:12:49,074 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-05-25 10:12:49,074 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-05-25 10:12:49,167 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-05-25 10:12:49,168 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-05-25 10:12:49,168 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-05-25 10:12:49,168 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-05-25 10:12:49,168 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-05-25 10:12:49,169 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-05-25 10:12:49,169 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-05-25 10:12:49,169 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-05-25 10:12:49,169 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-05-25 10:12:49,170 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-05-25 10:12:49,170 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-05-25 10:12:49,171 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-05-25 10:12:49,172 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-05-25 10:12:49,172 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-05-25 10:12:49,175 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-05-25 10:12:49,208 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-05-25 10:12:49,209 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-05-25 10:12:49,259 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-05-25 10:12:49,260 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-05-25 10:12:49,354 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-05-25 10:12:49,356 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-05-25 10:12:49,378 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-05-25 10:12:49,379 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-05-25 10:12:49,429 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-05-25 10:12:49,429 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-05-25 10:12:49,525 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-05-25 10:12:49,525 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-05-25 10:12:49,535 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-05-25 10:12:49,536 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-05-25 10:12:49,537 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-05-25 10:12:49,650 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-05-25 10:12:49,653 [http-nio-7200-exec-1 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-05-25 10:12:49,658 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-05-25 10:12:49,658 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-05-25 10:12:49,663 [http-nio-7200-exec-1 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-05-25 10:12:49,666 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-05-25 10:12:49,667 [http-nio-7200-exec-1 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-05-25 10:12:49,668 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-05-25 10:12:49,669 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-05-25 10:12:49,669 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-05-25 10:12:49,670 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-05-25 10:12:49,670 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-05-25 10:12:49,670 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-05-25 10:12:49,671 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-05-25 10:12:49,671 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-05-25 10:12:49,671 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-05-25 10:12:49,671 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-05-25 10:12:49,671 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-05-25 10:12:49,694 [http-nio-7200-exec-1 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-05-25 10:12:49,702 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-05-25 10:12:49,719 [http-nio-7200-exec-1 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-05-25 10:12:49,721 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-05-25 10:12:49,780 [http-nio-7200-exec-1 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-05-25 10:12:49,781 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-05-25 10:12:49,783 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-05-25 10:12:49,788 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-05-25 10:12:53,760 [http-nio-7200-exec-1 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-05-25 10:12:53,760 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-05-25 10:12:53,772 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-05-25 10:12:53,787 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-05-25 10:12:53,787 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-05-25 10:12:53,789 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-05-25 10:12:53,794 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-05-25 10:12:53,926 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-05-25 10:12:53,928 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-05-25 10:12:53,928 [http-nio-7200-exec-1 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-05-25 10:12:53,982 [http-nio-7200-exec-1 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-05-25 10:12:54,858 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:12:54,861 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-05-25 10:12:54,881 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-05-25 10:12:54,953 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:12:55,129 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-05-25 10:12:55,154 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-05-25 10:12:55,184 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-05-25 10:12:55,185 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-05-25 10:12:55,204 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-05-25 10:12:55,206 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-05-25 10:12:55,206 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-05-25 10:34:58,623 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:34:58,626 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:35:03,937 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1905328538
+[INFO ] 2022-05-25 10:35:03,993 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-05-25 10:35:04,150 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 2084852168 is finished
+[INFO ] 2022-05-25 10:37:53,144 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:37:56,910 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:37:56,919 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:37:57,077 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2022-05-25 10:38:13,160 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:38:13,188 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:38:15,132 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:39:56,834 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:39:56,836 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:44:49,704 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1918101697
+[INFO ] 2022-05-25 10:44:49,788 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1918101697 is finished
+[INFO ] 2022-05-25 10:45:11,375 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1219948643
+[INFO ] 2022-05-25 10:45:11,404 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1219948643 is finished
+[INFO ] 2022-05-25 10:45:32,235 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:45:35,915 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:45:35,924 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:47:37,252 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:47:37,256 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:47:59,012 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1147464320
+[INFO ] 2022-05-25 10:47:59,038 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1147464320 is finished
+[INFO ] 2022-05-25 10:48:14,068 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -173050543
+[INFO ] 2022-05-25 10:48:14,076 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -173050543 is finished
+[INFO ] 2022-05-25 10:48:34,650 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -320377551
+[INFO ] 2022-05-25 10:48:34,688 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -320377551 is finished
+[INFO ] 2022-05-25 10:48:51,135 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1443082465
+[INFO ] 2022-05-25 10:48:51,147 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1443082465 is finished
+[INFO ] 2022-05-25 10:49:35,021 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1285232345
+[INFO ] 2022-05-25 10:49:35,085 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1285232345 is finished
+[INFO ] 2022-05-25 10:49:43,811 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:49:43,826 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:49:57,107 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:49:57,131 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:49:59,990 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:50:00,018 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:50:02,305 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:50:02,315 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:50:02,975 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 10:50:02,979 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 10:50:58,491 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1630785909
+[INFO ] 2022-05-25 10:50:58,625 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1630785909 is finished
+[INFO ] 2022-05-25 11:19:07,198 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 641734343
+[INFO ] 2022-05-25 11:19:09,869 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 641734343 is finished
+[INFO ] 2022-05-25 12:11:53,986 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1303971579
+[INFO ] 2022-05-25 12:11:54,035 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Encountered "<EOF>" at line 343, column 1.
+Was expecting one of:
+    "(" ...
+    "{" ...
+    "}" ...
+    "[" ...
+    "." ...
+    <NIL> ...
+    <ANON> ...
+    "optional" ...
+    "graph" ...
+    "union" ...
+    "minus" ...
+    "filter" ...
+    "true" ...
+    "false" ...
+    "bind" ...
+    "service" ...
+    "values" ...
+    <Q_IRI_REF> ...
+    <PNAME_NS> ...
+    <PNAME_LN> ...
+    <BLANK_NODE_LABEL> ...
+    <VAR1> ...
+    <VAR2> ...
+    <INTEGER> ...
+    <INTEGER_POSITIVE> ...
+    <INTEGER_NEGATIVE> ...
+    <DECIMAL> ...
+    <DECIMAL_POSITIVE> ...
+    <DECIMAL_NEGATIVE> ...
+    <DOUBLE> ...
+    <DOUBLE_POSITIVE> ...
+    <DOUBLE_NEGATIVE> ...
+    <STRING_LITERAL1> ...
+    <STRING_LITERAL2> ...
+    <STRING_LITERAL_LONG1> ...
+    <STRING_LITERAL_LONG2> ...
+    
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 12:13:14,382 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -685949230
+[INFO ] 2022-05-25 12:13:14,405 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: org.eclipse.rdf4j.query.parser.sparql.ast.VisitorException: QName 'soil:SoilData' uses an undefined prefix
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 12:13:54,127 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 691871058
+[INFO ] 2022-05-25 12:13:55,501 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -611037604 is finished
+[INFO ] 2022-05-25 12:15:04,099 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1098817788
+[INFO ] 2022-05-25 12:15:05,540 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1098817788 is finished
+[INFO ] 2022-05-25 13:01:08,148 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 191046233
+[INFO ] 2022-05-25 13:01:09,508 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1092560821 is finished
+[INFO ] 2022-05-25 13:02:20,384 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -752161907
+[INFO ] 2022-05-25 13:02:21,846 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -752161907 is finished
+[INFO ] 2022-05-25 13:03:33,522 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1552335513
+[INFO ] 2022-05-25 13:03:59,775 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1230748942
+[INFO ] 2022-05-25 13:05:12,561 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1552335513
+[INFO ] 2022-05-25 13:06:40,404 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1657731398
+[INFO ] 2022-05-25 13:06:40,485 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1544276492 is finished
+[INFO ] 2022-05-25 13:06:50,176 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1509107492
+[INFO ] 2022-05-25 13:06:50,539 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1074160914 is finished
+[INFO ] 2022-05-25 13:08:02,989 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1230748942
+[ERROR] 2022-05-25 13:15:10,614 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Query interrupted
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 13:15:10,617 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1844745881 is finished
+[ERROR] 2022-05-25 13:15:15,441 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Query interrupted
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 13:15:15,457 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1844745881 is finished
+[ERROR] 2022-05-25 13:15:19,540 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Query interrupted
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 13:15:19,546 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -752063300 is finished
+[ERROR] 2022-05-25 13:15:21,980 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Query interrupted
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 13:15:22,024 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -752063300 is finished
+[INFO ] 2022-05-25 13:15:28,161 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1230748942
+[INFO ] 2022-05-25 13:20:51,878 [Thread-12 | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-05-25 13:20:51,899 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -752063300 is finished
+[INFO ] 2022-05-25 13:20:51,993 [Thread-12 | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-05-25 13:20:52,194 [Thread-19 | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-05-25 13:20:52,243 [Thread-19 | c.o.t.b.AVLRepository] NumberOfStatements = 187390
+[INFO ] 2022-05-25 13:20:52,243 [Thread-19 | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 184034
+[INFO ] 2022-05-25 13:20:52,245 [Thread-19 | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-05-25 13:20:52,334 [Thread-19 | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down
+[INFO ] 2022-05-25 13:21:08,497 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-05-25 13:21:09,534 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-05-25 13:21:15,955 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-05-25 13:21:15,956 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-05-25 13:21:15,956 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-05-25 13:21:15,956 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-05-25 13:21:15,956 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-05-25 13:21:21,304 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-05-25 13:21:23,822 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-05-25 13:21:23,823 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-05-25 13:21:23,835 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-05-25 13:21:23,835 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-05-25 13:21:23,836 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-05-25 13:21:23,836 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-05-25 13:21:23,836 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-05-25 13:21:23,836 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-05-25 13:21:23,836 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-05-25 13:21:23,838 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-05-25 13:21:23,839 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-05-25 13:21:23,842 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 13:21:23,869 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 13:21:23,869 [http-nio-7200-exec-1 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-05-25 13:21:23,880 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-05-25 13:21:23,888 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 13:21:23,923 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-05-25 13:21:24,081 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Restored 53961 entities allocating 12.0 MB
+[INFO ] 2022-05-25 13:21:24,085 [http-nio-7200-exec-1 | c.o.t.e.i.m.PersistedHashMap] Done in 158 ms.
+[INFO ] 2022-05-25 13:21:24,147 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-05-25 13:21:24,150 [http-nio-7200-exec-1 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-05-25 13:21:24,154 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-05-25 13:21:24,169 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-05-25 13:21:24,192 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 13:21:24,196 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-05-25 13:21:24,615 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-05-25 13:21:24,617 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-05-25 13:21:24,672 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-05-25 13:21:24,695 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-05-25 13:21:24,722 [http-nio-7200-exec-1 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-05-25 13:21:24,738 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-05-25 13:21:24,773 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-05-25 13:21:24,817 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-05-25 13:21:24,818 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-05-25 13:21:24,818 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-05-25 13:21:24,818 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-05-25 13:21:24,859 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-05-25 13:21:24,859 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-05-25 13:21:24,860 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-05-25 13:21:24,860 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-05-25 13:21:24,860 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-05-25 13:21:24,861 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-05-25 13:21:24,861 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-05-25 13:21:24,861 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-05-25 13:21:24,861 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-05-25 13:21:24,861 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-05-25 13:21:24,861 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-05-25 13:21:24,863 [http-nio-7200-exec-1 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-05-25 13:21:24,863 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-05-25 13:21:24,864 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-05-25 13:21:24,865 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-05-25 13:21:24,878 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-05-25 13:21:24,878 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-05-25 13:21:24,907 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-05-25 13:21:24,908 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-05-25 13:21:24,956 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-05-25 13:21:24,956 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-05-25 13:21:24,966 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-05-25 13:21:24,966 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-05-25 13:21:24,978 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-05-25 13:21:24,979 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-05-25 13:21:25,024 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-05-25 13:21:25,024 [http-nio-7200-exec-1 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-05-25 13:21:25,031 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-05-25 13:21:25,032 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-05-25 13:21:25,033 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-05-25 13:21:25,101 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-05-25 13:21:25,103 [http-nio-7200-exec-1 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-05-25 13:21:25,107 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-05-25 13:21:25,108 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-05-25 13:21:25,109 [http-nio-7200-exec-1 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-05-25 13:21:25,109 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-05-25 13:21:25,110 [http-nio-7200-exec-1 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-05-25 13:21:25,110 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-05-25 13:21:25,110 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-05-25 13:21:25,110 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-05-25 13:21:25,111 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-05-25 13:21:25,111 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-05-25 13:21:25,111 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-05-25 13:21:25,112 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-05-25 13:21:25,112 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-05-25 13:21:25,112 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-05-25 13:21:25,112 [http-nio-7200-exec-1 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-05-25 13:21:25,112 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-05-25 13:21:25,120 [http-nio-7200-exec-1 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-05-25 13:21:25,120 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-05-25 13:21:25,121 [http-nio-7200-exec-1 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-05-25 13:21:25,122 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-05-25 13:21:25,189 [http-nio-7200-exec-1 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-05-25 13:21:25,189 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-05-25 13:21:25,189 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-05-25 13:21:25,193 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-05-25 13:21:27,324 [http-nio-7200-exec-1 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-05-25 13:21:27,324 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-05-25 13:21:27,384 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-05-25 13:21:27,389 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-05-25 13:21:27,390 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-05-25 13:21:27,403 [http-nio-7200-exec-1 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-05-25 13:21:27,404 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-05-25 13:21:27,447 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-05-25 13:21:27,447 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-05-25 13:21:27,449 [http-nio-7200-exec-1 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-05-25 13:21:27,464 [http-nio-7200-exec-1 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-05-25 13:21:28,083 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:21:28,089 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-05-25 13:21:28,105 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-05-25 13:21:28,172 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:21:28,236 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-05-25 13:21:28,253 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-05-25 13:21:28,273 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-05-25 13:21:28,273 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-05-25 13:21:28,284 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-05-25 13:21:28,285 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-05-25 13:21:28,286 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-05-25 13:22:00,646 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:22:00,652 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:22:07,217 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1855836391
+[INFO ] 2022-05-25 13:22:08,397 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[ERROR] 2022-05-25 13:27:44,383 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Query interrupted
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 13:27:44,387 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1610614247 is finished
+[INFO ] 2022-05-25 13:27:51,040 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 641734343
+[INFO ] 2022-05-25 13:27:51,758 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 641734343 is finished
+[INFO ] 2022-05-25 13:28:45,084 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 303120445
+[INFO ] 2022-05-25 13:28:46,922 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1449602991 is finished
+[INFO ] 2022-05-25 13:29:23,915 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -413224977
+[INFO ] 2022-05-25 13:29:25,720 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -413224977 is finished
+[INFO ] 2022-05-25 13:30:45,597 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1889402428
+[INFO ] 2022-05-25 13:30:46,394 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -659104846 is finished
+[INFO ] 2022-05-25 13:31:12,753 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -532025019
+[INFO ] 2022-05-25 13:31:14,309 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -532025019 is finished
+[INFO ] 2022-05-25 13:36:14,478 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 120705733
+[ERROR] 2022-05-25 13:36:48,481 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Query interrupted
+org.eclipse.rdf4j.query.QueryInterruptedException: Query was aborted by the user.
+	at com.ontotext.trree.SailIterationWrapper.checkAborted(SailIterationWrapper.java:74)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:43)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:2739)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:74)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.graphdb.sesame.CatchHandler.processWithBuffer(CatchHandler.java:103)
+	at com.ontotext.graphdb.sesame.TupleQueryResultView.renderInternal(TupleQueryResultView.java:92)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:64)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 13:36:48,491 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 706380489 is finished
+[INFO ] 2022-05-25 13:36:57,195 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1787472464
+[INFO ] 2022-05-25 13:36:58,004 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 763163678 is finished
+[INFO ] 2022-05-25 13:39:21,008 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 692718138
+[INFO ] 2022-05-25 13:39:21,989 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1118150028 is finished
+[INFO ] 2022-05-25 13:39:44,962 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 931259715
+[INFO ] 2022-05-25 13:39:44,968 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 931259715 is finished
+[INFO ] 2022-05-25 13:39:55,793 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1856086988
+[INFO ] 2022-05-25 13:39:55,836 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1856086988 is finished
+[INFO ] 2022-05-25 13:40:35,598 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:40:40,213 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:40:40,215 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:40:40,455 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2022-05-25 13:42:31,684 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 174536826
+[INFO ] 2022-05-25 13:42:31,737 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 174536826 is finished
+[INFO ] 2022-05-25 13:43:10,775 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1822422763
+[INFO ] 2022-05-25 13:43:12,215 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 2035907171 is finished
+[INFO ] 2022-05-25 13:43:26,402 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1463984765
+[INFO ] 2022-05-25 13:43:27,445 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1463984765 is finished
+[INFO ] 2022-05-25 13:45:01,799 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1809939757
+[INFO ] 2022-05-25 13:45:02,993 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 26036577 is finished
+[INFO ] 2022-05-25 13:45:57,872 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1774989458
+[INFO ] 2022-05-25 13:45:58,660 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1246706916 is finished
+[INFO ] 2022-05-25 13:46:14,711 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1856086988
+[INFO ] 2022-05-25 13:46:14,724 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1856086988 is finished
+[INFO ] 2022-05-25 13:46:44,598 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -140792446
+[INFO ] 2022-05-25 13:46:44,627 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -140792446 is finished
+[INFO ] 2022-05-25 13:47:23,934 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1774989458
+[INFO ] 2022-05-25 13:47:24,693 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1246706916 is finished
+[INFO ] 2022-05-25 13:48:47,248 [JavaFX Application Thread | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-05-25 13:48:47,326 [JavaFX Application Thread | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-05-25 13:48:47,527 [JavaFX Application Thread | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-05-25 13:48:47,568 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfStatements = 187390
+[INFO ] 2022-05-25 13:48:47,569 [JavaFX Application Thread | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 184034
+[INFO ] 2022-05-25 13:48:47,572 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-05-25 13:48:47,582 [JavaFX Application Thread | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down
+[WARN ] 2022-05-25 13:48:47,598 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [Import cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.ontotext.forest.impex.ExecutorProvider.lambda$initCleanupPools$1(ExecutorProvider.java:26)
+ com.ontotext.forest.impex.ExecutorProvider$$Lambda$302/1662550146.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+[WARN ] 2022-05-25 13:48:47,599 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+[WARN ] 2022-05-25 13:48:47,599 [JavaFX Application Thread | o.a.c.l.WebappClassLoaderBase] The web application [ROOT] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+[INFO ] 2022-05-25 13:48:55,042 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-05-25 13:48:56,055 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-05-25 13:49:02,586 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-05-25 13:49:02,586 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-05-25 13:49:02,586 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-05-25 13:49:02,586 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-05-25 13:49:02,587 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-05-25 13:49:09,035 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[INFO ] 2022-05-25 13:49:12,853 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-05-25 13:49:12,857 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-05-25 13:49:12,896 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-05-25 13:49:12,896 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-05-25 13:49:12,897 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-05-25 13:49:12,898 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-05-25 13:49:12,898 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-05-25 13:49:12,898 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-05-25 13:49:12,898 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-05-25 13:49:12,901 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-05-25 13:49:12,902 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-05-25 13:49:12,903 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 13:49:13,028 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 13:49:13,054 [http-nio-7200-exec-2 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-05-25 13:49:13,060 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-05-25 13:49:13,068 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 13:49:13,112 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-05-25 13:49:13,173 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restored 53961 entities allocating 12.0 MB
+[INFO ] 2022-05-25 13:49:13,173 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Done in 61 ms.
+[INFO ] 2022-05-25 13:49:13,325 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-05-25 13:49:13,330 [http-nio-7200-exec-2 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-05-25 13:49:13,332 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-05-25 13:49:13,341 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-05-25 13:49:13,375 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 13:49:13,378 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-05-25 13:49:13,816 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-05-25 13:49:13,818 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-05-25 13:49:13,878 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-05-25 13:49:14,076 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-05-25 13:49:14,089 [http-nio-7200-exec-2 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-05-25 13:49:14,137 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-05-25 13:49:14,178 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-05-25 13:49:14,259 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-05-25 13:49:14,260 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-05-25 13:49:14,261 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-05-25 13:49:14,262 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-05-25 13:49:14,316 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-05-25 13:49:14,317 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-05-25 13:49:14,318 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-05-25 13:49:14,320 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-05-25 13:49:14,322 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-05-25 13:49:14,322 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-05-25 13:49:14,325 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-05-25 13:49:14,335 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-05-25 13:49:14,335 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-05-25 13:49:14,362 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-05-25 13:49:14,362 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-05-25 13:49:14,422 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-05-25 13:49:14,422 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-05-25 13:49:14,435 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-05-25 13:49:14,436 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-05-25 13:49:14,455 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-05-25 13:49:14,455 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-05-25 13:49:14,536 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-05-25 13:49:14,536 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-05-25 13:49:14,592 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-05-25 13:49:14,597 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-05-25 13:49:14,598 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-05-25 13:49:14,720 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-05-25 13:49:14,722 [http-nio-7200-exec-2 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-05-25 13:49:14,731 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-05-25 13:49:14,731 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-05-25 13:49:14,733 [http-nio-7200-exec-2 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-05-25 13:49:14,733 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-05-25 13:49:14,734 [http-nio-7200-exec-2 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-05-25 13:49:14,734 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-05-25 13:49:14,735 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-05-25 13:49:14,735 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-05-25 13:49:14,736 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-05-25 13:49:14,737 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-05-25 13:49:14,737 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-05-25 13:49:14,737 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-05-25 13:49:14,737 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-05-25 13:49:14,737 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-05-25 13:49:14,738 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-05-25 13:49:14,738 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-05-25 13:49:14,771 [http-nio-7200-exec-2 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-05-25 13:49:14,771 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-05-25 13:49:14,772 [http-nio-7200-exec-2 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-05-25 13:49:14,772 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-05-25 13:49:14,850 [http-nio-7200-exec-2 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-05-25 13:49:14,851 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-05-25 13:49:14,852 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-05-25 13:49:14,862 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-05-25 13:49:18,577 [http-nio-7200-exec-2 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-05-25 13:49:18,577 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-05-25 13:49:18,607 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-05-25 13:49:18,615 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-05-25 13:49:18,617 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-05-25 13:49:18,621 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-05-25 13:49:18,622 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-05-25 13:49:18,717 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-05-25 13:49:18,718 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-05-25 13:49:18,718 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-05-25 13:49:18,734 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-05-25 13:49:19,653 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:49:19,656 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-05-25 13:49:19,657 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:49:27,833 [main | c.o.g.Config] Using 'jar:file:/Applications/GraphDB%20Free.app/Contents/Java/lib/graphdb-application-common-8.8.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file for graphdb
+[INFO ] 2022-05-25 13:49:29,030 [Thread-9 | c.o.g.s.GraphDB] Starting GraphDB in native mode.
+[INFO ] 2022-05-25 13:49:36,698 [Thread-9 | c.o.g.Config] GraphDB Home directory: /Users/archana/Library/Application Support/GraphDB
+[INFO ] 2022-05-25 13:49:36,698 [Thread-9 | c.o.g.Config] GraphDB Config directory: /Users/archana/Library/Application Support/GraphDB/conf
+[INFO ] 2022-05-25 13:49:36,699 [Thread-9 | c.o.g.Config] GraphDB Data directory: /Users/archana/Library/Application Support/GraphDB/data
+[INFO ] 2022-05-25 13:49:36,699 [Thread-9 | c.o.g.Config] GraphDB Work directory: /Users/archana/Library/Application Support/GraphDB/work
+[INFO ] 2022-05-25 13:49:36,699 [Thread-9 | c.o.g.Config] GraphDB Logs directory: /Users/archana/Library/Application Support/GraphDB/logs
+[INFO ] 2022-05-25 13:49:42,423 [Thread-9 | c.o.g.s.GraphDB] Started GraphDB in native mode at port 7200.
+[WARN ] 2022-05-25 13:49:44,328 [http-nio-7200-exec-3 | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 47643@archanas-mbp.lan
+[INFO ] 2022-05-25 13:49:45,088 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 8.8, revision: -1495788453
+[INFO ] 2022-05-25 13:49:45,089 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Feb 01 16:01:38 GMT 2019
+[INFO ] 2022-05-25 13:49:45,114 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-05-25 13:49:45,115 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-05-25 13:49:45,116 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-05-25 13:49:45,117 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-05-25 13:49:45,119 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-05-25 13:49:45,122 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-05-25 13:49:45,123 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-05-25 13:49:45,128 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-05-25 13:49:45,129 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-05-25 13:49:45,130 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 13:49:45,153 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Detected unclean shutdown
+[INFO ] 2022-05-25 13:49:45,154 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 13:49:45,156 [http-nio-7200-exec-2 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-05-25 13:49:45,159 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-05-25 13:49:45,171 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-05-25 13:49:45,221 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-05-25 13:49:45,370 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Restored 53961 entities allocating 12.0 MB
+[INFO ] 2022-05-25 13:49:45,371 [http-nio-7200-exec-2 | c.o.t.e.i.m.PersistedHashMap] Done in 108 ms.
+[INFO ] 2022-05-25 13:49:45,498 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-05-25 13:49:45,501 [http-nio-7200-exec-2 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-05-25 13:49:45,503 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-05-25 13:49:45,526 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-05-25 13:49:45,538 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-05-25 13:49:45,542 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[WARN ] 2022-05-25 13:49:46,127 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-05-25 13:49:46,130 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-05-25 13:49:46,189 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-05-25 13:49:46,206 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-05-25 13:49:46,218 [http-nio-7200-exec-2 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-05-25 13:49:46,244 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-05-25 13:49:46,316 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-05-25 13:49:46,388 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-05-25 13:49:46,392 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-05-25 13:49:46,393 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-05-25 13:49:46,394 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-05-25 13:49:46,446 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-05-25 13:49:46,447 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-05-25 13:49:46,447 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-05-25 13:49:46,447 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-05-25 13:49:46,447 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-05-25 13:49:46,447 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-05-25 13:49:46,447 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-05-25 13:49:46,447 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-05-25 13:49:46,448 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-05-25 13:49:46,448 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-05-25 13:49:46,448 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-05-25 13:49:46,449 [http-nio-7200-exec-2 | c.o.GraphDBConfigParameters] Reading external plugins from /Applications/GraphDB Free.app/Contents/Java/lib/plugins
+[INFO ] 2022-05-25 13:49:46,450 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/Applications/GraphDB Free.app/Contents/Java/lib/plugins]'
+[INFO ] 2022-05-25 13:49:46,450 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-05-25 13:49:46,451 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-05-25 13:49:46,465 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-05-25 13:49:46,465 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene for plugins
+[INFO ] 2022-05-25 13:49:46,495 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene
+[INFO ] 2022-05-25 13:49:46,495 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-05-25 13:49:46,602 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-05-25 13:49:46,602 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-05-25 13:49:46,608 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-05-25 13:49:46,608 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-05-25 13:49:46,622 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-05-25 13:49:46,622 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/graphdb-geosparql-plugin for plugins
+[INFO ] 2022-05-25 13:49:46,653 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-05-25 13:49:46,653 [http-nio-7200-exec-2 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /Applications/GraphDB Free.app/Contents/Java/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-05-25 13:49:46,656 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-05-25 13:49:46,656 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-05-25 13:49:46,656 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-05-25 13:49:46,882 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-05-25 13:49:46,885 [http-nio-7200-exec-2 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /Users/archana/Library/Application Support/GraphDB/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/config.properties. Assuming default options for plugin.
+[INFO ] 2022-05-25 13:49:46,930 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-05-25 13:49:46,932 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene'
+[INFO ] 2022-05-25 13:49:46,934 [http-nio-7200-exec-2 | c.o.p.lucene] No Lucene indices were found
+[INFO ] 2022-05-25 13:49:46,936 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-05-25 13:49:46,937 [http-nio-7200-exec-2 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-05-25 13:49:46,938 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-05-25 13:49:46,938 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-05-25 13:49:46,938 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-05-25 13:49:46,940 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-05-25 13:49:46,940 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-05-25 13:49:46,940 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-05-25 13:49:46,941 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-05-25 13:49:46,941 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-05-25 13:49:46,941 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-05-25 13:49:46,941 [http-nio-7200-exec-2 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-05-25 13:49:46,942 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-05-25 13:49:46,948 [http-nio-7200-exec-2 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-05-25 13:49:46,949 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-05-25 13:49:46,949 [http-nio-7200-exec-2 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-05-25 13:49:46,950 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-05-25 13:49:47,043 [http-nio-7200-exec-2 | c.o.g.s.FunctionLoader] Registered 48 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-05-25 13:49:47,043 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-05-25 13:49:47,044 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-05-25 13:49:47,056 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-05-25 13:49:50,621 [http-nio-7200-exec-2 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-05-25 13:49:50,621 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-05-25 13:49:50,634 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-05-25 13:49:50,640 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-05-25 13:49:50,641 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-05-25 13:49:50,646 [http-nio-7200-exec-2 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-05-25 13:49:50,648 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1.8G'
+[INFO ] 2022-05-25 13:49:50,762 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-05-25 13:49:50,763 [http-nio-7200-exec-2 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-05-25 13:49:50,767 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-05-25 13:49:50,807 [http-nio-7200-exec-2 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-05-25 13:49:51,086 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:49:51,090 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:49:51,092 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'use.parallel.file.inserts' to default value 'true'
+[INFO ] 2022-05-25 13:49:51,105 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-05-25 13:49:51,193 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:49:51,213 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:49:51,274 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-05-25 13:49:51,299 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2022-05-25 13:49:51,349 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-05-25 13:49:51,350 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-05-25 13:49:51,362 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-05-25 13:49:51,363 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-05-25 13:49:51,364 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-05-25 13:51:01,052 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1809939757
+[INFO ] 2022-05-25 13:51:01,195 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-05-25 13:51:02,967 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 26036577 is finished
+[INFO ] 2022-05-25 13:51:15,052 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -34064069
+[INFO ] 2022-05-25 13:51:16,533 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -34064069 is finished
+[INFO ] 2022-05-25 13:52:33,499 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1103972035
+[INFO ] 2022-05-25 13:52:33,546 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1103972035 is finished
+[INFO ] 2022-05-25 13:53:40,083 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:53:40,096 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:53:40,582 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 13:53:40,589 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 13:55:41,440 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 922575961
+[INFO ] 2022-05-25 13:55:44,062 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 257566133 is finished
+[INFO ] 2022-05-25 13:57:45,904 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -976319477
+[INFO ] 2022-05-25 13:57:45,937 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -948643517 is finished
+[INFO ] 2022-05-25 13:58:24,848 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 1315141869
+[INFO ] 2022-05-25 13:58:24,879 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 1685267873 is finished
+[INFO ] 2022-05-25 13:58:35,845 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 667014435
+[INFO ] 2022-05-25 13:58:38,263 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 28593963 is finished
+[INFO ] 2022-05-25 13:58:57,332 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -706783635
+[INFO ] 2022-05-25 13:58:58,473 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -2084915167 is finished
+[INFO ] 2022-05-25 13:59:07,923 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 118545792
+[INFO ] 2022-05-25 13:59:08,924 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 118545792 is finished
+[INFO ] 2022-05-25 14:00:53,948 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -371476045
+[INFO ] 2022-05-25 14:00:56,174 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 719037595 is finished
+[INFO ] 2022-05-25 14:01:37,748 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -739054595
+[INFO ] 2022-05-25 14:01:39,823 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -739054595 is finished
+[INFO ] 2022-05-25 14:01:50,506 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 14:02:17,292 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 14:02:17,298 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 14:02:17,516 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2022-05-25 14:02:39,323 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 14:02:39,334 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 14:02:41,875 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 14:02:41,931 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 14:03:47,043 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-05-25 14:03:47,048 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-05-25 14:03:55,630 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1352410363
+[INFO ] 2022-05-25 14:03:56,821 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1352410363 is finished
+[INFO ] 2022-05-25 14:04:30,166 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query 168201147
+[INFO ] 2022-05-25 14:04:31,380 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1874868333 is finished
+[INFO ] 2022-05-25 14:05:13,853 [repositories/Biodiversity_anonym_repo | c.o.f.s.RepositoryController] POST query -1771967635
+[INFO ] 2022-05-25 14:05:15,465 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query -1771967635 is finished
+[INFO ] 2022-05-25 16:16:28,637 [Thread-12 | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-05-25 16:16:28,724 [Thread-12 | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-05-25 16:16:28,926 [Thread-19 | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2022-05-25 16:16:28,978 [Thread-19 | c.o.t.b.AVLRepository] NumberOfStatements = 187390
+[INFO ] 2022-05-25 16:16:28,978 [Thread-19 | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 184034
+[INFO ] 2022-05-25 16:16:28,981 [Thread-19 | c.o.t.f.GraphDBFreeSchemaRepository] Shutting down entity pool
+[INFO ] 2022-05-25 16:16:28,993 [Thread-19 | c.o.t.f.GraphDBFreeSchemaRepository] Entity pool was shut down

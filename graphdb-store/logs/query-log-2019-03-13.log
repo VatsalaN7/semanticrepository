@@ -1,0 +1,2 @@
+[INFO ] 2019-03-13 19:33:02,709 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2019-03-13 19:35:45,679 [import-task-corpus_repo1-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

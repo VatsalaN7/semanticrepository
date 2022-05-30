@@ -1,0 +1,599 @@
+[ERROR] 2019-03-06 11:20:13,628 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] Could not import file
+com.fasterxml.jackson.databind.JsonMappingException: Non-standard token 'NaN': enable JsonParser.Feature.ALLOW_NON_NUMERIC_NUMBERS to allow
+ at [Source: (BufferedReader); line: 116, column: 40]
+ at [Source: (BufferedReader); line: 116, column: 7] (through reference chain: java.util.ArrayList[5])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:391)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:363)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:306)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3972)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2264)
+	at com.fasterxml.jackson.core.JsonParser.readValueAs(JsonParser.java:1723)
+	at com.github.jsonldjava.utils.JsonUtils.fromJsonParser(JsonUtils.java:194)
+	at com.github.jsonldjava.utils.JsonUtils.fromReader(JsonUtils.java:173)
+	at com.github.jsonldjava.utils.JsonUtils.fromInputStream(JsonUtils.java:154)
+	at com.github.jsonldjava.utils.JsonUtils.fromInputStream(JsonUtils.java:111)
+	at org.eclipse.rdf4j.rio.jsonld.JSONLDParser.parse(JSONLDParser.java:71)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Non-standard token 'NaN': enable JsonParser.Feature.ALLOW_NON_NUMERIC_NUMBERS to allow
+ at [Source: (BufferedReader); line: 116, column: 40]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1798)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:663)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1870)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:958)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:873)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:895)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:285)
+	... 26 common frames omitted
+[INFO ] 2019-03-06 13:31:53,468 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:31:55,687 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:31:55,695 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:31:55,959 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2019-03-06 13:31:55,976 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'false'
+[INFO ] 2019-03-06 13:31:56,001 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2019-03-06 13:31:56,002 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2019-03-06 13:31:56,079 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2019-03-06 13:31:56,081 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2019-03-06 13:31:56,082 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2019-03-06 13:31:56,083 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2019-03-06 13:31:56,099 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[WARN ] 2019-03-06 13:32:26,337 [import-task-corpus_repo-1 | o.e.r.r.h.ParseErrorLogger] [Rio error] unqualified attribute 'ontologyIRI' not allowed (8, 91)
+[ERROR] 2019-03-06 13:32:26,339 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] RDF Parse Error 
+org.eclipse.rdf4j.rio.RDFParseException: unqualified attribute 'ontologyIRI' not allowed [line 8, column 91]
+	at org.eclipse.rdf4j.rio.helpers.RDFParserHelper.reportError(RDFParserHelper.java:322)
+	at org.eclipse.rdf4j.rio.helpers.AbstractRDFParser.reportError(AbstractRDFParser.java:673)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.reportError(RDFXMLParser.java:1125)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.checkAndCopyAttributes(SAXFilter.java:528)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.startElement(SAXFilter.java:294)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:265)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:207)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 2019-03-06 13:34:20,288 [import-task-corpus_repo-1 | o.e.r.r.h.ParseErrorLogger] [Rio error] unqualified attribute 'ontologyIRI' not allowed (8, 91)
+[ERROR] 2019-03-06 13:34:20,290 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] RDF Parse Error 
+org.eclipse.rdf4j.rio.RDFParseException: unqualified attribute 'ontologyIRI' not allowed [line 8, column 91]
+	at org.eclipse.rdf4j.rio.helpers.RDFParserHelper.reportError(RDFParserHelper.java:322)
+	at org.eclipse.rdf4j.rio.helpers.AbstractRDFParser.reportError(AbstractRDFParser.java:673)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.reportError(RDFXMLParser.java:1125)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.checkAndCopyAttributes(SAXFilter.java:528)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.startElement(SAXFilter.java:294)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:265)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:207)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 2019-03-06 13:37:08,962 [import-task-corpus_repo-1 | o.e.r.r.h.ParseErrorLogger] [Rio error] unqualified attribute 'ontologyIRI' not allowed (8, 92)
+[ERROR] 2019-03-06 13:37:08,963 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] RDF Parse Error 
+org.eclipse.rdf4j.rio.RDFParseException: unqualified attribute 'ontologyIRI' not allowed [line 8, column 92]
+	at org.eclipse.rdf4j.rio.helpers.RDFParserHelper.reportError(RDFParserHelper.java:322)
+	at org.eclipse.rdf4j.rio.helpers.AbstractRDFParser.reportError(AbstractRDFParser.java:673)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.reportError(RDFXMLParser.java:1125)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.checkAndCopyAttributes(SAXFilter.java:528)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.startElement(SAXFilter.java:294)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:265)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:207)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 2019-03-06 13:37:27,388 [import-task-corpus_repo-1 | o.e.r.r.h.ParseErrorLogger] [Rio error] unqualified attribute 'ontologyIRI' not allowed (8, 90)
+[ERROR] 2019-03-06 13:37:27,389 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] RDF Parse Error 
+org.eclipse.rdf4j.rio.RDFParseException: unqualified attribute 'ontologyIRI' not allowed [line 8, column 90]
+	at org.eclipse.rdf4j.rio.helpers.RDFParserHelper.reportError(RDFParserHelper.java:322)
+	at org.eclipse.rdf4j.rio.helpers.AbstractRDFParser.reportError(AbstractRDFParser.java:673)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.reportError(RDFXMLParser.java:1125)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.checkAndCopyAttributes(SAXFilter.java:528)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.startElement(SAXFilter.java:294)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:265)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:207)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 2019-03-06 13:38:49,918 [import-task-corpus_repo-1 | o.e.r.r.h.ParseErrorLogger] [Rio error] unqualified attribute 'ontologyIRI' not allowed (8, 87)
+[ERROR] 2019-03-06 13:38:49,919 [import-task-corpus_repo-1 | c.o.f.i.FileImportRunnableTask] RDF Parse Error 
+org.eclipse.rdf4j.rio.RDFParseException: unqualified attribute 'ontologyIRI' not allowed [line 8, column 87]
+	at org.eclipse.rdf4j.rio.helpers.RDFParserHelper.reportError(RDFParserHelper.java:322)
+	at org.eclipse.rdf4j.rio.helpers.AbstractRDFParser.reportError(AbstractRDFParser.java:673)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.reportError(RDFXMLParser.java:1125)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.checkAndCopyAttributes(SAXFilter.java:528)
+	at org.eclipse.rdf4j.rio.rdfxml.SAXFilter.startElement(SAXFilter.java:294)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:265)
+	at org.eclipse.rdf4j.rio.rdfxml.RDFXMLParser.parse(RDFXMLParser.java:207)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:286)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:197)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:329)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:177)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:125)
+	at com.ontotext.trree.parallel.ParallelRDFLoader.add(ParallelRDFLoader.java:54)
+	at com.ontotext.forest.impex.ParallelAwareImporter.lambda$add$5(ParallelAwareImporter.java:107)
+	at com.ontotext.forest.impex.ParallelAwareImporter.wrapInBeginCommit(ParallelAwareImporter.java:128)
+	at com.ontotext.forest.impex.ParallelAwareImporter.add(ParallelAwareImporter.java:89)
+	at com.ontotext.forest.impex.FileImportRunnableTask.load(FileImportRunnableTask.java:36)
+	at com.ontotext.forest.impex.ImportRunnableTask.run(ImportRunnableTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2019-03-06 13:48:25,477 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:48:30,266 [http-nio-7200-exec-3 | c.o.c.AbstractParameter] Configured parameter 'default.min.distinct.threshold' to default value '250.0M'
+[INFO ] 2019-03-06 13:48:40,350 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:48:40,352 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:48:40,359 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:48:40,361 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:48:43,805 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:48:43,807 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:49:52,128 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1619697622
+[INFO ] 2019-03-06 13:49:52,143 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1514335750 is finished
+[INFO ] 2019-03-06 13:50:21,275 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:50:24,192 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:50:24,194 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:50:57,041 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:50:57,043 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:51:01,893 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 839093101
+[INFO ] 2019-03-06 13:51:01,895 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -795950839 is finished
+[INFO ] 2019-03-06 13:51:09,877 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 524518474
+[INFO ] 2019-03-06 13:51:09,879 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 512342566 is finished
+[INFO ] 2019-03-06 13:51:10,229 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 524518474
+[INFO ] 2019-03-06 13:51:10,231 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 512342566 is finished
+[INFO ] 2019-03-06 13:52:15,002 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1729605125
+[INFO ] 2019-03-06 13:52:15,005 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 582074647 is finished
+[INFO ] 2019-03-06 13:52:58,092 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1330477570
+[INFO ] 2019-03-06 13:52:58,180 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -306121250 is finished
+[INFO ] 2019-03-06 13:52:58,213 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -306121250
+[INFO ] 2019-03-06 13:52:58,247 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -306121250 is finished
+[INFO ] 2019-03-06 13:53:54,060 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 471073686
+[INFO ] 2019-03-06 13:53:54,063 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1145481330 is finished
+[INFO ] 2019-03-06 13:54:00,100 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -390782927
+[INFO ] 2019-03-06 13:54:00,102 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -200623411 is finished
+[INFO ] 2019-03-06 13:54:06,519 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 471073686
+[INFO ] 2019-03-06 13:54:06,522 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1145481330 is finished
+[INFO ] 2019-03-06 13:54:17,848 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1580496358
+[INFO ] 2019-03-06 13:54:17,893 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 779600886 is finished
+[INFO ] 2019-03-06 13:54:17,956 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 779600886
+[INFO ] 2019-03-06 13:54:17,979 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 779600886 is finished
+[INFO ] 2019-03-06 13:55:09,220 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1194981678
+[INFO ] 2019-03-06 13:55:09,224 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -574735350 is finished
+[INFO ] 2019-03-06 13:55:18,105 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1090082803
+[INFO ] 2019-03-06 13:55:18,107 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1221535145 is finished
+[INFO ] 2019-03-06 13:55:21,854 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:55:21,855 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:55:33,357 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:55:33,359 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:55:39,468 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1194981678
+[INFO ] 2019-03-06 13:55:39,473 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -574735350 is finished
+[INFO ] 2019-03-06 13:55:42,778 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:55:42,780 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:57:31,733 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:57:31,734 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 13:57:41,168 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1194981678
+[INFO ] 2019-03-06 13:57:41,171 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -574735350 is finished
+[INFO ] 2019-03-06 13:57:47,320 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 13:57:47,322 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:01:23,666 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:02:25,746 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:02:27,516 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:02:27,519 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:03:20,620 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:03:23,435 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:03:23,437 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:04:37,334 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:04:42,168 [repositories/corpus_repo | c.o.g.s.StatementsController] POST SPARQL update request to repository
+[INFO ] 2019-03-06 14:04:42,273 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:04:43,892 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:04:43,894 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:04:47,066 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:04:47,068 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:04:48,921 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:04:48,923 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:05:50,675 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:05:53,545 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:05:53,549 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:06:28,851 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:06:31,158 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:06:31,159 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:07:16,222 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:07:18,237 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:07:18,238 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:08:25,530 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:08:33,419 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:08:33,421 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:08:39,118 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:08:39,120 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:08:39,128 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:08:39,130 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:08:39,515 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'graphdb.engine.function.concat.max-length' to default value '10485760'
+[INFO ] 2019-03-06 14:08:50,560 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:08:50,561 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:08:53,111 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1194981678
+[INFO ] 2019-03-06 14:08:53,115 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -574735350 is finished
+[INFO ] 2019-03-06 14:08:55,245 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:08:55,246 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:09:07,397 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:09:09,104 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:09:09,105 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:09:45,428 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:09:45,433 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:10:28,535 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:10:30,767 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:10:30,769 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:10:51,733 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1965906584
+[INFO ] 2019-03-06 14:10:51,739 [repositories/corpus_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: org.eclipse.rdf4j.query.parser.sparql.ast.VisitorException: QName 'biodiversity:hasValue' uses an undefined prefix
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2019-03-06 14:11:01,356 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 711029631
+[INFO ] 2019-03-06 14:11:01,360 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1440364443 is finished
+[INFO ] 2019-03-06 14:11:21,454 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1825684044
+[INFO ] 2019-03-06 14:11:21,455 [repositories/corpus_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Encountered " <STRING_LITERAL2> "\"biodiversitycorpus:hasValue\" "" at line 6, column 35.
+Was expecting one of:
+    "(" ...
+    "!" ...
+    "^" ...
+    "^^" ...
+    "a" ...
+    <Q_IRI_REF> ...
+    <PNAME_NS> ...
+    <PNAME_LN> ...
+    <VAR1> ...
+    <VAR2> ...
+    <LANGTAG> ...
+    
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2019-03-06 14:11:33,656 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1643999044
+[INFO ] 2019-03-06 14:11:33,661 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1293666912 is finished
+[INFO ] 2019-03-06 14:11:39,299 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1190919524
+[INFO ] 2019-03-06 14:11:39,317 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1793943816 is finished
+[INFO ] 2019-03-06 14:11:39,386 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1793943816
+[INFO ] 2019-03-06 14:11:39,398 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1793943816 is finished
+[INFO ] 2019-03-06 14:12:19,895 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1157424068
+[INFO ] 2019-03-06 14:12:19,897 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 72567328 is finished
+[INFO ] 2019-03-06 14:12:25,526 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1190919524
+[INFO ] 2019-03-06 14:12:25,556 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1793943816 is finished
+[INFO ] 2019-03-06 14:12:25,601 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1793943816
+[INFO ] 2019-03-06 14:12:25,606 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1793943816 is finished
+[INFO ] 2019-03-06 14:13:03,721 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1426871585
+[INFO ] 2019-03-06 14:13:03,723 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1426871585 is finished
+[INFO ] 2019-03-06 14:13:07,789 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:13:07,793 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:13:21,131 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:13:21,134 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:14:13,812 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 261345121
+[INFO ] 2019-03-06 14:14:13,816 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 261345121 is finished
+[INFO ] 2019-03-06 14:14:38,490 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -579388074
+[INFO ] 2019-03-06 14:14:38,507 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1949101518 is finished
+[INFO ] 2019-03-06 14:14:38,573 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1949101518
+[INFO ] 2019-03-06 14:14:38,579 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1949101518 is finished
+[INFO ] 2019-03-06 14:33:38,335 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -5468659
+[INFO ] 2019-03-06 14:33:38,341 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -5468659 is finished
+[INFO ] 2019-03-06 14:33:56,876 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:33:59,987 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:33:59,988 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:35:49,683 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 254840383
+[INFO ] 2019-03-06 14:35:49,691 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 254840383 is finished
+[INFO ] 2019-03-06 14:38:48,934 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1576111917
+[INFO ] 2019-03-06 14:38:48,938 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1576111917 is finished
+[INFO ] 2019-03-06 14:40:22,010 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1409441337
+[INFO ] 2019-03-06 14:40:22,012 [repositories/corpus_repo | o.e.r.h.s.ProtocolExceptionResolver] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Encountered " "." ". "" at line 7, column 10.
+Was expecting one of:
+    "(" ...
+    "!" ...
+    "^" ...
+    "a" ...
+    <Q_IRI_REF> ...
+    <PNAME_NS> ...
+    <PNAME_LN> ...
+    <VAR1> ...
+    <VAR2> ...
+    
+	at com.ontotext.graphdb.sesame.RepositoryController.getQuery(RepositoryController.java:363)
+	at com.ontotext.graphdb.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:178)
+	at com.ontotext.forest.sesame.RepositoryController.handleRequestInternal(RepositoryController.java:83)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:38)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] 2019-03-06 14:40:34,699 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1094985745
+[INFO ] 2019-03-06 14:40:34,705 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1094985745 is finished
+[INFO ] 2019-03-06 14:41:02,159 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1073862786
+[INFO ] 2019-03-06 14:41:02,161 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1073862786 is finished
+[INFO ] 2019-03-06 14:41:45,573 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1376156834
+[INFO ] 2019-03-06 14:41:45,579 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1376156834 is finished
+[INFO ] 2019-03-06 14:41:47,754 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:41:47,755 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:41:51,777 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:41:51,779 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:41:56,657 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -386610378
+[INFO ] 2019-03-06 14:41:56,664 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -386610378 is finished
+[INFO ] 2019-03-06 14:42:03,019 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1680145393
+[INFO ] 2019-03-06 14:42:03,024 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1680145393 is finished
+[INFO ] 2019-03-06 14:42:06,673 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:42:06,674 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:42:08,328 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:42:08,330 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:42:33,342 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1873846047
+[INFO ] 2019-03-06 14:42:33,345 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1873846047 is finished
+[INFO ] 2019-03-06 14:42:40,128 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1680145393
+[INFO ] 2019-03-06 14:42:40,134 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1680145393 is finished
+[INFO ] 2019-03-06 14:43:02,041 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1732322611
+[INFO ] 2019-03-06 14:43:02,049 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1732322611 is finished
+[INFO ] 2019-03-06 14:43:06,742 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:43:06,744 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:43:18,347 [repositories/corpus_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2019-03-06 14:43:18,349 [repositories/corpus_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2019-03-06 14:46:08,745 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1880324843
+[INFO ] 2019-03-06 14:46:08,750 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1880324843 is finished
+[INFO ] 2019-03-06 14:47:42,869 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -744835423
+[INFO ] 2019-03-06 14:47:42,874 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -744835423 is finished
+[INFO ] 2019-03-06 14:48:02,301 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1188811896
+[INFO ] 2019-03-06 14:48:02,309 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1188811896 is finished
+[INFO ] 2019-03-06 14:49:09,273 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query 1305587673
+[INFO ] 2019-03-06 14:49:09,279 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query 1305587673 is finished
+[INFO ] 2019-03-06 14:49:51,904 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -339010644
+[INFO ] 2019-03-06 14:49:51,910 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -339010644 is finished
+[INFO ] 2019-03-06 14:54:11,247 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1919820832
+[INFO ] 2019-03-06 14:54:11,460 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1919820832 is finished
+[INFO ] 2019-03-06 14:54:34,969 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -1502423281
+[INFO ] 2019-03-06 14:54:35,024 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -1502423281 is finished
+[INFO ] 2019-03-06 14:54:44,475 [repositories/corpus_repo | c.o.f.s.RepositoryController] POST query -745054308
+[INFO ] 2019-03-06 14:54:44,483 [repositories/corpus_repo | c.o.g.s.TupleQueryResultView] Request for query -745054308 is finished

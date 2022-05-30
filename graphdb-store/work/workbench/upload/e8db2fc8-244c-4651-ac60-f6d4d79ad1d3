@@ -1,0 +1,170 @@
+[
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "measured in cubic metres per second (m3/s).", 
+                "rdf:predicate": "are", 
+                "localkn:isAbout": "localkn:River Flows & Return periods", 
+                "@id": "localkn:obs_1-River Flows & Return periods", 
+                "rdf:subject": "River flows"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "increasingly uncertain at higher flows, and hence can limit the number of sites for which flow frequency calculations can be made.", 
+                "rdf:predicate": "become", 
+                "localkn:isAbout": "localkn:River Flows & Return periods", 
+                "@id": "localkn:obs_2-River Flows & Return periods", 
+                "rdf:subject": "Flow measurements"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "adapted a four category system to indicate accuracy of the sites.", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Flows & Return periods", 
+                "@id": "localkn:obs_3-River Flows & Return periods", 
+                "rdf:subject": "EA"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "category:Not applicable to high flows means:Flow estimate has been extrapolated beyond the calibrated range for the gauge; or a site is not designed, or is unable to be used, to calculate high flows.", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Flows & Return periods", 
+                "@id": "localkn:obs_4-River Flows & Return periods", 
+                "rdf:subject": "EA"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "category:Rating review required to calculate flows means:Rating is currently not able to be used to calculate flow for this event without further review.", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Flows & Return periods", 
+                "@id": "localkn:obs_5-River Flows & Return periods", 
+                "rdf:subject": "EA"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "category:Acceptable at high flows, with caution means:Rating can be used to calculate high flows but may not be applicable or may need additional information for this event.", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Flows & Return periods", 
+                "@id": "localkn:obs_6-River Flows & Return periods", 
+                "rdf:subject": "EA"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }, 
+    {
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "rdf:type": "damage:data", 
+        "@id": "localkn:TadcasterS19V4", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:type": "localkn:Observations", 
+                "rdf:object": "category:Good at high flows means:Rating can be used to calculate flows for this event.", 
+                "rdf:predicate": "has", 
+                "localkn:isAbout": "localkn:River Flows & Return periods", 
+                "@id": "localkn:obs_7-River Flows & Return periods", 
+                "rdf:subject": "EA"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }
+    }
+]

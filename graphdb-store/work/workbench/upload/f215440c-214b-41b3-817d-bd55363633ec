@@ -1,0 +1,1308 @@
+[
+    {
+        "damage:hasModel": {
+            "@id": "damage:Model", 
+            "damage:hasComponent": [
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "1", 
+                        "@id": "Baker_Lane_Brook_SFRM__Halcrow__2009"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }, 
+                    "@id": "damage:Model_Name"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "1", 
+                        "@id": "1"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }, 
+                    "@id": "damage:MCMCode"
+                }
+            ], 
+            "floodmodel:assesses": {
+                "@id": "floodmodel:flood"
+            }, 
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model"
+            }
+        }, 
+        "damage:hasGauge": {
+            "damage:isAbout": "Property", 
+            "@id": "damage:Gauge", 
+            "floodmodel:isMeasuring": [
+                "floodmodel:FloodDepth", 
+                "floodmodel:RiverParameter"
+            ], 
+            "damage:hasComponent": [
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "1", 
+                        "@id": "Nil"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:GaugeParameters"
+                    }, 
+                    "@id": "damage:Gauge_PolyID"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "1", 
+                        "@id": "Nil"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:GaugeParameters"
+                    }, 
+                    "@id": "damage:Gauge_DefenceLevel"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:GaugeParameters"
+                    }, 
+                    "@id": "damage:Gauge_Levels", 
+                    "damage:hasComponent": [
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1, 
+                                "@id": "1-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q0g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.26, 
+                                "@id": "1.26-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q5g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.37, 
+                                "@id": "1.37-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q10g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "1.52-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q20g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.8, 
+                                "@id": "1.8-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q50g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.9, 
+                                "@id": "1.9-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q75g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 2.09, 
+                                "@id": "2.09-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q100g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 2.39, 
+                                "@id": "2.39-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q200g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 2.84, 
+                                "@id": "2.84-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q1000g"
+                        }
+                    ]
+                }
+            ], 
+            "damage:hasDescription": {
+                "damage:hasValue": "WHARFE", 
+                "@id": "WHARFE", 
+                "damage:isAttachedto": "1"
+            }, 
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges"
+            }
+        }, 
+        "@id": "1", 
+        "damage:hasProperty": {
+            "damage:hasDescription": {
+                "damage:hasValue": "Residential", 
+                "@id": "Residential", 
+                "damage:isAttachedto": "1"
+            }, 
+            "floodmodel:isParameterizedBy": [
+                {
+                    "damage:hasDescription": {
+                        "damage:hasValue": "Ground_Floor", 
+                        "@id": "Ground_Floor", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:FloorLevelInfo"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "1", 
+                        "@id": "Nil"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:PropertyDefenceLevel"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "1", 
+                        "@id": "53.914"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:FloorArea"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "1", 
+                        "@id": "dG"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:FloorLevel"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:Property_Levels", 
+                    "damage:hasComponent": [
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 83.003258, 
+                                "@id": "83.003258-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q0p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q2p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q5p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q10p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q20p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q50p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q75p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q100p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 83.0503867013113, 
+                                "@id": "83.0503867013-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q200p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 83.2023222787039, 
+                                "@id": "83.2023222787-1-Property", 
+                                "damage:isAttachedto": "1"
+                            }, 
+                            "@id": "damage:Q1000p"
+                        }
+                    ]
+                }
+            ], 
+            "@id": "damage:PropertyType", 
+            "rdfs:subclass": {
+                "@id": "floodmodel:Properties"
+            }, 
+            "floodmodel:hasCause": "floodmodel:flood"
+        }, 
+        "damage:hasLocation": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "N"
+                }, 
+                "rdfs:subclass": "damage:Location", 
+                "@id": "damage:PostCode"
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "N"
+                }, 
+                "rdfs:subclass": "damage:Location", 
+                "@id": "damage:PostTown"
+            }
+        ], 
+        "damage:hasDamages": {
+            "rdfs:subclass": "floodmodel:Damages", 
+            "@id": "damage:Damages", 
+            "damage:hasComponent": [
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q0d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q2d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q5d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q10d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q20d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q50d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q75d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q100d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 1434.65154, 
+                        "@id": "1434.65154-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q200d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 7388.05461551416, 
+                        "@id": "7388.05461551-1-Property", 
+                        "damage:isAttachedto": "1"
+                    }, 
+                    "@id": "damage:Q1000d"
+                }
+            ]
+        }, 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "DNL"
+                }, 
+                "@id": "damage:AreaCode"
+            }, 
+            {
+                "@id": "damage:FloodWarningAreas", 
+                "damage:hasComponent": [
+                    {
+                        "floodmodel:hasPart": {
+                            "@id": "floodmodel:Flood_Warning_Zones"
+                        }, 
+                        "@id": "damage:Station_FW", 
+                        "floodmodel:actionManagedBy": {
+                            "@id": "floodmodel:FloodWarningTypes"
+                        }, 
+                        "floodmodel:isMeasuredBy": {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        "rdfs:subclass": {
+                            "@id": "floodmodel:Flood_Warning_Areas"
+                        }, 
+                        "damage:hasDescription": {
+                            "damage:isAttachedto": "1", 
+                            "@id": "WHARFE"
+                        }
+                    }, 
+                    {
+                        "floodmodel:hasPart": {
+                            "@id": "floodmodel:Flood_Warning_Zones"
+                        }, 
+                        "@id": "damage:Fwd_tacode", 
+                        "floodmodel:actionManagedBy": {
+                            "@id": "floodmodel:FloodWarningTypes"
+                        }, 
+                        "floodmodel:isMeasuredBy": {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        "rdfs:subclass": {
+                            "@id": "floodmodel:Flood_Warning_Areas"
+                        }, 
+                        "damage:hasDescription": {
+                            "damage:isAttachedto": "1", 
+                            "@id": "./"
+                        }
+                    }, 
+                    {
+                        "floodmodel:hasPart": {
+                            "@id": "floodmodel:Flood_Warning_Zones"
+                        }, 
+                        "@id": "damage:Fwa_name", 
+                        "floodmodel:actionManagedBy": {
+                            "@id": "floodmodel:FloodWarningTypes"
+                        }, 
+                        "floodmodel:isMeasuredBy": {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        "rdfs:subclass": {
+                            "@id": "floodmodel:Flood_Warning_Areas"
+                        }, 
+                        "damage:hasDescription": {
+                            "damage:isAttachedto": "1", 
+                            "@id": "Nil"
+                        }
+                    }
+                ]
+            }, 
+            {
+                "floodmodel:isPartOf": {
+                    "@id": "floodmodel:Flood_Warning_Areas"
+                }, 
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "NO"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "floodmodel:Flood_Warning_Zones"
+                }, 
+                "@id": "damage:FZ2"
+            }, 
+            {
+                "floodmodel:isPartOf": {
+                    "@id": "floodmodel:Flood_Warning_Areas"
+                }, 
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "YES"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "floodmodel:Flood_Warning_Zones"
+                }, 
+                "@id": "damage:FZ3"
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "Nottingham_&_Nottinghamshire_LRF"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "floodmodel:TopographicHazardAssessment"
+                }, 
+                "@id": "floodmodel:LRF_NAME", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Receptor_Infrastructure"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "F-65313"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "damage:Software"
+                }, 
+                "@id": "damage:Frism"
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "1", 
+                    "@id": "LiDAR"
+                }, 
+                "@id": "floodmodel:DataSource"
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "damage:hasDescription": 1, 
+        "@type": "damage:PropertyCode"
+    }, 
+    {
+        "damage:hasModel": {
+            "@id": "damage:Model", 
+            "damage:hasComponent": [
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "2", 
+                        "@id": "Baker_Lane_Brook_SFRM__Halcrow__2009"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }, 
+                    "@id": "damage:Model_Name"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "2", 
+                        "@id": "1"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:ModelParameters"
+                    }, 
+                    "@id": "damage:MCMCode"
+                }
+            ], 
+            "floodmodel:assesses": {
+                "@id": "floodmodel:flood"
+            }, 
+            "rdfs:subclassof": {
+                "@id": "floodmodel:Model"
+            }
+        }, 
+        "damage:hasGauge": {
+            "damage:isAbout": "Property", 
+            "@id": "damage:Gauge", 
+            "floodmodel:isMeasuring": [
+                "floodmodel:FloodDepth", 
+                "floodmodel:RiverParameter"
+            ], 
+            "damage:hasComponent": [
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "2", 
+                        "@id": "Nil"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:GaugeParameters"
+                    }, 
+                    "@id": "damage:Gauge_PolyID"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "2", 
+                        "@id": "Nil"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "damage:GaugeParameters"
+                    }, 
+                    "@id": "damage:Gauge_DefenceLevel"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:GaugeParameters"
+                    }, 
+                    "@id": "damage:Gauge_Levels", 
+                    "damage:hasComponent": [
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1, 
+                                "@id": "1-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q0g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.26, 
+                                "@id": "1.26-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q5g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.37, 
+                                "@id": "1.37-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q10g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "1.52-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q20g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.8, 
+                                "@id": "1.8-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q50g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 1.9, 
+                                "@id": "1.9-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q75g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 2.09, 
+                                "@id": "2.09-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q100g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 2.39, 
+                                "@id": "2.39-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q200g"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:GaugeReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 2.84, 
+                                "@id": "2.84-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q1000g"
+                        }
+                    ]
+                }
+            ], 
+            "damage:hasDescription": {
+                "damage:hasValue": "BULWELL", 
+                "@id": "BULWELL", 
+                "damage:isAttachedto": "2"
+            }, 
+            "rdfs:subClassOf": {
+                "@id": "floodmodel:Gauges"
+            }
+        }, 
+        "@id": "2", 
+        "damage:hasProperty": {
+            "damage:hasDescription": {
+                "damage:hasValue": "Residential", 
+                "@id": "Residential", 
+                "damage:isAttachedto": "2"
+            }, 
+            "floodmodel:isParameterizedBy": [
+                {
+                    "damage:hasDescription": {
+                        "damage:hasValue": "Ground_Floor", 
+                        "@id": "Ground_Floor", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:FloorLevelInfo"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "2", 
+                        "@id": "Nil"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:PropertyDefenceLevel"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "2", 
+                        "@id": "66.008"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:FloorArea"
+                }, 
+                {
+                    "damage:hasDescription": {
+                        "damage:isAttachedto": "2", 
+                        "@id": "pG"
+                    }, 
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:FloorLevel"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "floodmodel:InfrastructureParameter"
+                    }, 
+                    "@id": "damage:Property_Levels", 
+                    "damage:hasComponent": [
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 80.3449399999999, 
+                                "@id": "80.34494-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q0p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q2p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q5p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q10p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q20p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q50p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q75p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 0, 
+                                "@id": "0-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q100p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 80.0284606933593, 
+                                "@id": "80.0284606934-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q200p"
+                        }, 
+                        {
+                            "rdfs:subclass": {
+                                "@id": "damage:PropertyLevelReturnPeriod"
+                            }, 
+                            "damage:hasValue": {
+                                "damage:About": "Property", 
+                                "damage:hasValue": 80.2483019442171, 
+                                "@id": "80.2483019442-2-Property", 
+                                "damage:isAttachedto": "2"
+                            }, 
+                            "@id": "damage:Q1000p"
+                        }
+                    ]
+                }
+            ], 
+            "@id": "damage:PropertyType", 
+            "rdfs:subclass": {
+                "@id": "floodmodel:Properties"
+            }, 
+            "floodmodel:hasCause": "floodmodel:flood"
+        }, 
+        "damage:hasLocation": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "N"
+                }, 
+                "rdfs:subclass": "damage:Location", 
+                "@id": "damage:PostCode"
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "N"
+                }, 
+                "rdfs:subclass": "damage:Location", 
+                "@id": "damage:PostTown"
+            }
+        ], 
+        "damage:hasDamages": {
+            "rdfs:subclass": "floodmodel:Damages", 
+            "@id": "damage:Damages", 
+            "damage:hasComponent": [
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q0d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q2d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q5d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q10d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q20d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q50d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q75d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0, 
+                        "@id": "0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q100d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 0.0, 
+                        "@id": "0.0-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q200d"
+                }, 
+                {
+                    "rdfs:subclass": {
+                        "@id": "damage:DamagesReturnPeriod"
+                    }, 
+                    "damage:hasValue": {
+                        "damage:About": "Property", 
+                        "damage:hasValue": 1135.99767999999, 
+                        "@id": "1135.99768-2-Property", 
+                        "damage:isAttachedto": "2"
+                    }, 
+                    "@id": "damage:Q1000d"
+                }
+            ]
+        }, 
+        "damage:hasComponent": [
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "DNL"
+                }, 
+                "@id": "damage:AreaCode"
+            }, 
+            {
+                "@id": "damage:FloodWarningAreas", 
+                "damage:hasComponent": [
+                    {
+                        "floodmodel:hasPart": {
+                            "@id": "floodmodel:Flood_Warning_Zones"
+                        }, 
+                        "@id": "damage:Station_FW", 
+                        "floodmodel:actionManagedBy": {
+                            "@id": "floodmodel:FloodWarningTypes"
+                        }, 
+                        "floodmodel:isMeasuredBy": {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        "rdfs:subclass": {
+                            "@id": "floodmodel:Flood_Warning_Areas"
+                        }, 
+                        "damage:hasDescription": {
+                            "damage:isAttachedto": "2", 
+                            "@id": "BULWELL"
+                        }
+                    }, 
+                    {
+                        "floodmodel:hasPart": {
+                            "@id": "floodmodel:Flood_Warning_Zones"
+                        }, 
+                        "@id": "damage:Fwd_tacode", 
+                        "floodmodel:actionManagedBy": {
+                            "@id": "floodmodel:FloodWarningTypes"
+                        }, 
+                        "floodmodel:isMeasuredBy": {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        "rdfs:subclass": {
+                            "@id": "floodmodel:Flood_Warning_Areas"
+                        }, 
+                        "damage:hasDescription": {
+                            "damage:isAttachedto": "2", 
+                            "@id": "./"
+                        }
+                    }, 
+                    {
+                        "floodmodel:hasPart": {
+                            "@id": "floodmodel:Flood_Warning_Zones"
+                        }, 
+                        "@id": "damage:Fwa_name", 
+                        "floodmodel:actionManagedBy": {
+                            "@id": "floodmodel:FloodWarningTypes"
+                        }, 
+                        "floodmodel:isMeasuredBy": {
+                            "@id": "floodmodel:Gauges"
+                        }, 
+                        "rdfs:subclass": {
+                            "@id": "floodmodel:Flood_Warning_Areas"
+                        }, 
+                        "damage:hasDescription": {
+                            "damage:isAttachedto": "2", 
+                            "@id": "Nil"
+                        }
+                    }
+                ]
+            }, 
+            {
+                "floodmodel:isPartOf": {
+                    "@id": "floodmodel:Flood_Warning_Areas"
+                }, 
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "NO"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "floodmodel:Flood_Warning_Zones"
+                }, 
+                "@id": "damage:FZ2"
+            }, 
+            {
+                "floodmodel:isPartOf": {
+                    "@id": "floodmodel:Flood_Warning_Areas"
+                }, 
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "YES"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "floodmodel:Flood_Warning_Zones"
+                }, 
+                "@id": "damage:FZ3"
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "Nottingham_&_Nottinghamshire_LRF"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "floodmodel:TopographicHazardAssessment"
+                }, 
+                "@id": "floodmodel:LRF_NAME", 
+                "floodmodel:assesses": {
+                    "@id": "floodmodel:Receptor_Infrastructure"
+                }
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "F-65314"
+                }, 
+                "rdfs:subclass": {
+                    "@id": "damage:Software"
+                }, 
+                "@id": "damage:Frism"
+            }, 
+            {
+                "damage:hasDescription": {
+                    "damage:isAttachedto": "2", 
+                    "@id": "LiDAR"
+                }, 
+                "@id": "floodmodel:DataSource"
+            }
+        ], 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "damage": "https://archive.org/services/purl/domain/damageassessment#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#", 
+            "floodmodel": "https://archive.org/services/purl/domain/floodmodel#"
+        }, 
+        "damage:hasDescription": 2, 
+        "@type": "damage:PropertyCode"
+    }
+]

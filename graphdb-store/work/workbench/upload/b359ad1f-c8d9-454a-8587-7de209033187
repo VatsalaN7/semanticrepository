@@ -1,0 +1,50 @@
+[
+    {
+        "localkn:isAbout": "localkn:EA Risk Management functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "outlines the EAs strategic functions as", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_1", 
+                "rdf:object": "-Ensuring that flood risk management plans (FRMPs) are in place and are monitored to assess progress.  The  plans  will  set  out  high-level  current  and  future  risk  management  measures across the catchment.,-Publishing  and  regularly  updating  its  programme  for  implementing  new  risk  management schemes and maintaining existing assets.,-Supporting Risk Management Authorities understanding of local flood risk by commissioning studies and sharing information and data.,-Supporting the development of local plans and ensuring their consistency with strategic plans.,-Managing and supporting Regional Flood and Coastal Committees and allocating funding.", 
+                "rdf:subject": "This national strategy"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }, 
+    {
+        "localkn:isAbout": "localkn:EA Risk Management functions", 
+        "rdf:type": "damage:data", 
+        "localkn:hasProvenance": {
+            "localkn:records": {
+                "rdf:predicate": "are/include", 
+                "rdf:type": "localkn:Observations", 
+                "@id": "localkn:obs_2", 
+                "rdf:object": "-Ensuring that flood risk management plans (FRMPs) are in place and are monitored to assess progress.  The  plans  will  set  out  high-level  current  and  future  risk  management  measures across the catchment.,-Publishing  and  regularly  updating  its  programme  for  implementing  new  risk  management schemes and maintaining existing assets.,-Supporting Risk Management Authorities understanding of local flood risk by commissioning studies and sharing information and data.,-Supporting the development of local plans and ensuring their consistency with strategic plans.,-Managing and supporting Regional Flood and Coastal Committees and allocating funding.,-Risk-based management of flooding from main rivers including permissive powers to do works including building flood defences.,-Regulation of works in main rivers through the consenting process.,-Regulation of reservoirs with a capacity exceeding 10,000m3.,-Working  with  the  Met  Office  to  provided  severe  weather  warnings    available  to  Risk Management Authorities.,-Provide warning of flooding on main rivers.,-The maintenance and operational management of main river assets including flood defences.,-Statutory consul-tee to the development planning process.,-The power to serve notice on any person or body requiring them to carry out necessary works to maintain the flow in main rivers.", 
+                "rdf:subject": "The EAs operational functions"
+            }, 
+            "@id": "localkn:DataProvenance"
+        }, 
+        "localkn:hasDescription": "Flood Investigation Report - Tadcaster", 
+        "@context": {
+            "foaf": "http://xmlns.com/foaf/0.1/", 
+            "owl": "http://www.w3.org/2002/07/owl#", 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+            "localkn": "https://archive.org/services/purl/domain/localknowledge#", 
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        }, 
+        "@id": "localkn:TadcasterS19V4"
+    }
+]
