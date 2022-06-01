@@ -1,0 +1,2973 @@
+[ {
+  "@graph" : [ {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b0",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "14/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteA"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "6"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Large_white"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b1",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "15/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteC"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "9"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Buff_tailed_bumblebee"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Large_skipper"
+    }, {
+      "@value" : "Honeybee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b10",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteK"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "13"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Large_white"
+    }, {
+      "@value" : "Buff_tailed_bumblebee"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Large_skipper"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    }, {
+      "@value" : "Small_skipper"
+    }, {
+      "@value" : "Heath_bumblebee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b11",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "26/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteL"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "12"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Large_white"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Large_skipper"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    }, {
+      "@value" : "Small_skipper"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b12",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteM"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "10"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    }, {
+      "@value" : "Common_blue"
+    }, {
+      "@value" : "Tree_bumblebee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b13",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteN"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "7"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    }, {
+      "@value" : "Small_skipper"
+    }, {
+      "@value" : "Small_heath"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b14",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteA"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Gatekeeper"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b15",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteB"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Common_blue"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b16",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "18/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteD"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "11"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Buff_tailed_bumblebee"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Honeybee"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    }, {
+      "@value" : "Speckled_wood"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b17",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "18/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteE"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Small_white"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b18",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "19/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteC"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "7"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Honeybee"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Small_tortoiseshell"
+    }, {
+      "@value" : "Common_blue"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b19",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "20/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteG"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b2",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "15/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteB"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "12"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Buff_tailed_bumblebee"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Large_skipper"
+    }, {
+      "@value" : "Garden_bumblebee"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    }, {
+      "@value" : "Peacock"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b20",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteO"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Speckled_wood"
+    }, {
+      "@value" : "Brimstone"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b21",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteJ"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b22",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "24/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteI"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "6"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Small_tortoiseshell"
+    }, {
+      "@value" : "Speckled_wood"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b23",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "24/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteH"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "10"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    }, {
+      "@value" : "Small_white"
+    }, {
+      "@value" : "Small_tortoiseshell"
+    }, {
+      "@value" : "Common_blue"
+    }, {
+      "@value" : "Small_heath"
+    }, {
+      "@value" : "Speckled_wood"
+    }, {
+      "@value" : "Brimstone"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b24",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "25/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteL"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "6"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Honeybee"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b25",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "26/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteK"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    }, {
+      "@value" : "Small_tortoiseshell"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b26",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteM"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Speckled_wood"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b27",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteN"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Common_carder_bee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b28",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteA"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Red_admiral"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b29",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteC"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Common_carder_bee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b3",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteD"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "11"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Buff_tailed_bumblebee"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Large_skipper"
+    }, {
+      "@value" : "Honeybee"
+    }, {
+      "@value" : "Red_tailed_bumblebee"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b30",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteP"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b31",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteB"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Red_admiral"
+    }, {
+      "@value" : "Small_white"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b32",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "20/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteD"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Red_admiral"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b33",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "20/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteE"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Small_white"
+    }, {
+      "@value" : "Comma"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b34",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "21/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteG"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Small_white"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b35",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "22/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteO"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Large_white"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b36",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "22/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteJ"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b37",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteI"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Speckled_wood"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b38",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteH"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "6"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Red_admiral"
+    }, {
+      "@value" : "Small_heath"
+    }, {
+      "@value" : "Tree_bumblebee"
+    }, {
+      "@value" : "Speckled_wood"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b39",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "24/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteL"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Common_carder_bee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b4",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteE"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Red_admiral"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b40",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteK"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b41",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteM"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Honeybee"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b42",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteN"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b5",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "19/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteG"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "7"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Large_white"
+    }, {
+      "@value" : "Small_skipper"
+    }, {
+      "@value" : "Small_white"
+    }, {
+      "@value" : "Small_tortoiseshell"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b6",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "19/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteF"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "13"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Large_white"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Peacock"
+    }, {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    }, {
+      "@value" : "Small_skipper"
+    }, {
+      "@value" : "Common_blue"
+    }, {
+      "@value" : "Small_heath"
+    }, {
+      "@value" : "Painted_lady"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b7",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "21/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteI"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "7"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Large_skipper"
+    }, {
+      "@value" : "Small_skipper"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b8",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "21/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteH"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "14"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Marbled_white"
+    }, {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Large_white"
+    }, {
+      "@value" : "Gatekeeper"
+    }, {
+      "@value" : "Ringlet"
+    }, {
+      "@value" : "Common_carder_bee"
+    }, {
+      "@value" : "Peacock"
+    }, {
+      "@value" : "Small_skipper"
+    }, {
+      "@value" : "Small_tortoiseshell"
+    }, {
+      "@value" : "Small_heath"
+    }, {
+      "@value" : "Green_veined_white"
+    }, {
+      "@value" : "Six_spot_burnet"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b9",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "22/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSite" : [ {
+      "@value" : "SiteJ"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "7"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpeciesList" : [ {
+      "@value" : "Meadow_brown"
+    }, {
+      "@value" : "Cannot_ID_hoverfly"
+    }, {
+      "@value" : "No_pollinators_recorded"
+    }, {
+      "@value" : "Cannot_ID_moth"
+    }, {
+      "@value" : "Large_white"
+    }, {
+      "@value" : "Buff_tailed_bumblebee"
+    }, {
+      "@value" : "Gatekeeper"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Ecosystem_services",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Ecosystem_services" ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Site",
+    "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#has" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Ecosystem_services"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-0",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "14/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b0"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteA"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-1",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "15/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b1"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteC"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-10",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b10"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteK"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-11",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "26/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b11"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteL"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-12",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b12"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteM"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-13",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b13"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteN"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-14",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b14"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteA"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-15",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b15"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteB"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-16",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "18/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b16"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteD"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-17",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "18/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b17"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteE"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-18",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "19/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b18"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteC"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-19",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "20/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b19"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteG"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-2",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "15/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b2"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteB"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-20",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b20"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteO"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-21",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b21"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteJ"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-22",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "24/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b22"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteI"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-23",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "24/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b23"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteH"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-24",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "25/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b24"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteL"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-25",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "26/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b25"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteK"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-26",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b26"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteM"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-27",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/08/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b27"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteN"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-28",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b28"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteA"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-29",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b29"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteC"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-3",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteD"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-30",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b30"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteP"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-31",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "17/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b31"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteB"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-32",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "20/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b32"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteD"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-33",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "20/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b33"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteE"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-34",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "21/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b34"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteG"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-35",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "22/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b35"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteO"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-36",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "22/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b36"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteJ"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-37",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b37"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteI"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-38",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "23/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b38"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteH"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-39",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "24/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b39"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteL"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-4",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "16/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b4"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteE"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-40",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "27/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b40"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteK"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-41",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b41"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteM"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-42",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b42"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteN"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-5",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "19/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b5"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteG"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-6",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "19/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b6"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteF"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-7",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "21/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b7"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteI"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-8",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "21/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b8"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteH"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Field_data_2021-transectSpecies1-9",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#collectedUsing" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "22/07/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasInstrumentation" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-7d3ae02ccc7c4f519d6dcafd3e12fed6-b9"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSurvey" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "SiteJ"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Author" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "14/07/2021"
+    }, {
+      "@value" : "15/07/2021"
+    }, {
+      "@value" : "16/07/2021"
+    }, {
+      "@value" : "19/07/2021"
+    }, {
+      "@value" : "21/07/2021"
+    }, {
+      "@value" : "22/07/2021"
+    }, {
+      "@value" : "23/07/2021"
+    }, {
+      "@value" : "26/07/2021"
+    }, {
+      "@value" : "27/07/2021"
+    }, {
+      "@value" : "17/08/2021"
+    }, {
+      "@value" : "18/08/2021"
+    }, {
+      "@value" : "19/08/2021"
+    }, {
+      "@value" : "20/08/2021"
+    }, {
+      "@value" : "23/08/2021"
+    }, {
+      "@value" : "24/08/2021"
+    }, {
+      "@value" : "25/08/2021"
+    }, {
+      "@value" : "26/08/2021"
+    }, {
+      "@value" : "27/08/2021"
+    }, {
+      "@value" : "16/09/2021"
+    }, {
+      "@value" : "17/09/2021"
+    }, {
+      "@value" : "20/09/2021"
+    }, {
+      "@value" : "21/09/2021"
+    }, {
+      "@value" : "22/09/2021"
+    }, {
+      "@value" : "23/09/2021"
+    }, {
+      "@value" : "24/09/2021"
+    }, {
+      "@value" : "27/09/2021"
+    }, {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "Hollie Blaydes"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Model",
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "WeatherMeter"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Pollination",
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Pollination"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#PollinatorData",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "pollinator:PollinatorData"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "14/07/2021"
+    }, {
+      "@value" : "15/07/2021"
+    }, {
+      "@value" : "16/07/2021"
+    }, {
+      "@value" : "19/07/2021"
+    }, {
+      "@value" : "21/07/2021"
+    }, {
+      "@value" : "22/07/2021"
+    }, {
+      "@value" : "23/07/2021"
+    }, {
+      "@value" : "26/07/2021"
+    }, {
+      "@value" : "27/07/2021"
+    }, {
+      "@value" : "17/08/2021"
+    }, {
+      "@value" : "18/08/2021"
+    }, {
+      "@value" : "19/08/2021"
+    }, {
+      "@value" : "20/08/2021"
+    }, {
+      "@value" : "23/08/2021"
+    }, {
+      "@value" : "24/08/2021"
+    }, {
+      "@value" : "25/08/2021"
+    }, {
+      "@value" : "26/08/2021"
+    }, {
+      "@value" : "27/08/2021"
+    }, {
+      "@value" : "16/09/2021"
+    }, {
+      "@value" : "17/09/2021"
+    }, {
+      "@value" : "20/09/2021"
+    }, {
+      "@value" : "21/09/2021"
+    }, {
+      "@value" : "22/09/2021"
+    }, {
+      "@value" : "23/09/2021"
+    }, {
+      "@value" : "24/09/2021"
+    }, {
+      "@value" : "27/09/2021"
+    }, {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#typeOf" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Pollination"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Site",
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Site"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Transect" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "14/07/2021"
+    }, {
+      "@value" : "15/07/2021"
+    }, {
+      "@value" : "16/07/2021"
+    }, {
+      "@value" : "19/07/2021"
+    }, {
+      "@value" : "21/07/2021"
+    }, {
+      "@value" : "22/07/2021"
+    }, {
+      "@value" : "23/07/2021"
+    }, {
+      "@value" : "26/07/2021"
+    }, {
+      "@value" : "27/07/2021"
+    }, {
+      "@value" : "17/08/2021"
+    }, {
+      "@value" : "18/08/2021"
+    }, {
+      "@value" : "19/08/2021"
+    }, {
+      "@value" : "20/08/2021"
+    }, {
+      "@value" : "23/08/2021"
+    }, {
+      "@value" : "24/08/2021"
+    }, {
+      "@value" : "25/08/2021"
+    }, {
+      "@value" : "26/08/2021"
+    }, {
+      "@value" : "27/08/2021"
+    }, {
+      "@value" : "16/09/2021"
+    }, {
+      "@value" : "17/09/2021"
+    }, {
+      "@value" : "20/09/2021"
+    }, {
+      "@value" : "21/09/2021"
+    }, {
+      "@value" : "22/09/2021"
+    }, {
+      "@value" : "23/09/2021"
+    }, {
+      "@value" : "24/09/2021"
+    }, {
+      "@value" : "27/09/2021"
+    }, {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "Transect"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#WeatherMeter" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDate" : [ {
+      "@value" : "14/07/2021"
+    }, {
+      "@value" : "15/07/2021"
+    }, {
+      "@value" : "16/07/2021"
+    }, {
+      "@value" : "19/07/2021"
+    }, {
+      "@value" : "21/07/2021"
+    }, {
+      "@value" : "22/07/2021"
+    }, {
+      "@value" : "23/07/2021"
+    }, {
+      "@value" : "26/07/2021"
+    }, {
+      "@value" : "27/07/2021"
+    }, {
+      "@value" : "17/08/2021"
+    }, {
+      "@value" : "18/08/2021"
+    }, {
+      "@value" : "19/08/2021"
+    }, {
+      "@value" : "20/08/2021"
+    }, {
+      "@value" : "23/08/2021"
+    }, {
+      "@value" : "24/08/2021"
+    }, {
+      "@value" : "25/08/2021"
+    }, {
+      "@value" : "26/08/2021"
+    }, {
+      "@value" : "27/08/2021"
+    }, {
+      "@value" : "16/09/2021"
+    }, {
+      "@value" : "17/09/2021"
+    }, {
+      "@value" : "20/09/2021"
+    }, {
+      "@value" : "21/09/2021"
+    }, {
+      "@value" : "22/09/2021"
+    }, {
+      "@value" : "23/09/2021"
+    }, {
+      "@value" : "24/09/2021"
+    }, {
+      "@value" : "27/09/2021"
+    }, {
+      "@value" : "28/09/2021"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasDetails" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Model"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "WeatherMeter"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#isAttachedTo" : [ {
+      "@value" : "Transect"
+    } ]
+  } ],
+  "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Pollinator_TransectSpecies#"
+} ]

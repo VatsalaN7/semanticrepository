@@ -1,0 +1,515 @@
+[ {
+  "@graph" : [ {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b0",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Garden_bumblebee"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b1",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Common_carder_bee"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b10",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Gatekeeper"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b11",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Large_skipper\n"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b12",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Ringlet"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b13",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Peacock"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b14",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Buff_or_white_tailed_bumblebee"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b15",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Red_admiral\n"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b16",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Small_skipper"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b17",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Common_blue"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b18",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Small_heath"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b19",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Painted_lady"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b2",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Red_tailed_bumblebee\n"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b20",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Small_white\n"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b21",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Small_tortoiseshell"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b22",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Green_veined_white"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b23",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Speckled_wood"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b24",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Brimstone\n"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b25",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Comma"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b26",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Honeybee"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Honeybee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b27",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Cannot_ID_hoverfly"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Hoverfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b28",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Cannot_ID_moth"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Moth"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b29",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Six_spot_burnet"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Moth"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b3",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Buff_tailed_bumblebee"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b30",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "No_pollinators_recorded"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#None"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b4",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Buff_or_white_tailed_bumblebee\n"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b5",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Heath_bumblebee"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b6",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Tree_bumblebee"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b7",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Marbled_white"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b8",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Meadow_brown"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b9",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Species" ],
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@value" : "Large_white"
+    } ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Species"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#belongTo" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly"
+    } ]
+  }, {
+    "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ]
+  }, {
+    "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ]
+  }, {
+    "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Honeybee",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ]
+  }, {
+    "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Hoverfly",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ]
+  }, {
+    "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Moth",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ]
+  }, {
+    "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#None",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Bumblebee",
+    "@type" : [ "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Bumblebee" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b0"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b1"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b2"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b3"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b4"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b5"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b6"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "Bumblebee"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Butterfly",
+    "@type" : [ "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Butterfly" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b7"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b8"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b9"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b10"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b11"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b12"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b13"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b14"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b15"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b16"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b17"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b18"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b19"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b20"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b21"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b22"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b23"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b24"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b25"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "Butterfly"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Honeybee",
+    "@type" : [ "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Honeybee" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b26"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "Honeybee"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Hoverfly",
+    "@type" : [ "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Hoverfly" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b27"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "Hoverfly"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Moth",
+    "@type" : [ "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Moth" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b28"
+    }, {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b29"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "Moth"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/None",
+    "@type" : [ "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#None" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasSpecies" : [ {
+      "@id" : "_:genid-98fc164dc98e4fd09e2d91e980c32a76-b30"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#hasValue" : [ {
+      "@value" : "None"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/PollinatorData#Family",
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "http://www.lancaster.ac.uk/pg/nundloll/SolarPark/FamilySpecies#Family"
+    } ]
+  } ],
+  "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Pollinator_GroupSpecies#"
+} ]

@@ -1,0 +1,151 @@
+[ {
+  "@graph" : [ {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b0",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Company"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['CompanyA']"
+    } ]
+  }, {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b1",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#County"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['CountyA']"
+    } ]
+  }, {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b2",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Location"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['LocationA']"
+    } ]
+  }, {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b3",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Post_Code"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['PostcodeA']"
+    } ]
+  }, {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b4",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Company"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['CompanyB']"
+    } ]
+  }, {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b5",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#County"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['CountyB']"
+    } ]
+  }, {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b6",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Location"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['LocationB']"
+    } ]
+  }, {
+    "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b7",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Post_Code"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@value" : "soil:SiteDesc"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "['PostcodeB']"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Ecosystem_services",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Ecosystem_services" ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Site",
+    "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#has" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Ecosystem_services"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Author",
+    "@type" : [ "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Author" ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "Fabio Carvalho G Da Silva"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Site",
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/EcosystemOnto/EcosystemServices#Site"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/soil_data_sitedata0",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasSiteDesc" : [ {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b0"
+    }, {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b1"
+    }, {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b2"
+    }, {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b3"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "SiteA"
+    } ]
+  }, {
+    "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/soil_data_sitedata1",
+    "http://www.w3.org/2000/01/rdf-schema#member" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Site"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#collectedBy" : [ {
+      "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#Author"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasSiteDesc" : [ {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b4"
+    }, {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b5"
+    }, {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b6"
+    }, {
+      "@id" : "_:genid-842fe2045d4145f9a2d80a4266142669-b7"
+    } ],
+    "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/SoilData#hasValue" : [ {
+      "@value" : "SiteC"
+    } ]
+  } ],
+  "@id" : "https://www.lancaster.ac.uk/pg/nundloll/SolarPark/Soil_siteInfo#"
+} ]

@@ -1,0 +1,480 @@
+[INFO ] 2022-06-01 13:44:10,285 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-06-01 13:44:10,765 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-06-01 13:44:19,963 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-06-01 13:44:19,964 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-06-01 13:44:19,967 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-06-01 13:44:19,969 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-06-01 13:44:19,978 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-06-01 13:44:26,436 [main | c.o.f.j.JolokiaAgentServlet] Missing jolokia-access.xml in graphdb.home.conf location /opt/graphdb/home/conf for servlet, switching to default policy
+[INFO ] 2022-06-01 13:44:26,778 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2022-06-01 13:44:46,609 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 9.10, revision: -869464550
+[INFO ] 2022-06-01 13:44:46,613 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Nov 19 14:01:50 GMT 2021
+[INFO ] 2022-06-01 13:44:46,629 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] License file: jar:file:/opt/graphdb/dist/lib/graphdb-free-runtime-9.10.1.jar!/GRAPHDB_LITE.license
+[INFO ] 2022-06-01 13:44:46,636 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Product:                 GRAPHDB_LITE
+[INFO ] 2022-06-01 13:44:46,638 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Usage restriction:       null
+[INFO ] 2022-06-01 13:44:46,643 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Licensee:                Freeware
+[INFO ] 2022-06-01 13:44:46,655 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Permitted use:           THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[INFO ] 2022-06-01 13:44:46,663 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Version:                 9.10
+[INFO ] 2022-06-01 13:44:46,674 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Expiry date:             none
+[INFO ] 2022-06-01 13:44:46,683 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Latest publication date: none
+[INFO ] 2022-06-01 13:44:46,689 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Max CPU cores:           null
+[INFO ] 2022-06-01 13:44:46,710 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-06-01 13:44:46,718 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-06-01 13:44:46,732 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-06-01 13:44:46,737 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-06-01 13:44:46,741 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-06-01 13:44:46,748 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-06-01 13:44:46,755 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-06-01 13:44:46,773 [http-nio-7200-exec-9 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-06-01 13:44:46,781 [http-nio-7200-exec-9 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-06-01 13:44:46,789 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-06-01 13:44:46,887 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Detected unclean shutdown
+[INFO ] 2022-06-01 13:44:46,888 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-06-01 13:44:46,890 [http-nio-7200-exec-9 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-06-01 13:44:46,899 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-06-01 13:44:46,920 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-06-01 13:44:47,058 [http-nio-7200-exec-9 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-06-01 13:44:48,035 [http-nio-7200-exec-9 | c.o.t.e.i.m.PersistedHashMap] Restored 53961 entities allocating 12.0 MB
+[INFO ] 2022-06-01 13:44:48,036 [http-nio-7200-exec-9 | c.o.t.e.i.m.PersistedHashMap] Done in 969 ms.
+[INFO ] 2022-06-01 13:44:48,176 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-06-01 13:44:48,247 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-06-01 13:44:48,253 [http-nio-7200-exec-9 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-06-01 13:44:48,302 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-06-01 13:44:48,410 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-06-01 13:44:48,422 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '983.0M'
+[INFO ] 2022-06-01 13:44:48,752 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[WARN ] 2022-06-01 13:44:49,024 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-06-01 13:44:49,082 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-06-01 13:44:49,116 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-06-01 13:44:49,125 [http-nio-7200-exec-9 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-06-01 13:44:49,147 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-06-01 13:44:49,220 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-06-01 13:44:49,329 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-06-01 13:44:49,330 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-06-01 13:44:49,331 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-06-01 13:44:49,441 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin tx-rollback
+[INFO ] 2022-06-01 13:44:49,446 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-06-01 13:44:49,449 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-06-01 13:44:49,453 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-06-01 13:44:49,454 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-06-01 13:44:49,457 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-06-01 13:44:49,462 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin utils
+[INFO ] 2022-06-01 13:44:49,468 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-06-01 13:44:49,471 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-06-01 13:44:49,476 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin sparql-template
+[INFO ] 2022-06-01 13:44:49,492 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-06-01 13:44:49,497 [http-nio-7200-exec-9 | c.o.GraphDBConfigParameters] Reading external plugins from /opt/graphdb/dist/lib/plugins
+[INFO ] 2022-06-01 13:44:49,500 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/opt/graphdb/dist/lib/plugins]'
+[INFO ] 2022-06-01 13:44:49,504 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-06-01 13:44:49,518 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/proof-plugin for plugins
+[INFO ] 2022-06-01 13:44:49,541 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin proof
+[INFO ] 2022-06-01 13:44:49,542 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/change-tracking-plugin for plugins
+[INFO ] 2022-06-01 13:44:49,560 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin change-tracking
+[INFO ] 2022-06-01 13:44:49,562 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/geosparql-plugin for plugins
+[INFO ] 2022-06-01 13:44:49,636 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-06-01 13:44:49,638 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-06-01 13:44:49,651 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-06-01 13:44:49,654 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/tx-rollback-plugin for plugins
+[WARN ] 2022-06-01 13:44:49,659 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Skipping duplicate plugin tx-rollback
+[INFO ] 2022-06-01 13:44:49,665 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-06-01 13:44:49,678 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-06-01 13:44:49,683 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/mongodb-plugin for plugins
+[INFO ] 2022-06-01 13:44:49,703 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-06-01 13:44:49,707 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/geospatial-plugin for plugins
+[INFO ] 2022-06-01 13:44:49,980 [http-nio-7200-exec-9 | c.o.t.p.g.FunctionLoader] Registered 1 functions from package com.ontotext.trree.plugin.geo.
+[INFO ] 2022-06-01 13:44:50,087 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-06-01 13:44:50,093 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/text-mining-plugin for plugins
+[INFO ] 2022-06-01 13:44:50,112 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin text-mining
+[INFO ] 2022-06-01 13:44:50,120 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/rdfrank-plugin for plugins
+[INFO ] 2022-06-01 13:44:50,146 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-06-01 13:44:50,149 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-06-01 13:44:50,186 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-06-01 13:44:50,188 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-06-01 13:44:50,266 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-06-01 13:44:50,268 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/notifications-logger-plugin for plugins
+[INFO ] 2022-06-01 13:44:50,276 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin notifications-logger
+[INFO ] 2022-06-01 13:44:50,281 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-06-01 13:44:50,288 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-06-01 13:44:50,300 [http-nio-7200-exec-9 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/history-plugin for plugins
+[INFO ] 2022-06-01 13:44:50,316 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Registering plugin history
+[INFO ] 2022-06-01 13:44:50,321 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-06-01 13:44:50,330 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-06-01 13:44:50,345 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-06-01 13:44:51,758 [http-nio-7200-exec-9 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-06-01 13:44:51,765 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-06-01 13:44:51,785 [http-nio-7200-exec-9 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /opt/graphdb/home/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/v2/config.properties. Assuming default options for plugin.
+[INFO ] 2022-06-01 13:44:51,793 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'change-tracking'
+[INFO ] 2022-06-01 13:44:51,799 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-06-01 13:44:51,809 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-06-01 13:44:51,815 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-06-01 13:44:51,824 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-06-01 13:44:51,836 [http-nio-7200-exec-9 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-06-01 13:44:51,839 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'history'
+[INFO ] 2022-06-01 13:44:51,989 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-06-01 13:44:52,057 [http-nio-7200-exec-9 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-06-01 13:44:52,059 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-06-01 13:44:52,083 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-06-01 13:44:52,086 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-06-01 13:44:52,088 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-06-01 13:44:52,091 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-06-01 13:44:52,098 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-06-01 13:44:52,103 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-06-01 13:44:52,106 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-06-01 13:44:52,109 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-06-01 13:44:52,111 [http-nio-7200-exec-9 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-06-01 13:44:52,115 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-06-01 13:44:52,123 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-06-01 13:44:52,130 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications-logger'
+[INFO ] 2022-06-01 13:44:52,134 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-06-01 13:44:52,145 [http-nio-7200-exec-9 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-06-01 13:44:52,150 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'proof'
+[INFO ] 2022-06-01 13:44:52,154 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-06-01 13:44:52,185 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-06-01 13:44:52,190 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-06-01 13:44:52,203 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-06-01 13:44:52,251 [http-nio-7200-exec-9 | c.o.g.s.FunctionLoader] Registered 58 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-06-01 13:44:52,253 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-template'
+[INFO ] 2022-06-01 13:44:52,260 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'text-mining'
+[INFO ] 2022-06-01 13:44:52,267 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'tx-rollback'
+[INFO ] 2022-06-01 13:44:52,271 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Initializing plugin 'utils'
+[INFO ] 2022-06-01 13:44:52,682 [http-nio-7200-exec-9 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-06-01 13:44:52,693 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '983.0M'
+[INFO ] 2022-06-01 13:44:53,009 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-06-01 13:44:53,010 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-06-01 13:44:53,012 [http-nio-7200-exec-9 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-06-01 13:44:53,015 [http-nio-7200-exec-9 | c.o.c.AbstractParameter] Configured parameter 'graphdb.persistent.parallel.inferencers' to default value 'false'
+[INFO ] 2022-06-01 13:44:53,081 [http-nio-7200-exec-9 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-06-01 13:44:55,970 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-06-01 13:44:56,048 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-06-01 13:44:56,389 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 13:44:56,398 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-06-01 13:44:56,442 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 13:44:56,684 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-06-01 13:44:56,788 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'true'
+[INFO ] 2022-06-01 13:44:56,821 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-06-01 13:44:56,823 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-06-01 13:44:56,865 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-06-01 13:44:56,869 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-06-01 13:44:56,871 [http-nio-7200-exec-10 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-06-01 13:44:59,885 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 13:45:05,628 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-06-01 13:45:05,652 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 13:45:37,553 [Thread-2 | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-06-01 13:45:37,699 [Thread-2 | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-06-01 14:07:59,458 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-06-01 14:08:00,022 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-06-01 14:08:09,706 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-06-01 14:08:09,707 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-06-01 14:08:09,711 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-06-01 14:08:09,714 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-06-01 14:08:09,722 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-06-01 14:08:15,452 [main | c.o.f.j.JolokiaAgentServlet] Missing jolokia-access.xml in graphdb.home.conf location /opt/graphdb/home/conf for servlet, switching to default policy
+[INFO ] 2022-06-01 14:08:15,761 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2022-06-01 14:08:33,648 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Version: 9.10, revision: -869464550
+[INFO ] 2022-06-01 14:08:33,657 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Nov 19 14:01:50 GMT 2021
+[INFO ] 2022-06-01 14:08:33,662 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] License file: jar:file:/opt/graphdb/dist/lib/graphdb-free-runtime-9.10.1.jar!/GRAPHDB_LITE.license
+[INFO ] 2022-06-01 14:08:33,673 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Product:                 GRAPHDB_LITE
+[INFO ] 2022-06-01 14:08:33,678 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Usage restriction:       null
+[INFO ] 2022-06-01 14:08:33,687 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Licensee:                Freeware
+[INFO ] 2022-06-01 14:08:33,698 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Permitted use:           THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[INFO ] 2022-06-01 14:08:33,721 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Version:                 9.10
+[INFO ] 2022-06-01 14:08:33,724 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Expiry date:             none
+[INFO ] 2022-06-01 14:08:33,746 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Latest publication date: none
+[INFO ] 2022-06-01 14:08:33,758 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Max CPU cores:           null
+[INFO ] 2022-06-01 14:08:33,874 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-06-01 14:08:33,878 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-06-01 14:08:33,897 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-06-01 14:08:33,902 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-06-01 14:08:33,921 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-06-01 14:08:33,934 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-06-01 14:08:33,965 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-06-01 14:08:34,001 [repositories/Biodiversity_anonym_repo | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-06-01 14:08:34,011 [repositories/Biodiversity_anonym_repo | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-06-01 14:08:34,064 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-06-01 14:08:34,210 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-06-01 14:08:34,212 [repositories/Biodiversity_anonym_repo | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-06-01 14:08:34,224 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-06-01 14:08:34,360 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-06-01 14:08:34,666 [repositories/Biodiversity_anonym_repo | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-06-01 14:08:36,438 [repositories/Biodiversity_anonym_repo | c.o.t.e.i.m.PersistedHashMap] Restored 53961 entities allocating 12.0 MB
+[INFO ] 2022-06-01 14:08:36,442 [repositories/Biodiversity_anonym_repo | c.o.t.e.i.m.PersistedHashMap] Done in 1763 ms.
+[INFO ] 2022-06-01 14:08:36,573 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-06-01 14:08:36,655 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-06-01 14:08:36,669 [repositories/Biodiversity_anonym_repo | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-06-01 14:08:36,719 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-06-01 14:08:36,829 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-06-01 14:08:36,847 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '983.0M'
+[INFO ] 2022-06-01 14:08:37,359 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[WARN ] 2022-06-01 14:08:37,812 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-06-01 14:08:37,918 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-06-01 14:08:38,005 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-06-01 14:08:38,027 [repositories/Biodiversity_anonym_repo | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-06-01 14:08:38,054 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-06-01 14:08:38,205 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-06-01 14:08:38,490 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-06-01 14:08:38,495 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-06-01 14:08:38,500 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-06-01 14:08:38,633 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin tx-rollback
+[INFO ] 2022-06-01 14:08:38,638 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-06-01 14:08:38,645 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-06-01 14:08:38,653 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-06-01 14:08:38,658 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-06-01 14:08:38,669 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-06-01 14:08:38,674 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin utils
+[INFO ] 2022-06-01 14:08:38,687 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-06-01 14:08:38,691 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-06-01 14:08:38,702 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin sparql-template
+[INFO ] 2022-06-01 14:08:38,707 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-06-01 14:08:38,721 [repositories/Biodiversity_anonym_repo | c.o.GraphDBConfigParameters] Reading external plugins from /opt/graphdb/dist/lib/plugins
+[INFO ] 2022-06-01 14:08:38,730 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/opt/graphdb/dist/lib/plugins]'
+[INFO ] 2022-06-01 14:08:38,739 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-06-01 14:08:38,751 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/proof-plugin for plugins
+[INFO ] 2022-06-01 14:08:38,801 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin proof
+[INFO ] 2022-06-01 14:08:38,805 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/change-tracking-plugin for plugins
+[INFO ] 2022-06-01 14:08:38,885 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin change-tracking
+[INFO ] 2022-06-01 14:08:38,887 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/geosparql-plugin for plugins
+[INFO ] 2022-06-01 14:08:38,949 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-06-01 14:08:38,952 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-06-01 14:08:38,961 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-06-01 14:08:38,965 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/tx-rollback-plugin for plugins
+[WARN ] 2022-06-01 14:08:38,972 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Skipping duplicate plugin tx-rollback
+[INFO ] 2022-06-01 14:08:38,974 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-06-01 14:08:38,988 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-06-01 14:08:38,996 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/mongodb-plugin for plugins
+[INFO ] 2022-06-01 14:08:39,009 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-06-01 14:08:39,016 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/geospatial-plugin for plugins
+[INFO ] 2022-06-01 14:08:39,158 [repositories/Biodiversity_anonym_repo | c.o.t.p.g.FunctionLoader] Registered 1 functions from package com.ontotext.trree.plugin.geo.
+[INFO ] 2022-06-01 14:08:39,162 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-06-01 14:08:39,173 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/text-mining-plugin for plugins
+[INFO ] 2022-06-01 14:08:39,195 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin text-mining
+[INFO ] 2022-06-01 14:08:39,199 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/rdfrank-plugin for plugins
+[INFO ] 2022-06-01 14:08:39,222 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-06-01 14:08:39,223 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-06-01 14:08:39,258 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-06-01 14:08:39,263 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-06-01 14:08:39,327 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-06-01 14:08:39,332 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/notifications-logger-plugin for plugins
+[INFO ] 2022-06-01 14:08:39,353 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin notifications-logger
+[INFO ] 2022-06-01 14:08:39,356 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-06-01 14:08:39,374 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-06-01 14:08:39,379 [repositories/Biodiversity_anonym_repo | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/history-plugin for plugins
+[INFO ] 2022-06-01 14:08:39,401 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Registering plugin history
+[INFO ] 2022-06-01 14:08:39,405 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-06-01 14:08:39,412 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-06-01 14:08:39,421 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-06-01 14:08:40,932 [repositories/Biodiversity_anonym_repo | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-06-01 14:08:40,936 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-06-01 14:08:40,951 [repositories/Biodiversity_anonym_repo | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /opt/graphdb/home/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/v2/config.properties. Assuming default options for plugin.
+[INFO ] 2022-06-01 14:08:40,958 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'change-tracking'
+[INFO ] 2022-06-01 14:08:40,962 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-06-01 14:08:40,977 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-06-01 14:08:40,988 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-06-01 14:08:40,992 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-06-01 14:08:41,002 [repositories/Biodiversity_anonym_repo | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-06-01 14:08:41,006 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'history'
+[INFO ] 2022-06-01 14:08:41,058 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-06-01 14:08:41,237 [repositories/Biodiversity_anonym_repo | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-06-01 14:08:41,241 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-06-01 14:08:41,316 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-06-01 14:08:41,319 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-06-01 14:08:41,321 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-06-01 14:08:41,323 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-06-01 14:08:41,326 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-06-01 14:08:41,331 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-06-01 14:08:41,345 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-06-01 14:08:41,353 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-06-01 14:08:41,357 [repositories/Biodiversity_anonym_repo | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-06-01 14:08:41,361 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-06-01 14:08:41,370 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-06-01 14:08:41,382 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'notifications-logger'
+[INFO ] 2022-06-01 14:08:41,384 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-06-01 14:08:41,404 [repositories/Biodiversity_anonym_repo | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-06-01 14:08:41,406 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'proof'
+[INFO ] 2022-06-01 14:08:41,407 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-06-01 14:08:41,431 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-06-01 14:08:41,435 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-06-01 14:08:41,451 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-06-01 14:08:41,554 [repositories/Biodiversity_anonym_repo | c.o.g.s.FunctionLoader] Registered 58 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-06-01 14:08:41,564 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-template'
+[INFO ] 2022-06-01 14:08:41,570 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'text-mining'
+[INFO ] 2022-06-01 14:08:41,583 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'tx-rollback'
+[INFO ] 2022-06-01 14:08:41,586 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Initializing plugin 'utils'
+[INFO ] 2022-06-01 14:08:42,025 [repositories/Biodiversity_anonym_repo | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-06-01 14:08:42,027 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '983.0M'
+[INFO ] 2022-06-01 14:08:42,403 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-06-01 14:08:42,405 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-06-01 14:08:42,409 [repositories/Biodiversity_anonym_repo | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-06-01 14:08:42,412 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'graphdb.persistent.parallel.inferencers' to default value 'false'
+[INFO ] 2022-06-01 14:08:42,502 [repositories/Biodiversity_anonym_repo | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-06-01 14:08:44,924 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-06-01 14:08:44,924 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-06-01 14:08:44,987 [repositories/Biodiversity_anonym_repo | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-06-01 14:08:45,222 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 14:08:45,224 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 14:08:46,106 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 14:08:51,131 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-06-01 14:08:51,174 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 14:08:51,469 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-06-01 14:08:51,505 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'true'
+[INFO ] 2022-06-01 14:08:51,539 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-06-01 14:08:51,540 [http-nio-7200-exec-1 | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-06-01 14:08:51,558 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-06-01 14:08:51,570 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-06-01 14:08:51,575 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-06-01 14:08:51,576 [http-nio-7200-exec-7 | c.o.c.AbstractParameter] Configured parameter 'FSIPC' to default value '2'
+[INFO ] 2022-06-01 14:08:56,832 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2022-06-01 14:08:56,862 [repositories/Biodiversity_anonym_repo | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2022-06-01 14:09:07,805 [repositories/Biodiversity_anonym_repo | c.o.g.s.RepositoryController] POST query 2084852168
+[INFO ] 2022-06-01 14:09:07,971 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 2084852168 is finished
+[INFO ] 2022-06-01 14:09:12,434 [repositories/Biodiversity_anonym_repo | c.o.g.s.RepositoryController] POST query 2084852168
+[INFO ] 2022-06-01 14:09:12,531 [repositories/Biodiversity_anonym_repo | c.o.g.s.TupleQueryResultView] Request for query 2084852168 is finished
+[INFO ] 2022-06-01 14:14:40,924 [Thread-2 | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-06-01 14:14:41,318 [Thread-2 | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-06-01 14:15:01,675 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.1.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-06-01 14:15:02,225 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-06-01 14:15:11,082 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-06-01 14:15:11,083 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-06-01 14:15:11,085 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-06-01 14:15:11,086 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-06-01 14:15:11,087 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-06-01 14:15:17,930 [main | c.o.f.j.JolokiaAgentServlet] Missing jolokia-access.xml in graphdb.home.conf location /opt/graphdb/home/conf for servlet, switching to default policy
+[INFO ] 2022-06-01 14:15:18,355 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2022-06-01 14:16:58,573 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Version: 9.10, revision: -869464550
+[INFO ] 2022-06-01 14:16:58,577 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Build date: Fri Nov 19 14:01:50 GMT 2021
+[INFO ] 2022-06-01 14:16:58,582 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] License file: jar:file:/opt/graphdb/dist/lib/graphdb-free-runtime-9.10.1.jar!/GRAPHDB_LITE.license
+[INFO ] 2022-06-01 14:16:58,590 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Product:                 GRAPHDB_LITE
+[INFO ] 2022-06-01 14:16:58,592 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Usage restriction:       null
+[INFO ] 2022-06-01 14:16:58,593 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Licensee:                Freeware
+[INFO ] 2022-06-01 14:16:58,594 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Permitted use:           THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[INFO ] 2022-06-01 14:16:58,596 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Version:                 9.10
+[INFO ] 2022-06-01 14:16:58,597 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Expiry date:             none
+[INFO ] 2022-06-01 14:16:58,598 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Latest publication date: none
+[INFO ] 2022-06-01 14:16:58,599 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Max CPU cores:           null
+[INFO ] 2022-06-01 14:16:58,613 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Started repository Biodiversity_anonym_repo in READ/WRITE mode.
+[INFO ] 2022-06-01 14:16:58,615 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-06-01 14:16:58,617 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-06-01 14:16:58,619 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-06-01 14:16:58,620 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-06-01 14:16:58,622 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2022-06-01 14:16:58,623 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-06-01 14:16:58,669 [http-nio-7200-exec-4 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2022-06-01 14:16:58,671 [http-nio-7200-exec-4 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2022-06-01 14:16:58,673 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-06-01 14:16:58,731 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-06-01 14:16:58,733 [http-nio-7200-exec-4 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2022-06-01 14:16:58,739 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-06-01 14:16:58,755 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-06-01 14:16:58,783 [http-nio-7200-exec-4 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2022-06-01 14:16:59,358 [http-nio-7200-exec-4 | c.o.t.e.i.m.PersistedHashMap] Restored 53961 entities allocating 12.0 MB
+[INFO ] 2022-06-01 14:16:59,359 [http-nio-7200-exec-4 | c.o.t.e.i.m.PersistedHashMap] Done in 573 ms.
+[INFO ] 2022-06-01 14:16:59,421 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-06-01 14:16:59,449 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-06-01 14:16:59,454 [http-nio-7200-exec-4 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2022-06-01 14:16:59,466 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-06-01 14:16:59,495 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-06-01 14:16:59,501 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '983.0M'
+[INFO ] 2022-06-01 14:16:59,727 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[WARN ] 2022-06-01 14:16:59,982 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2022-06-01 14:17:00,044 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-06-01 14:17:00,075 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-06-01 14:17:00,084 [http-nio-7200-exec-4 | c.o.t.InferencerFactory] ruleSet=rdfsplus-optimized, partialRdfs=false
+[INFO ] 2022-06-01 14:17:00,095 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-06-01 14:17:00,153 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-06-01 14:17:00,232 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-06-01 14:17:00,233 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-06-01 14:17:00,234 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2022-06-01 14:17:00,265 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin tx-rollback
+[INFO ] 2022-06-01 14:17:00,267 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2022-06-01 14:17:00,270 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2022-06-01 14:17:00,271 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2022-06-01 14:17:00,275 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2022-06-01 14:17:00,277 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2022-06-01 14:17:00,281 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin utils
+[INFO ] 2022-06-01 14:17:00,285 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2022-06-01 14:17:00,287 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2022-06-01 14:17:00,289 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin sparql-template
+[INFO ] 2022-06-01 14:17:00,290 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-06-01 14:17:00,297 [http-nio-7200-exec-4 | c.o.GraphDBConfigParameters] Reading external plugins from /opt/graphdb/dist/lib/plugins
+[INFO ] 2022-06-01 14:17:00,298 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[/opt/graphdb/dist/lib/plugins]'
+[INFO ] 2022-06-01 14:17:00,299 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Registering external plugins...
+[INFO ] 2022-06-01 14:17:00,303 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/proof-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,310 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin proof
+[INFO ] 2022-06-01 14:17:00,312 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/change-tracking-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,316 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin change-tracking
+[INFO ] 2022-06-01 14:17:00,318 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/geosparql-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,362 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2022-06-01 14:17:00,363 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,372 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2022-06-01 14:17:00,373 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/tx-rollback-plugin for plugins
+[WARN ] 2022-06-01 14:17:00,376 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Skipping duplicate plugin tx-rollback
+[INFO ] 2022-06-01 14:17:00,378 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,384 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2022-06-01 14:17:00,385 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/mongodb-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,392 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2022-06-01 14:17:00,394 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/geospatial-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,492 [http-nio-7200-exec-4 | c.o.t.p.g.FunctionLoader] Registered 1 functions from package com.ontotext.trree.plugin.geo.
+[INFO ] 2022-06-01 14:17:00,494 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2022-06-01 14:17:00,495 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/text-mining-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,505 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin text-mining
+[INFO ] 2022-06-01 14:17:00,508 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/rdfrank-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,515 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2022-06-01 14:17:00,517 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,533 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2022-06-01 14:17:00,534 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-06-01 14:17:00,585 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2022-06-01 14:17:00,587 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/notifications-logger-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,591 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin notifications-logger
+[INFO ] 2022-06-01 14:17:00,592 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-06-01 14:17:00,595 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2022-06-01 14:17:00,596 [http-nio-7200-exec-4 | c.o.t.f.GraphDBFreeSchemaRepository] Scanning /opt/graphdb/dist/lib/plugins/history-plugin for plugins
+[INFO ] 2022-06-01 14:17:00,604 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Registering plugin history
+[INFO ] 2022-06-01 14:17:00,605 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2022-06-01 14:17:00,608 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-06-01 14:17:00,613 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-06-01 14:17:01,971 [http-nio-7200-exec-4 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-06-01 14:17:01,975 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2022-06-01 14:17:01,983 [http-nio-7200-exec-4 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at /opt/graphdb/home/data/repositories/Biodiversity_anonym_repo/storage/autocomplete/v2/config.properties. Assuming default options for plugin.
+[INFO ] 2022-06-01 14:17:01,989 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'change-tracking'
+[INFO ] 2022-06-01 14:17:01,991 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-06-01 14:17:01,995 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2022-06-01 14:17:01,999 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2022-06-01 14:17:02,001 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2022-06-01 14:17:02,005 [http-nio-7200-exec-4 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2022-06-01 14:17:02,006 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'history'
+[INFO ] 2022-06-01 14:17:02,034 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2022-06-01 14:17:02,072 [http-nio-7200-exec-4 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2022-06-01 14:17:02,073 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2022-06-01 14:17:02,093 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2022-06-01 14:17:02,095 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-06-01 14:17:02,097 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-06-01 14:17:02,098 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-06-01 14:17:02,099 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-06-01 14:17:02,101 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-06-01 14:17:02,102 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-06-01 14:17:02,103 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-06-01 14:17:02,105 [http-nio-7200-exec-4 | c.o.p.magic-predicates] Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-06-01 14:17:02,106 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2022-06-01 14:17:02,109 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2022-06-01 14:17:02,112 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications-logger'
+[INFO ] 2022-06-01 14:17:02,114 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2022-06-01 14:17:02,117 [http-nio-7200-exec-4 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2022-06-01 14:17:02,130 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'proof'
+[INFO ] 2022-06-01 14:17:02,132 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2022-06-01 14:17:02,147 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2022-06-01 14:17:02,150 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2022-06-01 14:17:02,161 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2022-06-01 14:17:02,189 [http-nio-7200-exec-4 | c.o.g.s.FunctionLoader] Registered 58 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-06-01 14:17:02,190 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-template'
+[INFO ] 2022-06-01 14:17:02,193 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'text-mining'
+[INFO ] 2022-06-01 14:17:02,200 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'tx-rollback'
+[INFO ] 2022-06-01 14:17:02,201 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Initializing plugin 'utils'
+[INFO ] 2022-06-01 14:17:02,596 [http-nio-7200-exec-4 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2022-06-01 14:17:02,599 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '983.0M'
+[INFO ] 2022-06-01 14:17:02,908 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-06-01 14:17:02,909 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-06-01 14:17:02,913 [http-nio-7200-exec-4 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2022-06-01 14:17:02,915 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] Configured parameter 'graphdb.persistent.parallel.inferencers' to default value 'false'
+[INFO ] 2022-06-01 14:17:02,959 [http-nio-7200-exec-4 | c.o.r.p.ParallelLoader] Using 4 threads for inference
+[INFO ] 2022-06-01 14:17:53,014 [Thread-2 | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2022-06-01 14:17:53,302 [Thread-2 | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location
+[INFO ] 2022-06-01 14:17:53,310 [Thread-11 | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
